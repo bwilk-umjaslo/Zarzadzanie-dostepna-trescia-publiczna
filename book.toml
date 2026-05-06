@@ -3,3 +3,5 @@ title = "Zarządzanie dostępną treścią publiczną"
 authors = ["Bartłomiej Wilk"]
 language = "pl"
 src = "src"
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
