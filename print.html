@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-a08e73bc.js";
+            window.path_to_searchindex_js = "searchindex-222bbe31.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-a9d4268e.js"></script>
@@ -2435,6 +2435,44 @@
 <ul>
 <li><a href="../_sources/sdc">Materiały źródłowe</a></li>
 </ul>
+<h2 id="model-listy-kontrolnej"><a class="header" href="#model-listy-kontrolnej">Model listy kontrolnej</a></h2>
+<p>Lista kontrolna powinna być traktowana jako zestaw reguł walidacyjnych.</p>
+<h3 id="struktura-wymagania"><a class="header" href="#struktura-wymagania">Struktura wymagania</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>id</th><th>kategoria</th><th>wymaganie</th><th>typ</th><th>krytyczne</th><th>dowod</th></tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+<hr>
+<h3 id="typy-wymagań"><a class="header" href="#typy-wymagań">Typy wymagań</a></h3>
+<ul>
+<li>boolean (TAK/NIE)</li>
+<li>ocena (skala)</li>
+<li>opisowe (uwagi)</li>
+</ul>
+<hr>
+<h3 id="reguła-decyzyjna"><a class="header" href="#reguła-decyzyjna">Reguła decyzyjna</a></h3>
+<p>Publikacja możliwa tylko gdy:</p>
+<ul>
+<li>wszystkie wymagania krytyczne = TAK</li>
+</ul>
+<hr>
+<h3 id="przykład-fragment"><a class="header" href="#przykład-fragment">Przykład (fragment)</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>id</th><th>kategoria</th><th>wymaganie</th><th>krytyczne</th></tr>
+</thead>
+<tbody>
+<tr><td>T01</td><td>struktura</td><td>nagłówki logiczne</td><td>TAK</td></tr>
+<tr><td>G01</td><td>grafika</td><td>alt tekst</td><td>TAK</td></tr>
+<tr><td>V01</td><td>wideo</td><td>napisy</td><td>TAK</td></tr>
+</tbody>
+</table>
+</div>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="formularze-1"><a class="header" href="#formularze-1">Formularze</a></h1>
 <h2 id="rola-formularzy-w-systemie"><a class="header" href="#rola-formularzy-w-systemie">Rola formularzy w systemie</a></h2>
