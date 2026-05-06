@@ -26,6 +26,14 @@ jobs:
           cargo install mdbook --locked
           mdbook --version
 
+      - name: Install mdBook Mermaid
+        run: |
+          cargo install mdbook-mermaid --locked
+          mdbook-mermaid --version
+
+      - name: Setup Mermaid support
+        run: mdbook-mermaid install .
+
       - name: Build book
         run: mdbook build
 
