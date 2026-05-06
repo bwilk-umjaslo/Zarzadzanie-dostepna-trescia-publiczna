@@ -35,7 +35,7 @@
             const path_to_root = "../";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "../searchindex-cd50bda3.js";
+            window.path_to_searchindex_js = "../searchindex-c47c8a4d.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="../toc-a9d4268e.js"></script>
@@ -185,7 +185,6 @@
 <li>powiązań między etapami.</li>
 </ul>
 <p>Schemat procesowy pozwala przełożyć opis podręcznika na rzeczywisty sposób działania organizacji.</p>
-<hr>
 <h2 id="zasada-podstawowa"><a class="header" href="#zasada-podstawowa">Zasada podstawowa</a></h2>
 <p>Każdy proces powinien być możliwy do przedstawienia w formie schematu.</p>
 <p>Oznacza to, że:</p>
@@ -197,181 +196,122 @@
 <li>wiadomo, jaki jest wynik procesu.</li>
 </ul>
 <p>Jeżeli nie da się narysować procesu, to najczęściej oznacza, że nie jest on dobrze zdefiniowany.</p>
-<hr>
 <h2 id="elementy-schematu"><a class="header" href="#elementy-schematu">Elementy schematu</a></h2>
 <p>Schemat procesu powinien zawierać:</p>
 <ul>
-<li>punkt startowy (np. potrzeba publikacji),</li>
+<li>punkt startowy,</li>
 <li>kolejne kroki procesu,</li>
 <li>punkty decyzyjne,</li>
-<li>możliwe ścieżki (np. publikacja / poprawa / odmowa),</li>
-<li>przypisanie odpowiedzialności (rola),</li>
-<li>punkt końcowy (np. publikacja, archiwizacja).</li>
+<li>możliwe ścieżki,</li>
+<li>przypisanie odpowiedzialności,</li>
+<li>punkt końcowy.</li>
 </ul>
 <p>Schemat powinien być możliwie prosty i czytelny.</p>
-<hr>
-<h2 id="typy-schematów-w-systemie"><a class="header" href="#typy-schematów-w-systemie">Typy schematów w systemie</a></h2>
-<h3 id="proces-tworzenia-i-publikacji-treści"><a class="header" href="#proces-tworzenia-i-publikacji-treści">Proces tworzenia i publikacji treści</a></h3>
-<p>Obejmuje:</p>
-<ol>
-<li>przygotowanie materiału</li>
-<li>przekazanie</li>
-<li>kontrolę</li>
-<li>decyzję</li>
-<li>publikację</li>
-<li>wpis do rejestru</li>
-</ol>
-<p>Punkt decyzyjny:</p>
-<ul>
-<li>czy materiał spełnia wymagania</li>
-</ul>
-<p>Możliwe ścieżki:</p>
-<ul>
-<li>publikacja</li>
-<li>poprawa</li>
-<li>publikacja warunkowa</li>
-<li>odmowa</li>
-</ul>
-<hr>
-<h3 id="proces-obsługi-treści-od-innych-podmiotów"><a class="header" href="#proces-obsługi-treści-od-innych-podmiotów">Proces obsługi treści od innych podmiotów</a></h3>
-<p>Obejmuje:</p>
-<ol>
-<li>przyjęcie materiału</li>
-<li>identyfikację źródła</li>
-<li>kwalifikację (ABCD)</li>
-<li>ocenę dostępności</li>
-<li>decyzję</li>
-<li>publikację lub odmowę</li>
-<li>wpis do rejestru</li>
-</ol>
-<p>Punkt decyzyjny:</p>
-<ul>
-<li>czy materiał może być opublikowany</li>
-</ul>
-<hr>
-<h3 id="proces-przeglądu-i-naprawy"><a class="header" href="#proces-przeglądu-i-naprawy">Proces przeglądu i naprawy</a></h3>
-<p>Obejmuje:</p>
-<ol>
-<li>wybór zasobu</li>
-<li>ocenę</li>
-<li>identyfikację problemów</li>
-<li>decyzję</li>
-<li>przypisanie odpowiedzialności</li>
-<li>naprawę</li>
-<li>aktualizację rejestru</li>
-</ol>
-<p>Punkt decyzyjny:</p>
-<ul>
-<li>co zrobić z zasobem</li>
-</ul>
-<hr>
-<h3 id="proces-archiwizacji-i-wycofania"><a class="header" href="#proces-archiwizacji-i-wycofania">Proces archiwizacji i wycofania</a></h3>
-<p>Obejmuje:</p>
-<ol>
-<li>identyfikację zasobu</li>
-<li>ocenę</li>
-<li>decyzję</li>
-<li>realizację</li>
-<li>aktualizację rejestru</li>
-</ol>
-<p>Punkt decyzyjny:</p>
-<ul>
-<li>archiwizacja czy wycofanie</li>
-</ul>
-<hr>
-<h3 id="proces-obsługi-zgłoszeń-dostępności"><a class="header" href="#proces-obsługi-zgłoszeń-dostępności">Proces obsługi zgłoszeń dostępności</a></h3>
-<p>Obejmuje:</p>
-<ol>
-<li>przyjęcie zgłoszenia</li>
-<li>identyfikację zasobu</li>
-<li>ocenę problemu</li>
-<li>decyzję</li>
-<li>działanie (naprawa / dostęp alternatywny)</li>
-<li>odpowiedź użytkownikowi</li>
-<li>aktualizację rejestru</li>
-</ol>
-<p>Punkt decyzyjny:</p>
-<ul>
-<li>sposób obsługi zgłoszenia</li>
-</ul>
-<hr>
+<h2 id="proces-tworzenia-i-publikacji-treści"><a class="header" href="#proces-tworzenia-i-publikacji-treści">Proces tworzenia i publikacji treści</a></h2>
+<pre><code class="language-mermaid">flowchart TD
+    A[Potrzeba publikacji lub materiał] --&gt; B[Formularz przekazania treści]
+    B --&gt; C[Rejestr zasobów: status roboczy]
+    C --&gt; D[Kontrola przed publikacją]
+    D --&gt; E{Decyzja}
+
+    E --&gt;|OK| F[Publikacja]
+    F --&gt; G[Rejestr zasobów: status opublikowany]
+
+    E --&gt;|NIE| H[Naprawa lub uzupełnienie braków]
+    H --&gt; D
+
+    E --&gt;|Warunkowo| I[Publikacja warunkowa]
+    I --&gt; J[Rejestr: status opublikowany warunkowo]
+    J --&gt; K[Termin naprawy]
+    K --&gt; H
+</code></pre>
+<h2 id="proces-obsługi-treści-od-innych-podmiotów"><a class="header" href="#proces-obsługi-treści-od-innych-podmiotów">Proces obsługi treści od innych podmiotów</a></h2>
+<pre><code class="language-mermaid">flowchart TD
+    A[Materiał od innego podmiotu] --&gt; B[Identyfikacja źródła]
+    B --&gt; C[Kwalifikacja ABCD]
+    C --&gt; D[Ocena dostępności]
+    D --&gt; E{Czy materiał może być poprawiony?}
+
+    E --&gt;|Tak| F[Wezwanie do poprawy lub poprawa własna]
+    F --&gt; G[Kontrola przed publikacją]
+
+    E --&gt;|Nie| H{Czy istnieje obowiązek publikacji?}
+    H --&gt;|Tak| I[Publikacja z dostępem alternatywnym]
+    H --&gt;|Nie| J[Odmowa publikacji]
+
+    G --&gt; K{Decyzja publikacyjna}
+    K --&gt;|OK| L[Publikacja]
+    K --&gt;|NIE| F
+
+    I --&gt; M[Rejestr zasobów]
+    J --&gt; M
+    L --&gt; M
+</code></pre>
+<h2 id="proces-przeglądu-i-naprawy"><a class="header" href="#proces-przeglądu-i-naprawy">Proces przeglądu i naprawy</a></h2>
+<pre><code class="language-mermaid">flowchart TD
+    A[Rejestr zasobów] --&gt; B[Wybór zasobów do przeglądu]
+    B --&gt; C[Ocena aktualności i dostępności]
+    C --&gt; D{Decyzja}
+
+    D --&gt;|Pozostawić| E[Aktualizacja rejestru]
+    D --&gt;|Naprawić| F[Plan naprawy]
+    F --&gt; G[Wykonanie naprawy]
+    G --&gt; H[Kontrola po naprawie]
+    H --&gt; E
+
+    D --&gt;|Dostęp alternatywny| I[Zapewnienie alternatywy]
+    I --&gt; E
+
+    D --&gt;|Wycofać lub archiwizować| J[Przekazanie do procesu archiwizacji]
+    J --&gt; E
+</code></pre>
+<h2 id="proces-archiwizacji-i-wycofania"><a class="header" href="#proces-archiwizacji-i-wycofania">Proces archiwizacji i wycofania</a></h2>
+<pre><code class="language-mermaid">flowchart TD
+    A[Zasób wymagający decyzji] --&gt; B[Ocena aktualności i wartości]
+    B --&gt; C{Decyzja}
+
+    C --&gt;|Pozostawić| D[Aktualizacja statusu w rejestrze]
+    C --&gt;|Zarchiwizować| E[Oznaczenie jako archiwalne]
+    E --&gt; F[Określenie sposobu dostępu]
+    F --&gt; D
+
+    C --&gt;|Wycofać| G[Usunięcie z aktywnej publikacji]
+    G --&gt; H[Przekierowanie lub komunikat]
+    H --&gt; D
+</code></pre>
+<h2 id="proces-obsługi-zgłoszeń-dostępności"><a class="header" href="#proces-obsługi-zgłoszeń-dostępności">Proces obsługi zgłoszeń dostępności</a></h2>
+<pre><code class="language-mermaid">flowchart TD
+    A[Zgłoszenie użytkownika] --&gt; B[Identyfikacja zasobu]
+    B --&gt; C[Sprawdzenie w rejestrze]
+    C --&gt; D[Ocena problemu]
+    D --&gt; E{Sposób obsługi}
+
+    E --&gt;|Naprawa| F[Przypisanie działania naprawczego]
+    F --&gt; G[Wykonanie naprawy]
+    G --&gt; H[Aktualizacja rejestru]
+
+    E --&gt;|Dostęp alternatywny| I[Zapewnienie alternatywy]
+    I --&gt; H
+
+    E --&gt;|Brak zasadności| J[Udokumentowanie decyzji]
+    J --&gt; H
+
+    H --&gt; K[Odpowiedź dla użytkownika]
+</code></pre>
 <h2 id="powiązanie-z-mapami-odpowiedzialności"><a class="header" href="#powiązanie-z-mapami-odpowiedzialności">Powiązanie z mapami odpowiedzialności</a></h2>
-<p>Schematy procesów powinny być powiązane z mapami odpowiedzialności.</p>
-<p>Oznacza to, że:</p>
-<ul>
-<li>każdy krok ma przypisaną rolę,</li>
-<li>decyzje mają właściciela,</li>
-<li>proces nie zawiera „pustych” etapów.</li>
-</ul>
-<hr>
+<p>Schematy procesów powinny być powiązane z mapami odpowiedzialności. Każdy krok powinien mieć przypisaną rolę, decyzje powinny mieć właściciela, a proces nie powinien zawierać pustych etapów.</p>
 <h2 id="powiązanie-z-narzędziami"><a class="header" href="#powiązanie-z-narzędziami">Powiązanie z narzędziami</a></h2>
 <p>Schematy procesów powinny wskazywać, gdzie wykorzystywane są:</p>
 <ul>
-<li>formularze (wejście do procesu),</li>
-<li>listy kontrolne (weryfikacja),</li>
-<li>rejestry (zapis wyników),</li>
-<li>inne narzędzia systemowe.</li>
+<li>formularze jako wejście do procesu,</li>
+<li>listy kontrolne jako weryfikacja,</li>
+<li>rejestry jako zapis wyników,</li>
+<li>mapy odpowiedzialności jako przypisanie ról.</li>
 </ul>
-<hr>
-<h2 id="forma-schematów"><a class="header" href="#forma-schematów">Forma schematów</a></h2>
-<p>Schematy mogą być tworzone jako:</p>
-<ul>
-<li>diagramy blokowe,</li>
-<li>BPMN,</li>
-<li>proste grafiki,</li>
-<li>diagramy w narzędziach online (np. Miro, Draw.io),</li>
-<li>wizualizacje w dokumentacji.</li>
-</ul>
-<p>Nie jest wymagany konkretny standard graficzny. Ważna jest czytelność.</p>
-<hr>
-<h2 id="minimalny-model-wdrożenia"><a class="header" href="#minimalny-model-wdrożenia">Minimalny model wdrożenia</a></h2>
-<p>W prostym modelu wystarczy:</p>
-<ul>
-<li>jeden schemat publikacji,</li>
-<li>jeden schemat przeglądu i naprawy.</li>
-</ul>
-<p>Pozostałe procesy mogą być rozwijane później.</p>
-<hr>
-<h2 id="najczęstsze-błędy"><a class="header" href="#najczęstsze-błędy">Najczęstsze błędy</a></h2>
-<ul>
-<li>brak schematów,</li>
-<li>zbyt skomplikowane diagramy,</li>
-<li>brak powiązania z rzeczywistością,</li>
-<li>brak przypisania odpowiedzialności,</li>
-<li>brak aktualizacji schematów,</li>
-<li>tworzenie schematów tylko do dokumentacji.</li>
-</ul>
-<hr>
-<h2 id="efekt-dobrze-zaprojektowanych-schematów"><a class="header" href="#efekt-dobrze-zaprojektowanych-schematów">Efekt dobrze zaprojektowanych schematów</a></h2>
-<ul>
-<li>lepsze zrozumienie procesów,</li>
-<li>łatwiejsze wdrożenie systemu,</li>
-<li>szybsze szkolenie pracowników,</li>
-<li>mniej błędów,</li>
-<li>większa spójność działań,</li>
-<li>możliwość optymalizacji procesów.</li>
-</ul>
-<hr>
 <h2 id="odniesienia"><a class="header" href="#odniesienia">Odniesienia</a></h2>
 <ul>
 <li><a href="../../_sources/sdc/">Materiały źródłowe</a></li>
 </ul>
-<p>flowchart TD
-A[Input: potrzeba publikacji lub materiał] –&gt; B[Formularz przekazania treści]
-B –&gt; C[Rejestr zasobów: status roboczy]
-C –&gt; D[Kontrola przed publikacją]
-D –&gt; E{Decyzja}</p>
-<pre><code>E --&gt;|OK| F[Publikacja]
-F --&gt; G[Rejestr zasobów: status opublikowany]
-
-E --&gt;|NIE| H[Naprawa / uzupełnienie braków]
-H --&gt; D
-
-E --&gt;|Warunkowo| I[Publikacja warunkowa]
-I --&gt; J[Rejestr: status opublikowany warunkowo]
-J --&gt; K[Termin naprawy]
-K --&gt; H
-</code></pre>
 
                     </main>
 
