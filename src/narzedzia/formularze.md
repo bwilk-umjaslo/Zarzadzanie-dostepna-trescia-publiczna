@@ -201,3 +201,37 @@ Najważniejsze jest:
 ## Odniesienia
 
 - [Materiały źródłowe](../../_sources/sdc/)
+
+- ## Model listy kontrolnej
+
+Lista kontrolna powinna być traktowana jako zestaw reguł walidacyjnych.
+
+### Struktura wymagania
+
+| id | kategoria | wymaganie | typ | krytyczne | dowod |
+|----|----------|-----------|-----|-----------|------|
+
+---
+
+### Typy wymagań
+
+- boolean (TAK/NIE)
+- ocena (skala)
+- opisowe (uwagi)
+
+---
+
+### Reguła decyzyjna
+
+Publikacja możliwa tylko gdy:
+- wszystkie wymagania krytyczne = TAK
+
+---
+
+### Przykład (fragment)
+
+| id | kategoria | wymaganie | krytyczne |
+|----|----------|-----------|----------|
+| T01 | struktura | nagłówki logiczne | TAK |
+| G01 | grafika | alt tekst | TAK |
+| V01 | wideo | napisy | TAK |
