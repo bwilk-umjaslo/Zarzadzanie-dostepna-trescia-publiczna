@@ -35,7 +35,7 @@
             const path_to_root = "../";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "../searchindex-a9eaea74.js";
+            window.path_to_searchindex_js = "../searchindex-cd50bda3.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="../toc-a9d4268e.js"></script>
@@ -356,6 +356,22 @@
 <ul>
 <li><a href="../../_sources/sdc/">Materiały źródłowe</a></li>
 </ul>
+<p>flowchart TD
+A[Input: potrzeba publikacji lub materiał] –&gt; B[Formularz przekazania treści]
+B –&gt; C[Rejestr zasobów: status roboczy]
+C –&gt; D[Kontrola przed publikacją]
+D –&gt; E{Decyzja}</p>
+<pre><code>E --&gt;|OK| F[Publikacja]
+F --&gt; G[Rejestr zasobów: status opublikowany]
+
+E --&gt;|NIE| H[Naprawa / uzupełnienie braków]
+H --&gt; D
+
+E --&gt;|Warunkowo| I[Publikacja warunkowa]
+I --&gt; J[Rejestr: status opublikowany warunkowo]
+J --&gt; K[Termin naprawy]
+K --&gt; H
+</code></pre>
 
                     </main>
 
