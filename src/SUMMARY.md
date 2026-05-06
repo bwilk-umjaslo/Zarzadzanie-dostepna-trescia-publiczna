@@ -1,5 +1,6 @@
 # Summary
 
+- [Strona startowa](index.md)
 - [Wstęp](01-wstep.md)
 
 ## Część I. Model zarządzania treścią
@@ -27,5 +28,4 @@
 ## Część III. Materiały uzupełniające
 
 - [Słownik pojęć](10-slownik-pojec.md)
-
 - [O autorze](11-o-autorze.md)
