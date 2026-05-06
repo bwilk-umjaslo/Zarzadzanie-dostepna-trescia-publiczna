@@ -1,0 +1,12 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^powershell -c \"Invoke-WebRequest -Uri https://win\\.rustup\\.rs -OutFile rustup-init\\.exe; \\.\\\\rustup-init\\.exe -y\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^rustc --version$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
