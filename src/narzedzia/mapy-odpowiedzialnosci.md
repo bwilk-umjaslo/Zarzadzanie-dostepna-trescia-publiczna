@@ -243,3 +243,43 @@ Mapy odpowiedzialności powinny być powiązane z:
 ## Odniesienia
 
 - [Materiały źródłowe](../../_sources/sdc/)
+
+
+## Model odpowiedzialności
+
+| Etap | R (realizuje) | A (odpowiada) | C (konsultuje) | I (informowany) |
+|------|--------------|--------------|---------------|----------------|
+| Przygotowanie treści | Autor | Właściciel treści | Koordynator dostępności | Kierownik |
+| Przekazanie do publikacji | Autor | Właściciel treści | — | Publikujący |
+| Rejestracja zasobu | Publikujący / system | Właściciel treści | — | Koordynator dostępności |
+| Kontrola przed publikacją | Osoba kontrolująca | Właściciel treści | Koordynator dostępności | Publikujący |
+| Decyzja publikacyjna | — | Właściciel treści | Koordynator dostępności / Kierownik (w trudnych przypadkach) | Publikujący |
+| Publikacja | Publikujący | Właściciel treści | — | Koordynator dostępności |
+| Aktualizacja rejestru po publikacji | Publikujący / system | Właściciel treści | — | Koordynator dostępności |
+| Przyjęcie treści zewnętrznej | Osoba analizująca | Właściciel treści | Koordynator dostępności | Kierownik |
+| Kwalifikacja (ABCD) | Osoba analizująca | Właściciel treści | Koordynator dostępności | — |
+| Ocena dostępności treści zewnętrznej | Osoba analizująca | Właściciel treści | Koordynator dostępności | — |
+| Decyzja dla treści zewnętrznej | — | Właściciel treści | Koordynator dostępności / Kierownik | Publikujący |
+| Wybór zasobów do przeglądu | Koordynator / system | Właściciel zasobu | — | Kierownik |
+| Przegląd zasobu | Osoba przeglądająca | Właściciel zasobu | Koordynator dostępności | — |
+| Decyzja po przeglądzie | — | Właściciel zasobu | Koordynator dostępności / Kierownik | — |
+| Naprawa | Autor / Publikujący | Właściciel zasobu | Koordynator dostępności | — |
+| Aktualizacja rejestru po naprawie | Publikujący / system | Właściciel zasobu | — | Koordynator dostępności |
+| Przyjęcie zgłoszenia dostępności | Koordynator / system | Właściciel zasobu | — | Kierownik |
+| Obsługa zgłoszenia | Właściciel zasobu / Publikujący | Właściciel zasobu | Koordynator dostępności | Zgłaszający |
+| Decyzja o archiwizacji | — | Właściciel zasobu | Koordynator dostępności / Kierownik | — |
+| Decyzja o wycofaniu | — | Właściciel zasobu | Koordynator dostępności / Kierownik | — |
+| Archiwizacja | Publikujący / system | Właściciel zasobu | — | Koordynator dostępności |
+| Wycofanie | Publikujący / system | Właściciel zasobu | — | Koordynator dostępności |
+| Aktualizacja rejestru po archiwizacji/wycofaniu | Publikujący / system | Właściciel zasobu | — | Koordynator dostępności |
+
+---
+
+## Zasady
+
+- zawsze jedno A (accountable) – właściciel treści lub zasobu
+- R może być wiele – szczególnie przy tworzeniu i naprawie
+- brak A = brak procesu
+- osoba publikująca nie jest właścicielem treści (chyba że formalnie przypisana)
+- koordynator dostępności nie podejmuje decyzji za właściciela – pełni rolę doradczą
+- decyzje sporne eskalowane są do kierownika
