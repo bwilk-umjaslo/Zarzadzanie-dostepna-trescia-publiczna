@@ -228,7 +228,7 @@
 <li>decyzję o dalszym losie.</li>
 </ul>
 <h2 id="model-podręcznika"><a class="header" href="#model-podręcznika">Model podręcznika</a></h2>
-<pre><code class="language-mermaid">flowchart LR
+<pre class="mermaid">flowchart LR
     A[Standardy] --&gt; B[Tworzenie treści]
     B --&gt; C[Kontrola przed publikacją]
     C --&gt; D[Rejestr zasobów]
@@ -237,7 +237,8 @@
     E --&gt; G[Przegląd i naprawa]
     G --&gt; H[Archiwizacja i wycofanie]
     D --&gt; H
-</code></pre>
+</pre>
+
 <h2 id="podgląd-online"><a class="header" href="#podgląd-online">Podgląd online</a></h2>
 <p>Aktualna wersja podręcznika jest dostępna pod adresem:</p>
 <p><a href="https://bwilk-umjaslo.github.io/Zarzadzanie-dostepna-trescia-publiczna/">https://bwilk-umjaslo.github.io/Zarzadzanie-dostepna-trescia-publiczna/</a></p>
@@ -3321,7 +3322,7 @@
 </ul>
 <p>Schemat powinien być możliwie prosty i czytelny.</p>
 <h2 id="proces-tworzenia-i-publikacji-treści"><a class="header" href="#proces-tworzenia-i-publikacji-treści">Proces tworzenia i publikacji treści</a></h2>
-<pre><code class="language-mermaid">flowchart TD
+<pre class="mermaid">flowchart TD
     A[Potrzeba publikacji lub materiał] --&gt; B[Formularz przekazania treści]
     B --&gt; C[Rejestr zasobów: status roboczy]
     C --&gt; D[Kontrola przed publikacją]
@@ -3337,9 +3338,10 @@
     I --&gt; J[Rejestr: status opublikowany warunkowo]
     J --&gt; K[Termin naprawy]
     K --&gt; H
-</code></pre>
+</pre>
+
 <h2 id="proces-obsługi-treści-od-innych-podmiotów"><a class="header" href="#proces-obsługi-treści-od-innych-podmiotów">Proces obsługi treści od innych podmiotów</a></h2>
-<pre><code class="language-mermaid">flowchart TD
+<pre class="mermaid">flowchart TD
     A[Materiał od innego podmiotu] --&gt; B[Identyfikacja źródła]
     B --&gt; C[Kwalifikacja ABCD]
     C --&gt; D[Ocena dostępności]
@@ -3359,9 +3361,10 @@
     I --&gt; M[Rejestr zasobów]
     J --&gt; M
     L --&gt; M
-</code></pre>
+</pre>
+
 <h2 id="proces-przeglądu-i-naprawy"><a class="header" href="#proces-przeglądu-i-naprawy">Proces przeglądu i naprawy</a></h2>
-<pre><code class="language-mermaid">flowchart TD
+<pre class="mermaid">flowchart TD
     A[Rejestr zasobów] --&gt; B[Wybór zasobów do przeglądu]
     B --&gt; C[Ocena aktualności i dostępności]
     C --&gt; D{Decyzja}
@@ -3377,9 +3380,10 @@
 
     D --&gt;|Wycofać lub archiwizować| J[Przekazanie do procesu archiwizacji]
     J --&gt; E
-</code></pre>
+</pre>
+
 <h2 id="proces-archiwizacji-i-wycofania-1"><a class="header" href="#proces-archiwizacji-i-wycofania-1">Proces archiwizacji i wycofania</a></h2>
-<pre><code class="language-mermaid">flowchart TD
+<pre class="mermaid">flowchart TD
     A[Zasób wymagający decyzji] --&gt; B[Ocena aktualności i wartości]
     B --&gt; C{Decyzja}
 
@@ -3391,9 +3395,10 @@
     C --&gt;|Wycofać| G[Usunięcie z aktywnej publikacji]
     G --&gt; H[Przekierowanie lub komunikat]
     H --&gt; D
-</code></pre>
+</pre>
+
 <h2 id="proces-obsługi-zgłoszeń-dostępności"><a class="header" href="#proces-obsługi-zgłoszeń-dostępności">Proces obsługi zgłoszeń dostępności</a></h2>
-<pre><code class="language-mermaid">flowchart TD
+<pre class="mermaid">flowchart TD
     A[Zgłoszenie użytkownika] --&gt; B[Identyfikacja zasobu]
     B --&gt; C[Sprawdzenie w rejestrze]
     C --&gt; D[Ocena problemu]
@@ -3410,7 +3415,8 @@
     J --&gt; H
 
     H --&gt; K[Odpowiedź dla użytkownika]
-</code></pre>
+</pre>
+
 <h2 id="powiązanie-z-mapami-odpowiedzialności"><a class="header" href="#powiązanie-z-mapami-odpowiedzialności">Powiązanie z mapami odpowiedzialności</a></h2>
 <p>Schematy procesów powinny być powiązane z mapami odpowiedzialności. Każdy krok powinien mieć przypisaną rolę, decyzje powinny mieć właściciela, a proces nie powinien zawierać pustych etapów.</p>
 <h2 id="powiązanie-z-narzędziami-1"><a class="header" href="#powiązanie-z-narzędziami-1">Powiązanie z narzędziami</a></h2>
@@ -3527,6 +3533,8 @@
         <script src="book-a0b12cfe.js"></script>
 
         <!-- Custom JS scripts -->
+        <script src="mermaid-eefea253.min.js"></script>
+        <script src="mermaid-init-ccf746f1.js"></script>
 
         <script>
         window.addEventListener('load', function() {
