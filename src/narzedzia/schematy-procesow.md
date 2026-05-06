@@ -201,3 +201,20 @@ Pozostałe procesy mogą być rozwijane później.
 ## Odniesienia
 
 - [Materiały źródłowe](../../_sources/sdc/)
+
+flowchart TD
+    A[Input: potrzeba publikacji lub materiał] --> B[Formularz przekazania treści]
+    B --> C[Rejestr zasobów: status roboczy]
+    C --> D[Kontrola przed publikacją]
+    D --> E{Decyzja}
+
+    E -->|OK| F[Publikacja]
+    F --> G[Rejestr zasobów: status opublikowany]
+
+    E -->|NIE| H[Naprawa / uzupełnienie braków]
+    H --> D
+
+    E -->|Warunkowo| I[Publikacja warunkowa]
+    I --> J[Rejestr: status opublikowany warunkowo]
+    J --> K[Termin naprawy]
+    K --> H
