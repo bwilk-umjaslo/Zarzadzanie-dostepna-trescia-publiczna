@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Schematy procesów - Zarządzanie dostępną treścią publiczną</title>
+        <title>Model organizacji - Zarządzanie dostępną treścią publiczną</title>
 
 
         <!-- Custom HTML head -->
@@ -174,189 +174,93 @@
 
                 <div id="mdbook-content" class="content">
                     <main>
-                        <h1 id="schematy-procesów"><a class="header" href="#schematy-procesów">Schematy procesów</a></h1>
-<h2 id="zasada-stosowania"><a class="header" href="#zasada-stosowania">Zasada stosowania</a></h2>
-<p>Schemat procesu pokazuje punkt startowy, uczestników, decyzje, rezultat i powiązane narzędzia. Diagram Mermaid jest pomocą wdrożeniową, ale opis procesu jest równie ważny jak sam diagram.</p>
-<h2 id="publikacja-treści-własnej"><a class="header" href="#publikacja-treści-własnej">Publikacja treści własnej</a></h2>
-<p>Cel: opublikowanie materiału przygotowanego przez podmiot publiczny.</p>
-<p>Punkt startowy: autor albo komórka merytoryczna przygotowuje materiał.</p>
-<p>Uczestnicy: autor, właściciel treści, redaktor, osoba kontrolująca, osoba zatwierdzająca, administrator serwisu.</p>
-<p>Decyzje: czy materiał jest kompletny, czy spełnia standard, czy wymaga rejestru.</p>
-<p>Rezultat: opublikowany i zarejestrowany zasób albo materiał odesłany do poprawy.</p>
-<p>Powiązane narzędzia: formularz przekazania, lista kontrolna, formularz decyzji publikacyjnej, rejestr zasobów.</p>
-<pre class="mermaid">flowchart TD
-    A[Przygotowanie materialu] --&gt; B[Formularz przekazania]
-    B --&gt; C{Kompletne dane?}
-    C -- Nie --&gt; D[Odeslij do uzupelnienia]
-    C -- Tak --&gt; E[Kontrola przed publikacja]
-    E --&gt; F{Wynik kontroli}
-    F -- Publikuj --&gt; G[Publikacja]
-    F -- Popraw --&gt; H[Poprawa przed publikacja]
-    H --&gt; E
-    F -- Warunkowo --&gt; I[Decyzja osoby zatwierdzajacej]
-    I --&gt; G
-    G --&gt; J[Rejestracja zasobu]
-</pre>
-
-<h2 id="publikacja-treści-od-innego-podmiotu"><a class="header" href="#publikacja-treści-od-innego-podmiotu">Publikacja treści od innego podmiotu</a></h2>
-<p>Cel: przyjęcie, kwalifikacja i publikacja albo odmowa publikacji materiału zewnętrznego.</p>
-<p>Punkt startowy: podmiot zewnętrzny przekazuje materiał.</p>
-<p>Uczestnicy: podmiot zewnętrzny, osoba przyjmująca, redaktor, właściciel merytoryczny, koordynator dostępności, osoba zatwierdzająca.</p>
-<p>Decyzje: klasyfikacja A/B/C/D, możliwość poprawy, obowiązek publikacji, oznaczenie braków.</p>
-<p>Rezultat: publikacja, publikacja warunkowa, oznaczenie, alternatywna forma dostępu albo odmowa.</p>
-<p>Powiązane narzędzia: formularz zewnętrzny, lista kontrolna treści zewnętrznej, rejestr treści od innych podmiotów.</p>
-<pre class="mermaid">flowchart TD
-    A[Material zewnetrzny] --&gt; B[Formularz zewnetrzny]
-    B --&gt; C{Dane kompletne?}
-    C -- Nie --&gt; D[Procedura brakow]
-    D --&gt; B
-    C -- Tak --&gt; E[Klasyfikacja A B C D]
-    E --&gt; F{Obowiazek publikacji?}
-    F -- Tak --&gt; G[Kontrola i oznaczenie brakow]
-    F -- Nie --&gt; H{Mozna poprawic?}
-    H -- Tak --&gt; I[Poprawa lub uzupelnienie]
-    I --&gt; G
-    H -- Nie --&gt; J{Cel publiczny uzasadnia publikacje?}
-    J -- Nie --&gt; K[Odmowa publikacji]
-    J -- Tak --&gt; G
-    G --&gt; L[Decyzja publikacyjna]
-    L --&gt; M[Publikacja i rejestr]
-</pre>
-
-<h2 id="publikacja-treści-obowiązkowej-w-bip"><a class="header" href="#publikacja-treści-obowiązkowej-w-bip">Publikacja treści obowiązkowej w BIP</a></h2>
-<p>Cel: opublikowanie treści wymaganej przepisem albo obowiązkiem informacyjnym.</p>
-<p>Punkt startowy: powstaje obowiązek publikacji.</p>
-<p>Uczestnicy: właściciel treści, administrator BIP, redaktor, koordynator dostępności, osoba zatwierdzająca.</p>
-<p>Decyzje: miejsce w BIP, dostępność materiału, oznaczenie braków, alternatywna forma dostępu.</p>
-<p>Rezultat: publikacja w BIP z wpisem do rejestru i planem naprawy, jeżeli występują braki.</p>
-<p>Powiązane narzędzia: formularz decyzji publikacyjnej, lista dokumentu albo załącznika, rejestr zasobów, rejestr załączników.</p>
-<pre class="mermaid">flowchart TD
-    A[Obowiazek publikacji] --&gt; B[Ustalenie wlasciciela]
-    B --&gt; C[Kontrola dostepnosci]
-    C --&gt; D{Braki?}
-    D -- Nie --&gt; E[Publikacja w BIP]
-    D -- Tak --&gt; F[Oznaczenie i plan alternatywy]
-    F --&gt; E
-    E --&gt; G[Wpis do rejestru]
-    G --&gt; H[Termin przegladu lub naprawy]
-</pre>
-
-<h2 id="kontrola-przed-publikacją"><a class="header" href="#kontrola-przed-publikacją">Kontrola przed publikacją</a></h2>
-<p>Cel: podjęcie decyzji, czy materiał można opublikować.</p>
-<p>Punkt startowy: materiał jest gotowy do sprawdzenia.</p>
-<p>Uczestnicy: redaktor, właściciel, koordynator dostępności, osoba zatwierdzająca.</p>
-<p>Decyzje: publikuj, popraw, odeślij, warunkowo, z oznaczeniem, odmów, przekaż do żądania dostępności.</p>
-<p>Rezultat: udokumentowana decyzja.</p>
-<p>Powiązane narzędzia: listy kontrolne, formularz braku dostępności, formularz decyzji.</p>
-<pre class="mermaid">flowchart TD
-    A[Material do kontroli] --&gt; B[Dobor listy kontrolnej]
-    B --&gt; C[Sprawdzenie minimalne]
-    C --&gt; D{Wynik}
-    D -- Bez brakow --&gt; E[Publikuj]
-    D -- Braki do poprawy --&gt; F[Popraw przed publikacja]
-    D -- Brak danych --&gt; G[Odeslij do uzupelnienia]
-    D -- Wyjatek --&gt; H[Decyzja warunkowa lub oznaczenie]
-    D -- Niedopuszczalne --&gt; I[Odmow publikacji]
-    H --&gt; J[Plan naprawy lub alternatywa]
-</pre>
-
-<h2 id="obsługa-braków-dostępności"><a class="header" href="#obsługa-braków-dostępności">Obsługa braków dostępności</a></h2>
-<p>Cel: opisanie i usunięcie braków wykrytych przed publikacją albo po publikacji.</p>
-<p>Punkt startowy: wykryto brak dostępności.</p>
-<p>Uczestnicy: osoba zgłaszająca, właściciel, redaktor, koordynator dostępności, osoba naprawiająca.</p>
-<p>Decyzje: poprawić, zapewnić alternatywę, opublikować warunkowo, odmówić, przekazać do żądania dostępności.</p>
-<p>Rezultat: brak usunięty, oznaczony albo obsłużony alternatywnie.</p>
-<p>Powiązane narzędzia: formularz braku dostępności, rejestr napraw, rejestr zgłoszeń.</p>
-<pre class="mermaid">flowchart TD
-    A[Wykryty brak] --&gt; B[Opis braku]
-    B --&gt; C{Mozna usunac przed publikacja?}
-    C -- Tak --&gt; D[Naprawa]
-    D --&gt; E[Ponowna kontrola]
-    C -- Nie --&gt; F{Czy publikacja konieczna?}
-    F -- Nie --&gt; G[Wstrzymaj lub odmow]
-    F -- Tak --&gt; H[Alternatywa lub oznaczenie]
-    H --&gt; I[Rejestr napraw]
-</pre>
-
-<h2 id="obsługa-żądania-zapewnienia-dostępności"><a class="header" href="#obsługa-żądania-zapewnienia-dostępności">Obsługa żądania zapewnienia dostępności</a></h2>
-<p>Cel: zapewnienie użytkownikowi dostępu do treści i wykorzystanie zgłoszenia do poprawy zasobu.</p>
-<p>Punkt startowy: wpływa żądanie zapewnienia dostępności.</p>
-<p>Uczestnicy: osoba przyjmująca, właściciel zasobu, koordynator dostępności, redaktor, administrator.</p>
-<p>Decyzje: sposób zapewnienia dostępności, termin, naprawa zasobu, przegląd podobnych zasobów.</p>
-<p>Rezultat: udzielona odpowiedź, zapewniona dostępność albo alternatywa, zaktualizowany rejestr.</p>
-<p>Powiązane narzędzia: rejestr zgłoszeń dostępności, rejestr zasobów, rejestr napraw.</p>
-<pre class="mermaid">flowchart TD
-    A[Zgloszenie dostepnosci] --&gt; B[Rejestracja zgloszenia]
-    B --&gt; C[Identyfikacja zasobu]
-    C --&gt; D[Ustalenie wlasciciela]
-    D --&gt; E{Mozliwa szybka naprawa?}
-    E -- Tak --&gt; F[Napraw zasob]
-    E -- Nie --&gt; G[Zapewnij forme alternatywna]
-    F --&gt; H[Odpowiedz uzytkownikowi]
-    G --&gt; H
-    H --&gt; I[Aktualizacja rejestrow]
-    I --&gt; J{Podobne zasoby?}
-    J -- Tak --&gt; K[Przeglad podobnych zasobow]
-    J -- Nie --&gt; L[Zamknij]
-</pre>
-
-<h2 id="przegląd-i-naprawa-załączników"><a class="header" href="#przegląd-i-naprawa-załączników">Przegląd i naprawa załączników</a></h2>
-<p>Cel: identyfikacja, klasyfikacja i naprawa załączników, szczególnie opublikowanych po 23 września 2018 r.</p>
-<p>Punkt startowy: rejestr albo przegląd serwisu wskazuje załączniki.</p>
-<p>Uczestnicy: redaktor, właściciel, koordynator dostępności, osoba naprawiająca, osoba decyzyjna.</p>
-<p>Decyzje: naprawić, zastąpić, wycofać, archiwizować, pozostawić z uzasadnieniem.</p>
-<p>Rezultat: plan naprawczy i aktualny status zasobu.</p>
-<p>Powiązane narzędzia: rejestr załączników, formularz wyniku przeglądu, rejestr napraw.</p>
-<pre class="mermaid">flowchart TD
-    A[Lista zalacznikow] --&gt; B[Identyfikacja daty publikacji]
-    B --&gt; C{Po 23 wrzesnia 2018?}
-    C -- Tak --&gt; D[Ocena dostepnosci]
-    C -- Nie --&gt; E[Ocena potrzeby utrzymania]
-    D --&gt; F[Priorytet naprawy]
-    E --&gt; F
-    F --&gt; G{Decyzja}
-    G -- Napraw --&gt; H[Plan naprawczy]
-    G -- Zastap --&gt; I[Nowa wersja]
-    G -- Archiwizuj --&gt; J[Decyzja archiwizacyjna]
-    G -- Wycofaj --&gt; K[Wycofanie]
-    H --&gt; L[Aktualizacja rejestru]
-    I --&gt; L
-    J --&gt; L
-    K --&gt; L
-</pre>
-
-<h2 id="archiwizacja-i-wycofanie-zasobu"><a class="header" href="#archiwizacja-i-wycofanie-zasobu">Archiwizacja i wycofanie zasobu</a></h2>
-<p>Cel: zakończenie albo zmiana statusu zasobu po utracie aktualności.</p>
-<p>Punkt startowy: przegląd, zgłoszenie, zmiana przepisów, nowa wersja albo decyzja właściciela.</p>
-<p>Uczestnicy: właściciel, redaktor, administrator, koordynator dostępności, osoba zatwierdzająca.</p>
-<p>Decyzje: aktualizuj, pozostaw, archiwizuj, usuń z nawigacji, wycofaj, zastąp, pozostaw historycznie.</p>
-<p>Rezultat: zasób zaktualizowany, zarchiwizowany, wycofany albo oznaczony.</p>
-<p>Powiązane narzędzia: formularz decyzji archiwizacyjnej, rejestr zasobów, rejestr decyzji.</p>
-<pre class="mermaid">flowchart TD
-    A[Zasob do oceny] --&gt; B[Ocena aktualnosci]
-    B --&gt; C{Potrzebny publicznie?}
-    C -- Tak --&gt; D{Aktualny?}
-    D -- Tak --&gt; E[Pozostaw lub aktualizuj]
-    D -- Nie --&gt; F[Oznacz historycznie lub archiwizuj]
-    C -- Nie --&gt; G{Wymaga zachowania?}
-    G -- Tak --&gt; H[Przenies do archiwum]
-    G -- Nie --&gt; I[Wycofaj]
-    E --&gt; J[Aktualizacja rejestru]
-    F --&gt; J
-    H --&gt; J
-    I --&gt; J
-</pre>
-
+                        <h1 id="model-organizacji"><a class="header" href="#model-organizacji">Model organizacji</a></h1>
+<h2 id="cel-modelu"><a class="header" href="#cel-modelu">Cel modelu</a></h2>
+<p>Model organizacji porządkuje wdrożenie podręcznika. Nie jest osobną teorią zarządzania. Służy do sprawdzenia, czy podmiot publiczny ma decyzje, role, narzędzia i mechanizmy kontroli potrzebne do zarządzania treścią publiczną.</p>
+<p>System działa w pięciu obszarach:</p>
+<ul>
+<li>cele,</li>
+<li>ludzie,</li>
+<li>struktura,</li>
+<li>technologia,</li>
+<li>otoczenie.</li>
+</ul>
+<h2 id="cele"><a class="header" href="#cele">Cele</a></h2>
+<p>Decyzje do podjęcia:</p>
+<ul>
+<li>po co publikujemy daną treść,</li>
+<li>czy publikacja jest obowiązkowa,</li>
+<li>jak długo treść jest aktualna,</li>
+<li>kiedy nastąpi przegląd,</li>
+<li>co stanie się z treścią po utracie aktualności.</li>
+</ul>
+<p>Role: właściciel treści, kierownik komórki, osoba zatwierdzająca.</p>
+<p>Narzędzia: formularz przekazania materiału, decyzja publikacyjna, rejestr zasobów.</p>
+<p>Ryzyka: publikacja bez celu, brak czasu aktualności, brak dalszego losu.</p>
+<p>Pomagają wdrożyć: <a href="../01-wstep.html">Wstęp</a>, <a href="../03-tworzenie-tresci.html">Tworzenie treści</a>, <a href="../08-archiwizacja-i-wycofanie.html">Archiwizacja i wycofanie</a>.</p>
+<h2 id="ludzie"><a class="header" href="#ludzie">Ludzie</a></h2>
+<p>Decyzje do podjęcia:</p>
+<ul>
+<li>kto tworzy materiał,</li>
+<li>kto jest właścicielem,</li>
+<li>kto kontroluje,</li>
+<li>kto publikuje,</li>
+<li>kto zatwierdza wyjątki,</li>
+<li>kto odpowiada za przegląd i naprawę.</li>
+</ul>
+<p>Role: autor, właściciel merytoryczny, redaktor, administrator serwisu, administrator BIP, koordynator dostępności, kierownik, podmiot zewnętrzny.</p>
+<p>Narzędzia: mapa odpowiedzialności, formularze, listy kontrolne.</p>
+<p>Ryzyka: rozmycie odpowiedzialności, zależność od jednej osoby, brak decyzji przy materiałach spornych.</p>
+<p>Pomagają wdrożyć: <a href="../narzedzia/mapy-odpowiedzialnosci.html">Mapy odpowiedzialności</a>, <a href="../04-kontrola-przed-publikacja.html">Kontrola przed publikacją</a>.</p>
+<h2 id="struktura"><a class="header" href="#struktura">Struktura</a></h2>
+<p>Decyzje do podjęcia:</p>
+<ul>
+<li>jak przebiega proces publikacji,</li>
+<li>kiedy odbywa się kontrola,</li>
+<li>kiedy materiał wraca do poprawy,</li>
+<li>kiedy można zastosować publikację warunkową,</li>
+<li>kiedy odmówić publikacji.</li>
+</ul>
+<p>Role: redaktor, właściciel treści, osoba kontrolująca, osoba zatwierdzająca.</p>
+<p>Narzędzia: schemat procesu, lista kontrolna, formularz decyzji publikacyjnej.</p>
+<p>Ryzyka: omijanie kontroli, publikacja ustna, brak śladu decyzji.</p>
+<p>Pomagają wdrożyć: <a href="../narzedzia/schematy-procesow.html">Schematy procesów</a>, <a href="../narzedzia/listy-kontrolne.html">Listy kontrolne</a>, <a href="../narzedzia/formularze.html">Formularze</a>.</p>
+<h2 id="technologia"><a class="header" href="#technologia">Technologia</a></h2>
+<p>Decyzje do podjęcia:</p>
+<ul>
+<li>gdzie publikujemy,</li>
+<li>jak opisujemy załączniki,</li>
+<li>jak rejestrujemy zasoby,</li>
+<li>jak obsługujemy multimedia,</li>
+<li>jak oznaczamy treści archiwalne.</li>
+</ul>
+<p>Role: administrator serwisu, administrator BIP, redaktor, koordynator dostępności.</p>
+<p>Narzędzia: rejestr zasobów, rejestr załączników, rejestr napraw, dostępne szablony i mechanizmy CMS.</p>
+<p>Ryzyka: brak wyszukiwalności, niedostępne komponenty, zgubione pliki, brak danych o statusie dostępności.</p>
+<p>Pomagają wdrożyć: <a href="../02-standardy-publikacji.html">Standardy publikacji</a>, <a href="../05-rejestr-zasobow.html">Rejestr zasobów</a>, <a href="../narzedzia/rejestry.html">Rejestry</a>.</p>
+<h2 id="otoczenie"><a class="header" href="#otoczenie">Otoczenie</a></h2>
+<p>Decyzje do podjęcia:</p>
+<ul>
+<li>jak przyjmujemy treści od innych podmiotów,</li>
+<li>kiedy wymagamy poprawy,</li>
+<li>kiedy publikacja jest obowiązkowa,</li>
+<li>kiedy zapewniamy alternatywną formę dostępu,</li>
+<li>jak obsługujemy żądania dostępności.</li>
+</ul>
+<p>Role: podmiot zewnętrzny, właściciel treści, administrator BIP, koordynator dostępności, osoba zatwierdzająca.</p>
+<p>Narzędzia: formularz zewnętrzny, rejestr treści od innych podmiotów, rejestr zgłoszeń dostępności, procedura braków.</p>
+<p>Ryzyka: automatyczna publikacja cudzych materiałów, błędne uznawanie treści za wyłączoną, brak odpowiedzi na żądania dostępności.</p>
+<p>Pomagają wdrożyć: <a href="../06-tresci-od-innych-podmiotow.html">Treści od innych podmiotów</a>, <a href="../07-przeglad-i-naprawa.html">Przegląd i naprawa</a>.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="../narzedzia/mapy-odpowiedzialnosci.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                            <a rel="prev" href="../01-wstep.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
-                            <a rel="next prefetch" href="../10-slownik-pojec.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../kontekst/cele-systemu.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
@@ -366,11 +270,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                    <a rel="prev" href="../narzedzia/mapy-odpowiedzialnosci.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                    <a rel="prev" href="../01-wstep.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
-                    <a rel="next prefetch" href="../10-slownik-pojec.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../kontekst/cele-systemu.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>
