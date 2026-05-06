@@ -35,7 +35,7 @@
             const path_to_root = "../";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "../searchindex-a32265b9.js";
+            window.path_to_searchindex_js = "../searchindex-a08e73bc.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="../toc-a9d4268e.js"></script>
@@ -369,7 +369,64 @@
 <hr>
 <h2 id="odniesienia"><a class="header" href="#odniesienia">Odniesienia</a></h2>
 <ul>
-<li><a href="../../_sources/sdc/">Materiały źródłowe</a></li>
+<li>
+<p><a href="../../_sources/sdc/">Materiały źródłowe</a></p>
+</li>
+<li>
+<h2 id="model-danych--rejestr-zasobów-cyfrowych"><a class="header" href="#model-danych--rejestr-zasobów-cyfrowych">Model danych – rejestr zasobów cyfrowych</a></h2>
+</li>
+</ul>
+<p>Rejestr powinien być traktowany jako baza danych, a nie tabela pomocnicza.</p>
+<h3 id="pola-obowiązkowe"><a class="header" href="#pola-obowiązkowe">Pola obowiązkowe</a></h3>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Pole</th><th>Typ</th><th>Opis</th></tr>
+</thead>
+<tbody>
+<tr><td>id</td><td>string</td><td>unikalny identyfikator zasobu</td></tr>
+<tr><td>tytul</td><td>text</td><td>nazwa zasobu</td></tr>
+<tr><td>typ</td><td>enum</td><td>strona / dokument / wideo / grafika / formularz</td></tr>
+<tr><td>url</td><td>text</td><td>lokalizacja zasobu</td></tr>
+<tr><td>kanal</td><td>enum</td><td>www / BIP / social media / system</td></tr>
+<tr><td>wlasciciel</td><td>text</td><td>właściciel merytoryczny</td></tr>
+<tr><td>jednostka</td><td>text</td><td>komórka organizacyjna</td></tr>
+<tr><td>status</td><td>enum</td><td>roboczy / opublikowany / warunkowy / archiwalny / wycofany</td></tr>
+<tr><td>status_dostepnosci</td><td>enum</td><td>zgodny / częściowo zgodny / niezgodny / nieoceniony</td></tr>
+<tr><td>data_publikacji</td><td>date</td><td>data publikacji</td></tr>
+<tr><td>data_ostatniego_przegladu</td><td>date</td><td>ostatnia weryfikacja</td></tr>
+<tr><td>termin_przegladu</td><td>date</td><td>kolejny przegląd</td></tr>
+<tr><td>priorytet</td><td>enum</td><td>wysoki / średni / niski</td></tr>
+<tr><td>czy_zewnetrzny</td><td>boolean</td><td>czy materiał pochodzi z zewnątrz</td></tr>
+<tr><td>mozliwosc_modyfikacji</td><td>boolean</td><td>czy można zmieniać treść</td></tr>
+<tr><td>decyzja</td><td>enum</td><td>publikacja / poprawa / archiwizacja / wycofanie</td></tr>
+<tr><td>uwagi</td><td>text</td><td>dodatkowe informacje</td></tr>
+</tbody>
+</table>
+</div>
+<hr>
+<h3 id="relacje"><a class="header" href="#relacje">Relacje</a></h3>
+<p>Rejestr powinien być powiązany z:</p>
+<ul>
+<li>rejestrem kontroli</li>
+<li>rejestrem zgłoszeń</li>
+<li>rejestrem napraw</li>
+<li>rejestrem decyzji</li>
+</ul>
+<p>Identyfikatorem wspólnym jest <code>id</code>.</p>
+<hr>
+<h3 id="minimalny-model-wdrożenia-1"><a class="header" href="#minimalny-model-wdrożenia-1">Minimalny model wdrożenia</a></h3>
+<ul>
+<li>Google Sheets (z walidacją danych)</li>
+<li>kolumny jako pola</li>
+<li>filtry po statusie i właścicielu</li>
+</ul>
+<hr>
+<h3 id="model-docelowy"><a class="header" href="#model-docelowy">Model docelowy</a></h3>
+<ul>
+<li>baza danych (np. Airtable / system wewnętrzny)</li>
+<li>integracja z CMS</li>
+<li>automatyczne zasilanie danych</li>
 </ul>
 
                     </main>
