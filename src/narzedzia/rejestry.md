@@ -1,273 +1,145 @@
 # Rejestry
 
-## Rola rejestrów w systemie
+## Rola rejestrów
 
-Rejestry są centralnym narzędziem zarządzania informacją o treściach publicznych i działaniach podejmowanych wobec nich.
+Rejestr jest narzędziem organizacyjnym, a nie tylko tabelą. Jego zadaniem jest utrzymanie wiedzy o zasobach, decyzjach, brakach, zgłoszeniach i naprawach. Rejestry powinny być aktualizowane w procesie, a nie raz na jakiś czas przy porządkowaniu serwisu.
 
-To w rejestrach:
-- zapisywane są decyzje,
-- utrwalany jest przebieg procesu,
-- widoczny jest stan zasobów,
-- możliwe jest zarządzanie w czasie.
+## Rejestr zasobów cyfrowych
 
-Bez rejestrów organizacja działa „na bieżąco”, bez pamięci systemowej. Rejestr wprowadza ciągłość, umożliwia analizę i pozwala zarządzać całym cyklem życia treści.
+Cel: podstawowa pamięć organizacji o treściach publicznych.
 
----
+Proponowane kolumny:
 
-## Zasada podstawowa
+| Kolumna | Opis |
+|---|---|
+| Identyfikator zasobu | unikalny numer |
+| Tytuł | nazwa zasobu |
+| URL | adres publikacji |
+| Typ zasobu | strona, dokument, załącznik, multimedia, post |
+| Źródło | własne, zewnętrzne, BIP |
+| Właściciel merytoryczny | osoba albo komórka |
+| Redaktor publikujący | osoba publikująca |
+| Data publikacji | data pierwszej publikacji |
+| Data ostatniej aktualizacji | data ostatniej zmiany |
+| Status dostępności | dostępny, wymaga poprawy, niedostępny, oznaczony |
+| Wynik kontroli | publikuj, popraw, warunkowo, oznacz, odmów |
+| Status przeglądu | zaplanowany, w toku, zakończony, zaległy |
+| Termin kolejnego przeglądu | data |
+| Decyzja o dalszym losie | aktualizuj, napraw, archiwizuj, wycofaj |
+| Uwagi | informacje pomocnicze |
+| Powiązane zgłoszenia dostępności | identyfikatory zgłoszeń |
 
-Każdy istotny element procesu powinien pozostawiać ślad w rejestrze.
+## Rejestr załączników
 
-Oznacza to, że:
-- publikacja musi być odnotowana,
-- kontrola musi mieć wynik,
-- decyzja musi być zapisana,
-- naprawa musi być udokumentowana,
-- archiwizacja musi mieć uzasadnienie.
+Cel: kontrola dokumentów i plików do pobrania, szczególnie opublikowanych po 23 września 2018 r.
 
-Rejestr nie jest statyczną listą. Jest dynamicznym narzędziem pracy.
+Proponowane kolumny:
 
----
+| Kolumna | Opis |
+|---|---|
+| Identyfikator załącznika | numer |
+| Nazwa pliku | nazwa techniczna |
+| Tytuł załącznika | nazwa dla użytkownika |
+| URL strony publikacji | gdzie jest link |
+| URL pliku | adres pliku |
+| Typ pliku | PDF, DOCX, XLSX, ODT, inne |
+| Data publikacji | data |
+| Czy po 23 września 2018 r. | tak / nie / brak danych |
+| Właściciel | osoba albo komórka |
+| Status dostępności | dostępny / wymaga naprawy / brak danych |
+| Priorytet naprawy | wysoki / średni / niski |
+| Decyzja | napraw / zastąp / wycofaj / archiwizuj / pozostaw |
+| Termin naprawy | data |
+| Status wykonania | nowe / w toku / zakończone |
 
-## Rodzaje rejestrów w systemie
+## Rejestr treści od innych podmiotów
 
-### Rejestr zasobów cyfrowych
+Cel: udokumentowanie materiałów zewnętrznych, klasyfikacji A/B/C/D i decyzji publikacyjnych.
 
-Podstawowy rejestr obejmujący wszystkie zasoby.
+Proponowane kolumny:
 
-Zawiera:
-- identyfikację zasobu,
-- właściciela,
-- lokalizację,
-- status publikacji,
-- status dostępności,
-- daty,
-- powiązania z innymi działaniami.
+| Kolumna | Opis |
+|---|---|
+| Identyfikator | numer |
+| Podmiot przekazujący | nazwa |
+| Osoba do kontaktu | dane kontaktowe |
+| Tytuł materiału | nazwa |
+| Typ materiału | dokument, plakat, film, komunikat |
+| Klasyfikacja | A, B, C, D |
+| Czy publikacja obowiązkowa | tak / nie / wymaga decyzji |
+| Zgoda na modyfikację | tak / nie / częściowo |
+| Braki dostępności | opis |
+| Decyzja publikacyjna | publikuj, popraw, warunkowo, oznacz, odmów |
+| Oznaczenie braku | tak / nie |
+| Alternatywna forma dostępu | opis |
+| Data decyzji | data |
+| Powiązany zasób | identyfikator w rejestrze zasobów |
 
-Powiązanie:
-- wszystkie etapy systemu.
+## Rejestr zgłoszeń dostępności
 
----
+Cel: obsługa zgłoszeń użytkowników i powiązanie ich z zasobami.
 
-### Rejestr kontroli
+Proponowane kolumny:
 
-Służy do zapisu wyników kontroli przed publikacją.
+| Kolumna | Opis |
+|---|---|
+| Identyfikator zgłoszenia | numer |
+| Data wpływu | data |
+| Kanał wpływu | e-mail, formularz, telefon, pismo |
+| Zgłaszający | dane, jeżeli można przetwarzać |
+| Zasób | URL albo identyfikator |
+| Opis braku | opis użytkownika |
+| Właściciel zasobu | osoba albo komórka |
+| Decyzja | naprawa, alternatywa, odmowa, inne |
+| Termin odpowiedzi | data |
+| Sposób zapewnienia dostępności | opis |
+| Data zakończenia | data |
+| Czy wymaga przeglądu podobnych zasobów | tak / nie |
 
-Zawiera:
-- identyfikację materiału,
-- zastosowaną listę kontrolną,
-- wynik,
-- decyzję,
-- osobę wykonującą kontrolę,
-- datę.
+## Rejestr decyzji archiwizacyjnych
 
-Powiązanie:
-- kontrola przed publikacją,
-- publikacja.
+Cel: zachowanie informacji, dlaczego zasób został zarchiwizowany, wycofany, zastąpiony albo pozostawiony jako historyczny.
 
----
+Proponowane kolumny:
 
-### Rejestr braków i działań naprawczych
+| Kolumna | Opis |
+|---|---|
+| Identyfikator decyzji | numer |
+| Identyfikator zasobu | powiązanie |
+| Tytuł | nazwa |
+| URL przed decyzją | adres |
+| Decyzja | aktualizuj, pozostaw, archiwizuj, usuń z nawigacji, wycofaj, zastąp |
+| Uzasadnienie | tekst |
+| Data decyzji | data |
+| Osoba decyzyjna | imię i nazwisko albo rola |
+| Data wykonania | data |
+| Nowy URL albo powiązana wersja | adres |
+| Status w rejestrze zasobów | po zmianie |
 
-Służy do zarządzania problemami wykrytymi w zasobach.
+## Rejestr napraw i korekt
 
-Zawiera:
-- opis braku,
-- zasób, którego dotyczy,
-- priorytet,
-- odpowiedzialność,
-- termin,
-- status naprawy.
+Cel: prowadzenie planu naprawczego po kontroli, przeglądzie albo zgłoszeniu dostępności.
 
-Powiązanie:
-- przegląd i naprawa,
-- zgłoszenia użytkowników.
+Proponowane kolumny:
 
----
-
-### Rejestr zgłoszeń dostępności
-
-Służy do obsługi zgłoszeń od użytkowników.
-
-Zawiera:
-- zgłoszony problem,
-- zasób,
-- datę zgłoszenia,
-- sposób obsługi,
-- wynik,
-- powiązanie z naprawą.
-
-Powiązanie:
-- przegląd i naprawa,
-- rejestr zasobów.
-
----
-
-### Rejestr decyzji
-
-Służy do dokumentowania kluczowych decyzji.
-
-Zawiera:
-- decyzję (publikacja, odmowa, archiwizacja, wyjątek),
-- uzasadnienie,
-- osobę decyzyjną,
-- datę,
-- powiązanie z zasobem.
-
-Powiązanie:
-- kontrola,
-- treści zewnętrzne,
-- archiwizacja.
-
----
+| Kolumna | Opis |
+|---|---|
+| Identyfikator naprawy | numer |
+| Zasób | identyfikator albo URL |
+| Źródło naprawy | kontrola, przegląd, zgłoszenie, audyt |
+| Opis problemu | brak dostępności albo błąd |
+| Priorytet | wysoki, średni, niski |
+| Osoba odpowiedzialna | właściciel albo wykonawca |
+| Termin | data |
+| Sposób naprawy | opis |
+| Status | nowe, w toku, zakończone, odroczone |
+| Wynik weryfikacji | poprawne, wymaga dalszej pracy |
+| Data zamknięcia | data |
 
 ## Powiązanie rejestrów
 
-Rejestry nie powinny funkcjonować osobno.
+Rejestry powinny łączyć się przez identyfikator zasobu. Jedno zgłoszenie dostępności może prowadzić do naprawy, a naprawa może zmienić status zasobu. Decyzja archiwizacyjna powinna zmienić rekord w rejestrze zasobów. Materiał od innego podmiotu po publikacji staje się zasobem i powinien mieć powiązanie z rejestrem treści zewnętrznych.
 
-Powinny być powiązane poprzez:
-- identyfikator zasobu,
-- wspólne pola (np. status),
-- relacje między wpisami.
+## Minimalne wdrożenie
 
-Przykład:
-- zasób w rejestrze zasobów,
-- powiązany wpis w rejestrze kontroli,
-- zgłoszenie w rejestrze zgłoszeń,
-- działanie naprawcze w rejestrze braków.
-
-To tworzy pełną historię zasobu.
-
----
-
-## Minimalny model wdrożenia
-
-W prostym modelu rejestry mogą być prowadzone jako:
-
-- jeden arkusz z wieloma kolumnami,
-- kilka powiązanych arkuszy,
-- formularze zapisujące dane do arkusza.
-
-Najważniejsze:
-- spójność danych,
-- możliwość filtrowania,
-- aktualność.
-
----
-
-## Model rozwinięty
-
-W bardziej zaawansowanym modelu rejestry mogą być:
-
-- częścią systemu CMS,
-- systemem ticketowym,
-- bazą danych,
-- dashboardem raportowym.
-
-Ważne jest:
-- automatyczne zasilanie danych,
-- możliwość raportowania,
-- integracja z procesami.
-
----
-
-## Aktualizacja rejestrów
-
-Rejestry muszą być aktualizowane na bieżąco.
-
-Momentami aktualizacji są:
-- przekazanie treści,
-- kontrola,
-- publikacja,
-- zgłoszenie błędu,
-- naprawa,
-- przegląd,
-- archiwizacja,
-- wycofanie.
-
-Rejestr, który nie jest aktualizowany, traci wartość.
-
----
-
-## Najczęstsze błędy
-
-- brak rejestrów,
-- prowadzenie ich tylko do audytu,
-- brak aktualizacji,
-- brak powiązań między rejestrami,
-- brak identyfikatora zasobu,
-- zbyt skomplikowana struktura,
-- brak wykorzystania danych.
-
----
-
-## Efekt dobrze działających rejestrów
-
-- pełna kontrola nad zasobami,
-- możliwość analizy,
-- łatwiejsze podejmowanie decyzji,
-- spójność procesów,
-- lepsza obsługa użytkowników,
-- mniejsze ryzyko błędów,
-- realne zarządzanie dostępnością.
-
----
-
-## Odniesienia
-
-- [Materiały źródłowe](../../_sources/sdc/)
-
-- ## Model danych – rejestr zasobów cyfrowych
-
-Rejestr powinien być traktowany jako baza danych, a nie tabela pomocnicza.
-
-### Pola obowiązkowe
-
-| Pole | Typ | Opis |
-|------|-----|------|
-| id | string | unikalny identyfikator zasobu |
-| tytul | text | nazwa zasobu |
-| typ | enum | strona / dokument / wideo / grafika / formularz |
-| url | text | lokalizacja zasobu |
-| kanal | enum | www / BIP / social media / system |
-| wlasciciel | text | właściciel merytoryczny |
-| jednostka | text | komórka organizacyjna |
-| status | enum | roboczy / opublikowany / warunkowy / archiwalny / wycofany |
-| status_dostepnosci | enum | zgodny / częściowo zgodny / niezgodny / nieoceniony |
-| data_publikacji | date | data publikacji |
-| data_ostatniego_przegladu | date | ostatnia weryfikacja |
-| termin_przegladu | date | kolejny przegląd |
-| priorytet | enum | wysoki / średni / niski |
-| czy_zewnetrzny | boolean | czy materiał pochodzi z zewnątrz |
-| mozliwosc_modyfikacji | boolean | czy można zmieniać treść |
-| decyzja | enum | publikacja / poprawa / archiwizacja / wycofanie |
-| uwagi | text | dodatkowe informacje |
-
----
-
-### Relacje
-
-Rejestr powinien być powiązany z:
-
-- rejestrem kontroli
-- rejestrem zgłoszeń
-- rejestrem napraw
-- rejestrem decyzji
-
-Identyfikatorem wspólnym jest `id`.
-
----
-
-### Minimalny model wdrożenia
-
-- Google Sheets (z walidacją danych)
-- kolumny jako pola
-- filtry po statusie i właścicielu
-
----
-
-### Model docelowy
-
-- baza danych (np. Airtable / system wewnętrzny)
-- integracja z CMS
-- automatyczne zasilanie danych
+Mały podmiot może prowadzić jeden arkusz z zakładkami. Duży podmiot powinien ustalić właściciela każdego rejestru, częstotliwość aktualizacji i zasady dostępu.

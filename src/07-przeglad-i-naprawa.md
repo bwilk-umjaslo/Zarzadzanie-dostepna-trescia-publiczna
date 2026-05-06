@@ -1,236 +1,152 @@
 # Przegląd i naprawa
 
-## Rola przeglądu i naprawy
+## Cel programu przeglądu
 
-Przegląd i naprawa zasobów cyfrowych to etap utrzymania treści po publikacji. Jego celem jest zapewnienie, że zasoby pozostają dostępne, aktualne i użyteczne dla użytkowników.
+Przegląd i naprawa służą utrzymaniu zasobów cyfrowych po publikacji. Rozdział bazuje na logice Zalecenia 7: załączniki opublikowane po 23 września 2018 r. powinny zostać zidentyfikowane, ocenione, sklasyfikowane i objęte decyzją o naprawie, zastąpieniu, wycofaniu, archiwizacji albo pozostawieniu z uzasadnieniem.
 
-W przeciwieństwie do kontroli przed publikacją, przegląd dotyczy treści już opublikowanych. To właśnie ten etap decyduje, czy organizacja utrzymuje dostępność w czasie, reaguje na zmiany, kontroluje jakość swojego środowiska cyfrowego i potrafi zarządzać treściami, które powstały wcześniej.
-
-Bez przeglądu nawet dobrze przygotowane treści stają się z czasem nieaktualne, niedostępne, niespójne i trudne do zarządzania.
+Program przeglądu nie jest jednorazowym sprzątaniem serwisu. Jest częścią utrzymania treści publicznych.
 
 ## Zakres przeglądu
 
-Przegląd powinien obejmować wszystkie zasoby ujęte w rejestrze, w szczególności:
+Przegląd może obejmować:
 
-- strony i podstrony,
-- treści BIP,
-- dokumenty i załączniki,
+- załączniki opublikowane po 23 września 2018 r.,
+- dokumenty nadal wykorzystywane do realizacji zadań publicznych,
+- formularze do pobrania,
+- treści obowiązkowe w BIP,
 - multimedia,
-- formularze,
 - treści od innych podmiotów,
-- zasoby archiwalne dostępne dla użytkownika.
+- zasoby z publikacją warunkową,
+- zasoby z żądaniami dostępności,
+- treści oznaczone jako archiwalne, jeżeli nadal są publicznie dostępne.
 
-Zakres przeglądu zależy od typu zasobu, jego znaczenia, aktualności, statusu dostępności oraz wpływu na użytkowników.
+## Przegląd jako proces ciągły
 
-## Powiązanie z rejestrem
+Przegląd i naprawa powinny być wpisane w cykl życia treści. Każdy zasób w rejestrze powinien mieć status przeglądu i termin kolejnej oceny, chyba że podmiot świadomie uzna, że przegląd nie dotyczy danego typu krótkotrwałej treści.
 
-Rejestr zasobów jest podstawą przeglądu. To z rejestru wynika, co należy sprawdzić, kto jest właścicielem zasobu, jaki jest status dostępności, kiedy był ostatni przegląd i co wymaga naprawy.
+Ciągłość oznacza, że organizacja:
 
-Bez rejestru przegląd jest przypadkowy. Organizacja sprawdza wtedy tylko te zasoby, które ktoś zauważy, zgłosi albo które pojawią się przy okazji audytu.
+- regularnie wybiera zasoby do sprawdzenia,
+- priorytetyzuje zasoby według ryzyka i znaczenia,
+- dokumentuje wynik,
+- wykonuje naprawę albo inną decyzję,
+- aktualizuje rejestr,
+- wykorzystuje zgłoszenia użytkowników jako sygnały do przeglądu.
 
-## Cykliczność przeglądu
+## Identyfikacja załączników po 23 września 2018 r.
 
-Przegląd powinien być planowany i powtarzalny. Można stosować kilka trybów:
+Pierwszym krokiem programu jest ustalenie, jakie załączniki zostały opublikowane po 23 września 2018 r. Należy zebrać:
 
-- przegląd cykliczny, na przykład raz na 6 lub 12 miesięcy,
-- przegląd zdarzeniowy, po zmianie prawa, standardów, systemu albo szablonu,
-- przegląd reaktywny, po zgłoszeniu użytkownika,
-- przegląd priorytetowy, dla zasobów kluczowych i usług publicznych.
+- adres strony, na której załącznik jest opublikowany,
+- nazwę pliku,
+- datę publikacji,
+- typ pliku,
+- właściciela merytorycznego,
+- informację, czy załącznik jest nadal potrzebny,
+- status dostępności,
+- powiązanie z usługą, sprawą, obowiązkiem albo BIP.
 
-Najlepszy model łączy te podejścia. Zasoby krytyczne powinny być sprawdzane regularnie, a zasoby mniej istotne według harmonogramu i ryzyka.
+Jeżeli daty publikacji nie da się ustalić automatycznie, należy przyjąć procedurę ręcznej kwalifikacji i odnotować niepewność w rejestrze.
 
-## Klasyfikacja zasobów do przeglądu
+## Priorytetyzacja zasobów
 
-Nie wszystkie zasoby wymagają takiego samego podejścia. Warto podzielić je na grupy.
+Nie wszystkie zasoby mają ten sam priorytet. W pierwszej kolejności należy sprawdzać:
 
-### Zasoby kluczowe
+- dokumenty potrzebne do załatwienia sprawy,
+- formularze i wzory wniosków,
+- dokumenty obowiązkowe w BIP,
+- treści często odwiedzane,
+- zasoby wskazane w żądaniach dostępności,
+- dokumenty z publikacją warunkową,
+- materiały, których niedostępność może uniemożliwić realizację prawa albo obowiązku.
 
-Są to zasoby związane z usługami, formularzami, informacjami krytycznymi, obowiązkami prawnymi i dokumentami, które użytkownik musi wykorzystać do załatwienia sprawy.
+Niższy priorytet mogą mieć materiały historyczne, informacyjne albo zastąpione nowszą wersją, ale także one wymagają decyzji, a nie milczącego pozostawienia.
 
-Wymagają regularnego przeglądu i wysokiego priorytetu naprawy.
+## Klasyfikacja dokumentów do naprawy
 
-### Zasoby wspierające
+| Klasa | Opis | Działanie |
+|---|---|---|
+| Wysoka potrzeba naprawy | dokument obowiązkowy, aktualny, używany lub zgłoszony przez użytkownika | naprawić priorytetowo albo zapewnić alternatywę |
+| Średnia potrzeba naprawy | dokument pomocniczy, nadal używany, ale nie blokuje sprawy | zaplanować naprawę |
+| Niska potrzeba naprawy | dokument rzadko używany, historyczny albo częściowo zastąpiony | rozważyć archiwizację, zastąpienie albo pozostawienie z uzasadnieniem |
+| Brak potrzeby naprawy | dokument nieaktualny i niepotrzebny publicznie | wycofać albo przenieść do archiwum zgodnie z decyzją |
 
-Są to artykuły, aktualności, materiały informacyjne, relacje, komunikaty promocyjne i treści pomocnicze.
+## Decyzje po przeglądzie
 
-Wymagają przeglądu okresowego, szczególnie wtedy, gdy pozostają dostępne przez dłuższy czas.
+Po przeglądzie można podjąć decyzję:
 
-### Zasoby archiwalne
+- naprawić - gdy zasób jest potrzebny i możliwy do poprawy,
+- zastąpić - gdy lepiej opublikować nową, dostępną wersję,
+- wycofać - gdy zasób nie powinien być dalej dostępny publicznie,
+- zarchiwizować - gdy zasób utracił bieżącą aktualność, ale ma znaczenie dokumentacyjne,
+- pozostawić z uzasadnieniem - gdy naprawa nie jest zasadna, a pozostawienie jest uzasadnione,
+- zapewnić alternatywną formę dostępu - gdy użytkownik potrzebuje treści, a naprawa nie może nastąpić od razu.
 
-Są to stare komunikaty, zakończone projekty, dawne dokumenty, galerie, nagrania i materiały historyczne.
+Decyzję należy odnotować w rejestrze i, jeżeli dotyczy, w formularzu wyniku przeglądu.
 
-Wymagają decyzji, czy powinny pozostać dostępne, zostać zarchiwizowane, otrzymać dostęp alternatywny albo zostać wycofane.
+## Plan naprawczy
 
-## Dokumenty opublikowane przed wejściem w życie ustawy o dostępności cyfrowej
+Plan naprawczy powinien wskazywać:
 
-Dokumenty opublikowane przed wejściem w życie ustawy o dostępności cyfrowej nie powinny być traktowane jako automatycznie wyłączone z analizy.
+- zasób,
+- problem,
+- priorytet,
+- właściciela,
+- osobę wykonującą naprawę,
+- termin,
+- sposób naprawy,
+- sposób weryfikacji,
+- decyzję zastępczą, jeżeli naprawa nie będzie możliwa,
+- powiązane zgłoszenia dostępności.
 
-Nie każdy starszy dokument musi być natychmiast naprawiany, ale każdy powinien zostać oceniony, jeżeli pozostaje dostępny publicznie i może być wykorzystywany przez użytkowników.
+Plan może być prostą tabelą, jeżeli skala jest mała. W większym podmiocie warto prowadzić osobny [rejestr napraw i korekt](narzedzia/rejestry.md).
 
-Dokumenty opublikowane wcześniej powinny zostać dostosowane, jeżeli:
+## Dokumentowanie działań
 
-- są potrzebne do realizacji bieżących zadań publicznych,
-- są wykorzystywane przez użytkowników,
-- dotyczą aktualnych usług lub procedur,
-- są podstawą informacji publicznej,
-- zawierają obowiązujące wzory, regulaminy, instrukcje albo formularze,
-- są powiązane z aktywną sprawą, projektem, naborem, konsultacją lub usługą.
+Należy dokumentować:
 
-Jeżeli pełna naprawa nie jest możliwa, należy zapewnić dostęp alternatywny i udokumentować decyzję. Nie wystarczy uznać, że dokument jest stary. Trzeba wykazać, jaki ma status, czy jest potrzebny, czy może zostać naprawiony, czy powinien zostać zastąpiony wersją dostępną albo czy należy go zarchiwizować.
+- datę przeglądu,
+- osobę oceniającą,
+- wynik oceny,
+- stwierdzone braki,
+- decyzję,
+- uzasadnienie,
+- termin wykonania,
+- datę naprawy,
+- wynik ponownej kontroli,
+- zmianę statusu w rejestrze.
 
-## Proces przeglądu
+Brak dokumentacji powoduje, że przegląd nie daje trwałej wiedzy organizacyjnej.
 
-Proces przeglądu powinien być możliwy do powtórzenia i odtworzenia.
+## Relacja z rejestrem zasobów
 
-### 1. Wybór zasobów
+Przegląd powinien zaczynać się od [rejestru zasobów](05-rejestr-zasobow.md) i kończyć jego aktualizacją. Rejestr wskazuje zasoby do oceny, a wynik przeglądu zmienia status dostępności, status przeglądu, termin kolejnego przeglądu i decyzję o dalszym losie.
 
-Zasoby wybiera się na podstawie rejestru, według daty publikacji, typu zasobu, statusu dostępności, priorytetu, właściciela albo zgłoszeń użytkowników.
+## Relacja z żądaniami dostępności
 
-### 2. Ocena zasobu
+Żądanie dostępności powinno uruchamiać przegląd konkretnego zasobu. Po obsłużeniu żądania należy sprawdzić, czy problem występuje także w podobnych zasobach, na przykład w tej samej grupie formularzy albo załączników.
 
-Ocena obejmuje aktualność, kompletność, dostępność, zgodność ze standardami, użyteczność i dalszą potrzebę utrzymywania zasobu w publicznym obiegu.
+## Minimalne wdrożenie
 
-### 3. Identyfikacja problemów
+Minimalny program przeglądu obejmuje:
 
-Problemy powinny być opisane konkretnie. Należy wskazać, czego dotyczą, jaki mają wpływ na użytkownika i jakie działanie jest potrzebne.
+- listę załączników po 23 września 2018 r.,
+- priorytety,
+- formularz wyniku przeglądu,
+- decyzję dla każdego sprawdzonego zasobu,
+- rejestr napraw,
+- powiązanie ze zgłoszeniami dostępności.
 
-### 4. Decyzja
+## Typowe błędy
 
-Każdy zasób powinien otrzymać decyzję:
+- jednorazowa akcja bez utrzymania,
+- przegląd bez decyzji,
+- naprawa bez aktualizacji rejestru,
+- skupienie tylko na stronie głównej, a pominięcie załączników,
+- brak priorytetów,
+- pozostawienie niedostępnych dokumentów bez uzasadnienia,
+- brak powiązania z archiwizacją.
 
-- pozostawić bez zmian,
-- poprawić,
-- poprawić częściowo,
-- zapewnić dostęp alternatywny,
-- zastąpić inną wersją,
-- wycofać,
-- zarchiwizować.
+## Powiązane narzędzia
 
-### 5. Przypisanie odpowiedzialności
-
-Każde działanie musi mieć właściciela, termin i zakres. Brak przypisania odpowiedzialności oznacza, że przegląd nie prowadzi do realnej naprawy.
-
-### 6. Naprawa
-
-Naprawa powinna być wykonana zgodnie ze standardami publikacji. Nie należy stosować przypadkowych półśrodków bez decyzji i dokumentacji.
-
-### 7. Aktualizacja rejestru
-
-Po przeglądzie należy zaktualizować status zasobu, status dostępności, datę przeglądu, decyzję, termin naprawy i osobę odpowiedzialną.
-
-## Rodzaje działań naprawczych
-
-### Pełna naprawa
-
-Zasób zostaje doprowadzony do zgodności z wymaganiami dostępności właściwymi dla jego typu.
-
-### Naprawa częściowa
-
-Zasób zostaje poprawiony w zakresie najważniejszych barier. Taka decyzja wymaga uzasadnienia i wskazania, czy pozostałe braki będą usunięte później.
-
-### Dostęp alternatywny
-
-Użytkownik otrzymuje inną formę dostępu do tej samej informacji, na przykład wersję HTML, dokument w innym formacie, transkrypcję, opis albo kontakt umożliwiający uzyskanie treści.
-
-### Zastąpienie zasobu
-
-Zasób niedostępny zostaje zastąpiony nową, dostępną wersją.
-
-### Wycofanie
-
-Zasób zostaje usunięty z publicznego obiegu, jeżeli nie jest już potrzebny, jest nieaktualny albo nie powinien być dalej publikowany.
-
-### Archiwizacja
-
-Zasób zostaje zachowany jako materiał historyczny, z odpowiednim statusem i opisem sposobu dostępu.
-
-## Priorytety naprawy
-
-Nie wszystkie błędy mają taką samą wagę. Priorytet naprawy powinien zależeć od wpływu na użytkownika i znaczenia zasobu.
-
-### Priorytet wysoki
-
-Dotyczy braku dostępu do kluczowej informacji, formularza, usługi, dokumentu obowiązkowego albo treści potrzebnej do załatwienia sprawy.
-
-### Priorytet średni
-
-Dotyczy utrudnień, które nie blokują całkowicie dostępu, ale znacząco pogarszają możliwość skorzystania z informacji.
-
-### Priorytet niski
-
-Dotyczy problemów technicznych lub redakcyjnych, które powinny zostać poprawione, ale nie blokują dostępu do kluczowej informacji.
-
-## Obsługa zgłoszeń użytkowników
-
-Zgłoszenia użytkowników powinny trafiać do procesu przeglądu i aktualizować rejestr zasobów.
-
-Każde zgłoszenie powinno:
-
-- identyfikować zasób,
-- wskazywać problem,
-- otrzymać właściciela,
-- skutkować decyzją,
-- prowadzić do naprawy, dostępu alternatywnego albo innego udokumentowanego działania.
-
-Zgłoszenie nie powinno być obsługiwane jako oderwana sprawa. Powinno aktualizować wiedzę organizacji o stanie zasobów.
-
-## Odpowiedzialność
-
-### Właściciel zasobu
-
-Odpowiada za decyzję, aktualność, potrzebę utrzymywania zasobu i doprowadzenie do naprawy.
-
-### Osoba wykonująca przegląd
-
-Ocenia zasób, identyfikuje problemy i dokumentuje wynik.
-
-### Koordynator dostępności
-
-Wspiera ocenę, pomaga określać priorytety i analizuje powtarzalne problemy.
-
-### Kierownik albo osoba decyzyjna
-
-Podejmuje decyzje w sytuacjach spornych, zatwierdza priorytety i zapewnia warunki organizacyjne do wykonania naprawy.
-
-## Najczęstsze błędy
-
-Do najczęstszych błędów należą:
-
-- brak przeglądu,
-- przegląd wykonywany tylko na potrzeby audytu,
-- brak decyzji po przeglądzie,
-- brak właścicieli zasobów,
-- brak powiązania z rejestrem,
-- naprawy bez priorytetów,
-- brak dokumentacji decyzji,
-- ignorowanie starszych dokumentów,
-- uznawanie dokumentów sprzed wejścia ustawy za automatycznie niewymagające analizy,
-- pozostawianie niedostępnych dokumentów bez alternatywy,
-- brak aktualizacji rejestru po naprawie.
-
-## Efekt dobrze działającego systemu
-
-Dobrze działający system przeglądu i naprawy zapewnia:
-
-- kontrolę nad opublikowanymi treściami,
-- stałe utrzymanie dostępności,
-- mniejszą liczbę błędów,
-- lepszą obsługę użytkowników,
-- aktualny rejestr zasobów,
-- łatwiejszą aktualizację deklaracji dostępności,
-- mniejsze ryzyko prawne i organizacyjne.
-
-Przegląd i naprawa są dowodem, że dostępność nie kończy się w dniu publikacji. To proces utrzymania jakości treści publicznej w czasie.
-
-## Powiązane materiały źródłowe
-
-Ten rozdział wykorzystuje i porządkuje materiały dotyczące:
-
-- programu przeglądu i naprawy dokumentów,
-- rejestru zasobów,
-- standardów publikacji,
-- kontroli przed publikacją,
-- oceny niezbędności dokumentów,
-- formularzy oceny,
-- list kontrolnych naprawy,
-- archiwizacji i wycofywania zasobów.
+Stosuj [rejestr zasobów](05-rejestr-zasobow.md), [rejestr załączników](narzedzia/rejestry.md), [formularz wyniku przeglądu](narzedzia/formularze.md), [listę kontrolną przeglądu zasobu](narzedzia/listy-kontrolne.md) i [formularz decyzji archiwizacyjnej](narzedzia/formularze.md).

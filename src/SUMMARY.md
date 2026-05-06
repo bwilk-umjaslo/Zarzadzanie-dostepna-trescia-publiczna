@@ -3,7 +3,7 @@
 - [Strona startowa](index.md)
 - [Wstęp](01-wstep.md)
 
-- ## Kontekst systemowy
+## Kontekst systemowy
 
 - [Model organizacji](kontekst/model-organizacji.md)
 - [Cele systemu](kontekst/cele-systemu.md)

@@ -1,237 +1,211 @@
 # Formularze
 
-## Rola formularzy w systemie
+## Zasada stosowania
 
-Formularze są podstawowym narzędziem wejścia i obsługi danych w systemie zarządzania dostępną treścią publiczną.
+Formularz ma zebrać dane potrzebne do decyzji. Nie powinien być tylko opisem procesu. Każdy formularz ma cel, osobę wypełniającą, moment użycia, pola obowiązkowe, pola dodatkowe i decyzję końcową.
 
-Pozwalają przełożyć działania opisane w podręczniku na uporządkowany proces, w którym każda informacja ma:
-- właściciela,
-- kontekst,
-- komplet danych,
-- możliwość dalszego przetwarzania.
+## Formularz przekazania materiału do publikacji
 
-Formularze ograniczają komunikację nieformalną i przypadkowe decyzje. Dzięki nim proces publikacji, kontroli i utrzymania treści staje się powtarzalny i możliwy do odtworzenia.
+Cel formularza: przyjęcie materiału własnego albo przygotowanego przez komórkę organizacyjną do kontroli przed publikacją.
 
----
+Kto wypełnia: autor albo komórka merytoryczna.
 
-## Zasady stosowania formularzy
+Kiedy wypełnia: przed przekazaniem materiału redaktorowi albo administratorowi BIP.
 
-Formularze powinny:
+Pola obowiązkowe:
 
-- wymuszać kompletność danych,
-- być powiązane z konkretnym procesem,
-- prowadzić użytkownika krok po kroku,
-- ograniczać możliwość pominięcia kluczowych informacji,
-- umożliwiać dalsze przetwarzanie danych (np. w rejestrze),
-- być spójne z mapą odpowiedzialności.
+| Pole | Wartość |
+|---|---|
+| Tytuł materiału |  |
+| Autor albo komórka merytoryczna |  |
+| Właściciel treści |  |
+| Cel publikacji |  |
+| Typ treści | strona / dokument / załącznik / multimedia / post / komunikat |
+| Planowana data publikacji |  |
+| Czas aktualności |  |
+| Miejsce publikacji | WWW / BIP / social media / inne |
+| Status dostępności według autora | dostępny / wymaga poprawy / brak danych |
+| Osoba zatwierdzająca |  |
 
-Formularz nie powinien być traktowany jako dodatkowy obowiązek, ale jako narzędzie ułatwiające pracę i ograniczające błędy.
+Pola dodatkowe:
 
----
+| Pole | Wartość |
+|---|---|
+| Podstawa obowiązku publikacji |  |
+| Powiązane załączniki |  |
+| Wersja źródłowa pliku |  |
+| Uwagi dla redaktora |  |
 
-## Typy formularzy w systemie
+Decyzja końcowa: przyjęto do kontroli / odesłano do uzupełnienia / odmówiono przyjęcia bez danych obowiązkowych.
 
-### Formularz przekazania treści do publikacji
+## Formularz przekazania materiału przez podmiot zewnętrzny
 
-Służy do przekazania materiału do przygotowania i publikacji.
+Cel formularza: przyjęcie i kwalifikacja treści pochodzącej od innego podmiotu.
 
-Powinien zawierać:
-- tytuł materiału,
-- właściciela treści,
-- treść główną,
-- załączniki,
-- grafiki,
-- informacje o źródle materiału,
-- planowany kanał publikacji,
-- termin publikacji,
-- informację, czy materiał pochodzi od innego podmiotu.
+Kto wypełnia: podmiot zewnętrzny albo osoba przyjmująca materiał w podmiocie publicznym.
 
-Powiązanie:
-- tworzenie treści,
-- kontrola przed publikacją,
-- treści od innych podmiotów.
+Kiedy wypełnia: przed kontrolą i przed publikacją.
 
----
+Pola obowiązkowe:
 
-### Formularz kontroli przed publikacją
+| Pole | Wartość |
+|---|---|
+| Nazwa podmiotu przekazującego |  |
+| Osoba do kontaktu |  |
+| Tytuł materiału |  |
+| Cel publikacji |  |
+| Czy publikacja jest obowiązkowa? | tak / nie / wymaga decyzji |
+| Podstawa obowiązku publikacji |  |
+| Zgoda na modyfikacje | tak / nie / częściowo |
+| Dostępna wersja źródłowa | tak / nie |
+| Status dostępności materiału | dostępny / wymaga poprawy / brak danych |
+| Planowany termin publikacji |  |
+| Czas aktualności |  |
 
-Służy do dokumentowania wyniku kontroli.
+Pola dodatkowe:
 
-Może być powiązany z listą kontrolną.
+| Pole | Wartość |
+|---|---|
+| Klasyfikacja A/B/C/D |  |
+| Lista załączników |  |
+| Wcześniejsze miejsce publikacji |  |
+| Uwagi o prawach autorskich albo integralności dokumentu |  |
 
-Powinien zawierać:
-- identyfikację materiału,
-- zastosowaną listę kontrolną,
-- odpowiedzi TAK / NIE / NIE DOTYCZY,
-- uwagi,
-- wynik kontroli,
-- decyzję publikacyjną,
-- osobę wykonującą kontrolę,
-- datę.
+Decyzja końcowa: przyjęto / odesłano do poprawy / opublikuj warunkowo / opublikuj z oznaczeniem / odmów publikacji.
 
-Powiązanie:
-- kontrola przed publikacją,
-- rejestr zasobów.
+## Formularz zgłoszenia braku dostępności przed publikacją
 
----
+Cel formularza: opisanie braku wykrytego przed publikacją i ustalenie sposobu postępowania.
 
-### Formularz zgłoszenia błędu dostępności
+Kto wypełnia: osoba kontrolująca, redaktor, administrator BIP albo koordynator dostępności.
 
-Służy użytkownikom i pracownikom do zgłaszania problemów.
+Kiedy wypełnia: gdy lista kontrolna wykazuje odpowiedź NIE lub WYMAGA DECYZJI.
 
-Powinien zawierać:
-- wskazanie zasobu (link),
-- opis problemu,
-- typ problemu,
-- dane kontaktowe (jeśli wymagane),
-- możliwość załączenia materiału pomocniczego.
+Pola obowiązkowe:
 
-Powiązanie:
-- przegląd i naprawa,
-- rejestr zasobów,
-- obsługa żądań dostępności.
+| Pole | Wartość |
+|---|---|
+| Tytuł materiału |  |
+| Typ materiału |  |
+| Osoba zgłaszająca brak |  |
+| Data zgłoszenia |  |
+| Opis braku |  |
+| Wpływ na użytkownika |  |
+| Czy brak można usunąć przed publikacją? | tak / nie / wymaga decyzji |
+| Osoba odpowiedzialna za poprawę |  |
+| Termin poprawy |  |
 
----
+Pola dodatkowe:
 
-### Formularz wniosku o zmianę treści
+| Pole | Wartość |
+|---|---|
+| Proponowana alternatywna forma dostępu |  |
+| Powiązanie z treścią od innego podmiotu |  |
+| Uwagi koordynatora dostępności |  |
 
-Służy do inicjowania zmian w opublikowanych materiałach.
+Decyzja końcowa: popraw przed publikacją / opublikuj warunkowo / opublikuj z oznaczeniem / odmów publikacji / przekaż do żądania dostępności.
 
-Powinien zawierać:
-- identyfikację zasobu,
-- zakres zmiany,
-- uzasadnienie,
-- pilność,
-- osobę zgłaszającą.
+## Formularz decyzji publikacyjnej
 
-Powiązanie:
-- przegląd i naprawa,
-- aktualizacja treści,
-- rejestr.
+Cel formularza: udokumentowanie decyzji po kontroli przed publikacją.
 
----
+Kto wypełnia: osoba kontrolująca, a zatwierdza osoba uprawniona do decyzji.
 
-### Formularz obsługi treści od innych podmiotów
+Kiedy wypełnia: po zakończeniu kontroli, przed publikacją.
 
-Służy do przyjmowania i kwalifikacji materiałów zewnętrznych.
+Pola obowiązkowe:
 
-Powinien zawierać:
-- źródło materiału,
-- dane podmiotu,
-- możliwość modyfikacji,
-- klasyfikację (A/B/C/D),
-- ocenę dostępności,
-- decyzję publikacyjną.
+| Pole | Wartość |
+|---|---|
+| Identyfikator materiału |  |
+| Tytuł |  |
+| Właściciel treści |  |
+| Osoba kontrolująca |  |
+| Data kontroli |  |
+| Wynik listy kontrolnej |  |
+| Stwierdzone braki |  |
+| Decyzja | publikuj / popraw / odeślij / warunkowo / z oznaczeniem / odmów |
+| Uzasadnienie decyzji |  |
+| Czy zasób trafi do rejestru? | tak / nie / wymaga decyzji |
+| Osoba zatwierdzająca |  |
 
-Powiązanie:
-- treści od innych podmiotów,
-- kontrola przed publikacją,
-- rejestr.
+Pola dodatkowe:
 
----
+| Pole | Wartość |
+|---|---|
+| Termin uzupełnienia braków |  |
+| Oznaczenie braku dostępności |  |
+| Alternatywna forma dostępu |  |
+| Powiązane zgłoszenie dostępności |  |
 
-### Formularz decyzji o archiwizacji lub wycofaniu
+Decyzja końcowa: decyzja publikacyjna i obowiązek aktualizacji rejestru.
 
-Służy do dokumentowania decyzji kończących cykl życia zasobu.
+## Formularz wyniku przeglądu
 
-Powinien zawierać:
-- identyfikację zasobu,
-- decyzję (archiwizacja / wycofanie),
-- uzasadnienie,
-- datę,
-- osobę decyzyjną,
-- sposób realizacji.
+Cel formularza: zapis wyniku przeglądu zasobu, dokumentu albo załącznika.
 
-Powiązanie:
-- archiwizacja i wycofanie,
-- rejestr zasobów.
+Kto wypełnia: osoba wykonująca przegląd.
 
----
+Kiedy wypełnia: podczas cyklicznego przeglądu, programu naprawczego albo po zgłoszeniu użytkownika.
 
-## Powiązanie formularzy z rejestrem
+Pola obowiązkowe:
 
-Dane z formularzy powinny zasilać rejestr zasobów.
+| Pole | Wartość |
+|---|---|
+| Identyfikator zasobu |  |
+| Tytuł |  |
+| URL |  |
+| Typ zasobu |  |
+| Właściciel |  |
+| Data publikacji |  |
+| Data przeglądu |  |
+| Status aktualności | aktualny / nieaktualny / wymaga decyzji |
+| Status dostępności | dostępny / wymaga poprawy / niedostępny / brak danych |
+| Stwierdzone problemy |  |
+| Priorytet | wysoki / średni / niski |
+| Decyzja | napraw / zastąp / wycofaj / archiwizuj / pozostaw z uzasadnieniem |
 
-Oznacza to, że:
-- formularze nie mogą być „oderwane” od systemu,
-- dane powinny być możliwe do agregacji,
-- decyzje powinny być odtwarzalne.
+Pola dodatkowe:
 
-Rejestr powinien być centralnym miejscem, które zbiera dane z formularzy.
+| Pole | Wartość |
+|---|---|
+| Powiązane zgłoszenia dostępności |  |
+| Plan naprawczy |  |
+| Termin kolejnego przeglądu |  |
+| Uwagi |  |
 
----
+Decyzja końcowa: aktualizacja rejestru i uruchomienie naprawy, archiwizacji albo wycofania.
 
-## Minimalny model wdrożenia
+## Formularz decyzji archiwizacyjnej
 
-W prostym modelu formularze mogą być realizowane jako:
-- Google Forms,
-- Microsoft Forms,
-- formularze w CMS,
-- arkusze współdzielone.
+Cel formularza: udokumentowanie decyzji o aktualizacji, pozostawieniu, archiwizacji, wycofaniu albo zastąpieniu zasobu.
 
-Najważniejsze jest:
-- spójność,
-- konsekwencja,
-- powiązanie z procesem.
+Kto wypełnia: właściciel treści albo osoba wykonująca analizę, zatwierdza osoba decyzyjna.
 
----
+Kiedy wypełnia: po przeglądzie, po utracie aktualności, po zastąpieniu treści albo przed usunięciem z nawigacji.
 
-## Najczęstsze błędy
+Pola obowiązkowe:
 
-- brak formularzy,
-- stosowanie maili zamiast formularzy,
-- brak powiązania z procesem,
-- brak wymaganych pól,
-- brak wykorzystania danych,
-- tworzenie zbyt skomplikowanych formularzy,
-- brak aktualizacji formularzy wraz ze zmianą procesu.
+| Pole | Wartość |
+|---|---|
+| Identyfikator zasobu |  |
+| Tytuł |  |
+| URL |  |
+| Właściciel treści |  |
+| Data decyzji |  |
+| Wybrana decyzja | aktualizuj / pozostaw / archiwizuj / usuń z nawigacji / wycofaj / zastąp / pozostaw historycznie |
+| Uzasadnienie |  |
+| Czy treść pozostaje publiczna? | tak / nie |
+| Czy wymaga oznaczenia historycznego? | tak / nie |
+| Osoba zatwierdzająca |  |
 
----
+Pola dodatkowe:
 
-## Efekt dobrze zaprojektowanych formularzy
+| Pole | Wartość |
+|---|---|
+| Link do nowej wersji |  |
+| Termin wykonania |  |
+| Osoba wykonująca zmianę |  |
+| Informacja o dostępności archiwalnej wersji |  |
 
-- uporządkowany przepływ informacji,
-- mniej błędów,
-- większa przewidywalność procesu,
-- lepsza kontrola nad treścią,
-- spójność działań w organizacji.
-
----
-
-## Odniesienia
-
-- [Materiały źródłowe](../../_sources/sdc/)
-
-- ## Model listy kontrolnej
-
-Lista kontrolna powinna być traktowana jako zestaw reguł walidacyjnych.
-
-### Struktura wymagania
-
-| id | kategoria | wymaganie | typ | krytyczne | dowod |
-|----|----------|-----------|-----|-----------|------|
-
----
-
-### Typy wymagań
-
-- boolean (TAK/NIE)
-- ocena (skala)
-- opisowe (uwagi)
-
----
-
-### Reguła decyzyjna
-
-Publikacja możliwa tylko gdy:
-- wszystkie wymagania krytyczne = TAK
-
----
-
-### Przykład (fragment)
-
-| id | kategoria | wymaganie | krytyczne |
-|----|----------|-----------|----------|
-| T01 | struktura | nagłówki logiczne | TAK |
-| G01 | grafika | alt tekst | TAK |
-| V01 | wideo | napisy | TAK |
+Decyzja końcowa: wykonanie decyzji i aktualizacja rejestru zasobów oraz rejestru decyzji archiwizacyjnych.

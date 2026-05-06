@@ -1,227 +1,167 @@
 # Treści od innych podmiotów
 
-## Rola i kontekst
+## Rola rozdziału
 
-Treści pochodzące od innych podmiotów stanowią jeden z najtrudniejszych obszarów zarządzania dostępnością cyfrową. Podmiot publiczny publikuje materiały, których często nie jest autorem, nie ma pełnej kontroli nad ich formą i nie zawsze może je modyfikować.
+Ten rozdział opisuje standard publikowania treści pochodzących od innych podmiotów. Bazuje na logice Zalecenia 6: podmiot publiczny może otrzymywać materiały z zewnątrz, ale nadal odpowiada za własną decyzję publikacyjną, sposób oznaczenia treści i obsługę użytkownika.
 
-Nie oznacza to jednak braku odpowiedzialności. Publikacja treści zewnętrznej jest decyzją organizacyjną i zawsze wiąże się z obowiązkiem zapewnienia dostępu do informacji.
+Publikacja cudzego materiału w serwisie podmiotu publicznego nie powinna być automatyczna. Materiał trzeba przyjąć, sklasyfikować, sprawdzić, udokumentować i dopiero wtedy podjąć decyzję.
 
-Celem tego rozdziału jest uporządkowanie zasad postępowania z takimi materiałami oraz wprowadzenie modelu decyzyjnego, który pozwala uniknąć dwóch skrajności:
+## Definicja treści pochodzącej od innego podmiotu
 
-- bezrefleksyjnej publikacji treści niedostępnych,
-- blokowania publikacji bez uzasadnienia.
+Treść pochodząca od innego podmiotu to materiał przygotowany poza podmiotem publikującym, który ma zostać opublikowany w jego kanale komunikacji. Może to być dokument, załącznik, grafika, plakat, nagranie, informacja o wydarzeniu, regulamin, ogłoszenie, komunikat, formularz albo materiał przekazany przez wykonawcę, partnera, organizatora, instytucję współpracującą lub organ zewnętrzny.
 
-## Zasada podstawowa
+## Odpowiedzialność za decyzję publikacyjną
 
-Podmiot publiczny odpowiada za sposób udostępnienia treści, nawet jeżeli nie jest ich autorem.
+Podmiot publiczny nie zawsze odpowiada za stworzenie materiału, ale odpowiada za decyzję, że publikuje go w swoim kanale. Odpowiedzialność obejmuje:
 
-Jeżeli materiał nie spełnia wymagań dostępności, należy:
+- kwalifikację materiału,
+- ocenę, czy publikacja jest obowiązkowa,
+- ustalenie, czy materiał można poprawić,
+- decyzję o oznaczeniu braków,
+- zapewnienie alternatywnej formy dostępu, gdy jest potrzebna,
+- wpis do rejestru,
+- obsługę żądań dostępności.
 
-- poprawić go,
-- zażądać poprawy,
-- zapewnić dostęp alternatywny,
-- albo podjąć decyzję o odmowie publikacji.
+Nie wolno automatycznie uznawać treści zewnętrznej za wyłączoną z wymagań dostępności tylko dlatego, że pochodzi od innego podmiotu.
 
-## Klasyfikacja treści (model ABCD)
+## Klasyfikacja A/B/C/D
 
-Każdy materiał zewnętrzny powinien zostać zakwalifikowany do jednej z kategorii:
+### A - pełna kontrola
 
-### A – pełna kontrola
+Materiał pochodzi od innego podmiotu, ale podmiot publikujący może go modyfikować albo ma dostęp do wersji źródłowej. Przykład: dokument przygotowany przez wykonawcę na zlecenie podmiotu publicznego.
 
-Materiał przygotowany przez podmiot albo na jego zlecenie, nad którym istnieje pełna kontrola.
+Decyzja: wymagać poprawy przed publikacją albo poprawić materiał w ramach procesu.
 
-Działanie:
-- pełne wymagania dostępności,
-- brak możliwości publikacji bez spełnienia standardów.
+### B - częściowa kontrola
 
-### B – częściowa kontrola
+Podmiot publikujący może poprosić o poprawki, ale nie ma pełnej kontroli nad materiałem. Przykład: plakat partnera wydarzenia albo dokument przekazany przez organizację współpracującą.
 
-Materiał zewnętrzny, który można dostosować (np. edytowalny dokument, tekst, grafika źródłowa).
+Decyzja: zastosować procedurę braków, żądać uzupełnienia, a w razie potrzeby zapewnić opis, transkrypcję albo inną informację równoważną.
 
-Działanie:
-- dostosowanie przed publikacją,
-- traktowanie jak materiał własny.
+### C - brak możliwości modyfikacji
 
-### C – brak możliwości modyfikacji
+Materiał nie może być zmieniony przez podmiot publikujący, a poprawki u źródła są niemożliwe albo nieuzasadnione. Przykład: dokument historyczny, pismo otrzymane w określonej formie, materiał dowodowy.
 
-Materiał, którego nie można zmienić (np. plik podpisany, dokument prawny, materiał systemowy).
+Decyzja: ocenić, czy publikacja jest potrzebna, czy można opublikować informację tekstową zamiast pliku, czy należy oznaczyć brak dostępności i zapewnić alternatywną formę dostępu.
 
-Działanie:
-- analiza dostępności,
-- zapewnienie alternatywy,
-- oznaczenie materiału,
-- decyzja publikacyjna.
+### D - obowiązek publikacji
 
-### D – obowiązek publikacji
+Materiał musi być opublikowany z mocy prawa, procedury albo obowiązku informacyjnego, na przykład w BIP. Braki dostępności nie usuwają obowiązku publikacji, ale wymagają udokumentowania i działań zapewniających dostępność w możliwym zakresie.
 
-Treść, którą podmiot musi opublikować na podstawie przepisów.
+Decyzja: opublikować zgodnie z obowiązkiem, oznaczyć braki, zapewnić alternatywną formę dostępu i wprowadzić zasób do rejestru.
 
-Działanie:
-- publikacja niezależnie od stanu dostępności,
-- zapewnienie alternatywy,
-- dokumentacja decyzji.
+## Formularz przekazania materiału
 
-## Model operacyjny
+Każdy materiał zewnętrzny powinien być przekazany z formularzem. Wzór znajduje się w rozdziale [Formularze](narzedzia/formularze.md).
 
-Obsługa treści zewnętrznych powinna przebiegać według stałego schematu:
+Formularz powinien zawierać:
 
-1. przyjęcie materiału,
-2. identyfikacja źródła,
-3. kwalifikacja ABCD,
-4. ocena dostępności,
-5. identyfikacja braków,
-6. decyzja publikacyjna,
-7. publikacja albo odmowa,
-8. wpis do rejestru,
-9. obsługa ewentualnych zgłoszeń.
-
-Model ten powinien być stosowany konsekwentnie, niezależnie od rodzaju materiału.
-
-## Przyjęcie materiału
-
-Materiał powinien być przekazany w sposób uporządkowany.
-
-Powinien zawierać:
-
-- treść główną,
-- pliki źródłowe,
-- informacje o autorze,
-- informację o możliwości modyfikacji,
-- termin publikacji,
-- dane kontaktowe do podmiotu przekazującego.
-
-Brak tych informacji utrudnia kwalifikację i ocenę materiału.
-
-## Identyfikacja źródła
-
-Na tym etapie należy ustalić:
-
-- kto jest autorem materiału,
-- kto przekazuje materiał,
-- czy podmiot publiczny finansował jego powstanie,
-- czy materiał jest elementem obowiązku prawnego,
-- czy materiał będzie aktualizowany.
-
-## Ocena dostępności
-
-Materiał powinien zostać oceniony w zakresie właściwym dla jego typu:
-
-- tekst,
-- grafika,
-- dokument,
-- wideo,
-- audio.
-
-Ocena powinna wskazać:
-
-- czy materiał spełnia wymagania,
-- jakie są braki,
-- czy możliwa jest poprawa.
-
-## Decyzja publikacyjna
-
-Na podstawie kwalifikacji i oceny dostępności podejmowana jest decyzja:
-
-- publikacja,
-- publikacja po poprawie,
-- publikacja warunkowa,
-- odmowa publikacji.
-
-Decyzja powinna być udokumentowana.
+- dane podmiotu przekazującego,
+- osobę do kontaktu,
+- tytuł materiału,
+- cel publikacji,
+- podstawę obowiązku publikacji, jeżeli istnieje,
+- zgodę albo brak zgody na modyfikacje,
+- informację o dostępności,
+- listę załączników,
+- wymagany termin publikacji,
+- czas aktualności,
+- informację, czy materiał był wcześniej publikowany,
+- wskazanie wersji źródłowej, jeżeli istnieje.
 
 ## Procedura braków
 
-Jeżeli materiał ma braki:
+Jeżeli materiał ma braki, należy:
 
-- należy wskazać je konkretnie,
-- przekazać do podmiotu zewnętrznego,
-- określić możliwość poprawy,
-- ustalić termin.
+1. opisać braki,
+2. ustalić, czy braki można usunąć,
+3. przekazać podmiotowi zewnętrznemu informację o wymaganych poprawkach,
+4. wyznaczyć termin uzupełnienia,
+5. odnotować odpowiedź,
+6. podjąć decyzję publikacyjną.
 
-Braki nie powinny być opisywane ogólnie.
+Braki mogą dotyczyć dostępności, danych organizacyjnych, podstawy publikacji, zgody na modyfikację, wersji źródłowej albo informacji o aktualności.
 
-## Publikacja warunkowa
+## Informacja o brakach w materiale
 
-Publikacja warunkowa jest dopuszczalna tylko wtedy, gdy:
+Informacja o brakach powinna być konkretna. Nie wystarczy napisać, że materiał jest niedostępny. Trzeba wskazać, co jest problemem, na przykład:
 
-- istnieje uzasadnienie,
-- określono braki,
-- zapewniono dostęp alternatywny,
-- określono termin poprawy.
+- plik jest skanem bez warstwy tekstowej,
+- film nie ma napisów,
+- grafika zawiera tekst niewystępujący w opisie,
+- dokument nie ma nagłówków,
+- tabela nie ma nagłówków kolumn,
+- brakuje podstawy obowiązku publikacji,
+- brakuje informacji o czasie aktualności.
 
-## Oznaczenie treści
+## Oznaczenie treści objętej wyłączeniem albo brakiem
 
-Materiały zewnętrzne powinny być oznaczane, jeżeli:
+Jeżeli publikacja następuje mimo braku dostępności, użytkownik powinien otrzymać jasną informację:
 
-- nie są w pełni dostępne,
-- nie mogą być zmodyfikowane,
-- wymagają dodatkowego kontekstu.
+- czego dotyczy brak,
+- czy materiał pochodzi od innego podmiotu,
+- czy podmiot publikujący może go poprawić,
+- jak uzyskać treść w formie dostępnej,
+- gdzie zgłosić potrzebę zapewnienia dostępności.
 
-Oznaczenie powinno informować użytkownika o charakterze materiału.
+Oznaczenie nie powinno sugerować, że każdy materiał zewnętrzny jest automatycznie poza odpowiedzialnością podmiotu publikującego.
 
-## Obsługa żądań dostępności
+## Treść obowiązkowa w BIP
 
-Jeżeli użytkownik zgłosi brak dostępności:
+Jeżeli materiał jest obowiązkowy w BIP, należy go opublikować zgodnie z obowiązkiem, ale jednocześnie:
 
-- należy zidentyfikować zasób,
-- sprawdzić jego status w rejestrze,
-- skontaktować się z właścicielem lub podmiotem zewnętrznym,
-- zapewnić dostęp alternatywny,
-- odnotować zgłoszenie.
+- odnotować podstawę obowiązku,
+- oznaczyć braki dostępności, jeżeli występują,
+- zapewnić alternatywną formę dostępu, gdy jest potrzebna,
+- wpisać zasób do rejestru,
+- zaplanować naprawę albo wskazać uzasadnienie pozostawienia bez naprawy.
 
-## Modele organizacyjne
+Szczegółowy proces jest w [schematach procesów](narzedzia/schematy-procesow.md).
 
-### Mały podmiot
+## Decyzja o odmowie publikacji
 
-- uproszczony proces,
-- jedna osoba może wykonywać kilka ról,
-- decyzje podejmowane szybko,
-- dokumentacja uproszczona.
+Odmowa publikacji jest możliwa, gdy materiał nie jest obowiązkowy, nie ma celu publicznego, nie ma właściciela, nie można ustalić źródła albo podmiot zewnętrzny nie uzupełnia braków możliwych do usunięcia.
 
-### Duży podmiot
+Odmowa powinna być udokumentowana w formularzu decyzji publikacyjnej i w rejestrze treści od innych podmiotów, jeżeli taki rejestr jest prowadzony.
 
-- formalny proces,
-- rozdzielenie ról,
-- dokumentacja decyzji,
-- integracja z rejestrem i systemami.
+## Instrukcja dla podmiotów zewnętrznych
 
-## Powiązania systemowe
+Podmiot publiczny powinien przekazywać zewnętrznym autorom krótką instrukcję. Powinna ona wyjaśniać:
 
-Treści od innych podmiotów są powiązane z:
+- jakie formaty są akceptowane,
+- że skany nie są właściwą formą dokumentu tekstowego,
+- że film z mową wymaga napisów,
+- że grafika informacyjna wymaga tekstu równoważnego,
+- że należy przekazać wersję źródłową, gdy jest dostępna,
+- jakie dane trzeba wpisać w formularzu,
+- że materiał może zostać odesłany do poprawy albo nieopublikowany.
 
-- kontrolą przed publikacją,
-- rejestrem zasobów,
-- przeglądem i naprawą,
-- archiwizacją,
-- obsługą zgłoszeń.
+## Materiały według decyzji
 
-## Najczęstsze błędy
+| Rodzaj materiału | Sposób postępowania |
+|---|---|
+| Materiał, który można poprawić | poprawić przed publikacją albo odesłać do poprawy |
+| Materiał, którego nie można poprawić | ocenić potrzebę publikacji, oznaczyć braki, zapewnić alternatywę |
+| Materiał, którego nie trzeba publikować | odmówić publikacji albo zaproponować inną formę informacji |
+| Materiał, który trzeba opublikować z mocy prawa | opublikować, oznaczyć, zarejestrować, zapewnić dostęp alternatywny |
+| Materiał wymagający alternatywnej formy dostępu | powiązać z procedurą żądania dostępności i rejestrem zgłoszeń |
 
-- publikacja bez kwalifikacji,
-- brak analizy dostępności,
-- brak decyzji,
-- brak oznaczenia materiału,
-- brak dokumentacji,
-- przerzucanie odpowiedzialności,
-- brak reakcji na zgłoszenia.
+## Obsługa żądań zapewnienia dostępności
 
-## Efekt poprawnego podejścia
+Jeżeli użytkownik zgłasza brak dostępności treści zewnętrznej, podmiot publikujący powinien obsłużyć zgłoszenie w swoim procesie. Może zwrócić się do podmiotu źródłowego, przygotować wersję alternatywną, udostępnić informację w innej formie albo podjąć decyzję o naprawie, zastąpieniu, archiwizacji lub wycofaniu.
 
-Prawidłowe zarządzanie treściami zewnętrznymi:
+Zgłoszenie należy powiązać z [rejestrem zgłoszeń dostępności](narzedzia/rejestry.md) i rekordem zasobu.
 
-- ogranicza ryzyko publikacji niedostępnych materiałów,
-- porządkuje odpowiedzialność,
-- umożliwia podejmowanie świadomych decyzji,
-- wspiera obsługę użytkowników,
-- integruje się z całym systemem zarządzania treścią.
+## Typowe błędy
 
-## Powiązane materiały źródłowe
+- automatyczne publikowanie materiałów zewnętrznych,
+- uznawanie każdego materiału zewnętrznego za wyłączony,
+- brak formularza przekazania,
+- brak informacji o zgodzie na modyfikacje,
+- publikowanie plakatu bez treści tekstowej,
+- publikowanie obowiązkowego materiału bez oznaczenia braków,
+- brak obsługi żądania dostępności, bo "to nie nasz dokument".
 
-Ten rozdział wykorzystuje materiały dotyczące:
+## Powiązane narzędzia
 
-- modelu ABCD,
-- procedury publikacji treści zewnętrznych,
-- procedury braków,
-- decyzji publikacyjnych,
-- modeli organizacyjnych,
-- obsługi żądań dostępności.
+Stosuj [formularz przekazania materiału przez podmiot zewnętrzny](narzedzia/formularze.md), [listę kontrolną treści od innego podmiotu](narzedzia/listy-kontrolne.md), [rejestr treści od innych podmiotów](narzedzia/rejestry.md), [mapy odpowiedzialności](narzedzia/mapy-odpowiedzialnosci.md) i [schemat publikacji treści od innego podmiotu](narzedzia/schematy-procesow.md).

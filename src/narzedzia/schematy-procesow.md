@@ -1,162 +1,239 @@
 # Schematy procesów
 
-## Rola schematów procesów w systemie
+## Zasada stosowania
 
-Schematy procesów przedstawiają przebieg działań związanych z zarządzaniem treścią publiczną w sposób uporządkowany i zrozumiały.
+Schemat procesu pokazuje punkt startowy, uczestników, decyzje, rezultat i powiązane narzędzia. Diagram Mermaid jest pomocą wdrożeniową, ale opis procesu jest równie ważny jak sam diagram.
 
-Ich celem nie jest opisanie teorii, ale pokazanie:
-- kolejności działań,
-- punktów decyzyjnych,
-- odpowiedzialności,
-- powiązań między etapami.
+## Publikacja treści własnej
 
-Schemat procesowy pozwala przełożyć opis podręcznika na rzeczywisty sposób działania organizacji.
+Cel: opublikowanie materiału przygotowanego przez podmiot publiczny.
 
-## Zasada podstawowa
+Punkt startowy: autor albo komórka merytoryczna przygotowuje materiał.
 
-Każdy proces powinien być możliwy do przedstawienia w formie schematu.
+Uczestnicy: autor, właściciel treści, redaktor, osoba kontrolująca, osoba zatwierdzająca, administrator serwisu.
 
-Oznacza to, że:
-- wiadomo, od czego proces się zaczyna,
-- wiadomo, jakie są jego etapy,
-- wiadomo, gdzie zapada decyzja,
-- wiadomo, kto odpowiada za dany krok,
-- wiadomo, jaki jest wynik procesu.
+Decyzje: czy materiał jest kompletny, czy spełnia standard, czy wymaga rejestru.
 
-Jeżeli nie da się narysować procesu, to najczęściej oznacza, że nie jest on dobrze zdefiniowany.
+Rezultat: opublikowany i zarejestrowany zasób albo materiał odesłany do poprawy.
 
-## Elementy schematu
-
-Schemat procesu powinien zawierać:
-
-- punkt startowy,
-- kolejne kroki procesu,
-- punkty decyzyjne,
-- możliwe ścieżki,
-- przypisanie odpowiedzialności,
-- punkt końcowy.
-
-Schemat powinien być możliwie prosty i czytelny.
-
-## Proces tworzenia i publikacji treści
+Powiązane narzędzia: formularz przekazania, lista kontrolna, formularz decyzji publikacyjnej, rejestr zasobów.
 
 ```mermaid
 flowchart TD
-    A[Potrzeba publikacji lub materiał] --> B[Formularz przekazania treści]
-    B --> C[Rejestr zasobów: status roboczy]
-    C --> D[Kontrola przed publikacją]
-    D --> E{Decyzja}
-
-    E -->|OK| F[Publikacja]
-    F --> G[Rejestr zasobów: status opublikowany]
-
-    E -->|NIE| H[Naprawa lub uzupełnienie braków]
-    H --> D
-
-    E -->|Warunkowo| I[Publikacja warunkowa]
-    I --> J[Rejestr: status opublikowany warunkowo]
-    J --> K[Termin naprawy]
-    K --> H
-```
-
-## Proces obsługi treści od innych podmiotów
-
-```mermaid
-flowchart TD
-    A[Materiał od innego podmiotu] --> B[Identyfikacja źródła]
-    B --> C[Kwalifikacja ABCD]
-    C --> D[Ocena dostępności]
-    D --> E{Czy materiał może być poprawiony?}
-
-    E -->|Tak| F[Wezwanie do poprawy lub poprawa własna]
-    F --> G[Kontrola przed publikacją]
-
-    E -->|Nie| H{Czy istnieje obowiązek publikacji?}
-    H -->|Tak| I[Publikacja z dostępem alternatywnym]
-    H -->|Nie| J[Odmowa publikacji]
-
-    G --> K{Decyzja publikacyjna}
-    K -->|OK| L[Publikacja]
-    K -->|NIE| F
-
-    I --> M[Rejestr zasobów]
-    J --> M
-    L --> M
-```
-
-## Proces przeglądu i naprawy
-
-```mermaid
-flowchart TD
-    A[Rejestr zasobów] --> B[Wybór zasobów do przeglądu]
-    B --> C[Ocena aktualności i dostępności]
-    C --> D{Decyzja}
-
-    D -->|Pozostawić| E[Aktualizacja rejestru]
-    D -->|Naprawić| F[Plan naprawy]
-    F --> G[Wykonanie naprawy]
-    G --> H[Kontrola po naprawie]
+    A[Przygotowanie materialu] --> B[Formularz przekazania]
+    B --> C{Kompletne dane?}
+    C -- Nie --> D[Odeslij do uzupelnienia]
+    C -- Tak --> E[Kontrola przed publikacja]
+    E --> F{Wynik kontroli}
+    F -- Publikuj --> G[Publikacja]
+    F -- Popraw --> H[Poprawa przed publikacja]
     H --> E
-
-    D -->|Dostęp alternatywny| I[Zapewnienie alternatywy]
-    I --> E
-
-    D -->|Wycofać lub archiwizować| J[Przekazanie do procesu archiwizacji]
-    J --> E
+    F -- Warunkowo --> I[Decyzja osoby zatwierdzajacej]
+    I --> G
+    G --> J[Rejestracja zasobu]
 ```
 
-## Proces archiwizacji i wycofania
+## Publikacja treści od innego podmiotu
+
+Cel: przyjęcie, kwalifikacja i publikacja albo odmowa publikacji materiału zewnętrznego.
+
+Punkt startowy: podmiot zewnętrzny przekazuje materiał.
+
+Uczestnicy: podmiot zewnętrzny, osoba przyjmująca, redaktor, właściciel merytoryczny, koordynator dostępności, osoba zatwierdzająca.
+
+Decyzje: klasyfikacja A/B/C/D, możliwość poprawy, obowiązek publikacji, oznaczenie braków.
+
+Rezultat: publikacja, publikacja warunkowa, oznaczenie, alternatywna forma dostępu albo odmowa.
+
+Powiązane narzędzia: formularz zewnętrzny, lista kontrolna treści zewnętrznej, rejestr treści od innych podmiotów.
 
 ```mermaid
 flowchart TD
-    A[Zasób wymagający decyzji] --> B[Ocena aktualności i wartości]
-    B --> C{Decyzja}
-
-    C -->|Pozostawić| D[Aktualizacja statusu w rejestrze]
-    C -->|Zarchiwizować| E[Oznaczenie jako archiwalne]
-    E --> F[Określenie sposobu dostępu]
-    F --> D
-
-    C -->|Wycofać| G[Usunięcie z aktywnej publikacji]
-    G --> H[Przekierowanie lub komunikat]
-    H --> D
+    A[Material zewnetrzny] --> B[Formularz zewnetrzny]
+    B --> C{Dane kompletne?}
+    C -- Nie --> D[Procedura brakow]
+    D --> B
+    C -- Tak --> E[Klasyfikacja A B C D]
+    E --> F{Obowiazek publikacji?}
+    F -- Tak --> G[Kontrola i oznaczenie brakow]
+    F -- Nie --> H{Mozna poprawic?}
+    H -- Tak --> I[Poprawa lub uzupelnienie]
+    I --> G
+    H -- Nie --> J{Cel publiczny uzasadnia publikacje?}
+    J -- Nie --> K[Odmowa publikacji]
+    J -- Tak --> G
+    G --> L[Decyzja publikacyjna]
+    L --> M[Publikacja i rejestr]
 ```
 
-## Proces obsługi zgłoszeń dostępności
+## Publikacja treści obowiązkowej w BIP
+
+Cel: opublikowanie treści wymaganej przepisem albo obowiązkiem informacyjnym.
+
+Punkt startowy: powstaje obowiązek publikacji.
+
+Uczestnicy: właściciel treści, administrator BIP, redaktor, koordynator dostępności, osoba zatwierdzająca.
+
+Decyzje: miejsce w BIP, dostępność materiału, oznaczenie braków, alternatywna forma dostępu.
+
+Rezultat: publikacja w BIP z wpisem do rejestru i planem naprawy, jeżeli występują braki.
+
+Powiązane narzędzia: formularz decyzji publikacyjnej, lista dokumentu albo załącznika, rejestr zasobów, rejestr załączników.
 
 ```mermaid
 flowchart TD
-    A[Zgłoszenie użytkownika] --> B[Identyfikacja zasobu]
-    B --> C[Sprawdzenie w rejestrze]
-    C --> D[Ocena problemu]
-    D --> E{Sposób obsługi}
-
-    E -->|Naprawa| F[Przypisanie działania naprawczego]
-    F --> G[Wykonanie naprawy]
-    G --> H[Aktualizacja rejestru]
-
-    E -->|Dostęp alternatywny| I[Zapewnienie alternatywy]
-    I --> H
-
-    E -->|Brak zasadności| J[Udokumentowanie decyzji]
-    J --> H
-
-    H --> K[Odpowiedź dla użytkownika]
+    A[Obowiazek publikacji] --> B[Ustalenie wlasciciela]
+    B --> C[Kontrola dostepnosci]
+    C --> D{Braki?}
+    D -- Nie --> E[Publikacja w BIP]
+    D -- Tak --> F[Oznaczenie i plan alternatywy]
+    F --> E
+    E --> G[Wpis do rejestru]
+    G --> H[Termin przegladu lub naprawy]
 ```
 
-## Powiązanie z mapami odpowiedzialności
+## Kontrola przed publikacją
 
-Schematy procesów powinny być powiązane z mapami odpowiedzialności. Każdy krok powinien mieć przypisaną rolę, decyzje powinny mieć właściciela, a proces nie powinien zawierać pustych etapów.
+Cel: podjęcie decyzji, czy materiał można opublikować.
 
-## Powiązanie z narzędziami
+Punkt startowy: materiał jest gotowy do sprawdzenia.
 
-Schematy procesów powinny wskazywać, gdzie wykorzystywane są:
+Uczestnicy: redaktor, właściciel, koordynator dostępności, osoba zatwierdzająca.
 
-- formularze jako wejście do procesu,
-- listy kontrolne jako weryfikacja,
-- rejestry jako zapis wyników,
-- mapy odpowiedzialności jako przypisanie ról.
+Decyzje: publikuj, popraw, odeślij, warunkowo, z oznaczeniem, odmów, przekaż do żądania dostępności.
 
-## Odniesienia
+Rezultat: udokumentowana decyzja.
 
-- [Materiały źródłowe](../../_sources/sdc/)
+Powiązane narzędzia: listy kontrolne, formularz braku dostępności, formularz decyzji.
+
+```mermaid
+flowchart TD
+    A[Material do kontroli] --> B[Dobor listy kontrolnej]
+    B --> C[Sprawdzenie minimalne]
+    C --> D{Wynik}
+    D -- Bez brakow --> E[Publikuj]
+    D -- Braki do poprawy --> F[Popraw przed publikacja]
+    D -- Brak danych --> G[Odeslij do uzupelnienia]
+    D -- Wyjatek --> H[Decyzja warunkowa lub oznaczenie]
+    D -- Niedopuszczalne --> I[Odmow publikacji]
+    H --> J[Plan naprawy lub alternatywa]
+```
+
+## Obsługa braków dostępności
+
+Cel: opisanie i usunięcie braków wykrytych przed publikacją albo po publikacji.
+
+Punkt startowy: wykryto brak dostępności.
+
+Uczestnicy: osoba zgłaszająca, właściciel, redaktor, koordynator dostępności, osoba naprawiająca.
+
+Decyzje: poprawić, zapewnić alternatywę, opublikować warunkowo, odmówić, przekazać do żądania dostępności.
+
+Rezultat: brak usunięty, oznaczony albo obsłużony alternatywnie.
+
+Powiązane narzędzia: formularz braku dostępności, rejestr napraw, rejestr zgłoszeń.
+
+```mermaid
+flowchart TD
+    A[Wykryty brak] --> B[Opis braku]
+    B --> C{Mozna usunac przed publikacja?}
+    C -- Tak --> D[Naprawa]
+    D --> E[Ponowna kontrola]
+    C -- Nie --> F{Czy publikacja konieczna?}
+    F -- Nie --> G[Wstrzymaj lub odmow]
+    F -- Tak --> H[Alternatywa lub oznaczenie]
+    H --> I[Rejestr napraw]
+```
+
+## Obsługa żądania zapewnienia dostępności
+
+Cel: zapewnienie użytkownikowi dostępu do treści i wykorzystanie zgłoszenia do poprawy zasobu.
+
+Punkt startowy: wpływa żądanie zapewnienia dostępności.
+
+Uczestnicy: osoba przyjmująca, właściciel zasobu, koordynator dostępności, redaktor, administrator.
+
+Decyzje: sposób zapewnienia dostępności, termin, naprawa zasobu, przegląd podobnych zasobów.
+
+Rezultat: udzielona odpowiedź, zapewniona dostępność albo alternatywa, zaktualizowany rejestr.
+
+Powiązane narzędzia: rejestr zgłoszeń dostępności, rejestr zasobów, rejestr napraw.
+
+```mermaid
+flowchart TD
+    A[Zgloszenie dostepnosci] --> B[Rejestracja zgloszenia]
+    B --> C[Identyfikacja zasobu]
+    C --> D[Ustalenie wlasciciela]
+    D --> E{Mozliwa szybka naprawa?}
+    E -- Tak --> F[Napraw zasob]
+    E -- Nie --> G[Zapewnij forme alternatywna]
+    F --> H[Odpowiedz uzytkownikowi]
+    G --> H
+    H --> I[Aktualizacja rejestrow]
+    I --> J{Podobne zasoby?}
+    J -- Tak --> K[Przeglad podobnych zasobow]
+    J -- Nie --> L[Zamknij]
+```
+
+## Przegląd i naprawa załączników
+
+Cel: identyfikacja, klasyfikacja i naprawa załączników, szczególnie opublikowanych po 23 września 2018 r.
+
+Punkt startowy: rejestr albo przegląd serwisu wskazuje załączniki.
+
+Uczestnicy: redaktor, właściciel, koordynator dostępności, osoba naprawiająca, osoba decyzyjna.
+
+Decyzje: naprawić, zastąpić, wycofać, archiwizować, pozostawić z uzasadnieniem.
+
+Rezultat: plan naprawczy i aktualny status zasobu.
+
+Powiązane narzędzia: rejestr załączników, formularz wyniku przeglądu, rejestr napraw.
+
+```mermaid
+flowchart TD
+    A[Lista zalacznikow] --> B[Identyfikacja daty publikacji]
+    B --> C{Po 23 wrzesnia 2018?}
+    C -- Tak --> D[Ocena dostepnosci]
+    C -- Nie --> E[Ocena potrzeby utrzymania]
+    D --> F[Priorytet naprawy]
+    E --> F
+    F --> G{Decyzja}
+    G -- Napraw --> H[Plan naprawczy]
+    G -- Zastap --> I[Nowa wersja]
+    G -- Archiwizuj --> J[Decyzja archiwizacyjna]
+    G -- Wycofaj --> K[Wycofanie]
+    H --> L[Aktualizacja rejestru]
+    I --> L
+    J --> L
+    K --> L
+```
+
+## Archiwizacja i wycofanie zasobu
+
+Cel: zakończenie albo zmiana statusu zasobu po utracie aktualności.
+
+Punkt startowy: przegląd, zgłoszenie, zmiana przepisów, nowa wersja albo decyzja właściciela.
+
+Uczestnicy: właściciel, redaktor, administrator, koordynator dostępności, osoba zatwierdzająca.
+
+Decyzje: aktualizuj, pozostaw, archiwizuj, usuń z nawigacji, wycofaj, zastąp, pozostaw historycznie.
+
+Rezultat: zasób zaktualizowany, zarchiwizowany, wycofany albo oznaczony.
+
+Powiązane narzędzia: formularz decyzji archiwizacyjnej, rejestr zasobów, rejestr decyzji.
+
+```mermaid
+flowchart TD
+    A[Zasob do oceny] --> B[Ocena aktualnosci]
+    B --> C{Potrzebny publicznie?}
+    C -- Tak --> D{Aktualny?}
+    D -- Tak --> E[Pozostaw lub aktualizuj]
+    D -- Nie --> F[Oznacz historycznie lub archiwizuj]
+    C -- Nie --> G{Wymaga zachowania?}
+    G -- Tak --> H[Przenies do archiwum]
+    G -- Nie --> I[Wycofaj]
+    E --> J[Aktualizacja rejestru]
+    F --> J
+    H --> J
+    I --> J
+```

@@ -2,153 +2,98 @@
 
 ## Rola narzędzi systemowych
 
-Narzędzia systemowe są elementem wykonawczym modelu zarządzania dostępną treścią publiczną. Pozwalają przełożyć zasady, procesy i decyzje opisane w podręczniku na konkretne działania operacyjne.
+Formularze, listy kontrolne, rejestry, mapy odpowiedzialności i schematy procesów nie są dodatkami do podręcznika. Są narzędziami zarządzania. Utrwalają decyzje, rozdzielają odpowiedzialność i pozwalają prowadzić treść publiczną przez cały cykl życia.
 
-Bez narzędzi system pozostaje teorią.  
-Dzięki narzędziom możliwe jest:
+Bez narzędzi system opiera się na pamięci pojedynczych osób. Z narzędziami organizacja wie, kto przekazał materiał, kto go sprawdził, kto dopuścił publikację, gdzie zasób jest zarejestrowany, kiedy wymaga przeglądu i co należy zrobić po utracie aktualności.
 
-- wykonywanie kontroli przed publikacją,
-- zarządzanie treściami w rejestrze,
-- obsługa materiałów od innych podmiotów,
-- prowadzenie przeglądu i naprawy,
-- dokumentowanie decyzji,
-- przypisywanie odpowiedzialności,
-- standaryzacja pracy w organizacji.
+## Lista kontrolna jako narzędzie decyzji
 
-Narzędzia mogą być wdrożone jako:
-- arkusze (np. Google Sheets, Excel),
-- formularze (np. Forms),
-- systemy obiegu dokumentów,
-- moduły CMS,
-- dedykowane aplikacje.
+Lista kontrolna nie jest opisem dobrych praktyk. Jest narzędziem ustalenia, czy materiał można opublikować. Powinna zawierać pytania, na które da się odpowiedzieć: TAK, NIE, NIE DOTYCZY albo WYMAGA DECYZJI.
 
-Najważniejsze jest ich spójne stosowanie, a nie poziom technologiczny.
+Lista pomaga:
 
----
+- ograniczyć przypadkowość kontroli,
+- wykryć braki przed publikacją,
+- udokumentować podstawę decyzji,
+- odróżnić błąd od sprawy wymagającej decyzji,
+- zapewnić wspólny standard dla różnych redaktorów.
 
-## Listy kontrolne
+Gotowe listy znajdują się w rozdziale [Listy kontrolne](narzedzia/listy-kontrolne.md).
 
-[Listy kontrolne](narzedzia/listy-kontrolne.md)
+## Formularz jako narzędzie pozyskania danych
 
-Listy kontrolne są podstawowym narzędziem weryfikacji treści przed publikacją.
+Formularz zbiera informacje, których redaktor nie powinien zgadywać. Dotyczy to zwłaszcza właściciela treści, celu publikacji, czasu aktualności, źródła, obowiązku publikacji, statusu dostępności i osoby zatwierdzającej.
 
-Ich celem jest:
-- zapewnienie zgodności ze standardami,
-- ujednolicenie procesu kontroli,
-- dokumentowanie wyniku weryfikacji,
-- umożliwienie podejmowania decyzji publikacyjnych.
+Formularz pomaga:
 
-Każda lista kontrolna powinna:
-- być dopasowana do typu treści,
-- zawierać wymagania obowiązkowe,
-- umożliwiać odpowiedzi TAK / NIE / NIE DOTYCZY,
-- przewidywać miejsce na uwagi lub dowód,
-- wskazywać elementy blokujące publikację.
+- przyjąć materiał w kompletny sposób,
+- odesłać materiał do uzupełnienia,
+- udokumentować braki,
+- podjąć decyzję publikacyjną,
+- przekazać dane do rejestru.
 
-Listy kontrolne są bezpośrednio powiązane z:
-- rozdziałem kontroli przed publikacją,
-- standardami publikacji,
-- procedurą braków.
+Wzory formularzy znajdują się w rozdziale [Formularze](narzedzia/formularze.md).
 
----
+## Rejestr jako pamięć organizacyjna
 
-## Formularze
+Rejestr jest miejscem, w którym treść staje się zasobem zarządzanym w czasie. Zawiera dane o publikacji, właścicielu, statusie dostępności, przeglądzie, naprawie i archiwizacji.
 
-[Formularze](narzedzia/formularze.md)
+Rejestr pomaga:
 
-Formularze służą do zbierania danych wejściowych w procesie publikacji i przetwarzania treści.
+- wyszukać zasoby wymagające przeglądu,
+- powiązać zgłoszenia dostępności z konkretną treścią,
+- wykazać działania naprawcze,
+- zaplanować archiwizację,
+- utrzymać ciągłość po zmianie osób w organizacji.
 
-Ich zastosowanie obejmuje:
-- przekazywanie materiałów do publikacji,
-- zgłaszanie braków,
-- dokumentowanie decyzji,
-- obsługę treści od innych podmiotów,
-- obsługę zgłoszeń dostępności.
+Wzory rejestrów znajdują się w rozdziale [Rejestry](narzedzia/rejestry.md).
 
-Formularze powinny:
-- wymuszać kompletność danych,
-- ułatwiać kwalifikację treści,
-- wspierać proces decyzyjny,
-- ograniczać komunikację nieformalną (np. „na mailu”).
+## Mapa odpowiedzialności jako narzędzie przypisania ról
 
----
+Mapa odpowiedzialności wskazuje, kto tworzy, kto kontroluje, kto zatwierdza, kto publikuje i kto utrzymuje zasób. Chroni przed sytuacją, w której każdy uczestnik procesu zakłada, że odpowiedzialność leży po stronie innej osoby.
 
-## Rejestry
+Mapa pomaga:
 
-[Rejestry](narzedzia/rejestry.md)
+- rozdzielić rolę autora, właściciela i redaktora,
+- wskazać moment udziału koordynatora dostępności,
+- ustalić, kto decyduje o publikacji warunkowej,
+- określić odpowiedzialność administratora BIP,
+- przypisać działania po zgłoszeniu dostępności.
 
-Rejestr zasobów jest centralnym narzędziem zarządzania treścią.
+Modele ról znajdują się w rozdziale [Mapy odpowiedzialności](narzedzia/mapy-odpowiedzialnosci.md).
 
-W praktyce może być wspierany przez:
-- rejestr publikacji,
-- rejestr kontroli,
-- rejestr braków,
-- rejestr zgłoszeń,
-- rejestr decyzji.
+## Schemat procesu jako narzędzie wdrożenia
 
-Rejestry:
-- integrują wszystkie etapy cyklu życia treści,
-- umożliwiają analizę i raportowanie,
-- pozwalają zarządzać odpowiedzialnością,
-- są podstawą przeglądu i naprawy,
-- wspierają archiwizację i wycofanie.
+Schemat procesu pokazuje kolejność działań i decyzji. Jest szczególnie ważny tam, gdzie publikacja wymaga współpracy wielu osób albo gdy materiał pochodzi od innego podmiotu.
 
----
+Schemat pomaga:
 
-## Mapy odpowiedzialności
+- wdrożyć proces w małej i dużej organizacji,
+- wskazać punkty kontroli,
+- skrócić czas przekazywania materiałów,
+- wyjaśnić, co dzieje się z brakami,
+- połączyć formularze, listy i rejestry.
 
-[Mapy odpowiedzialności](narzedzia/mapy-odpowiedzialnosci.md)
+Procesy i diagramy Mermaid znajdują się w rozdziale [Schematy procesów](narzedzia/schematy-procesow.md).
 
-Mapy odpowiedzialności określają, kto odpowiada za poszczególne etapy procesu.
+## Minimalny zestaw narzędzi
 
-Ich celem jest:
-- eliminacja niejasności,
-- przypisanie właścicieli działań,
-- rozdzielenie ról,
-- ograniczenie przerzucania odpowiedzialności.
+Minimalne wdrożenie systemu powinno obejmować:
 
-Mapa powinna obejmować:
-- tworzenie treści,
-- kontrolę,
-- publikację,
-- utrzymanie,
-- przegląd i naprawę,
-- archiwizację.
+- listę kontrolną publikacji,
+- formularz przekazania materiału,
+- formularz decyzji publikacyjnej,
+- rejestr zasobów,
+- rejestr zgłoszeń dostępności,
+- mapę odpowiedzialności,
+- schemat kontroli przed publikacją,
+- formularz decyzji archiwizacyjnej.
 
----
+## Typowe błędy
 
-## Schematy procesów
-
-[Schematy procesów](narzedzia/schematy-procesow.md)
-
-Schematy procesów pokazują, jak przebiegają działania w organizacji.
-
-Ich zadaniem jest:
-- wizualizacja procesu,
-- uproszczenie wdrożenia,
-- ułatwienie szkolenia pracowników,
-- identyfikacja punktów decyzyjnych.
-
-Schematy powinny obejmować:
-- publikację treści,
-- obsługę materiałów zewnętrznych,
-- kontrolę,
-- przegląd i naprawę,
-- obsługę zgłoszeń,
-- archiwizację i wycofanie.
-
----
-
-## Materiały źródłowe
-
-[Zasoby pomocnicze](../_sources/sdc/)
-
-Materiały źródłowe stanowią zaplecze merytoryczne systemu. Są to oryginalne opracowania, zalecenia, modele i dokumenty, na podstawie których powstał podręcznik.
-
-Powinny być wykorzystywane:
-- przy rozwijaniu narzędzi,
-- przy szkoleniach,
-- przy interpretacji wymagań,
-- przy rozwiązywaniu nietypowych przypadków.
-
-Materiały źródłowe nie zastępują podręcznika, ale go uzupełniają.
+- formularze bez pól wymaganych do decyzji,
+- listy kontrolne jako długie opisy bez odpowiedzi,
+- rejestry bez właściciela i statusu dostępności,
+- role opisane ogólnie, bez decyzji i dokumentów,
+- diagramy procesu bez punktów decyzyjnych,
+- narzędzia tworzone, ale nieużywane w realnej publikacji.

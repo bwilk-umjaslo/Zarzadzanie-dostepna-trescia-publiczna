@@ -1,285 +1,206 @@
 # Mapy odpowiedzialności
 
-## Rola map odpowiedzialności w systemie
+## Rola map odpowiedzialności
 
-Mapy odpowiedzialności określają, kto odpowiada za poszczególne działania w cyklu życia treści publicznej.
+Mapa odpowiedzialności wskazuje, kto uczestniczy w cyklu życia treści, jakie decyzje podejmuje i jakich dokumentów używa. W małym podmiocie jedna osoba może pełnić kilka ról, ale role nadal powinny być rozróżnione.
 
-Ich celem nie jest opisanie struktury organizacyjnej, lecz zapewnienie, że każdy etap procesu ma przypisaną osobę odpowiedzialną za:
-- wykonanie działania,
-- podjęcie decyzji,
-- weryfikację,
-- utrzymanie zasobu.
+## Autor treści
 
-Bez map odpowiedzialności procesy opisane w podręczniku nie działają w praktyce. Zadania pozostają rozproszone, decyzje są odkładane, a odpowiedzialność przenoszona między osobami.
+Zakres odpowiedzialności:
 
----
+- przygotowuje materiał,
+- zbiera dane potrzebne do publikacji,
+- przygotowuje tekst alternatywny, transkrypcję albo opis, jeżeli odpowiada za materiał,
+- wypełnia formularz przekazania materiału.
 
-## Zasada podstawowa
+Czego nie powinien robić:
 
-Każde działanie w systemie musi mieć właściciela.
+- samodzielnie publikować materiału bez kontroli,
+- decydować o pominięciu wymagań dostępności,
+- przekazywać materiału bez właściciela i czasu aktualności.
 
-Oznacza to, że:
-- nie istnieją działania „niczyje”,
-- nie wystarczy przypisać zespołu – potrzebna jest konkretna rola lub osoba,
-- odpowiedzialność za decyzję musi być jednoznaczna,
-- osoba publikująca nie może być domyślnie odpowiedzialna za wszystko.
+Etap procesu: planowanie, pozyskanie, przygotowanie.
 
-Mapa odpowiedzialności ma eliminować sytuacje, w których:
-- „ktoś powinien to zrobić”,
-- „to nie do mnie należy decyzja”,
-- „nie mamy kto się tym zajmie”.
+Decyzje: proponuje cel, kanał, termin i formę treści.
 
----
+Dokumenty: formularz przekazania materiału, lista metadanych.
 
-## Elementy mapy odpowiedzialności
+## Właściciel merytoryczny
 
-Każda mapa powinna zawierać:
+Zakres odpowiedzialności:
 
-- etapy procesu,
-- role uczestniczące w procesie,
-- przypisanie odpowiedzialności do każdego etapu,
-- wskazanie osoby decyzyjnej,
-- powiązanie z narzędziami (formularze, listy kontrolne, rejestr).
+- odpowiada za poprawność, aktualność i sens publikacji,
+- wskazuje czas aktualności,
+- zatwierdza treść merytorycznie,
+- bierze udział w przeglądzie i archiwizacji.
 
-Mapa nie powinna być ogólnym schematem. Musi odpowiadać rzeczywistemu sposobowi działania organizacji.
+Czego nie powinien robić:
 
----
+- przerzucać odpowiedzialności za treść na redaktora,
+- zatwierdzać publikacji bez danych o dostępności,
+- ignorować zgłoszeń dotyczących własnego zasobu.
 
-## Kluczowe role w systemie
+Etap procesu: planowanie, kontrola, utrzymanie, przegląd, archiwizacja.
 
-### Właściciel treści
+Decyzje: cel publikacji, aktualność, dalszy los zasobu.
 
-Odpowiada za:
-- sens i cel publikacji,
-- treść merytoryczną,
-- decyzję o publikacji,
-- decyzję o aktualizacji, archiwizacji lub wycofaniu.
+Dokumenty: formularz przekazania, formularz wyniku przeglądu, formularz decyzji archiwizacyjnej.
 
-To najważniejsza rola w całym systemie.
+## Redaktor
 
----
+Zakres odpowiedzialności:
 
-### Autor treści
+- przygotowuje treść do publikacji w kanale,
+- sprawdza strukturę, linki, opisy, załączniki i kompletność danych,
+- wykonuje albo koordynuje kontrolę przed publikacją,
+- aktualizuje rejestr w zakresie publikacji.
 
-Odpowiada za:
-- przygotowanie materiału,
-- zgodność z wytycznymi,
-- współpracę przy poprawkach.
+Czego nie powinien robić:
 
-Autor nie musi być właścicielem.
+- przejmować odpowiedzialności merytorycznej za treść,
+- publikować materiału bez decyzji,
+- uznawać materiału zewnętrznego za wyłączony bez kwalifikacji.
 
----
+Etap procesu: przygotowanie, kontrola, publikacja, rejestracja.
 
-### Osoba wykonująca kontrolę
+Decyzje: wynik operacyjnej kontroli, skierowanie do poprawy, potrzeba decyzji wyższej.
 
-Odpowiada za:
-- weryfikację materiału,
-- zastosowanie listy kontrolnej,
-- wskazanie braków,
-- dokumentowanie wyniku.
+Dokumenty: lista kontrolna, formularz decyzji publikacyjnej, rejestr zasobów.
 
-Nie powinna podejmować decyzji merytorycznej za właściciela treści.
+## Administrator serwisu
 
----
+Zakres odpowiedzialności:
 
-### Osoba publikująca
+- zapewnia techniczne miejsce publikacji,
+- dba o dostępne mechanizmy serwisu,
+- wspiera publikację plików i multimediów,
+- wykonuje techniczne wycofanie albo przeniesienie.
 
-Odpowiada za:
-- wprowadzenie treści do systemu,
-- zachowanie struktury,
-- poprawność techniczną publikacji.
+Czego nie powinien robić:
 
-Nie powinna ponosić odpowiedzialności za jakość całej treści.
+- decydować o aktualności merytorycznej,
+- kasować zasobów bez decyzji,
+- publikować poza procesem.
 
----
+Etap procesu: publikacja, utrzymanie, archiwizacja, wycofanie.
 
-### Koordynator dostępności
+Decyzje: techniczny sposób wykonania decyzji.
 
-Odpowiada za:
-- wsparcie interpretacyjne,
-- pomoc w trudnych przypadkach,
-- analizę powtarzalnych błędów,
-- rozwój standardów i narzędzi.
+Dokumenty: rejestr zasobów, formularz decyzji archiwizacyjnej.
 
----
+## Administrator BIP
 
-### Kierownik / osoba decyzyjna
+Zakres odpowiedzialności:
 
-Odpowiada za:
-- rozstrzyganie sytuacji spornych,
-- zatwierdzanie wyjątków,
-- zapewnienie zasobów do realizacji procesu.
+- publikuje treści obowiązkowe w BIP,
+- sprawdza zgodność miejsca publikacji z obowiązkiem,
+- odnotowuje braki i decyzje dotyczące BIP,
+- dba o powiązanie BIP z rejestrem zasobów.
 
----
+Czego nie powinien robić:
 
-## Mapy dla kluczowych procesów
+- odmawiać publikacji obowiązkowej bez przekazania sprawy do decyzji,
+- pomijać oznaczenia braku dostępności,
+- publikować załączników bez danych o właścicielu.
 
-### Publikacja treści
+Etap procesu: kwalifikacja, kontrola, publikacja, rejestracja.
 
-Etapy:
-1. przygotowanie materiału  
-2. przekazanie do publikacji  
-3. kontrola  
-4. decyzja  
-5. publikacja  
-6. wpis do rejestru  
+Decyzje: miejsce publikacji w BIP, potrzeba oznaczenia, potrzeba alternatywy.
 
-Odpowiedzialność:
-- właściciel treści – decyzja  
-- autor – przygotowanie  
-- osoba kontrolująca – weryfikacja  
-- publikujący – wdrożenie  
-- koordynator – wsparcie  
+Dokumenty: formularz decyzji publikacyjnej, rejestr zasobów, rejestr załączników.
 
----
+## Koordynator dostępności
 
-### Treści od innych podmiotów
+Zakres odpowiedzialności:
 
-Etapy:
-1. przyjęcie materiału  
-2. kwalifikacja (ABCD)  
-3. ocena dostępności  
-4. decyzja  
-5. publikacja lub odmowa  
-6. wpis do rejestru  
+- wspiera interpretację wymagań dostępności,
+- pomaga klasyfikować braki,
+- wspiera obsługę żądań dostępności,
+- rekomenduje działania naprawcze.
 
-Odpowiedzialność:
-- właściciel treści – decyzja  
-- osoba analizująca – kwalifikacja i ocena  
-- koordynator – wsparcie  
-- kierownik – decyzje sporne  
+Czego nie powinien robić:
 
----
+- zastępować właściciela treści w decyzjach merytorycznych,
+- przejmować całego procesu publikacji,
+- być jedynym punktem kontroli wszystkich materiałów, jeżeli skala tego nie pozwala.
 
-### Przegląd i naprawa
+Etap procesu: kontrola, przegląd, naprawa, obsługa żądań.
 
-Etapy:
-1. wybór zasobu  
-2. ocena  
-3. decyzja  
-4. naprawa  
-5. aktualizacja rejestru  
+Decyzje: rekomendacja naprawy, alternatywy, oznaczenia albo audytu.
 
-Odpowiedzialność:
-- właściciel zasobu – decyzja i naprawa  
-- osoba przeglądająca – ocena  
-- koordynator – wsparcie  
-- kierownik – priorytety  
+Dokumenty: formularz braku dostępności, rejestr zgłoszeń, rejestr napraw.
 
----
+## Kierownik komórki organizacyjnej
 
-### Archiwizacja i wycofanie
+Zakres odpowiedzialności:
 
-Etapy:
-1. identyfikacja zasobu  
-2. ocena  
-3. decyzja  
-4. realizacja  
-5. aktualizacja rejestru  
+- zapewnia organizacyjne warunki tworzenia i utrzymania treści,
+- wyznacza właścicieli,
+- zatwierdza decyzje sporne albo warunkowe,
+- rozstrzyga priorytety napraw.
 
-Odpowiedzialność:
-- właściciel zasobu – decyzja  
-- osoba analizująca – ocena  
-- kierownik – zatwierdzenie (jeśli wymagane)  
+Czego nie powinien robić:
 
----
+- wymuszać publikacji z pominięciem kontroli,
+- pozostawiać treści bez właściciela,
+- ignorować zaległych przeglądów.
 
-## Model dla małych podmiotów
+Etap procesu: planowanie, decyzja, naprawa, archiwizacja.
 
-W małym podmiocie jedna osoba może pełnić kilka ról.
+Decyzje: publikacja warunkowa, odmowa, priorytety, dalszy los.
 
-Najważniejsze:
-- zachować rozdzielenie funkcji (nawet mentalne),
-- dokumentować decyzje,
-- nie pomijać etapów procesu.
+Dokumenty: formularz decyzji publikacyjnej, plan naprawczy, decyzja archiwizacyjna.
 
----
+## Podmiot zewnętrzny
 
-## Model dla dużych podmiotów
+Zakres odpowiedzialności:
 
-W dużym podmiocie role powinny być rozdzielone.
+- przekazuje materiał z danymi wymaganymi przez podmiot publiczny,
+- informuje o możliwości modyfikacji,
+- dostarcza wersję dostępną albo źródłową, jeżeli jest dostępna,
+- uzupełnia braki, gdy jest to wymagane.
 
-Warto:
-- przypisać role do stanowisk lub komórek,
-- zdefiniować odpowiedzialność formalnie,
-- powiązać mapy z systemami (CMS, obieg dokumentów),
-- stosować jednolity model w całej organizacji.
+Czego nie powinien robić:
 
----
+- przesyłać skanów jako domyślnej formy dokumentu,
+- zakładać automatycznej publikacji,
+- pomijać informacji o źródle i aktualności.
 
-## Powiązanie z narzędziami
+Etap procesu: pozyskanie, kwalifikacja, procedura braków.
 
-Mapy odpowiedzialności powinny być powiązane z:
+Decyzje: zgoda na modyfikacje, dostarczenie poprawionej wersji.
 
-- formularzami – jako wejściem do procesu,
-- listami kontrolnymi – jako etapem weryfikacji,
-- rejestrem – jako miejscem dokumentowania,
-- schematami procesów – jako wizualizacją.
+Dokumenty: formularz przekazania materiału przez podmiot zewnętrzny.
 
----
+## Osoba zatwierdzająca publikację
 
-## Najczęstsze błędy
+Zakres odpowiedzialności:
 
-- brak przypisania właściciela treści,
-- przerzucanie odpowiedzialności na osobę publikującą,
-- brak osoby decyzyjnej,
-- łączenie wszystkich ról w jednej osobie bez kontroli,
-- brak dokumentowania decyzji,
-- brak spójności między procesami.
+- zatwierdza publikację po kontroli,
+- podejmuje decyzje wyjątkowe,
+- zatwierdza publikację warunkową, oznaczenie albo odmowę,
+- zapewnia, że decyzja jest udokumentowana.
 
----
+Czego nie powinna robić:
 
-## Efekt dobrze zdefiniowanej mapy
+- zatwierdzać publikacji bez wyniku kontroli,
+- pomijać planu naprawy przy publikacji warunkowej,
+- wydawać decyzji ustnie bez śladu w formularzu albo rejestrze.
 
-- jasna odpowiedzialność,
-- szybsze decyzje,
-- mniej błędów,
-- większa przewidywalność,
-- lepsze zarządzanie treścią,
-- mniejsze ryzyko organizacyjne.
+Etap procesu: kontrola, publikacja, archiwizacja.
 
----
+Decyzje: publikuj, popraw, odeślij, warunkowo, z oznaczeniem, odmów.
 
-## Odniesienia
+Dokumenty: formularz decyzji publikacyjnej, formularz decyzji archiwizacyjnej.
 
-- [Materiały źródłowe](../../_sources/sdc/)
+## Matryca podstawowa
 
-
-## Model odpowiedzialności
-
-| Etap | R (realizuje) | A (odpowiada) | C (konsultuje) | I (informowany) |
-|------|--------------|--------------|---------------|----------------|
-| Przygotowanie treści | Autor | Właściciel treści | Koordynator dostępności | Kierownik |
-| Przekazanie do publikacji | Autor | Właściciel treści | — | Publikujący |
-| Rejestracja zasobu | Publikujący / system | Właściciel treści | — | Koordynator dostępności |
-| Kontrola przed publikacją | Osoba kontrolująca | Właściciel treści | Koordynator dostępności | Publikujący |
-| Decyzja publikacyjna | — | Właściciel treści | Koordynator dostępności / Kierownik (w trudnych przypadkach) | Publikujący |
-| Publikacja | Publikujący | Właściciel treści | — | Koordynator dostępności |
-| Aktualizacja rejestru po publikacji | Publikujący / system | Właściciel treści | — | Koordynator dostępności |
-| Przyjęcie treści zewnętrznej | Osoba analizująca | Właściciel treści | Koordynator dostępności | Kierownik |
-| Kwalifikacja (ABCD) | Osoba analizująca | Właściciel treści | Koordynator dostępności | — |
-| Ocena dostępności treści zewnętrznej | Osoba analizująca | Właściciel treści | Koordynator dostępności | — |
-| Decyzja dla treści zewnętrznej | — | Właściciel treści | Koordynator dostępności / Kierownik | Publikujący |
-| Wybór zasobów do przeglądu | Koordynator / system | Właściciel zasobu | — | Kierownik |
-| Przegląd zasobu | Osoba przeglądająca | Właściciel zasobu | Koordynator dostępności | — |
-| Decyzja po przeglądzie | — | Właściciel zasobu | Koordynator dostępności / Kierownik | — |
-| Naprawa | Autor / Publikujący | Właściciel zasobu | Koordynator dostępności | — |
-| Aktualizacja rejestru po naprawie | Publikujący / system | Właściciel zasobu | — | Koordynator dostępności |
-| Przyjęcie zgłoszenia dostępności | Koordynator / system | Właściciel zasobu | — | Kierownik |
-| Obsługa zgłoszenia | Właściciel zasobu / Publikujący | Właściciel zasobu | Koordynator dostępności | Zgłaszający |
-| Decyzja o archiwizacji | — | Właściciel zasobu | Koordynator dostępności / Kierownik | — |
-| Decyzja o wycofaniu | — | Właściciel zasobu | Koordynator dostępności / Kierownik | — |
-| Archiwizacja | Publikujący / system | Właściciel zasobu | — | Koordynator dostępności |
-| Wycofanie | Publikujący / system | Właściciel zasobu | — | Koordynator dostępności |
-| Aktualizacja rejestru po archiwizacji/wycofaniu | Publikujący / system | Właściciel zasobu | — | Koordynator dostępności |
-
----
-
-## Zasady
-
-- zawsze jedno A (accountable) – właściciel treści lub zasobu
-- R może być wiele – szczególnie przy tworzeniu i naprawie
-- brak A = brak procesu
-- osoba publikująca nie jest właścicielem treści (chyba że formalnie przypisana)
-- koordynator dostępności nie podejmuje decyzji za właściciela – pełni rolę doradczą
-- decyzje sporne eskalowane są do kierownika
+| Etap | Autor | Właściciel | Redaktor | Administrator | Koordynator | Kierownik |
+|---|---|---|---|---|---|---|
+| Planowanie | wykonuje | odpowiada | konsultuje |  |  | zatwierdza priorytety |
+| Przygotowanie | wykonuje | zatwierdza merytorycznie | wspiera |  | wspiera |  |
+| Kontrola | uzupełnia | odpowiada za treść | wykonuje | wspiera | konsultuje | rozstrzyga |
+| Publikacja |  | akceptuje | publikuje | publikuje technicznie |  | zatwierdza wyjątki |
+| Rejestracja |  | potwierdza | wykonuje | wspiera |  |  |
+| Przegląd |  | odpowiada | wspiera | wspiera | konsultuje | ustala priorytety |
+| Archiwizacja |  | wnioskuje | wykonuje | wykonuje technicznie | konsultuje | zatwierdza |

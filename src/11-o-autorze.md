@@ -1,58 +1,38 @@
 # O autorze
 
-Podręcznik „Zarządzanie dostępną treścią publiczną” powstał na styku dwóch obszarów: komunikacji cyfrowej i dostępności.
+Podręcznik powstał z praktyki pracy z treściami publicznymi, dostępnością cyfrową, dokumentami, BIP, komunikacją internetową i porządkowaniem zasobów po publikacji. Jego punkt wyjścia jest operacyjny: problemem nie jest tylko pojedynczy niedostępny plik, ale sposób, w jaki organizacja tworzy, publikuje, utrzymuje i wycofuje treści.
 
-Autorem jest Bartłomiej Wilk – specjalista zajmujący się projektowaniem i porządkowaniem komunikacji w instytucjach publicznych, ze szczególnym uwzględnieniem dostępności cyfrowej.
+## Z jakiej praktyki powstał podręcznik
 
-W swojej pracy koncentruje się na tym, jak treść działa w praktyce:
-- jak jest tworzona,
-- jak jest publikowana,
-- jak jest odbierana przez użytkownika,
-- jak pozostaje dostępna w czasie.
+Materiał wynika z doświadczeń, w których te same problemy powtarzały się w różnych typach podmiotów publicznych:
 
-Łączy podejście projektowe z operacyjnym, pracując nad:
-- strukturą i jakością komunikacji cyfrowej,
-- wdrażaniem wymagań dostępności (WCAG),
-- analizą błędów w publikowanych treściach,
-- budowaniem procesów i standardów w organizacjach.
+- publikacja dokumentów bez właściciela,
+- załączniki traktowane jako szybki zamiennik treści HTML,
+- brak rejestru zasobów i przeglądów,
+- multimedia publikowane bez planu dostępności,
+- treści od innych podmiotów publikowane bez kwalifikacji,
+- żądania dostępności obsługiwane bez powiązania z naprawą zasobu,
+- archiwizacja wykonywana technicznie, bez decyzji i śladu organizacyjnego.
 
----
+Podręcznik porządkuje te doświadczenia w model, który można wdrożyć zarówno w małej jednostce, jak i w dużej organizacji.
 
-## Podejście
+## Dlaczego łączy dostępność, redakcję, BIP, multimedia i zarządzanie treścią
 
-Dostępność nie jest traktowana jako osobny obszar techniczny, ale jako element jakości komunikacji.
+W praktyce użytkownik nie rozdziela organizacji na redakcję strony, administratora BIP, komórkę merytoryczną, zespół dostępności i osobę od mediów społecznościowych. Korzysta z treści publicznej i oczekuje, że będzie aktualna, dostępna i zrozumiała w danym kontekście.
 
-W tym ujęciu:
-- dostępność zaczyna się na etapie tworzenia treści,
-- nie kończy się na audycie,
-- wymaga decyzji organizacyjnych, a nie tylko poprawek technicznych.
+Dlatego podręcznik łączy obszary, które w organizacjach bywają rozdzielone:
 
-Podręcznik odzwierciedla to podejście – skupia się na procesach, odpowiedzialności i narzędziach, które pozwalają realnie zarządzać treścią.
+- dostępność cyfrową,
+- publikację dokumentów i załączników,
+- BIP,
+- multimedia,
+- komunikację masową,
+- treści przekazywane przez inne podmioty,
+- rejestry i odpowiedzialność,
+- przegląd, naprawę, archiwizację i wycofanie.
 
----
+## Charakter materiału
 
-## Doświadczenie
+Jest to materiał wdrożeniowy dla podmiotów publicznych. Nie ma charakteru autopromocyjnego, marketingowego ani wyłącznie szkoleniowego. Ma wspierać decyzje organizacyjne, projektowanie procedur i codzienną pracę osób odpowiedzialnych za treści publiczne.
 
-Model opisany w podręczniku powstał na podstawie pracy z rzeczywistymi treściami publikowanymi przez instytucje publiczne.
-
-Uwzględnia:
-- typowe błędy w komunikacji cyfrowej,
-- problemy z wdrażaniem dostępności,
-- brak spójnych procesów publikacji,
-- trudności w zarządzaniu treścią w czasie.
-
-To nie jest model teoretyczny – został zbudowany jako odpowiedź na konkretne problemy organizacyjne.
-
----
-
-## Cel
-
-Celem podręcznika jest pokazanie, że dostępność cyfrowa może być częścią systemu zarządzania treścią, a nie tylko obowiązkiem formalnym.
-
-To podejście pozwala:
-- poprawić jakość komunikacji,
-- uporządkować procesy,
-- ograniczyć liczbę błędów,
-- zwiększyć dostępność informacji dla użytkowników.
-
-Podręcznik może być wykorzystany jako podstawa do wdrożenia spójnego systemu komunikacji cyfrowej opartego na dostępności.
+Najważniejsza myśl podręcznika jest prosta: treść publiczna jest zasobem, a publikacja jest początkiem odpowiedzialności, nie jej końcem.

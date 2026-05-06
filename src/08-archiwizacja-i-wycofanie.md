@@ -1,243 +1,121 @@
-# Archiwizacja i wycofanie zasobów
+# Archiwizacja i wycofanie
 
 ## Rola archiwizacji i wycofania
 
-Archiwizacja i wycofanie zasobów cyfrowych to końcowy etap cyklu życia treści publicznej. Jego celem jest uporządkowanie środowiska cyfrowego poprzez usuwanie, ograniczanie lub przekształcanie treści, które nie powinny być dalej aktywnie publikowane.
+Archiwizacja i wycofanie domykają cykl życia treści publicznej. Dzięki nim serwis nie staje się zbiorem nieaktualnych, powielonych albo niedostępnych zasobów, których nikt nie utrzymuje.
 
-To etap, który decyduje o tym, czy organizacja:
-- kontroluje swoją historię publikacji,
-- eliminuje nieaktualne informacje,
-- ogranicza ryzyko błędów i dezinformacji,
-- utrzymuje spójność komunikacji.
+Ten rozdział stosuje się, gdy treść utraciła aktualność, została zastąpiona, ma zaległy przegląd, nie spełnia wymagań dostępności, nie ma właściciela albo powinna pozostać dostępna wyłącznie jako informacja historyczna.
 
-Brak tego etapu prowadzi do narastania chaosu informacyjnego.
+## Różnice pojęciowe
 
----
+### Usunięcie
 
-## Zasada podstawowa
-
-Nie każda opublikowana treść powinna być dostępna bezterminowo.
-
-Każdy zasób powinien mieć:
-- określony czas życia,
-- właściciela,
-- decyzję o dalszym losie.
-
----
-
-## Powiązanie z rejestrem
-
-Rejestr zasobów jest podstawą decyzji o archiwizacji i wycofaniu.
-
-To z rejestru wynika:
-- które zasoby są nieaktualne,
-- które nie były przeglądane,
-- które mają niski priorytet,
-- które powinny zostać usunięte,
-- które wymagają zachowania jako archiwalne.
-
-Bez rejestru wycofanie treści jest przypadkowe.
-
----
-
-## Różnica między archiwizacją a wycofaniem
-
-### Archiwizacja
-
-Oznacza zachowanie zasobu:
-- jako materiału historycznego,
-- w kontrolowanej formie,
-- z ograniczoną rolą informacyjną.
-
-Zasób:
-- może być dostępny,
-- ale nie powinien być traktowany jako aktualny.
-
----
+Usunięcie oznacza techniczne skasowanie treści albo pliku z miejsca publikacji. Nie powinno być wykonywane bez decyzji, jeżeli treść ma znaczenie prawne, historyczne, dowodowe albo informacyjne.
 
 ### Wycofanie
 
-Oznacza usunięcie zasobu z aktywnego obiegu:
+Wycofanie oznacza decyzję, że zasób nie powinien być dalej dostępny jako aktualna treść publiczna. Może prowadzić do usunięcia z widocznej struktury serwisu, zastąpienia nową wersją albo przeniesienia do archiwum.
 
-- brak dostępu publicznego,
-- brak indeksowania,
-- brak możliwości wykorzystania przez użytkownika jako aktualnej informacji.
+### Archiwizacja
 
----
+Archiwizacja oznacza zachowanie treści jako nieaktualnej, historycznej albo dokumentacyjnej, z odpowiednim oznaczeniem i wpisem w rejestrze.
+
+### Pozostawienie treści historycznej
+
+Pozostawienie treści historycznej oznacza, że zasób nadal jest publicznie dostępny, ale użytkownik otrzymuje informację, że treść ma charakter historyczny i nie powinna być traktowana jako aktualna instrukcja, komunikat albo wzór.
 
 ## Kiedy archiwizować
 
-Zasób powinien zostać zarchiwizowany, gdy:
+Treść należy zarchiwizować, gdy:
 
-- ma wartość historyczną,
-- dokumentuje działania publiczne,
-- może być potrzebny do wglądu,
-- nie jest już aktualny,
-- nie powinien być używany operacyjnie.
+- utraciła bieżącą aktualność, ale ma znaczenie dokumentacyjne,
+- dotyczy zakończonego programu, naboru, konsultacji, wydarzenia albo projektu,
+- została zastąpiona, ale starsza wersja powinna pozostać dostępna,
+- jest potrzebna do zachowania przejrzystości działań podmiotu,
+- wynika to z zasad prowadzenia BIP albo serwisu.
 
----
+## Kiedy usunąć z widocznej struktury serwisu
 
-## Kiedy wycofać
+Treść należy usunąć z widocznej nawigacji, gdy:
 
-Zasób powinien zostać wycofany, gdy:
+- nie jest już aktualna i może wprowadzać w błąd,
+- została zastąpiona nową wersją,
+- nie powinna być promowana jako bieżąca informacja,
+- pozostaje dostępna wyłącznie jako archiwum albo historia.
 
-- jest nieaktualny,
-- wprowadza w błąd,
-- nie jest już potrzebny,
-- nie spełnia wymagań i nie będzie naprawiany,
-- jego utrzymanie generuje ryzyko,
-- został zastąpiony nową wersją.
+Usunięcie z nawigacji nie musi oznaczać skasowania pliku. Decyzja zależy od obowiązków prawnych, wartości dokumentacyjnej i potrzeb użytkowników.
 
----
+## Kiedy treść powinna zostać publicznie dostępna
 
-## Proces archiwizacji i wycofania
+Treść może pozostać publicznie dostępna, jeżeli:
 
-### 1. Identyfikacja zasobu
+- dokumentuje działanie podmiotu,
+- jest wymagana w BIP,
+- może być potrzebna do odtworzenia historii sprawy,
+- użytkownicy nadal mają uzasadniony interes w dostępie,
+- istnieje jasne oznaczenie, że treść nie jest aktualna.
 
-Na podstawie:
-- rejestru,
-- przeglądu,
-- zgłoszeń,
-- decyzji organizacyjnej.
+## Kiedy wymaga oznaczenia jako archiwalna
 
----
+Oznaczenie jest potrzebne, gdy użytkownik może pomylić treść historyczną z aktualną. Oznaczenie powinno zawierać:
 
-### 2. Ocena
+- informację, że treść jest archiwalna albo historyczna,
+- datę albo okres obowiązywania,
+- link do aktualnej wersji, jeżeli istnieje,
+- informację, czy załączniki są utrzymywane,
+- kontakt albo sposób uzyskania informacji aktualnej, jeżeli jest potrzebny.
 
-Należy ustalić:
-- czy zasób jest potrzebny,
-- czy jest aktualny,
-- czy ma wartość historyczną,
-- czy może być wykorzystany przez użytkownika,
-- czy powoduje ryzyko.
+## Model decyzji
 
----
+| Decyzja | Kiedy stosować | Co zrobić w rejestrze |
+|---|---|---|
+| Aktualizuj | treść jest potrzebna, ale wymaga zmiany | zmienić datę aktualizacji i termin przeglądu |
+| Pozostaw bez zmian | treść jest aktualna i spełnia wymagania | potwierdzić status i termin kolejnego przeglądu |
+| Przenieś do archiwum | treść utraciła aktualność, ale powinna pozostać dostępna | zmienić status na archiwalny i podać miejsce |
+| Usuń z widocznej nawigacji | treść nie powinna być eksponowana jako aktualna | odnotować zmianę struktury i adres |
+| Wycofaj | treść nie powinna być dalej publiczna | zapisać uzasadnienie i datę wycofania |
+| Zastąp nową wersją | treść ma następcę | powiązać starą i nową wersję |
+| Pozostaw z oznaczeniem historycznym | treść nadal może być czytana, ale nie jest aktualna | dodać status historyczny i informację dla użytkownika |
 
-### 3. Decyzja
+## Jak dokumentować decyzję
 
-Zasób otrzymuje jedną z decyzji:
+Decyzja archiwizacyjna powinna zawierać:
 
-- pozostawić,
-- zaktualizować,
-- naprawić,
-- archiwizować,
-- wycofać.
-
----
-
-### 4. Realizacja decyzji
-
-#### Archiwizacja
-- oznaczenie zasobu jako archiwalnego,
-- usunięcie z głównych ścieżek nawigacji,
-- zapewnienie kontekstu (np. „materiał archiwalny”),
-- ewentualne ograniczenie dostępności.
-
-#### Wycofanie
-- usunięcie zasobu,
-- przekierowanie (jeśli potrzebne),
-- komunikat dla użytkownika,
-- usunięcie z indeksów.
-
----
-
-### 5. Aktualizacja rejestru
-
-Należy zaktualizować:
-- status zasobu,
+- identyfikator zasobu,
+- tytuł,
+- URL,
+- właściciela treści,
 - datę decyzji,
-- osobę decyzyjną,
-- powód,
-- sposób realizacji.
+- osobę podejmującą decyzję,
+- wybraną decyzję,
+- uzasadnienie,
+- informację o dostępności,
+- informację o powiązanych wersjach,
+- datę wykonania,
+- osobę wykonującą zmianę.
 
----
+Wzór znajduje się w rozdziale [Formularze](narzedzia/formularze.md).
 
-## Archiwizacja a dostępność
+## Powiązanie z rejestrem
 
-Zasób archiwalny nie musi spełniać pełnych wymagań dostępności, jeżeli:
+Archiwizacja i wycofanie nie powinny odbywać się poza rejestrem. Każda decyzja zmienia status zasobu, termin przeglądu, widoczność, adres URL albo powiązanie z inną wersją. Rejestr pozwala później ustalić, dlaczego treść zniknęła z nawigacji, została oznaczona jako historyczna albo została zastąpiona.
 
-- nie jest wykorzystywany operacyjnie,
-- nie służy realizacji bieżących zadań,
-- zapewniono alternatywny dostęp na żądanie.
+## Dostępność treści archiwalnej
 
-Jednak decyzja musi być:
-- świadoma,
-- udokumentowana,
-- możliwa do uzasadnienia.
+Treść archiwalna nadal może podlegać wymaganiom dostępności, zwłaszcza gdy jest publicznie dostępna i używana. Jeżeli naprawa nie jest możliwa albo zasadna, należy rozważyć opis, wersję alternatywną, oznaczenie braków albo udostępnienie na żądanie.
 
----
+Nie należy używać archiwizacji jako sposobu ukrycia problemów dostępnościowych bez decyzji i uzasadnienia.
 
-## Wycofanie a dostępność
+## Typowe błędy
 
-Wycofanie może być właściwym rozwiązaniem dla zasobów:
-
-- niedostępnych,
-- przestarzałych,
-- nieużytecznych,
-- ryzykownych.
-
-Nie zawsze należy naprawiać – czasem lepiej usunąć.
-
----
-
-## Archiwizacja dokumentów sprzed 2018
-
-Dokumenty stare:
-
-- nie zawsze wymagają naprawy,
-- ale wymagają decyzji.
-
-Możliwe działania:
-- naprawa (jeśli nadal używane),
-- zastąpienie,
-- archiwizacja,
-- dostęp alternatywny,
-- wycofanie.
-
----
-
-## Odpowiedzialność
-
-### Właściciel zasobu
-- podejmuje decyzję
-
-### Osoba wykonująca analizę
-- ocenia zasób
-
-### Koordynator dostępności
-- wspiera decyzję
-
-### Kierownik
-- zatwierdza decyzje strategiczne
-
----
-
-## Najczęstsze błędy
-
-- brak decyzji o końcu życia treści,
-- pozostawianie wszystkiego „na wszelki wypadek”,
-- brak oznaczeń archiwalnych,
+- kasowanie treści bez decyzji,
+- pozostawianie nieaktualnych stron w głównej nawigacji,
+- brak oznaczenia historycznego,
+- brak powiązania starej i nowej wersji,
 - brak aktualizacji rejestru,
-- usuwanie bez dokumentacji,
-- utrzymywanie niedostępnych zasobów bez potrzeby.
+- mylenie archiwizacji z naprawą,
+- pozostawianie niedostępnych załączników bez decyzji.
 
----
+## Powiązane narzędzia
 
-## Efekt dobrze działającego systemu
-
-- uporządkowane środowisko cyfrowe,
-- brak przestarzałych informacji,
-- mniejsze ryzyko błędów,
-- lepsza dostępność,
-- spójność komunikacji,
-- kontrola nad historią treści.
-
----
-
-## Powiązane materiały źródłowe
-
-- rejestr zasobów,
-- przegląd i naprawa,
-- standardy publikacji,
-- kontrola przed publikacją,
-- zarządzanie cyklem życia TIK.
+Stosuj [rejestr zasobów](05-rejestr-zasobow.md), [formularz decyzji archiwizacyjnej](narzedzia/formularze.md), [listę kontrolną decyzji archiwizacyjnej](narzedzia/listy-kontrolne.md), [rejestr decyzji archiwizacyjnych](narzedzia/rejestry.md) i [schemat archiwizacji i wycofania](narzedzia/schematy-procesow.md).
