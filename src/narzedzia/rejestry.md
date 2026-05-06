@@ -216,3 +216,58 @@ Rejestr, który nie jest aktualizowany, traci wartość.
 ## Odniesienia
 
 - [Materiały źródłowe](../../_sources/sdc/)
+
+- ## Model danych – rejestr zasobów cyfrowych
+
+Rejestr powinien być traktowany jako baza danych, a nie tabela pomocnicza.
+
+### Pola obowiązkowe
+
+| Pole | Typ | Opis |
+|------|-----|------|
+| id | string | unikalny identyfikator zasobu |
+| tytul | text | nazwa zasobu |
+| typ | enum | strona / dokument / wideo / grafika / formularz |
+| url | text | lokalizacja zasobu |
+| kanal | enum | www / BIP / social media / system |
+| wlasciciel | text | właściciel merytoryczny |
+| jednostka | text | komórka organizacyjna |
+| status | enum | roboczy / opublikowany / warunkowy / archiwalny / wycofany |
+| status_dostepnosci | enum | zgodny / częściowo zgodny / niezgodny / nieoceniony |
+| data_publikacji | date | data publikacji |
+| data_ostatniego_przegladu | date | ostatnia weryfikacja |
+| termin_przegladu | date | kolejny przegląd |
+| priorytet | enum | wysoki / średni / niski |
+| czy_zewnetrzny | boolean | czy materiał pochodzi z zewnątrz |
+| mozliwosc_modyfikacji | boolean | czy można zmieniać treść |
+| decyzja | enum | publikacja / poprawa / archiwizacja / wycofanie |
+| uwagi | text | dodatkowe informacje |
+
+---
+
+### Relacje
+
+Rejestr powinien być powiązany z:
+
+- rejestrem kontroli
+- rejestrem zgłoszeń
+- rejestrem napraw
+- rejestrem decyzji
+
+Identyfikatorem wspólnym jest `id`.
+
+---
+
+### Minimalny model wdrożenia
+
+- Google Sheets (z walidacją danych)
+- kolumny jako pola
+- filtry po statusie i właścicielu
+
+---
+
+### Model docelowy
+
+- baza danych (np. Airtable / system wewnętrzny)
+- integracja z CMS
+- automatyczne zasilanie danych
