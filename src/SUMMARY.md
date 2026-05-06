@@ -3,6 +3,13 @@
 - [Strona startowa](index.md)
 - [Wstęp](01-wstep.md)
 
+- ## Kontekst systemowy
+
+- [Model organizacji](kontekst/model-organizacji.md)
+- [Cele systemu](kontekst/cele-systemu.md)
+- [Zasady ogólne](kontekst/zasady-ogolne.md)
+- [Najczęstsze błędy](kontekst/najczestsze-bledy.md)
+
 ## Część I. Model zarządzania treścią
 
 - [Standardy publikacji](02-standardy-publikacji.md)
