@@ -7,6 +7,9 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -15,10 +18,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
       - name: Install mdBook
         run: |
-          curl -L https://github.com/rust-lang/mdBook/releases/latest/download/mdbook-linux-amd64.tar.gz | tar xz
-          sudo mv mdbook /usr/local/bin/mdbook
+          cargo install mdbook --locked
           mdbook --version
 
       - name: Build book
