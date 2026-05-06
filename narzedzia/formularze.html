@@ -35,7 +35,7 @@
             const path_to_root = "../";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "../searchindex-4596f89b.js";
+            window.path_to_searchindex_js = "../searchindex-a209dfcb.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="../toc-cc9ee9c6.js"></script>
@@ -175,13 +175,185 @@
                 <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="formularze"><a class="header" href="#formularze">Formularze</a></h1>
-<h2 id="cel"><a class="header" href="#cel">Cel</a></h2>
-<p>Opis celu formularzy.</p>
-<h2 id="przykłady"><a class="header" href="#przykłady">Przykłady</a></h2>
+<h2 id="rola-formularzy-w-systemie"><a class="header" href="#rola-formularzy-w-systemie">Rola formularzy w systemie</a></h2>
+<p>Formularze są podstawowym narzędziem wejścia i obsługi danych w systemie zarządzania dostępną treścią publiczną.</p>
+<p>Pozwalają przełożyć działania opisane w podręczniku na uporządkowany proces, w którym każda informacja ma:</p>
 <ul>
-<li>formularz zgłoszenia błędu dostępności</li>
-<li>formularz wniosku o zmianę treści</li>
+<li>właściciela,</li>
+<li>kontekst,</li>
+<li>komplet danych,</li>
+<li>możliwość dalszego przetwarzania.</li>
 </ul>
+<p>Formularze ograniczają komunikację nieformalną i przypadkowe decyzje. Dzięki nim proces publikacji, kontroli i utrzymania treści staje się powtarzalny i możliwy do odtworzenia.</p>
+<hr>
+<h2 id="zasady-stosowania-formularzy"><a class="header" href="#zasady-stosowania-formularzy">Zasady stosowania formularzy</a></h2>
+<p>Formularze powinny:</p>
+<ul>
+<li>wymuszać kompletność danych,</li>
+<li>być powiązane z konkretnym procesem,</li>
+<li>prowadzić użytkownika krok po kroku,</li>
+<li>ograniczać możliwość pominięcia kluczowych informacji,</li>
+<li>umożliwiać dalsze przetwarzanie danych (np. w rejestrze),</li>
+<li>być spójne z mapą odpowiedzialności.</li>
+</ul>
+<p>Formularz nie powinien być traktowany jako dodatkowy obowiązek, ale jako narzędzie ułatwiające pracę i ograniczające błędy.</p>
+<hr>
+<h2 id="typy-formularzy-w-systemie"><a class="header" href="#typy-formularzy-w-systemie">Typy formularzy w systemie</a></h2>
+<h3 id="formularz-przekazania-treści-do-publikacji"><a class="header" href="#formularz-przekazania-treści-do-publikacji">Formularz przekazania treści do publikacji</a></h3>
+<p>Służy do przekazania materiału do przygotowania i publikacji.</p>
+<p>Powinien zawierać:</p>
+<ul>
+<li>tytuł materiału,</li>
+<li>właściciela treści,</li>
+<li>treść główną,</li>
+<li>załączniki,</li>
+<li>grafiki,</li>
+<li>informacje o źródle materiału,</li>
+<li>planowany kanał publikacji,</li>
+<li>termin publikacji,</li>
+<li>informację, czy materiał pochodzi od innego podmiotu.</li>
+</ul>
+<p>Powiązanie:</p>
+<ul>
+<li>tworzenie treści,</li>
+<li>kontrola przed publikacją,</li>
+<li>treści od innych podmiotów.</li>
+</ul>
+<hr>
+<h3 id="formularz-kontroli-przed-publikacją"><a class="header" href="#formularz-kontroli-przed-publikacją">Formularz kontroli przed publikacją</a></h3>
+<p>Służy do dokumentowania wyniku kontroli.</p>
+<p>Może być powiązany z listą kontrolną.</p>
+<p>Powinien zawierać:</p>
+<ul>
+<li>identyfikację materiału,</li>
+<li>zastosowaną listę kontrolną,</li>
+<li>odpowiedzi TAK / NIE / NIE DOTYCZY,</li>
+<li>uwagi,</li>
+<li>wynik kontroli,</li>
+<li>decyzję publikacyjną,</li>
+<li>osobę wykonującą kontrolę,</li>
+<li>datę.</li>
+</ul>
+<p>Powiązanie:</p>
+<ul>
+<li>kontrola przed publikacją,</li>
+<li>rejestr zasobów.</li>
+</ul>
+<hr>
+<h3 id="formularz-zgłoszenia-błędu-dostępności"><a class="header" href="#formularz-zgłoszenia-błędu-dostępności">Formularz zgłoszenia błędu dostępności</a></h3>
+<p>Służy użytkownikom i pracownikom do zgłaszania problemów.</p>
+<p>Powinien zawierać:</p>
+<ul>
+<li>wskazanie zasobu (link),</li>
+<li>opis problemu,</li>
+<li>typ problemu,</li>
+<li>dane kontaktowe (jeśli wymagane),</li>
+<li>możliwość załączenia materiału pomocniczego.</li>
+</ul>
+<p>Powiązanie:</p>
+<ul>
+<li>przegląd i naprawa,</li>
+<li>rejestr zasobów,</li>
+<li>obsługa żądań dostępności.</li>
+</ul>
+<hr>
+<h3 id="formularz-wniosku-o-zmianę-treści"><a class="header" href="#formularz-wniosku-o-zmianę-treści">Formularz wniosku o zmianę treści</a></h3>
+<p>Służy do inicjowania zmian w opublikowanych materiałach.</p>
+<p>Powinien zawierać:</p>
+<ul>
+<li>identyfikację zasobu,</li>
+<li>zakres zmiany,</li>
+<li>uzasadnienie,</li>
+<li>pilność,</li>
+<li>osobę zgłaszającą.</li>
+</ul>
+<p>Powiązanie:</p>
+<ul>
+<li>przegląd i naprawa,</li>
+<li>aktualizacja treści,</li>
+<li>rejestr.</li>
+</ul>
+<hr>
+<h3 id="formularz-obsługi-treści-od-innych-podmiotów"><a class="header" href="#formularz-obsługi-treści-od-innych-podmiotów">Formularz obsługi treści od innych podmiotów</a></h3>
+<p>Służy do przyjmowania i kwalifikacji materiałów zewnętrznych.</p>
+<p>Powinien zawierać:</p>
+<ul>
+<li>źródło materiału,</li>
+<li>dane podmiotu,</li>
+<li>możliwość modyfikacji,</li>
+<li>klasyfikację (A/B/C/D),</li>
+<li>ocenę dostępności,</li>
+<li>decyzję publikacyjną.</li>
+</ul>
+<p>Powiązanie:</p>
+<ul>
+<li>treści od innych podmiotów,</li>
+<li>kontrola przed publikacją,</li>
+<li>rejestr.</li>
+</ul>
+<hr>
+<h3 id="formularz-decyzji-o-archiwizacji-lub-wycofaniu"><a class="header" href="#formularz-decyzji-o-archiwizacji-lub-wycofaniu">Formularz decyzji o archiwizacji lub wycofaniu</a></h3>
+<p>Służy do dokumentowania decyzji kończących cykl życia zasobu.</p>
+<p>Powinien zawierać:</p>
+<ul>
+<li>identyfikację zasobu,</li>
+<li>decyzję (archiwizacja / wycofanie),</li>
+<li>uzasadnienie,</li>
+<li>datę,</li>
+<li>osobę decyzyjną,</li>
+<li>sposób realizacji.</li>
+</ul>
+<p>Powiązanie:</p>
+<ul>
+<li>archiwizacja i wycofanie,</li>
+<li>rejestr zasobów.</li>
+</ul>
+<hr>
+<h2 id="powiązanie-formularzy-z-rejestrem"><a class="header" href="#powiązanie-formularzy-z-rejestrem">Powiązanie formularzy z rejestrem</a></h2>
+<p>Dane z formularzy powinny zasilać rejestr zasobów.</p>
+<p>Oznacza to, że:</p>
+<ul>
+<li>formularze nie mogą być „oderwane” od systemu,</li>
+<li>dane powinny być możliwe do agregacji,</li>
+<li>decyzje powinny być odtwarzalne.</li>
+</ul>
+<p>Rejestr powinien być centralnym miejscem, które zbiera dane z formularzy.</p>
+<hr>
+<h2 id="minimalny-model-wdrożenia"><a class="header" href="#minimalny-model-wdrożenia">Minimalny model wdrożenia</a></h2>
+<p>W prostym modelu formularze mogą być realizowane jako:</p>
+<ul>
+<li>Google Forms,</li>
+<li>Microsoft Forms,</li>
+<li>formularze w CMS,</li>
+<li>arkusze współdzielone.</li>
+</ul>
+<p>Najważniejsze jest:</p>
+<ul>
+<li>spójność,</li>
+<li>konsekwencja,</li>
+<li>powiązanie z procesem.</li>
+</ul>
+<hr>
+<h2 id="najczęstsze-błędy"><a class="header" href="#najczęstsze-błędy">Najczęstsze błędy</a></h2>
+<ul>
+<li>brak formularzy,</li>
+<li>stosowanie maili zamiast formularzy,</li>
+<li>brak powiązania z procesem,</li>
+<li>brak wymaganych pól,</li>
+<li>brak wykorzystania danych,</li>
+<li>tworzenie zbyt skomplikowanych formularzy,</li>
+<li>brak aktualizacji formularzy wraz ze zmianą procesu.</li>
+</ul>
+<hr>
+<h2 id="efekt-dobrze-zaprojektowanych-formularzy"><a class="header" href="#efekt-dobrze-zaprojektowanych-formularzy">Efekt dobrze zaprojektowanych formularzy</a></h2>
+<ul>
+<li>uporządkowany przepływ informacji,</li>
+<li>mniej błędów,</li>
+<li>większa przewidywalność procesu,</li>
+<li>lepsza kontrola nad treścią,</li>
+<li>spójność działań w organizacji.</li>
+</ul>
+<hr>
 <h2 id="odniesienia"><a class="header" href="#odniesienia">Odniesienia</a></h2>
 <ul>
 <li><a href="../../_sources/sdc/">Materiały źródłowe</a></li>
