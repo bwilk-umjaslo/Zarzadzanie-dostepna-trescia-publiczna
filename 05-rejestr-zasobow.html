@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-cc16c714.js";
+            window.path_to_searchindex_js = "searchindex-8dbb3833.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-cc9ee9c6.js"></script>
@@ -175,13 +175,332 @@
                 <div id="mdbook-content" class="content">
                     <main>
                         <h1 id="rejestr-zasobów"><a class="header" href="#rejestr-zasobów">Rejestr zasobów</a></h1>
-<h2 id="przeprowadzanie-inwentaryzacji"><a class="header" href="#przeprowadzanie-inwentaryzacji">Przeprowadzanie inwentaryzacji</a></h2>
-<p>…</p>
-<h2 id="rejestr-zasobów-cyfrowych"><a class="header" href="#rejestr-zasobów-cyfrowych">Rejestr zasobów cyfrowych</a></h2>
-<p>…</p>
-<h2 id="materiały-źródłowe"><a class="header" href="#materiały-źródłowe">Materiały źródłowe</a></h2>
+<h2 id="rola-rejestru-w-systemie"><a class="header" href="#rola-rejestru-w-systemie">Rola rejestru w systemie</a></h2>
+<p>Rejestr zasobów jest centralnym narzędziem zarządzania dostępną treścią publiczną. Pozwala ustalić, jakie zasoby cyfrowe istnieją, gdzie są opublikowane, kto za nie odpowiada, jaki mają status dostępności i jakie działania należy wobec nich podjąć.</p>
+<p>Bez rejestru organizacja działa reaktywnie. Reaguje dopiero wtedy, gdy pojawi się błąd, skarga, żądanie zapewnienia dostępności albo problem przy aktualizacji deklaracji dostępności. Rejestr pozwala przejść od reagowania do zarządzania.</p>
+<p>W tym podręczniku rejestr nie jest dodatkową tabelą administracyjną. Jest warstwą systemową, która łączy tworzenie treści, kontrolę przed publikacją, publikację, treści od innych podmiotów, przegląd i naprawę oraz archiwizację i wycofanie.</p>
+<h2 id="rejestr-jako-warstwa-systemowa"><a class="header" href="#rejestr-jako-warstwa-systemowa">Rejestr jako warstwa systemowa</a></h2>
+<p>Rejestr zasobów działa w całym cyklu życia treści. Nie jest etapem wykonywanym raz na początku ani arkuszem aktualizowanym wyłącznie przy audycie.</p>
+<p>Rejestr powinien wspierać:</p>
 <ul>
-<li><a href="../_sources/sdc/cykltik/inwentaryzacja/rejestr-zasobow-cyfrowych.html">Rejestr zasobów</a></li>
+<li>planowanie publikacji,</li>
+<li>identyfikację właściciela treści,</li>
+<li>dokumentowanie kontroli przed publikacją,</li>
+<li>nadawanie statusu publikacji,</li>
+<li>ocenę stanu dostępności,</li>
+<li>obsługę treści od innych podmiotów,</li>
+<li>planowanie przeglądu i naprawy,</li>
+<li>obsługę zgłoszeń dostępności,</li>
+<li>aktualizację deklaracji dostępności,</li>
+<li>decyzje o archiwizacji i wycofaniu.</li>
+</ul>
+<p>Dane z rejestru powinny być wykorzystywane operacyjnie, a nie tylko sprawozdawczo. Rejestr powinien wskazywać, co trzeba sprawdzić, poprawić, utrzymać, wycofać albo zarchiwizować.</p>
+<h2 id="co-jest-zasobem"><a class="header" href="#co-jest-zasobem">Co jest zasobem</a></h2>
+<p>Zasobem jest każdy element środowiska cyfrowego, który przekazuje informację, umożliwia wykonanie działania albo dokumentuje działalność podmiotu.</p>
+<p>W rejestrze powinny być ujmowane w szczególności:</p>
+<ul>
+<li>strony internetowe,</li>
+<li>podstrony i sekcje serwisów,</li>
+<li>wpisy i aktualności,</li>
+<li>komunikaty,</li>
+<li>treści BIP,</li>
+<li>dokumenty cyfrowe,</li>
+<li>pliki PDF,</li>
+<li>załączniki,</li>
+<li>formularze,</li>
+<li>multimedia,</li>
+<li>nagrania wideo,</li>
+<li>nagrania audio,</li>
+<li>grafiki informacyjne,</li>
+<li>infografiki,</li>
+<li>galerie zdjęć, jeżeli pełnią funkcję informacyjną,</li>
+<li>aplikacje internetowe,</li>
+<li>aplikacje mobilne,</li>
+<li>systemy rezerwacji i zgłoszeń,</li>
+<li>platformy konsultacji,</li>
+<li>komponenty osadzone z zewnętrznych platform,</li>
+<li>dokumentacja API, jeżeli jest publicznie udostępniana,</li>
+<li>zasoby archiwalne nadal udostępniane użytkownikom.</li>
+</ul>
+<p>Zakres rejestru może być stopniowany. Nie każda organizacja musi od pierwszego dnia posiadać pełny, rozbudowany rejestr. Minimalny rejestr powinien jednak pozwalać ustalić, co jest opublikowane, kto za to odpowiada i jaki jest status dostępności.</p>
+<h2 id="poziomy-rejestracji"><a class="header" href="#poziomy-rejestracji">Poziomy rejestracji</a></h2>
+<p>W praktyce można stosować różne poziomy szczegółowości rejestru.</p>
+<h3 id="poziom-podstawowy"><a class="header" href="#poziom-podstawowy">Poziom podstawowy</a></h3>
+<p>Poziom podstawowy obejmuje najważniejsze zasoby publiczne:</p>
+<ul>
+<li>strony i serwisy,</li>
+<li>BIP,</li>
+<li>główne dokumenty,</li>
+<li>formularze,</li>
+<li>multimedia,</li>
+<li>zasoby wymagające regularnej aktualizacji.</li>
+</ul>
+<p>Ten poziom jest właściwy na początku wdrażania systemu albo w małych podmiotach.</p>
+<h3 id="poziom-operacyjny"><a class="header" href="#poziom-operacyjny">Poziom operacyjny</a></h3>
+<p>Poziom operacyjny obejmuje zasoby, które są powiązane z procesami publikacji, kontroli i naprawy.</p>
+<p>Rejestr zawiera wtedy nie tylko dane identyfikacyjne, ale także status kontroli, wynik oceny dostępności, termin przeglądu, odpowiedzialność i decyzje naprawcze.</p>
+<h3 id="poziom-zarządczy"><a class="header" href="#poziom-zarządczy">Poziom zarządczy</a></h3>
+<p>Poziom zarządczy pozwala analizować stan całego środowiska cyfrowego. Umożliwia przygotowanie raportów, planowanie audytów, analizę ryzyk, aktualizację deklaracji dostępności i podejmowanie decyzji budżetowych.</p>
+<h2 id="minimalne-dane-w-rejestrze"><a class="header" href="#minimalne-dane-w-rejestrze">Minimalne dane w rejestrze</a></h2>
+<p>Minimalny wpis w rejestrze powinien umożliwiać identyfikację zasobu, jego właściciela i statusu.</p>
+<p>Podstawowe pola:</p>
+<ul>
+<li>identyfikator zasobu,</li>
+<li>nazwa albo tytuł,</li>
+<li>typ zasobu,</li>
+<li>lokalizacja lub URL,</li>
+<li>kanał publikacji,</li>
+<li>właściciel merytoryczny,</li>
+<li>osoba lub komórka odpowiedzialna za utrzymanie,</li>
+<li>data utworzenia albo publikacji,</li>
+<li>status publikacji,</li>
+<li>status dostępności,</li>
+<li>data ostatniej kontroli,</li>
+<li>wynik ostatniej kontroli,</li>
+<li>termin kolejnego przeglądu,</li>
+<li>uwagi lub działania wymagane.</li>
+</ul>
+<p>W małych podmiotach taki zakres może być prowadzony w arkuszu kalkulacyjnym. W większych organizacjach powinien być powiązany z systemem obiegu treści, CMS, systemem zgłoszeń albo narzędziem raportowania.</p>
+<h2 id="rozszerzone-dane-w-rejestrze"><a class="header" href="#rozszerzone-dane-w-rejestrze">Rozszerzone dane w rejestrze</a></h2>
+<p>W bardziej dojrzałym modelu rejestr powinien zawierać także dane wspierające decyzje operacyjne.</p>
+<p>Pola rozszerzone mogą obejmować:</p>
+<ul>
+<li>podstawę publikacji,</li>
+<li>kategorię treści,</li>
+<li>informację, czy materiał pochodzi od innego podmiotu,</li>
+<li>możliwość modyfikacji materiału,</li>
+<li>zastosowaną listę kontrolną,</li>
+<li>wynik kontroli przed publikacją,</li>
+<li>osobę wykonującą kontrolę,</li>
+<li>braki dostępności,</li>
+<li>termin poprawy,</li>
+<li>status poprawy,</li>
+<li>informację o trybie wyjątkowym,</li>
+<li>dostęp alternatywny,</li>
+<li>datę ostatniej aktualizacji,</li>
+<li>historię zmian,</li>
+<li>powiązane zgłoszenia dostępności,</li>
+<li>powiązane decyzje archiwizacyjne,</li>
+<li>technologię lub system publikacji,</li>
+<li>ryzyka,</li>
+<li>priorytet naprawy,</li>
+<li>informację o retencji lub planowanym wycofaniu.</li>
+</ul>
+<p>Dzięki temu rejestr może obsługiwać nie tylko inwentaryzację, ale również działania naprawcze i zarządzanie cyklem życia zasobów.</p>
+<h2 id="statusy-zasobu"><a class="header" href="#statusy-zasobu">Statusy zasobu</a></h2>
+<p>Każdy zasób powinien mieć status. Status pozwala ustalić, na jakim etapie cyklu życia znajduje się treść i jakie działania są wobec niej potrzebne.</p>
+<p>Przykładowe statusy:</p>
+<ul>
+<li>projekt,</li>
+<li>w przygotowaniu,</li>
+<li>w kontroli,</li>
+<li>dopuszczony do publikacji,</li>
+<li>opublikowany,</li>
+<li>opublikowany warunkowo,</li>
+<li>wymaga poprawy,</li>
+<li>w naprawie,</li>
+<li>po naprawie,</li>
+<li>wymaga przeglądu,</li>
+<li>nieaktualny,</li>
+<li>przeznaczony do wycofania,</li>
+<li>wycofany z publikacji,</li>
+<li>zarchiwizowany,</li>
+<li>dostępny alternatywnie.</li>
+</ul>
+<p>Statusy powinny być zdefiniowane w organizacji. Nie należy tworzyć zbyt wielu statusów, jeżeli nie są wykorzystywane w praktyce. Każdy status powinien oznaczać konkretną decyzję albo działanie.</p>
+<h2 id="status-dostępności"><a class="header" href="#status-dostępności">Status dostępności</a></h2>
+<p>Status dostępności powinien być odrębny od statusu publikacji. Zasób może być opublikowany, ale niedostępny. Może być także wycofany, ale nadal dostępny alternatywnie.</p>
+<p>Przykładowe statusy dostępności:</p>
+<ul>
+<li>zgodny,</li>
+<li>częściowo zgodny,</li>
+<li>niezgodny,</li>
+<li>nieoceniony,</li>
+<li>wymaga kontroli,</li>
+<li>wymaga naprawy,</li>
+<li>objęty dostępem alternatywnym,</li>
+<li>objęty udokumentowanym wyjątkiem.</li>
+</ul>
+<p>Status dostępności powinien wynikać z kontroli, przeglądu, audytu, zgłoszenia użytkownika albo innego udokumentowanego działania. Nie powinien być wpisywany intuicyjnie.</p>
+<h2 id="właściciel-zasobu"><a class="header" href="#właściciel-zasobu">Właściciel zasobu</a></h2>
+<p>Każdy zasób powinien mieć właściciela. Właściciel nie musi być osobą technicznie publikującą treść. Jest to osoba albo komórka odpowiedzialna za sens, aktualność, kompletność i decyzje dotyczące zasobu.</p>
+<p>Właściciel odpowiada w szczególności za:</p>
+<ul>
+<li>potwierdzenie potrzeby publikacji,</li>
+<li>zapewnienie treści merytorycznej,</li>
+<li>reagowanie na braki,</li>
+<li>podejmowanie decyzji o aktualizacji,</li>
+<li>udział w przeglądzie,</li>
+<li>decyzję o wycofaniu albo archiwizacji,</li>
+<li>współpracę przy zgłoszeniach dostępności.</li>
+</ul>
+<p>Brak właściciela zasobu jest jednym z największych ryzyk organizacyjnych. Zasoby bez właściciela szybko stają się nieaktualne, niedostępne albo niemożliwe do usunięcia bez ryzyka.</p>
+<h2 id="rejestr-a-kontrola-przed-publikacją"><a class="header" href="#rejestr-a-kontrola-przed-publikacją">Rejestr a kontrola przed publikacją</a></h2>
+<p>Kontrola przed publikacją powinna zasilać rejestr.</p>
+<p>Po kontroli w rejestrze powinny znaleźć się informacje o:</p>
+<ul>
+<li>dacie kontroli,</li>
+<li>zastosowanej liście kontrolnej,</li>
+<li>wyniku kontroli,</li>
+<li>osobie sprawdzającej,</li>
+<li>decyzji publikacyjnej,</li>
+<li>brakach,</li>
+<li>terminie poprawy,</li>
+<li>trybie wyjątkowym, jeżeli zastosowano.</li>
+</ul>
+<p>Dzięki temu organizacja może odtworzyć, dlaczego materiał został opublikowany i czy publikacja była poprzedzona rzeczywistą kontrolą.</p>
+<h2 id="rejestr-a-publikacja"><a class="header" href="#rejestr-a-publikacja">Rejestr a publikacja</a></h2>
+<p>Publikacja powinna aktualizować rejestr. W momencie publikacji zasób otrzymuje status opublikowany albo opublikowany warunkowo.</p>
+<p>Do rejestru należy wpisać:</p>
+<ul>
+<li>datę publikacji,</li>
+<li>kanał publikacji,</li>
+<li>adres URL,</li>
+<li>osobę publikującą,</li>
+<li>właściciela treści,</li>
+<li>status dostępności,</li>
+<li>powiązanie z wynikiem kontroli.</li>
+</ul>
+<p>Rejestr powinien pozwalać ustalić, gdzie znajduje się aktualna wersja zasobu i czy istnieją jego kopie, warianty albo wersje archiwalne.</p>
+<h2 id="rejestr-a-treści-od-innych-podmiotów"><a class="header" href="#rejestr-a-treści-od-innych-podmiotów">Rejestr a treści od innych podmiotów</a></h2>
+<p>Materiały pochodzące od innych podmiotów powinny być oznaczane w rejestrze. Organizacja musi wiedzieć, które zasoby nie zostały przygotowane samodzielnie i jaki ma nad nimi zakres kontroli.</p>
+<p>W rejestrze warto ująć:</p>
+<ul>
+<li>nazwę podmiotu przekazującego materiał,</li>
+<li>datę przekazania,</li>
+<li>kategorię materiału,</li>
+<li>informację, czy materiał można modyfikować,</li>
+<li>wynik oceny dostępności,</li>
+<li>braki przekazane podmiotowi zewnętrznemu,</li>
+<li>decyzję publikacyjną,</li>
+<li>oznaczenie treści, jeżeli jest potrzebne,</li>
+<li>sposób zapewnienia dostępu alternatywnego.</li>
+</ul>
+<p>Takie dane ułatwiają obsługę żądań dostępności i ograniczają ryzyko domniemania, że treść zewnętrzna nie podlega żadnym wymaganiom.</p>
+<h2 id="rejestr-a-przegląd-i-naprawa"><a class="header" href="#rejestr-a-przegląd-i-naprawa">Rejestr a przegląd i naprawa</a></h2>
+<p>Rejestr jest podstawą przeglądu i naprawy. Bez rejestru organizacja nie wie, które dokumenty, multimedia i treści powinny zostać sprawdzone.</p>
+<p>Rejestr powinien umożliwiać:</p>
+<ul>
+<li>filtrowanie zasobów wymagających przeglądu,</li>
+<li>identyfikację dokumentów opublikowanych w określonym czasie,</li>
+<li>wskazanie zasobów nieocenionych,</li>
+<li>nadanie priorytetu naprawom,</li>
+<li>przypisanie odpowiedzialności,</li>
+<li>monitorowanie terminu poprawy,</li>
+<li>potwierdzenie wykonania działań naprawczych.</li>
+</ul>
+<p>Wyniki przeglądu i naprawy powinny aktualizować dane rejestrowe. Rejestr musi pozostać aktualnym źródłem wiedzy o stanie zasobów.</p>
+<h2 id="rejestr-a-archiwizacja-i-wycofanie"><a class="header" href="#rejestr-a-archiwizacja-i-wycofanie">Rejestr a archiwizacja i wycofanie</a></h2>
+<p>Rejestr powinien obsługiwać także końcowe etapy cyklu życia zasobu.</p>
+<p>Przy archiwizacji albo wycofaniu należy odnotować:</p>
+<ul>
+<li>decyzję o wycofaniu albo archiwizacji,</li>
+<li>datę decyzji,</li>
+<li>osobę decyzyjną,</li>
+<li>powód wycofania,</li>
+<li>miejsce przechowywania wersji archiwalnej,</li>
+<li>sposób dostępu do zasobu historycznego,</li>
+<li>informację o przekierowaniu albo komunikacie dla użytkownika,</li>
+<li>status końcowy zasobu.</li>
+</ul>
+<p>Wycofanie treści bez aktualizacji rejestru prowadzi do utraty kontroli nad historią decyzji i utrudnia późniejsze udzielanie informacji.</p>
+<h2 id="rejestr-a-zgłoszenia-dostępności"><a class="header" href="#rejestr-a-zgłoszenia-dostępności">Rejestr a zgłoszenia dostępności</a></h2>
+<p>Zgłoszenia dostępności powinny być powiązane z konkretnymi zasobami w rejestrze.</p>
+<p>Dzięki temu można ustalić:</p>
+<ul>
+<li>czego dotyczy zgłoszenie,</li>
+<li>kto jest właścicielem zasobu,</li>
+<li>jaki jest status dostępności,</li>
+<li>czy problem był wcześniej znany,</li>
+<li>czy zaplanowano naprawę,</li>
+<li>czy zapewniono dostęp alternatywny,</li>
+<li>czy zgłoszenie powinno wpłynąć na przegląd podobnych zasobów.</li>
+</ul>
+<p>Zgłoszenie użytkownika nie powinno być obsługiwane jako oderwana sprawa. Powinno aktualizować wiedzę organizacji o zasobie.</p>
+<h2 id="aktualizacja-rejestru"><a class="header" href="#aktualizacja-rejestru">Aktualizacja rejestru</a></h2>
+<p>Rejestr musi być utrzymywany. Jednorazowa inwentaryzacja szybko traci wartość, jeżeli nie jest powiązana z bieżącymi procesami.</p>
+<p>Rejestr powinien być aktualizowany:</p>
+<ul>
+<li>przy utworzeniu nowego zasobu,</li>
+<li>przed publikacją,</li>
+<li>w momencie publikacji,</li>
+<li>po aktualizacji treści,</li>
+<li>po kontroli dostępności,</li>
+<li>po zgłoszeniu braku,</li>
+<li>po naprawie,</li>
+<li>po przeglądzie,</li>
+<li>przy decyzji o archiwizacji,</li>
+<li>przy wycofaniu z publikacji,</li>
+<li>po zmianie właściciela,</li>
+<li>po zmianie systemu lub adresu URL.</li>
+</ul>
+<p>Dodatkowo warto przewidzieć okresowy przegląd rejestru, na przykład kwartalny albo półroczny, zależnie od skali organizacji.</p>
+<h2 id="minimalny-model-dla-małych-podmiotów"><a class="header" href="#minimalny-model-dla-małych-podmiotów">Minimalny model dla małych podmiotów</a></h2>
+<p>W małym podmiocie rejestr może być prostym arkuszem. Ważne, aby był używany konsekwentnie.</p>
+<p>Minimalny model obejmuje:</p>
+<ul>
+<li>nazwę zasobu,</li>
+<li>typ zasobu,</li>
+<li>link,</li>
+<li>właściciela,</li>
+<li>datę publikacji,</li>
+<li>status dostępności,</li>
+<li>termin przeglądu,</li>
+<li>uwagi.</li>
+</ul>
+<p>Dla małego podmiotu ważniejsze jest utrzymanie aktualności prostego rejestru niż tworzenie rozbudowanej tabeli, której nikt nie będzie uzupełniał.</p>
+<h2 id="model-dla-dużych-podmiotów"><a class="header" href="#model-dla-dużych-podmiotów">Model dla dużych podmiotów</a></h2>
+<p>W dużym podmiocie rejestr powinien być powiązany z procesami organizacyjnymi.</p>
+<p>Może być prowadzony jako:</p>
+<ul>
+<li>centralny arkusz zarządczy,</li>
+<li>moduł w systemie obiegu treści,</li>
+<li>część CMS,</li>
+<li>system zgłoszeń,</li>
+<li>baza danych,</li>
+<li>dashboard raportowy.</li>
+</ul>
+<p>W dużej organizacji rejestr powinien umożliwiać raportowanie według komórek organizacyjnych, typów zasobów, statusów dostępności, terminów naprawy i właścicieli.</p>
+<h2 id="najczęstsze-błędy"><a class="header" href="#najczęstsze-błędy">Najczęstsze błędy</a></h2>
+<p>Do najczęstszych błędów należą:</p>
+<ul>
+<li>brak rejestru,</li>
+<li>rejestr prowadzony jednorazowo na potrzeby audytu,</li>
+<li>brak właścicieli zasobów,</li>
+<li>brak aktualizacji po publikacji,</li>
+<li>brak statusów dostępności,</li>
+<li>brak powiązania z kontrolą przed publikacją,</li>
+<li>brak powiązania z przeglądem i naprawą,</li>
+<li>rejestr zbyt skomplikowany do utrzymania,</li>
+<li>wpisy bez adresów URL,</li>
+<li>brak informacji o treściach zewnętrznych,</li>
+<li>brak statusów archiwizacji i wycofania,</li>
+<li>traktowanie rejestru jako dokumentu technicznego, a nie narzędzia zarządzania.</li>
+</ul>
+<h2 id="efekt-dobrze-prowadzonego-rejestru"><a class="header" href="#efekt-dobrze-prowadzonego-rejestru">Efekt dobrze prowadzonego rejestru</a></h2>
+<p>Dobrze prowadzony rejestr:</p>
+<ul>
+<li>pokazuje, jakie zasoby istnieją,</li>
+<li>wskazuje właścicieli,</li>
+<li>porządkuje odpowiedzialność,</li>
+<li>umożliwia planowanie przeglądów,</li>
+<li>wspiera naprawę błędów,</li>
+<li>ułatwia aktualizację deklaracji dostępności,</li>
+<li>wspiera obsługę zgłoszeń użytkowników,</li>
+<li>dokumentuje decyzje,</li>
+<li>domyka cykl życia treści.</li>
+</ul>
+<p>Rejestr jest tym miejscem, w którym pojedyncze publikacje stają się systemem zarządzania treścią publiczną.</p>
+<h2 id="powiązane-materiały-źródłowe"><a class="header" href="#powiązane-materiały-źródłowe">Powiązane materiały źródłowe</a></h2>
+<p>Ten rozdział wykorzystuje i porządkuje materiały dotyczące:</p>
+<ul>
+<li>inwentaryzacji zasobów cyfrowych,</li>
+<li>rejestru zasobów cyfrowych,</li>
+<li>powiązania rejestru z programem przeglądu i naprawy dokumentów,</li>
+<li>aktualizacji danych rejestrowych,</li>
+<li>zarządzania właścicielami zasobów,</li>
+<li>statusów dostępności,</li>
+<li>archiwizacji i wycofywania zasobów cyfrowych.</li>
 </ul>
 
                     </main>
