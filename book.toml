@@ -1,5 +1,5 @@
 [book]
 title = "Zarządzanie dostępną treścią publiczną"
-author = "Bartłomiej Wilk"
+authors = ["Bartłomiej Wilk"]
 language = "pl"
 src = "src"
