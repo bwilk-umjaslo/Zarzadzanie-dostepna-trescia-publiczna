@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-e764a99f.js";
+            window.path_to_searchindex_js = "searchindex-b052afd3.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-5c232680.js"></script>
@@ -247,6 +247,32 @@
 <li>obsługa żądań dostępności - łączy zgłoszenia użytkowników z decyzjami o naprawie,</li>
 <li>archiwizacja i wycofanie - kończy cykl życia zasobu w sposób udokumentowany.</li>
 </ul>
+<p>Poniższy diagram pokazuje, że moduły nie działają oddzielnie. Standard publikacji zasila kontrolę, kontrola prowadzi do decyzji, publikacja tworzy zasób w rejestrze, a rejestr uruchamia utrzymanie, przegląd, naprawę i decyzję o dalszym losie.</p>
+<pre class="mermaid">flowchart TD
+    A[Tresc publiczna] --&gt; B[Standard publikacji]
+    A --&gt; C[Tworzenie i pozyskanie]
+    C --&gt; D[Kontrola przed publikacja]
+    B --&gt; D
+    D --&gt; E{Decyzja publikacyjna}
+    E --&gt;|Publikuj| F[Publikacja]
+    E --&gt;|Popraw| G[Poprawa]
+    E --&gt;|Warunkowo lub oznaczenie| H[Plan naprawy lub alternatywa]
+    E --&gt;|Odmow| I[Decyzja odmowna]
+    G --&gt; D
+    H --&gt; F
+    F --&gt; J[Rejestr zasobow]
+    J --&gt; K[Utrzymanie]
+    K --&gt; L[Przeglad]
+    L --&gt; M{Dalszy los}
+    M --&gt;|Napraw| N[Naprawa]
+    M --&gt;|Aktualizuj| K
+    M --&gt;|Archiwizuj| O[Archiwizacja]
+    M --&gt;|Wycofaj| P[Wycofanie]
+    N --&gt; J
+    O --&gt; J
+    P --&gt; J
+</pre>
+
 <h2 id="model-cyklu-życia-treści-publicznej"><a class="header" href="#model-cyklu-życia-treści-publicznej">Model cyklu życia treści publicznej</a></h2>
 <pre class="mermaid">flowchart LR
     A[Planowanie] --&gt; B[Pozyskanie]
