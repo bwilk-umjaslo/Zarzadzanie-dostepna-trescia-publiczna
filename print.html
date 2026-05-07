@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-768c93b8.js";
+            window.path_to_searchindex_js = "searchindex-47a40e74.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-5c232680.js"></script>
@@ -1231,6 +1231,23 @@
 </ul>
 <p>Nie wolno automatycznie uznawać treści zewnętrznej za wyłączoną z wymagań dostępności tylko dlatego, że pochodzi od innego podmiotu.</p>
 <h2 id="klasyfikacja-abcd"><a class="header" href="#klasyfikacja-abcd">Klasyfikacja A/B/C/D</a></h2>
+<p>Klasyfikacja A/B/C/D służy ustaleniu, jaką kontrolę ma podmiot publiczny nad materiałem i jaką decyzję może podjąć. Poniższe drzewo pomaga przejść od pytania o kontrolę nad materiałem do decyzji operacyjnej.</p>
+<pre class="mermaid">flowchart TD
+    A[Material od innego podmiotu] --&gt; B{Czy podmiot publiczny ma pelna kontrole lub wersje zrodlowa?}
+    B -- Tak --&gt; C[A - pelna kontrola]
+    C --&gt; D[Popraw przed publikacja albo opublikuj dostepna wersje]
+    B -- Nie --&gt; E{Czy mozna skutecznie poprosic o poprawki?}
+    E -- Tak --&gt; F[B - czesciowa kontrola]
+    F --&gt; G[Procedura brakow i uzupelnienie]
+    E -- Nie --&gt; H{Czy material musi byc opublikowany?}
+    H -- Tak --&gt; I[D - obowiazek publikacji]
+    I --&gt; J[Publikuj, oznacz braki, zapewnij alternatywe, zarejestruj]
+    H -- Nie --&gt; K{Czy publikacja jest nadal uzasadniona celem publicznym?}
+    K -- Tak --&gt; L[C - brak mozliwosci modyfikacji]
+    L --&gt; M[Ocen, oznacz, zapewnij alternatywe albo opublikuj opis zamiast pliku]
+    K -- Nie --&gt; N[Odmow publikacji albo zaproponuj inna forme informacji]
+</pre>
+
 <h3 id="a---pełna-kontrola"><a class="header" href="#a---pełna-kontrola">A - pełna kontrola</a></h3>
 <p>Materiał pochodzi od innego podmiotu, ale podmiot publikujący może go modyfikować albo ma dostęp do wersji źródłowej. Przykład: dokument przygotowany przez wykonawcę na zlecenie podmiotu publicznego.</p>
 <p>Decyzja: wymagać poprawy przed publikacją albo poprawić materiał w ramach procesu.</p>
