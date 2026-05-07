@@ -89,6 +89,84 @@ Minimalne wdrożenie systemu powinno obejmować:
 - schemat kontroli przed publikacją,
 - formularz decyzji archiwizacyjnej.
 
+## Plan wdrożenia 30/60/90 dni
+
+Plan 30/60/90 dni pomaga wdrożyć podręcznik etapami, bez próby jednoczesnego naprawienia wszystkich treści, dokumentów, procesów i kanałów komunikacji. Celem jest najpierw zatrzymanie powstawania nowych problemów, potem uporządkowanie najważniejszych zasobów, a dopiero później rozwijanie pełnego systemu.
+
+### Pierwsze 30 dni - zatrzymanie nowych błędów
+
+W pierwszym miesiącu organizacja powinna wdrożyć minimum kontroli przed publikacją.
+
+Zadania:
+
+- wskazać właściciela systemu albo osobę koordynującą wdrożenie,
+- przyjąć minimalny standard publikacji,
+- wdrożyć jedną listę kontrolną przed publikacją,
+- wskazać, kto zatwierdza publikację warunkową,
+- ustalić, że każdy nowy dokument i załącznik ma właściciela,
+- zacząć stosować poprawne linki do plików do pobrania,
+- wycofać z nowych publikacji linki typu "kliknij tutaj", "pobierz" i "załącznik",
+- ustalić zasady nazw plików,
+- rozpocząć rejestr zasobów od nowych publikacji,
+- sprawdzić, czy widoczny focus i podstawowe style nie utrudniają korzystania z podręcznika albo serwisu.
+
+Dowody wykonania:
+
+- przyjęta lista kontrolna,
+- pierwszy rejestr zasobów,
+- wskazane role,
+- przykładowe decyzje publikacyjne,
+- poprawione wzory linków do plików.
+
+### Pierwsze 60 dni - uporządkowanie zasobów wysokiego ryzyka
+
+W drugim miesiącu organizacja powinna objąć kontrolą zasoby, które najczęściej powodują bariery albo skutki organizacyjne.
+
+Zadania:
+
+- przygotować wykaz dokumentów i załączników,
+- wskazać dokumenty opublikowane od 23 września 2018 r.,
+- ocenić starsze dokumenty pod kątem niezbędności dla bieżących zadań,
+- wybrać zasoby priorytetowe: formularze, BIP, dokumenty obowiązkowe, dokumenty często używane,
+- wdrożyć rejestr załączników,
+- uruchomić procedurę dla treści od innych podmiotów,
+- przygotować wzór informacji o brakach w materiale zewnętrznym,
+- sprawdzić multimedia i ustalić, które wymagają napisów, transkrypcji albo opisu,
+- powiązać zgłoszenia dostępności z konkretnymi zasobami.
+
+Dowody wykonania:
+
+- wykaz dokumentów i załączników,
+- priorytety napraw,
+- rejestr treści od innych podmiotów,
+- pierwsze plany naprawy,
+- statusy dostępności w rejestrze.
+
+### Pierwsze 90 dni - utrwalenie systemu
+
+W trzecim miesiącu organizacja powinna przejść od działań naprawczych do powtarzalnego systemu.
+
+Zadania:
+
+- przyjąć mapę odpowiedzialności,
+- ustalić cykl przeglądów zasobów,
+- wdrożyć formularz decyzji archiwizacyjnej,
+- połączyć rejestr zasobów, rejestr załączników, rejestr zgłoszeń i rejestr napraw,
+- ustalić zasady raportowania zaległych przeglądów,
+- przeszkolić autorów i redaktorów z minimalnych zasad publikacji,
+- sprawdzić jakość linków, nazw plików, nagłówków, tabel i opisów alternatywnych,
+- przejrzeć słownik pojęć i dodać brakujące terminy organizacyjne,
+- przygotować plan dalszego rozwoju systemu.
+
+Dowody wykonania:
+
+- mapa odpowiedzialności,
+- harmonogram przeglądów,
+- połączone rejestry,
+- raport zaległości,
+- zestaw przyjętych wzorów formularzy,
+- lista decyzji archiwizacyjnych albo wycofań.
+
 ## Typowe błędy
 
 - formularze bez pól wymaganych do decyzji,
