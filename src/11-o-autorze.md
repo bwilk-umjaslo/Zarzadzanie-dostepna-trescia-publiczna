@@ -1,69 +1,46 @@
 # O autorze
 
-Autorem podręcznika jest **Bartłomiej Wilk** - praktyk zajmujący się dostępnością cyfrową, komunikacją publiczną, projektowaniem i utrzymaniem treści internetowych oraz porządkowaniem procesów publikacyjnych w podmiotach publicznych.
+**Bartłomiej Wilk** jest specjalistą zajmującym się dostępnością cyfrową, komunikacją publiczną, projektowaniem treści internetowych oraz praktycznym utrzymaniem serwisów i zasobów cyfrowych w instytucjach publicznych.
 
-Jego praca łączy kilka obszarów, które w wielu organizacjach funkcjonują osobno: redakcję stron internetowych, BIP, dokumenty i załączniki, multimedia, komunikację w mediach społecznościowych, standardy dostępności cyfrowej, organizację pracy redaktorów oraz odpowiedzialność za treści po publikacji.
+Pracuje na styku kilku obszarów: administracji publicznej, redakcji internetowej, BIP, stron WWW, dokumentów cyfrowych, multimediów, mediów społecznościowych, fotografii, projektowania graficznego i standardów dostępności. Dzięki temu patrzy na treść publiczną nie tylko jako na tekst do opublikowania, ale jako na zasób, który powinien mieć właściciela, status, miejsce publikacji, wynik kontroli, historię zmian i określony dalszy los.
 
-## Perspektywa autora
+## Zakres pracy
 
-Podręcznik został napisany z perspektywy osoby, która patrzy na dostępność cyfrową nie tylko jako na wymóg techniczny, ale jako na element zarządzania informacją publiczną. W tej perspektywie problemem nie jest wyłącznie pojedynczy niedostępny PDF, film bez napisów albo grafika bez opisu. Problemem jest cały sposób, w jaki organizacja przyjmuje materiały, podejmuje decyzje, publikuje, rejestruje, poprawia, archiwizuje i wycofuje treści.
+W swojej pracy zajmuje się między innymi:
 
-Dlatego autor koncentruje się na praktyce wdrożeniowej:
+- dostępnością cyfrową stron internetowych, dokumentów, załączników i multimediów,
+- analizą i porządkowaniem treści publikowanych przez podmioty publiczne,
+- przygotowywaniem standardów, procedur, list kontrolnych i zaleceń wdrożeniowych,
+- projektowaniem oraz utrzymaniem stron internetowych, w tym serwisów opartych o WordPress,
+- pracą z Biuletynem Informacji Publicznej i treściami obowiązkowymi,
+- redakcją treści publicznych, informacyjnych i promocyjnych,
+- fotografią, materiałami wizualnymi i komunikacją multimedialną,
+- doradztwem w zakresie WCAG, organizacji publikacji i odpowiedzialności za treści cyfrowe.
 
-- kto odpowiada za treść,
-- jak udokumentować decyzję publikacyjną,
-- kiedy materiał wymaga poprawy,
-- kiedy można zastosować publikację warunkową,
-- jak obsługiwać treści od innych podmiotów,
-- jak prowadzić rejestry,
-- jak planować przegląd i naprawę,
-- jak domykać cykl życia treści przez archiwizację albo wycofanie.
+## Perspektywa zawodowa
 
-## Doświadczenie i zakres pracy
+Autor łączy perspektywę redaktora, projektanta, administratora treści, fotografa i konsultanta dostępności. W praktyce oznacza to, że interesuje go nie tylko zgodność pojedynczego pliku z wymaganiami technicznymi, ale cały proces: od powstania materiału, przez decyzję publikacyjną, po utrzymanie, naprawę, archiwizację albo wycofanie.
 
-Autor pracuje na styku komunikacji, technologii, dostępności i administracji publicznej. W praktyce oznacza to pracę z:
+Ta perspektywa jest szczególnie ważna w podmiotach publicznych, gdzie treść może jednocześnie pełnić funkcję informacyjną, urzędową, dokumentacyjną, promocyjną i społeczną. Ten sam materiał bywa komunikatem dla mieszkańca, dokumentem w BIP, załącznikiem do sprawy, postem w mediach społecznościowych albo zasobem archiwalnym. Autor traktuje te formy jako części jednego systemu zarządzania treścią publiczną.
 
-- stronami internetowymi i systemami zarządzania treścią,
-- Biuletynem Informacji Publicznej,
-- dokumentami i załącznikami publikowanymi online,
-- treściami informacyjnymi i promocyjnymi instytucji publicznych,
-- materiałami multimedialnymi,
-- redakcją treści i strukturą informacji,
-- standardami WCAG i organizacją procesów dostępności cyfrowej,
-- porządkowaniem zasobów, które zostały już opublikowane i wymagają utrzymania.
+## Praktyka lokalna i instytucjonalna
 
-Ta praktyka sprawia, że podręcznik nie jest pisany wyłącznie z punktu widzenia audytu technicznego. Jest pisany z punktu widzenia codziennej odpowiedzialności organizacji za treść publiczną.
+Bartłomiej Wilk działa w środowisku lokalnym i samorządowym, pracując z treściami instytucji publicznych, miejskich i kulturalnych. Jego doświadczenie obejmuje zarówno codzienną redakcję i publikację informacji, jak i projektowanie bardziej uporządkowanych procesów: kto przygotowuje materiał, kto go zatwierdza, jak sprawdza się dostępność, gdzie zapisuje się decyzję i kiedy wraca się do treści po publikacji.
+
+Z tej praktyki wynika nacisk na rozwiązania możliwe do wdrożenia w realnych warunkach organizacyjnych: w małych jednostkach, gdzie jedna osoba pełni kilka ról, oraz w większych strukturach, gdzie potrzebny jest wyraźny podział odpowiedzialności.
 
 ## Dlaczego powstał ten podręcznik
 
-Podręcznik powstał z powtarzalnych problemów obserwowanych w pracy z treściami publicznymi. W wielu podmiotach publicznych te same trudności pojawiają się niezależnie od wielkości organizacji:
+Podręcznik jest wynikiem pracy z powtarzalnymi problemami: niedostępnymi dokumentami, skanami zamiast tekstu, plikami bez właściciela, multimediami bez napisów, treściami od innych podmiotów publikowanymi bez kwalifikacji, BIP-em traktowanym wyłącznie technicznie oraz brakiem rejestrów pozwalających ustalić, co zostało opublikowane i kto za to odpowiada.
 
-- dokumenty trafiają do publikacji bez właściciela,
-- załączniki zastępują treść HTML,
-- brakuje informacji, kto odpowiada za aktualność materiału,
-- multimedia są publikowane bez planu dostępności,
-- treści od innych podmiotów są traktowane jako automatycznie gotowe do publikacji,
-- BIP jest obsługiwany technicznie, ale bez pełnego śladu decyzji,
-- żądania dostępności są obsługiwane reaktywnie,
-- archiwizacja jest rozumiana jako przeniesienie albo usunięcie pliku, a nie jako decyzja o dalszym losie zasobu.
-
-Autor porządkuje te problemy w jeden model: treść publiczna jest zasobem, a publikacja jest początkiem odpowiedzialności, nie jej końcem.
+Autor porządkuje te doświadczenia w model, w którym treść publiczna jest zasobem organizacji, a publikacja jest początkiem odpowiedzialności, nie jej końcem.
 
 ## Charakter materiału
 
-Podręcznik ma charakter wdrożeniowy i organizacyjny. Ma pomagać podmiotom publicznym projektować procedury, listy kontrolne, rejestry, role i decyzje związane z publikacją oraz utrzymaniem treści cyfrowych.
+Podręcznik ma charakter wdrożeniowy i organizacyjny. Nie jest opinią prawną, audytem dostępności cyfrowej ani zamkniętym standardem dla wszystkich podmiotów. Jest propozycją uporządkowania praktyki publikowania i utrzymywania treści publicznych tak, aby była bardziej dostępna, rozliczalna i możliwa do prowadzenia w czasie.
 
-Nie jest to opinia prawna, audyt dostępności cyfrowej ani zamknięty standard obowiązujący wszystkie organizacje w identyczny sposób. Każdy podmiot powinien dostosować opisane rozwiązania do swojej struktury, zakresu zadań, kanałów publikacji, skali działania i przyjętych procedur wewnętrznych.
+## Kontakt i rozwój podręcznika
 
-## Kontakt z autorem
+Uwagi, propozycje zmian i zgłoszenia dotyczące podręcznika można przekazywać przez repozytorium projektu albo kanał wskazany przez autora.
 
-Uwagi, propozycje zmian i zgłoszenia dotyczące podręcznika można przekazywać przez repozytorium projektu albo kanał wskazany przez autora. Szczególnie wartościowe są zgłoszenia dotyczące:
-
-- niejasnych definicji,
-- brakujących procedur,
-- błędów w linkowaniu,
-- niespójności między rozdziałami,
-- przykładów wdrożeniowych z podmiotów publicznych,
-- propozycji uproszczeń dla małych jednostek.
-
-Podręcznik powinien rozwijać się tak samo, jak opisany w nim system: przez przegląd, poprawę, dokumentowanie zmian i reagowanie na realne potrzeby użytkowników.
+Szczególnie wartościowe są zgłoszenia dotyczące niejasnych definicji, brakujących procedur, niespójności między rozdziałami, błędów w linkowaniu oraz przykładów wdrożeniowych z podmiotów publicznych.
