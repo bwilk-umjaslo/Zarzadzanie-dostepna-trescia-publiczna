@@ -98,6 +98,19 @@ Odpowiedź NIE albo WYMAGA DECYZJI powinna prowadzić do decyzji: popraw, odeśl
 | Czy podmiot zewnętrzny otrzymał informację o brakach? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
 | Czy potrzebne jest oznaczenie albo alternatywna forma dostępu? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
 
+## Lista kontrolna materiału wspieranego przez AI
+
+| Pytanie | Odpowiedź | Uwagi |
+|---|---|---|
+| Czy określono, do czego użyto AI? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI | szkic, streszczenie, opis alternatywny, transkrypcja robocza |
+| Czy materiał ma właściciela merytorycznego odpowiedzialnego za wynik? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
+| Czy sprawdzono fakty, daty, nazwy własne i podstawy prawne? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
+| Czy usunięto twierdzenia niepotwierdzone albo wymagające źródła? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
+| Czy opis alternatywny wygenerowany z pomocą AI został oceniony w kontekście funkcji obrazu? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
+| Czy transkrypcja robocza została sprawdzona z nagraniem? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
+| Czy do narzędzia AI nie wprowadzono danych, których nie wolno było tam przetwarzać? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
+| Czy wynik AI przeszedł zwykłą kontrolę przed publikacją? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
+
 ## Lista kontrolna przeglądu zasobu
 
 | Pytanie | Odpowiedź | Uwagi |
