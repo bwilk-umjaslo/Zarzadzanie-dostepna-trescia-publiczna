@@ -48,6 +48,18 @@ Pierwszym krokiem programu jest ustalenie, jakie załączniki zostały opublikow
 
 Jeżeli daty publikacji nie da się ustalić automatycznie, należy przyjąć procedurę ręcznej kwalifikacji i odnotować niepewność w rejestrze.
 
+## Ocena niezbędności
+
+Nie każdy opublikowany załącznik wymaga takiego samego działania. Przed naprawą trzeba ustalić, czy zasób jest nadal niezbędny. Ocena niezbędności odpowiada na pytanie, czy użytkownik, pracownik lub podmiot publiczny nadal potrzebuje tego pliku do realizacji prawa, obowiązku, sprawy, usługi, informacji publicznej albo udokumentowania działania.
+
+| Wynik oceny | Znaczenie | Dalsze działanie |
+|---|---|---|
+| Niezbędny bieżąco | dokument jest aktualny, używany albo wymagany | napraw, zastąp dostępną wersją albo zapewnij alternatywę |
+| Niezbędny okresowo | dokument jest potrzebny w określonych terminach lub procesach | zaplanuj naprawę i termin przeglądu |
+| Niezbędny dowodowo | dokument ma znaczenie dokumentacyjne, ale nie jest instrukcją bieżącą | oznacz jako historyczny, archiwizuj albo pozostaw z uzasadnieniem |
+| Nieniezbędny | dokument nie jest potrzebny publicznie | wycofaj, usuń z nawigacji albo zarchiwizuj zgodnie z decyzją |
+| Brak danych | nie da się ustalić statusu | przekaż do właściciela merytorycznego i oznacz jako wymagający decyzji |
+
 ## Priorytetyzacja zasobów
 
 Nie wszystkie zasoby mają ten sam priorytet. W pierwszej kolejności należy sprawdzać:
@@ -61,6 +73,17 @@ Nie wszystkie zasoby mają ten sam priorytet. W pierwszej kolejności należy sp
 - materiały, których niedostępność może uniemożliwić realizację prawa albo obowiązku.
 
 Niższy priorytet mogą mieć materiały historyczne, informacyjne albo zastąpione nowszą wersją, ale także one wymagają decyzji, a nie milczącego pozostawienia.
+
+## Model priorytetów 0, 0A, 1, 2, 3, 4
+
+| Priorytet | Znaczenie | Decyzja operacyjna |
+|---|---|---|
+| 0 | zasób nie powinien być dalej publicznie dostępny | wycofać albo zarchiwizować |
+| 0A | zasób historyczny lub dowodowy, który pozostaje publiczny | oznaczyć, uzasadnić, nie traktować jako aktualnego wzoru |
+| 1 | dokument krytyczny dla realizacji sprawy, prawa lub obowiązku | naprawić w pierwszej kolejności albo natychmiast zapewnić alternatywę |
+| 2 | dokument obowiązkowy lub ważny organizacyjnie, ale nieblokujący sprawy | zaplanować naprawę w harmonogramie |
+| 3 | dokument pomocniczy albo rzadziej używany | naprawić po zasobach priorytetowych albo zastąpić HTML |
+| 4 | dokument niskiego ryzyka | pozostawić z decyzją, archiwizować albo naprawić przy okazji większej aktualizacji |
 
 ## Klasyfikacja dokumentów do naprawy
 
@@ -77,12 +100,24 @@ Po przeglądzie można podjąć decyzję:
 
 - naprawić - gdy zasób jest potrzebny i możliwy do poprawy,
 - zastąpić - gdy lepiej opublikować nową, dostępną wersję,
+- zastąpić HTML - gdy treść powinna być dostępna bez pobierania pliku,
 - wycofać - gdy zasób nie powinien być dalej dostępny publicznie,
+- usunąć z nawigacji - gdy zasób może pozostać dostępny technicznie, ale nie powinien być promowany jako aktualny,
 - zarchiwizować - gdy zasób utracił bieżącą aktualność, ale ma znaczenie dokumentacyjne,
 - pozostawić z uzasadnieniem - gdy naprawa nie jest zasadna, a pozostawienie jest uzasadnione,
 - zapewnić alternatywną formę dostępu - gdy użytkownik potrzebuje treści, a naprawa nie może nastąpić od razu.
 
 Decyzję należy odnotować w rejestrze i, jeżeli dotyczy, w formularzu wyniku przeglądu.
+
+## Przewodnik decyzyjny
+
+| Pytanie | Jeżeli TAK | Jeżeli NIE |
+|---|---|---|
+| Czy zasób jest potrzebny do bieżącej sprawy lub obowiązku? | nadaj priorytet 1 lub 2 | przejdź do oceny historyczności |
+| Czy istnieje nowsza wersja? | zastąp albo przekieruj | oceń możliwość naprawy |
+| Czy treść można przenieść do HTML? | zastąp plik stroną HTML | napraw plik albo przygotuj alternatywę |
+| Czy zasób ma znaczenie historyczne? | oznacz jako historyczny albo archiwizuj | wycofaj albo usuń z nawigacji |
+| Czy użytkownik zgłosił potrzebę dostępu? | zapewnij alternatywę i zaplanuj naprawę | decyzję oprzyj na priorytecie i niezbędności |
 
 ## Plan naprawczy
 
@@ -100,6 +135,31 @@ Plan naprawczy powinien wskazywać:
 - powiązane zgłoszenia dostępności.
 
 Plan może być prostą tabelą, jeżeli skala jest mała. W większym podmiocie warto prowadzić osobny [rejestr napraw i korekt](narzedzia/rejestry.md).
+
+## Procedura dla małego podmiotu
+
+Mały podmiot może prowadzić program w jednym arkuszu. Minimalny cykl działania:
+
+1. zbierz listę załączników,
+2. oznacz datę publikacji albo brak danych,
+3. wskaż właściciela,
+4. nadaj priorytet,
+5. podejmij decyzję,
+6. wykonaj naprawę, archiwizację albo wycofanie,
+7. odnotuj wynik.
+
+## Procedura dla dużego podmiotu
+
+Duży podmiot powinien rozdzielić role i rejestry. Zalecany cykl działania:
+
+1. administrator lub redaktor przygotowuje wykaz zasobów,
+2. właściciel merytoryczny ocenia niezbędność,
+3. koordynator dostępności wspiera ocenę braków,
+4. kierownik zatwierdza priorytety,
+5. zespół wykonuje naprawy albo zastąpienia,
+6. administrator aktualizuje publikację,
+7. rejestr zostaje zaktualizowany,
+8. raport trafia do osoby odpowiedzialnej za system.
 
 ## Dokumentowanie działań
 
@@ -131,6 +191,7 @@ Przegląd powinien zaczynać się od [rejestru zasobów](05-rejestr-zasobow.md) 
 Minimalny program przeglądu obejmuje:
 
 - listę załączników po 23 września 2018 r.,
+- ocenę niezbędności,
 - priorytety,
 - formularz wyniku przeglądu,
 - decyzję dla każdego sprawdzonego zasobu,
@@ -149,4 +210,4 @@ Minimalny program przeglądu obejmuje:
 
 ## Powiązane narzędzia
 
-Stosuj [rejestr zasobów](05-rejestr-zasobow.md), [rejestr załączników](narzedzia/rejestry.md), [formularz wyniku przeglądu](narzedzia/formularze.md), [listę kontrolną przeglądu zasobu](narzedzia/listy-kontrolne.md) i [formularz decyzji archiwizacyjnej](narzedzia/formularze.md).
+Stosuj [rejestr zasobów](05-rejestr-zasobow.md), [rejestr załączników](narzedzia/rejestry.md), [formularz wyniku przeglądu](narzedzia/formularze.md), [listę kontrolną przeglądu zasobu](narzedzia/listy-kontrolne.md), [formularz decyzji archiwizacyjnej](narzedzia/formularze.md) i procedurę [Publikacja w BIP](procesy/publikacja-w-bip.md), jeżeli zasób jest treścią obowiązkową.
