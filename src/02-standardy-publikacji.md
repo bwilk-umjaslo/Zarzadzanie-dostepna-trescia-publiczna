@@ -46,7 +46,8 @@ Minimalne wymagania:
 - przy linku należy podać typ pliku i istotne informacje, na przykład format albo rozmiar, jeżeli pomagają użytkownikowi,
 - strona publikacji powinna streszczać, co zawiera załącznik,
 - załącznik obowiązkowy lub nadal wykorzystywany powinien być dostępny,
-- załączniki opublikowane po 23 września 2018 r. powinny być objęte przeglądem opisanym w rozdziale [Przegląd i naprawa](07-przeglad-i-naprawa.md).
+- dokumenty i załączniki opublikowane od 23 września 2018 r. powinny być objęte kontrolą dostępności i przeglądem,
+- dokumenty i załączniki opublikowane przed 23 września 2018 r. powinny być ocenione, jeżeli ich treść jest niezbędna do realizacji bieżących zadań podmiotu publicznego.
 
 ### Grafiki
 
@@ -128,6 +129,7 @@ Minimalne wymagania:
 | Strona HTML | tytuł, nagłówki, jednoznaczne linki, czytelna struktura | użytkownik i technologie wspomagające muszą rozumieć strukturę informacji | WCAG 1.3.1, 2.4.4, 2.4.6, 3.1.1 | lista kontrolna treści tekstowej, adres URL |
 | Dokument | dostępny plik źródłowy albo dostępna wersja równoważna | dokument nie może być barierą w realizacji sprawy | WCAG2ICT, EN 301 549, ustawa o dostępności cyfrowej | lista kontrolna dokumentu, rekord załącznika |
 | Załącznik | opis na stronie, status dostępności, właściciel i termin przeglądu | plik do pobrania jest zasobem, który trzeba utrzymywać | ustawa o dostępności cyfrowej, wymagania organizacyjne | rejestr załączników, wynik przeglądu |
+| Dokument sprzed 23 września 2018 r. | ocena, czy zawartość jest niezbędna do realizacji bieżących zadań | data publikacji nie wystarcza do automatycznego pominięcia dokumentu | art. 3 ust. 2 pkt 3 ustawy o dostępności cyfrowej | ocena niezbędności, decyzja w rejestrze |
 | Grafika informacyjna | tekst alternatywny albo opis równoważny | informacja nie może być dostępna wyłącznie wzrokowo | WCAG 1.1.1 | opis alternatywny, treść strony lub posta |
 | Wideo | napisy, opis, alternatywa dla informacji wizualnej | odbiorca może nie słyszeć dźwięku albo nie widzieć obrazu | WCAG 1.2.2, 1.2.3, 1.2.5 | lista kontrolna wideo, link do napisów lub transkrypcji |
 | Audio | transkrypcja lub równoważna forma tekstowa | odbiorca musi mieć dostęp do treści bez odsłuchu | WCAG 1.2.1 | transkrypcja, rekord zasobu |
@@ -192,6 +194,7 @@ Jeżeli materiał nie spełnia wymagań, należy zastosować decyzję z rozdzia�
 - traktowanie mediów społecznościowych jako kanału poza standardem,
 - brak opisu alternatywnego dla grafiki informacyjnej,
 - brak streszczenia załącznika na stronie,
+- automatyczne pomijanie dokumentów sprzed 23 września 2018 r. bez oceny ich niezbędności dla bieżących zadań,
 - publikacja materiału od innego podmiotu bez kwalifikacji,
 - brak terminu przeglądu po publikacji.
 
