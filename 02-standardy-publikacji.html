@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-bb5e72cd.js";
+            window.path_to_searchindex_js = "searchindex-261853ad.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-5c232680.js"></script>
@@ -192,7 +192,7 @@
 <li>oznaczenie osoby albo komórki odpowiedzialnej, jeżeli wynika to z procesu.</li>
 </ul>
 <h3 id="dokumenty"><a class="header" href="#dokumenty">Dokumenty</a></h3>
-<p>Dokument powinien być dostępny cyfrowo już w pliku źródłowym. Nie należy tworzyć dostępności dopiero po eksporcie do PDF, jeżeli błędy są w strukturze dokumentu.</p>
+<p>Dokument przygotowuje się jako dostępny cyfrowo już w pliku źródłowym. Nie należy odkładać dostępności na etap eksportu do PDF, jeżeli błędy powstają wcześniej: w strukturze nagłówków, tabelach, języku dokumentu, opisach obrazów albo kolejności odczytu.</p>
 <p>Minimalne wymagania:</p>
 <ul>
 <li>prawidłowe tytuły i nagłówki,</li>
@@ -204,19 +204,72 @@
 <li>czytelna kolejność odczytu,</li>
 <li>dostępny plik źródłowy albo dostępna wersja alternatywna, jeżeli PDF nie może być szybko naprawiony.</li>
 </ul>
-<h3 id="załączniki"><a class="header" href="#załączniki">Załączniki</a></h3>
-<p>Załącznik jest zasobem cyfrowym. Powinien mieć właściciela, opis w treści strony, status dostępności i miejsce w rejestrze, jeżeli podlega utrzymaniu.</p>
+<h3 id="pliki-do-pobrania"><a class="header" href="#pliki-do-pobrania">Pliki do pobrania</a></h3>
+<p>Plik do pobrania opisuje się tak, aby użytkownik przed kliknięciem wiedział, co pobiera, w jakim formacie i, gdy to pomocne, jaki jest rozmiar pliku.</p>
+<p>Przykłady poprawnych linków:</p>
+<ul>
+<li>Pobierz wniosek o wydanie dowodu osobistego (PDF, 200 KB)</li>
+<li>Pobierz regulamin konkursu fotograficznego (DOCX, 120 KB)</li>
+<li>Pobierz zestawienie wyników konsultacji społecznych (XLSX, 340 KB)</li>
+<li>Pobierz formularz zgłoszenia problemu z dostępnością cyfrową (ODT, 85 KB)</li>
+</ul>
+<p>Przykłady niepoprawnych albo mało użytecznych linków:</p>
+<ul>
+<li>Pobierz</li>
+<li>Kliknij tutaj</li>
+<li>Dokument</li>
+<li>Załącznik nr 1</li>
+<li>scan001.pdf</li>
+</ul>
 <p>Minimalne wymagania:</p>
 <ul>
-<li>nazwa pliku powinna być zrozumiała,</li>
-<li>przy linku należy podać typ pliku i istotne informacje, na przykład format albo rozmiar, jeżeli pomagają użytkownikowi,</li>
-<li>strona publikacji powinna streszczać, co zawiera załącznik,</li>
-<li>załącznik obowiązkowy lub nadal wykorzystywany powinien być dostępny,</li>
-<li>dokumenty i załączniki opublikowane od 23 września 2018 r. powinny być objęte kontrolą dostępności i przeglądem,</li>
-<li>dokumenty i załączniki opublikowane przed 23 września 2018 r. powinny być ocenione, jeżeli ich treść jest niezbędna do realizacji bieżących zadań podmiotu publicznego.</li>
+<li>link zawiera nazwę czynności albo dokumentu,</li>
+<li>przy linku podano format pliku, jeżeli użytkownik może potrzebować tej informacji,</li>
+<li>rozmiar pliku jest podany przy większych plikach albo tam, gdzie pomaga użytkownikowi zdecydować o pobraniu,</li>
+<li>tekst linku nie składa się wyłącznie z adresu URL,</li>
+<li>strona opisuje, co znajduje się w pliku i kiedy należy z niego skorzystać.</li>
+</ul>
+<h3 id="nazwy-plików"><a class="header" href="#nazwy-plików">Nazwy plików</a></h3>
+<p>Nazwę pliku przygotowuje się tak, aby była zrozumiała także poza kontekstem strony. Dobra nazwa pomaga użytkownikowi, redaktorowi, administratorowi i osobie prowadzącej rejestr ustalić, czego dotyczy dokument.</p>
+<p>Zalecany schemat:</p>
+<p><code>temat-dokumentu-wersja-albo-data.format</code></p>
+<p>Przykłady dobrych nazw plików:</p>
+<ul>
+<li><code>wniosek-o-wydanie-dowodu-osobistego.pdf</code></li>
+<li><code>regulamin-konkursu-fotograficznego-2026.pdf</code></li>
+<li><code>formularz-zgloszenia-problemu-dostepnosci.odt</code></li>
+<li><code>harmonogram-dyzurow-maj-2026.pdf</code></li>
+<li><code>wyniki-konsultacji-spolecznych-2026-05-07.xlsx</code></li>
+</ul>
+<p>Przykłady złych nazw plików:</p>
+<ul>
+<li><code>scan001.pdf</code></li>
+<li><code>nowy_dokument.pdf</code></li>
+<li><code>zalacznik.pdf</code></li>
+<li><code>plik_do_wrzucenia.pdf</code></li>
+<li><code>wersja_ostateczna_poprawiona_final2.pdf</code></li>
+</ul>
+<p>Minimalne wymagania:</p>
+<ul>
+<li>nazwa opisuje treść pliku,</li>
+<li>nie opiera się na numerze skanu albo roboczej nazwie z komputera autora,</li>
+<li>nie zawiera zbędnych słów typu “final”, “nowe”, “poprawione”, jeżeli nie są częścią oficjalnego tytułu,</li>
+<li>jest możliwie krótka, ale jednoznaczna,</li>
+<li>stosuje małe litery, łączniki i bezpieczne znaki, jeżeli organizacja nie ma własnego standardu technicznego.</li>
+</ul>
+<h3 id="załączniki"><a class="header" href="#załączniki">Załączniki</a></h3>
+<p>Załącznik powinien mieć właściciela, opis w treści strony, status dostępności i miejsce w rejestrze, jeżeli podlega utrzymaniu.</p>
+<p>Minimalne wymagania:</p>
+<ul>
+<li>przy linku wskazano, czego dotyczy załącznik,</li>
+<li>nazwa pliku jest zrozumiała,</li>
+<li>strona publikacji streszcza, co zawiera załącznik,</li>
+<li>załącznik obowiązkowy lub nadal wykorzystywany jest dostępny albo ma zaplanowaną alternatywną formę dostępu,</li>
+<li>dokumenty i załączniki opublikowane od 23 września 2018 r. są objęte kontrolą dostępności i przeglądem,</li>
+<li>dokumenty i załączniki opublikowane przed 23 września 2018 r. są oceniane, jeżeli ich treść jest niezbędna do realizacji bieżących zadań podmiotu publicznego.</li>
 </ul>
 <h3 id="grafiki"><a class="header" href="#grafiki">Grafiki</a></h3>
-<p>Grafika powinna być publikowana tylko wtedy, gdy jej funkcja jest jasna: informacyjna, dekoracyjna, linkująca, instruktażowa albo dokumentująca wydarzenie.</p>
+<p>Grafikę publikuje się wtedy, gdy jej funkcja jest jasna: informacyjna, dekoracyjna, linkująca, instruktażowa albo dokumentująca wydarzenie. Sama obecność grafiki nie zwalnia z obowiązku przekazania informacji w treści dostępnej tekstowo.</p>
 <p>Minimalne wymagania:</p>
 <ul>
 <li>grafika informacyjna ma tekst alternatywny albo opis równoważny w treści,</li>
@@ -226,7 +279,7 @@
 <li>jeśli grafika jest linkiem, jej dostępna nazwa opisuje cel linku.</li>
 </ul>
 <h3 id="opisy-alternatywne"><a class="header" href="#opisy-alternatywne">Opisy alternatywne</a></h3>
-<p>Opis alternatywny nie opisuje wyglądu dla samego wyglądu. Ma przekazać funkcję i informację, której użytkownik nie uzyska bez obrazu.</p>
+<p>Opis alternatywny przygotowuje się na podstawie funkcji obrazu w konkretnym miejscu publikacji. Nie chodzi o opis wyglądu dla samego wyglądu, ale o przekazanie informacji, której użytkownik nie uzyska bez obrazu.</p>
 <p>Minimalne wymagania:</p>
 <ul>
 <li>opis jest krótki, gdy obraz pełni prostą funkcję,</li>
@@ -235,16 +288,22 @@
 <li>opis nie pomija informacji potrzebnej do wykonania czynności,</li>
 <li>tekst widoczny na grafice jest dostępny również jako tekst.</li>
 </ul>
+<p>Przykłady:</p>
+<ul>
+<li>zdjęcie dekoracyjne z wydarzenia: pusty opis alternatywny albo oznaczenie jako dekoracyjne,</li>
+<li>zdjęcie burmistrza wręczającego nagrodę: “Burmistrz Miasta Jasła wręcza nagrodę laureatce konkursu fotograficznego”,</li>
+<li>plakat wydarzenia: informacje z plakatu powinny być przepisane w treści strony albo posta, nie tylko w opisie alternatywnym.</li>
+</ul>
 <h3 id="materiały-wideo"><a class="header" href="#materiały-wideo">Materiały wideo</a></h3>
-<p>Materiał wideo powinien być przygotowany z myślą o osobach, które nie słyszą dźwięku, nie widzą obrazu albo korzystają z urządzeń mobilnych i technologii wspomagających.</p>
+<p>Materiał wideo planuje się z myślą o osobach, które nie słyszą dźwięku, nie widzą obrazu albo korzystają z urządzeń mobilnych i technologii wspomagających. Napisy, transkrypcja i opis informacji wizualnej powinny być przewidziane przed publikacją, a nie dopiero po zgłoszeniu problemu.</p>
 <p>Minimalne wymagania:</p>
 <ul>
 <li>nagranie z mową ma napisy,</li>
 <li>istotna informacja wizualna ma audiodeskrypcję albo alternatywę tekstową,</li>
 <li>nagranie ma tytuł i opis,</li>
 <li>odtwarzacz jest dostępny z klawiatury,</li>
-<li>transmisja na żywo powinna mieć dostępne rozwiązania adekwatne do charakteru wydarzenia, na przykład napisy na żywo, tłumaczenie PJM albo późniejszą dostępność nagrania,</li>
-<li>po publikacji nagrania należy określić właściciela, czas aktualności i status dostępności.</li>
+<li>transmisja na żywo ma rozwiązania adekwatne do charakteru wydarzenia, na przykład napisy na żywo, tłumaczenie PJM albo późniejszą dostępność nagrania,</li>
+<li>po publikacji nagrania określono właściciela, czas aktualności i status dostępności.</li>
 </ul>
 <h3 id="materiały-audio"><a class="header" href="#materiały-audio">Materiały audio</a></h3>
 <p>Materiał audio wymaga transkrypcji albo innej równoważnej formy tekstowej. Użytkownik powinien mieć dostęp do treści wypowiedzi bez konieczności odsłuchania nagrania.</p>
@@ -262,18 +321,33 @@
 <ul>
 <li>zdjęcia i grafiki mają tekst alternatywny, jeżeli platforma to umożliwia,</li>
 <li>informacja z grafiki jest powtórzona w treści posta albo linkuje do dostępnej strony,</li>
-<li>hashtagi są czytelne, na przykład przez wielkie litery w kolejnych wyrazach,</li>
+<li>hashtagi wielowyrazowe są zapisywane w PascalCase, czyli z wielką literą na początku każdego wyrazu,</li>
 <li>filmy mają napisy lub prowadzą do wersji dostępnej,</li>
 <li>linki prowadzą do dostępnych informacji, a nie wyłącznie do niedostępnych plików.</li>
 </ul>
+<p>Przykłady hashtagów czytelniejszych dla ludzi i technologii wspomagających:</p>
+<ul>
+<li><code>#UrządMiastaJasło</code></li>
+<li><code>#MiastoJasło</code></li>
+<li><code>#DostępnośćCyfrowa</code></li>
+<li><code>#BiegJutrzenki</code></li>
+<li><code>#OżywiamyRynek</code></li>
+</ul>
+<p>Przykłady gorsze:</p>
+<ul>
+<li><code>#urzadmiastajaslo</code></li>
+<li><code>#miastojaslo</code></li>
+<li><code>#dostepnosccyfrowa</code></li>
+</ul>
+<p>W hashtagach bez polskich znaków można zachować PascalCase, na przykład <code>#UrzadMiastaJaslo</code>, jeżeli taki wariant wynika z przyjętej praktyki kanału. Jeżeli kanał i odbiorcy pozwalają na polskie znaki, forma z polskimi znakami jest bardziej naturalna dla czytelnika.</p>
 <h3 id="komunikacja-masowa"><a class="header" href="#komunikacja-masowa">Komunikacja masowa</a></h3>
-<p>Komunikacja masowa obejmuje między innymi newslettery, kampanie informacyjne, komunikaty kryzysowe, transmisje, wydarzenia publiczne, posty seryjne i wiadomości wysyłane do wielu odbiorców.</p>
+<p>Komunikacja masowa obejmuje między innymi newslettery, kampanie informacyjne, komunikaty pilne, transmisje, wydarzenia publiczne, posty seryjne i wiadomości wysyłane do wielu odbiorców.</p>
 <p>Minimalne wymagania:</p>
 <ul>
 <li>informacja kluczowa jest dostępna w co najmniej jednej pełnej formie tekstowej,</li>
 <li>kanał publikacji jest dobrany do celu i grup odbiorców,</li>
 <li>multimedia mają zaplanowane napisy, transkrypcje i audiodeskrypcję, gdy są potrzebne,</li>
-<li>komunikat kryzysowy jest krótki, jednoznaczny i możliwy do odczytu bez elementów graficznych,</li>
+<li>komunikat pilny jest krótki, jednoznaczny i możliwy do odczytu bez elementów graficznych,</li>
 <li>treść opublikowana w wielu kanałach jest spójna i ma wskazane źródło podstawowe.</li>
 </ul>
 <h2 id="matryca-audytowa-standardów-publikacji"><a class="header" href="#matryca-audytowa-standardów-publikacji">Matryca audytowa standardów publikacji</a></h2>
@@ -285,12 +359,13 @@
 <tbody>
 <tr><td>Strona HTML</td><td>tytuł, nagłówki, jednoznaczne linki, czytelna struktura</td><td>użytkownik i technologie wspomagające muszą rozumieć strukturę informacji</td><td>WCAG 1.3.1, 2.4.4, 2.4.6, 3.1.1</td><td>lista kontrolna treści tekstowej, adres URL</td></tr>
 <tr><td>Dokument</td><td>dostępny plik źródłowy albo dostępna wersja równoważna</td><td>dokument nie może być barierą w realizacji sprawy</td><td>WCAG2ICT, EN 301 549, ustawa o dostępności cyfrowej</td><td>lista kontrolna dokumentu, rekord załącznika</td></tr>
+<tr><td>Plik do pobrania</td><td>link opisuje dokument, format i w razie potrzeby rozmiar</td><td>użytkownik powinien wiedzieć, co pobiera, zanim aktywuje link</td><td>WCAG 2.4.4, 2.4.9 jako dobra praktyka, wymagania organizacyjne</td><td>treść linku, kontrola publikacji</td></tr>
 <tr><td>Załącznik</td><td>opis na stronie, status dostępności, właściciel i termin przeglądu</td><td>plik do pobrania jest zasobem, który trzeba utrzymywać</td><td>ustawa o dostępności cyfrowej, wymagania organizacyjne</td><td>rejestr załączników, wynik przeglądu</td></tr>
 <tr><td>Dokument sprzed 23 września 2018 r.</td><td>ocena, czy zawartość jest niezbędna do realizacji bieżących zadań</td><td>data publikacji nie wystarcza do automatycznego pominięcia dokumentu</td><td>art. 3 ust. 2 pkt 3 ustawy o dostępności cyfrowej</td><td>ocena niezbędności, decyzja w rejestrze</td></tr>
 <tr><td>Grafika informacyjna</td><td>tekst alternatywny albo opis równoważny</td><td>informacja nie może być dostępna wyłącznie wzrokowo</td><td>WCAG 1.1.1</td><td>opis alternatywny, treść strony lub posta</td></tr>
 <tr><td>Wideo</td><td>napisy, opis, alternatywa dla informacji wizualnej</td><td>odbiorca może nie słyszeć dźwięku albo nie widzieć obrazu</td><td>WCAG 1.2.2, 1.2.3, 1.2.5</td><td>lista kontrolna wideo, link do napisów lub transkrypcji</td></tr>
 <tr><td>Audio</td><td>transkrypcja lub równoważna forma tekstowa</td><td>odbiorca musi mieć dostęp do treści bez odsłuchu</td><td>WCAG 1.2.1</td><td>transkrypcja, rekord zasobu</td></tr>
-<tr><td>Social media</td><td>tekst z grafiki powtórzony w poście albo na stronie źródłowej</td><td>platforma nie może być jedyną barierową formą komunikatu</td><td>WCAG 1.1.1, 1.4.1, 2.4.4 jako punkt odniesienia</td><td>treść posta, link do źródła podstawowego</td></tr>
+<tr><td>Social media</td><td>tekst z grafiki powtórzony w poście, hashtagi wielowyrazowe w PascalCase</td><td>platforma nie może być jedyną barierową formą komunikatu</td><td>WCAG 1.1.1, 1.4.1, 2.4.4 jako punkt odniesienia</td><td>treść posta, link do źródła podstawowego</td></tr>
 <tr><td>Komunikat pilny</td><td>pełna informacja tekstowa, data aktualizacji, źródło podstawowe</td><td>szybkość nie może usuwać dostępności i aktualności</td><td>wymagania organizacyjne, WCAG jako punkt odniesienia</td><td>adres komunikatu, data aktualizacji</td></tr>
 <tr><td>Treść BIP</td><td>podstawa publikacji, miejsce, status dostępności, rejestr</td><td>BIP wymaga szczególnej kontroli obowiązku i aktualności</td><td>przepisy o BIP, ustawa o dostępności cyfrowej</td><td>rekord BIP, decyzja publikacyjna</td></tr>
 </tbody>
@@ -344,8 +419,11 @@
 <h2 id="typowe-błędy"><a class="header" href="#typowe-błędy">Typowe błędy</a></h2>
 <ul>
 <li>publikowanie skanów zamiast dokumentów tekstowych,</li>
+<li>linkowanie pliku jako “pobierz”, “kliknij tutaj” albo “załącznik”,</li>
+<li>nadawanie plikom nazw roboczych typu <code>scan001.pdf</code>, <code>zalacznik.pdf</code> albo <code>final2.pdf</code>,</li>
 <li>brak napisów w filmie z wypowiedziami,</li>
 <li>traktowanie mediów społecznościowych jako kanału poza standardem,</li>
+<li>zapisywanie wielowyrazowych hashtagów wyłącznie małymi literami,</li>
 <li>brak opisu alternatywnego dla grafiki informacyjnej,</li>
 <li>brak streszczenia załącznika na stronie,</li>
 <li>automatyczne pomijanie dokumentów sprzed 23 września 2018 r. bez oceny ich niezbędności dla bieżących zadań,</li>
