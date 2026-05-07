@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-47a40e74.js";
+            window.path_to_searchindex_js = "searchindex-5d2c2df5.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-5c232680.js"></script>
@@ -2474,6 +2474,21 @@
 <h2 id="zasada-identyfikatora-głównego"><a class="header" href="#zasada-identyfikatora-głównego">Zasada identyfikatora głównego</a></h2>
 <p>Każdy zasób powinien mieć jeden identyfikator główny, który pozwala połączyć wpisy w różnych rejestrach. Ten sam identyfikator powinien pojawiać się w rejestrze zasobów, rejestrze załączników, rejestrze napraw, rejestrze zgłoszeń dostępności, rejestrze treści od innych podmiotów i rejestrze decyzji archiwizacyjnych.</p>
 <p>Przykład formatu: <code>ZAS-2026-0001</code>.</p>
+<p>Poniższy diagram pokazuje, że rejestry nie powinny być osobnymi tabelami bez powiązań. Ich wspólnym punktem powinien być identyfikator zasobu, dzięki któremu zgłoszenie, naprawę, załącznik, treść zewnętrzną i decyzję archiwizacyjną można połączyć z tym samym zasobem publicznym.</p>
+<pre class="mermaid">flowchart TD
+    A[Identyfikator zasobu] --&gt; B[Rejestr zasobow]
+    A --&gt; C[Rejestr zalacznikow]
+    A --&gt; D[Rejestr tresci od innych podmiotow]
+    A --&gt; E[Rejestr zgloszen dostepnosci]
+    A --&gt; F[Rejestr napraw i korekt]
+    A --&gt; G[Rejestr decyzji archiwizacyjnych]
+    E --&gt; F
+    C --&gt; F
+    D --&gt; B
+    F --&gt; B
+    G --&gt; B
+</pre>
+
 <h2 id="słowniki-wartości"><a class="header" href="#słowniki-wartości">Słowniki wartości</a></h2>
 <h3 id="typ-zasobu"><a class="header" href="#typ-zasobu">Typ zasobu</a></h3>
 <ul>
