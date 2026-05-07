@@ -10,6 +10,23 @@ Każdy zasób powinien mieć jeden identyfikator główny, który pozwala połą
 
 Przykład formatu: `ZAS-2026-0001`.
 
+Poniższy diagram pokazuje, że rejestry nie powinny być osobnymi tabelami bez powiązań. Ich wspólnym punktem powinien być identyfikator zasobu, dzięki któremu zgłoszenie, naprawę, załącznik, treść zewnętrzną i decyzję archiwizacyjną można połączyć z tym samym zasobem publicznym.
+
+```mermaid
+flowchart TD
+    A[Identyfikator zasobu] --> B[Rejestr zasobow]
+    A --> C[Rejestr zalacznikow]
+    A --> D[Rejestr tresci od innych podmiotow]
+    A --> E[Rejestr zgloszen dostepnosci]
+    A --> F[Rejestr napraw i korekt]
+    A --> G[Rejestr decyzji archiwizacyjnych]
+    E --> F
+    C --> F
+    D --> B
+    F --> B
+    G --> B
+```
+
 ## Słowniki wartości
 
 ### Typ zasobu
