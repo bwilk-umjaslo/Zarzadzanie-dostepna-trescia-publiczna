@@ -38,6 +38,7 @@
 - [Rejestry](narzedzia/rejestry.md)
 - [Mapy odpowiedzialności](narzedzia/mapy-odpowiedzialnosci.md)
 - [Schematy procesów](narzedzia/schematy-procesow.md)
+- [Elementy wizualne](narzedzia/elementy-wizualne.md)
 
 ## Część III. Materiały uzupełniające
 
