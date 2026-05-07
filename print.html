@@ -36,10 +36,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-18862472.js";
+            window.path_to_searchindex_js = "searchindex-e764a99f.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-b51dcdb7.js"></script>
+        <script src="toc-5c232680.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -2995,156 +2995,6 @@
     I --&gt; J
 </pre>
 
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="elementy-wizualne-w-podręczniku"><a class="header" href="#elementy-wizualne-w-podręczniku">Elementy wizualne w podręczniku</a></h1>
-<h2 id="rola-elementów-wizualnych"><a class="header" href="#rola-elementów-wizualnych">Rola elementów wizualnych</a></h2>
-<p>Element wizualny w podręczniku powinien pomagać zrozumieć system, proces, decyzję albo relację między narzędziami. Nie powinien pełnić funkcji dekoracyjnej. Jeżeli obraz, diagram albo grafika nie ułatwia podjęcia decyzji, wdrożenia procedury albo zrozumienia zależności, nie powinien być dodawany.</p>
-<p>W podręczniku preferowane są diagramy Mermaid, ponieważ:</p>
-<ul>
-<li>są zapisane tekstowo w pliku Markdown,</li>
-<li>można je wersjonować w repozytorium,</li>
-<li>można je łatwo poprawiać,</li>
-<li>zachowują logikę procesu w źródle,</li>
-<li>nie wymagają osobnej obsługi plików graficznych,</li>
-<li>ograniczają ryzyko publikacji niedostępnego obrazu bez opisu.</li>
-</ul>
-<h2 id="zasada-dostępności-diagramów"><a class="header" href="#zasada-dostępności-diagramów">Zasada dostępności diagramów</a></h2>
-<p>Każdy diagram powinien mieć opis tekstowy przed diagramem albo po diagramie. Opis powinien wyjaśniać, co diagram pokazuje i jaką decyzję wspiera. Sam diagram nie może być jedynym miejscem przekazania informacji.</p>
-<p>Minimalny opis diagramu powinien zawierać:</p>
-<ul>
-<li>cel diagramu,</li>
-<li>punkt startowy,</li>
-<li>najważniejsze decyzje,</li>
-<li>rezultat procesu,</li>
-<li>powiązane narzędzia albo rozdziały.</li>
-</ul>
-<h2 id="kiedy-dodawać-diagram"><a class="header" href="#kiedy-dodawać-diagram">Kiedy dodawać diagram</a></h2>
-<p>Diagram warto dodać, gdy rozdział opisuje:</p>
-<ul>
-<li>cykl życia treści,</li>
-<li>zależności między rolami,</li>
-<li>decyzję publikacyjną,</li>
-<li>kwalifikację treści od innego podmiotu,</li>
-<li>ocenę dokumentów i załączników,</li>
-<li>obsługę zgłoszeń dostępności,</li>
-<li>archiwizację i wycofanie,</li>
-<li>relacje między rejestrami,</li>
-<li>przepływ dowodów wykonania.</li>
-</ul>
-<p>Diagramu nie należy dodawać, gdy:</p>
-<ul>
-<li>powiela prostą listę,</li>
-<li>jest dekoracyjny,</li>
-<li>zawiera zbyt dużo tekstu,</li>
-<li>wymagałby częstej aktualizacji bez wyraźnej korzyści,</li>
-<li>nie da się go zrozumiale opisać tekstowo.</li>
-</ul>
-<h2 id="typy-elementów-wizualnych-zalecane-w-podręczniku"><a class="header" href="#typy-elementów-wizualnych-zalecane-w-podręczniku">Typy elementów wizualnych zalecane w podręczniku</a></h2>
-<div class="table-wrapper">
-<table>
-<thead>
-<tr><th>Typ</th><th>Zastosowanie</th><th>Preferowana forma</th></tr>
-</thead>
-<tbody>
-<tr><td>Mapa systemu</td><td>pokazuje moduły podręcznika i ich zależności</td><td>Mermaid flowchart</td></tr>
-<tr><td>Cykl życia</td><td>pokazuje etapy od planowania do wycofania</td><td>Mermaid flowchart LR</td></tr>
-<tr><td>Drzewo decyzji</td><td>wspiera wybór decyzji publikacyjnej lub archiwizacyjnej</td><td>Mermaid flowchart TD</td></tr>
-<tr><td>RACI</td><td>pokazuje odpowiedzialność ról</td><td>tabela Markdown</td></tr>
-<tr><td>Relacje rejestrów</td><td>pokazują powiązanie identyfikatorów i wpisów</td><td>Mermaid flowchart</td></tr>
-<tr><td>Oś czasu</td><td>pokazuje kolejność publikacji, przeglądu i naprawy</td><td>Mermaid flowchart LR</td></tr>
-<tr><td>Matryca zgodności</td><td>łączy wymagania, procedury i dowody</td><td>tabela Markdown</td></tr>
-</tbody>
-</table>
-</div>
-<h2 id="mapa-systemu-podręcznika"><a class="header" href="#mapa-systemu-podręcznika">Mapa systemu podręcznika</a></h2>
-<p>Poniższy diagram pokazuje, że podręcznik nie jest zbiorem niezależnych rozdziałów. Standardy, kontrola, rejestry, przegląd, naprawa i archiwizacja tworzą jeden system zarządzania zasobem.</p>
-<pre class="mermaid">flowchart TD
-    A[Tresc publiczna] --&gt; B[Standard publikacji]
-    A --&gt; C[Tworzenie i pozyskanie]
-    C --&gt; D[Kontrola przed publikacja]
-    B --&gt; D
-    D --&gt; E{Decyzja publikacyjna}
-    E --&gt;|Publikuj| F[Publikacja]
-    E --&gt;|Popraw| G[Poprawa]
-    E --&gt;|Warunkowo lub oznaczenie| H[Plan naprawy lub alternatywa]
-    E --&gt;|Odmow| I[Decyzja odmowna]
-    G --&gt; D
-    H --&gt; F
-    F --&gt; J[Rejestr zasobow]
-    J --&gt; K[Utrzymanie]
-    K --&gt; L[Przeglad]
-    L --&gt; M{Dalszy los}
-    M --&gt;|Napraw| N[Naprawa]
-    M --&gt;|Aktualizuj| K
-    M --&gt;|Archiwizuj| O[Archiwizacja]
-    M --&gt;|Wycofaj| P[Wycofanie]
-    N --&gt; J
-    O --&gt; J
-    P --&gt; J
-</pre>
-
-<h2 id="mapa-dowodów-wykonania"><a class="header" href="#mapa-dowodów-wykonania">Mapa dowodów wykonania</a></h2>
-<p>Poniższy diagram pokazuje, gdzie w procesie powstają dowody, które pozwalają wykazać należytą staranność.</p>
-<pre class="mermaid">flowchart TD
-    A[Material do publikacji] --&gt; B[Formularz przekazania]
-    B --&gt; C[Lista kontrolna]
-    C --&gt; D[Decyzja publikacyjna]
-    D --&gt; E[Publikacja]
-    E --&gt; F[Wpis w rejestrze zasobow]
-    F --&gt; G[Termin przegladu]
-    G --&gt; H[Wynik przegladu]
-    H --&gt; I[Plan naprawy albo decyzja archiwizacyjna]
-    I --&gt; F
-</pre>
-
-<h2 id="mapa-relacji-rejestrów"><a class="header" href="#mapa-relacji-rejestrów">Mapa relacji rejestrów</a></h2>
-<p>Poniższy diagram pokazuje, że rejestry nie powinny być osobnymi tabelami bez powiązań. Ich wspólnym punktem powinien być identyfikator zasobu.</p>
-<pre class="mermaid">flowchart TD
-    A[Identyfikator zasobu] --&gt; B[Rejestr zasobow]
-    A --&gt; C[Rejestr zalacznikow]
-    A --&gt; D[Rejestr tresci zewnetrznych]
-    A --&gt; E[Rejestr zgloszen dostepnosci]
-    A --&gt; F[Rejestr napraw i korekt]
-    A --&gt; G[Rejestr decyzji archiwizacyjnych]
-    E --&gt; F
-    F --&gt; B
-    G --&gt; B
-    C --&gt; F
-    D --&gt; B
-</pre>
-
-<h2 id="proponowane-miejsca-elementów-wizualnych-w-podręczniku"><a class="header" href="#proponowane-miejsca-elementów-wizualnych-w-podręczniku">Proponowane miejsca elementów wizualnych w podręczniku</a></h2>
-<div class="table-wrapper">
-<table>
-<thead>
-<tr><th>Rozdział</th><th>Element wizualny</th><th>Status</th></tr>
-</thead>
-<tbody>
-<tr><td>Strona startowa</td><td>mapa całego systemu i cykl życia treści</td><td>zalecane</td></tr>
-<tr><td>Wstęp</td><td>uproszczony cykl życia treści</td><td>zalecane</td></tr>
-<tr><td>Podstawy prawne i standardy</td><td>matryca wymóg - procedura - dowód</td><td>zalecane jako tabela</td></tr>
-<tr><td>Standardy publikacji</td><td>matryca typów treści</td><td>dodana jako tabela</td></tr>
-<tr><td>Kontrola przed publikacją</td><td>drzewo decyzji publikacyjnej</td><td>zalecane</td></tr>
-<tr><td>Rejestr zasobów</td><td>relacje rejestrów</td><td>zalecane</td></tr>
-<tr><td>Treści od innych podmiotów</td><td>klasyfikacja A/B/C/D jako drzewo decyzji</td><td>zalecane</td></tr>
-<tr><td>Przegląd i naprawa</td><td>priorytety i decyzje po przeglądzie</td><td>zalecane</td></tr>
-<tr><td>Archiwizacja i wycofanie</td><td>drzewo dalszego losu zasobu</td><td>zalecane</td></tr>
-<tr><td>Narzędzia systemowe</td><td>mapa narzędzi i dowodów</td><td>zalecane</td></tr>
-<tr><td>Schematy procesów</td><td>pełne diagramy operacyjne</td><td>już stosowane</td></tr>
-</tbody>
-</table>
-</div>
-<h2 id="reguły-utrzymania-diagramów"><a class="header" href="#reguły-utrzymania-diagramów">Reguły utrzymania diagramów</a></h2>
-<p>Diagram jest zasobem podręcznika. Dlatego powinien być aktualizowany, gdy zmienia się proces, nazwa decyzji, rola albo rejestr. Przy każdej większej zmianie rozdziału należy sprawdzić, czy diagram nadal odpowiada tekstowi.</p>
-<p>Minimalna lista kontrolna dla diagramu:</p>
-<ul>
-<li>czy diagram ma opis tekstowy,</li>
-<li>czy nazwy decyzji są takie same jak w rozdziale,</li>
-<li>czy role są zgodne z mapą odpowiedzialności,</li>
-<li>czy diagram nie zawiera informacji, której nie ma w tekście,</li>
-<li>czy diagram nie jest jedynym nośnikiem ważnej informacji,</li>
-<li>czy kod Mermaid buduje się poprawnie.</li>
-</ul>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="słownik-pojęć"><a class="header" href="#słownik-pojęć">Słownik pojęć</a></h1>
 <h2 id="ai"><a class="header" href="#ai">AI</a></h2>
