@@ -87,4 +87,6 @@ Minimalne wdrożenie wymaga:
 
 ## Materiały źródłowe
 
-Podręcznik rozwija w języku operacyjnym przede wszystkim zalecenia dotyczące multimediów i komunikacji masowej, publikowania treści pochodzących od innych podmiotów oraz programu przeglądu i naprawy załączników opublikowanych po 23 września 2018 r. Wykorzystuje także materiały z katalogu `_sources`, w szczególności dotyczące kontroli dostępności dokumentów, rejestru zasobów cyfrowych oraz archiwizacji i wycofywania zasobów.
+Podręcznik rozwija w języku operacyjnym przede wszystkim zalecenia dotyczące multimediów i komunikacji masowej, publikowania treści pochodzących od innych podmiotów oraz programu przeglądu i naprawy załączników. W odniesieniu do dokumentów i załączników uwzględnia zarówno zasoby opublikowane od 23 września 2018 r., jak i starsze dokumenty, jeżeli ich treść jest niezbędna do realizacji bieżących zadań podmiotu publicznego.
+
+Wykorzystuje także materiały z katalogu `_sources`, w szczególności dotyczące kontroli dostępności dokumentów, rejestru zasobów cyfrowych oraz archiwizacji i wycofywania zasobów.
