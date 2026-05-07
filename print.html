@@ -36,7 +36,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-4ee7f122.js";
+            window.path_to_searchindex_js = "searchindex-a92678e7.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-5c232680.js"></script>
@@ -2405,6 +2405,74 @@
 <h1 id="rejestry"><a class="header" href="#rejestry">Rejestry</a></h1>
 <h2 id="rola-rejestrów"><a class="header" href="#rola-rejestrów">Rola rejestrów</a></h2>
 <p>Rejestr jest narzędziem organizacyjnym, a nie tylko tabelą. Jego zadaniem jest utrzymanie wiedzy o zasobach, decyzjach, brakach, zgłoszeniach i naprawach. Rejestry powinny być aktualizowane w procesie, a nie raz na jakiś czas przy porządkowaniu serwisu.</p>
+<h2 id="zasada-identyfikatora-głównego"><a class="header" href="#zasada-identyfikatora-głównego">Zasada identyfikatora głównego</a></h2>
+<p>Każdy zasób powinien mieć jeden identyfikator główny, który pozwala połączyć wpisy w różnych rejestrach. Ten sam identyfikator powinien pojawiać się w rejestrze zasobów, rejestrze załączników, rejestrze napraw, rejestrze zgłoszeń dostępności, rejestrze treści od innych podmiotów i rejestrze decyzji archiwizacyjnych.</p>
+<p>Przykład formatu: <code>ZAS-2026-0001</code>.</p>
+<h2 id="słowniki-wartości"><a class="header" href="#słowniki-wartości">Słowniki wartości</a></h2>
+<h3 id="typ-zasobu"><a class="header" href="#typ-zasobu">Typ zasobu</a></h3>
+<ul>
+<li>strona,</li>
+<li>dokument,</li>
+<li>załącznik,</li>
+<li>multimedia,</li>
+<li>grafika,</li>
+<li>post,</li>
+<li>komunikat,</li>
+<li>formularz,</li>
+<li>treść BIP,</li>
+<li>treść archiwalna.</li>
+</ul>
+<h3 id="źródło-zasobu"><a class="header" href="#źródło-zasobu">Źródło zasobu</a></h3>
+<ul>
+<li>własne,</li>
+<li>inna komórka,</li>
+<li>podmiot zewnętrzny,</li>
+<li>wykonawca,</li>
+<li>BIP,</li>
+<li>system automatyczny,</li>
+<li>AI jako wsparcie redakcyjne.</li>
+</ul>
+<h3 id="status-dostępności"><a class="header" href="#status-dostępności">Status dostępności</a></h3>
+<ul>
+<li>dostępny,</li>
+<li>dostępny częściowo,</li>
+<li>wymaga poprawy,</li>
+<li>opublikowany z oznaczeniem,</li>
+<li>niedostępny,</li>
+<li>brak danych,</li>
+<li>wymaga decyzji.</li>
+</ul>
+<h3 id="wynik-kontroli"><a class="header" href="#wynik-kontroli">Wynik kontroli</a></h3>
+<ul>
+<li>publikuj,</li>
+<li>popraw przed publikacją,</li>
+<li>odeślij do uzupełnienia,</li>
+<li>opublikuj warunkowo,</li>
+<li>opublikuj z oznaczeniem,</li>
+<li>odmów publikacji,</li>
+<li>przekaż do procedury żądania dostępności.</li>
+</ul>
+<h3 id="status-przeglądu"><a class="header" href="#status-przeglądu">Status przeglądu</a></h3>
+<ul>
+<li>nie dotyczy,</li>
+<li>zaplanowany,</li>
+<li>w toku,</li>
+<li>zakończony,</li>
+<li>zaległy,</li>
+<li>wymaga decyzji właściciela.</li>
+</ul>
+<h3 id="decyzja-o-dalszym-losie"><a class="header" href="#decyzja-o-dalszym-losie">Decyzja o dalszym losie</a></h3>
+<ul>
+<li>pozostaw,</li>
+<li>aktualizuj,</li>
+<li>napraw,</li>
+<li>zastąp,</li>
+<li>zastąp HTML,</li>
+<li>archiwizuj,</li>
+<li>usuń z nawigacji,</li>
+<li>wycofaj,</li>
+<li>pozostaw historycznie.</li>
+</ul>
 <h2 id="rejestr-zasobów-cyfrowych"><a class="header" href="#rejestr-zasobów-cyfrowych">Rejestr zasobów cyfrowych</a></h2>
 <p>Cel: podstawowa pamięć organizacji o treściach publicznych.</p>
 <p>Proponowane kolumny:</p>
@@ -2417,17 +2485,17 @@
 <tr><td>Identyfikator zasobu</td><td>unikalny numer</td></tr>
 <tr><td>Tytuł</td><td>nazwa zasobu</td></tr>
 <tr><td>URL</td><td>adres publikacji</td></tr>
-<tr><td>Typ zasobu</td><td>strona, dokument, załącznik, multimedia, post</td></tr>
-<tr><td>Źródło</td><td>własne, zewnętrzne, BIP</td></tr>
+<tr><td>Typ zasobu</td><td>wartość ze słownika typów</td></tr>
+<tr><td>Źródło</td><td>wartość ze słownika źródeł</td></tr>
 <tr><td>Właściciel merytoryczny</td><td>osoba albo komórka</td></tr>
 <tr><td>Redaktor publikujący</td><td>osoba publikująca</td></tr>
 <tr><td>Data publikacji</td><td>data pierwszej publikacji</td></tr>
 <tr><td>Data ostatniej aktualizacji</td><td>data ostatniej zmiany</td></tr>
-<tr><td>Status dostępności</td><td>dostępny, wymaga poprawy, niedostępny, oznaczony</td></tr>
-<tr><td>Wynik kontroli</td><td>publikuj, popraw, warunkowo, oznacz, odmów</td></tr>
-<tr><td>Status przeglądu</td><td>zaplanowany, w toku, zakończony, zaległy</td></tr>
+<tr><td>Status dostępności</td><td>wartość ze słownika statusów</td></tr>
+<tr><td>Wynik kontroli</td><td>wartość ze słownika wyników kontroli</td></tr>
+<tr><td>Status przeglądu</td><td>wartość ze słownika przeglądu</td></tr>
 <tr><td>Termin kolejnego przeglądu</td><td>data</td></tr>
-<tr><td>Decyzja o dalszym losie</td><td>aktualizuj, napraw, archiwizuj, wycofaj</td></tr>
+<tr><td>Decyzja o dalszym losie</td><td>wartość ze słownika decyzji</td></tr>
 <tr><td>Uwagi</td><td>informacje pomocnicze</td></tr>
 <tr><td>Powiązane zgłoszenia dostępności</td><td>identyfikatory zgłoszeń</td></tr>
 </tbody>
@@ -2442,7 +2510,8 @@
 <tr><th>Kolumna</th><th>Opis</th></tr>
 </thead>
 <tbody>
-<tr><td>Identyfikator załącznika</td><td>numer</td></tr>
+<tr><td>Identyfikator zasobu</td><td>powiązanie z rejestrem zasobów</td></tr>
+<tr><td>Identyfikator załącznika</td><td>numer załącznika</td></tr>
 <tr><td>Nazwa pliku</td><td>nazwa techniczna</td></tr>
 <tr><td>Tytuł załącznika</td><td>nazwa dla użytkownika</td></tr>
 <tr><td>URL strony publikacji</td><td>gdzie jest link</td></tr>
@@ -2451,11 +2520,12 @@
 <tr><td>Data publikacji</td><td>data</td></tr>
 <tr><td>Czy po 23 września 2018 r.</td><td>tak / nie / brak danych</td></tr>
 <tr><td>Właściciel</td><td>osoba albo komórka</td></tr>
-<tr><td>Status dostępności</td><td>dostępny / wymaga naprawy / brak danych</td></tr>
-<tr><td>Priorytet naprawy</td><td>wysoki / średni / niski</td></tr>
-<tr><td>Decyzja</td><td>napraw / zastąp / wycofaj / archiwizuj / pozostaw</td></tr>
+<tr><td>Status dostępności</td><td>wartość ze słownika statusów</td></tr>
+<tr><td>Ocena niezbędności</td><td>bieżąco / okresowo / dowodowo / nieniezbędny / brak danych</td></tr>
+<tr><td>Priorytet naprawy</td><td>0 / 0A / 1 / 2 / 3 / 4</td></tr>
+<tr><td>Decyzja</td><td>wartość ze słownika decyzji</td></tr>
 <tr><td>Termin naprawy</td><td>data</td></tr>
-<tr><td>Status wykonania</td><td>nowe / w toku / zakończone</td></tr>
+<tr><td>Status wykonania</td><td>nowe / w toku / zakończone / odroczone</td></tr>
 </tbody>
 </table>
 </div>
@@ -2468,7 +2538,8 @@
 <tr><th>Kolumna</th><th>Opis</th></tr>
 </thead>
 <tbody>
-<tr><td>Identyfikator</td><td>numer</td></tr>
+<tr><td>Identyfikator zasobu</td><td>powiązanie z rejestrem zasobów, jeżeli materiał opublikowano</td></tr>
+<tr><td>Identyfikator materiału zewnętrznego</td><td>numer</td></tr>
 <tr><td>Podmiot przekazujący</td><td>nazwa</td></tr>
 <tr><td>Osoba do kontaktu</td><td>dane kontaktowe</td></tr>
 <tr><td>Tytuł materiału</td><td>nazwa</td></tr>
@@ -2477,7 +2548,7 @@
 <tr><td>Czy publikacja obowiązkowa</td><td>tak / nie / wymaga decyzji</td></tr>
 <tr><td>Zgoda na modyfikację</td><td>tak / nie / częściowo</td></tr>
 <tr><td>Braki dostępności</td><td>opis</td></tr>
-<tr><td>Decyzja publikacyjna</td><td>publikuj, popraw, warunkowo, oznacz, odmów</td></tr>
+<tr><td>Decyzja publikacyjna</td><td>wartość ze słownika wyników kontroli</td></tr>
 <tr><td>Oznaczenie braku</td><td>tak / nie</td></tr>
 <tr><td>Alternatywna forma dostępu</td><td>opis</td></tr>
 <tr><td>Data decyzji</td><td>data</td></tr>
@@ -2522,7 +2593,7 @@
 <tr><td>Identyfikator zasobu</td><td>powiązanie</td></tr>
 <tr><td>Tytuł</td><td>nazwa</td></tr>
 <tr><td>URL przed decyzją</td><td>adres</td></tr>
-<tr><td>Decyzja</td><td>aktualizuj, pozostaw, archiwizuj, usuń z nawigacji, wycofaj, zastąp</td></tr>
+<tr><td>Decyzja</td><td>wartość ze słownika decyzji o dalszym losie</td></tr>
 <tr><td>Uzasadnienie</td><td>tekst</td></tr>
 <tr><td>Data decyzji</td><td>data</td></tr>
 <tr><td>Osoba decyzyjna</td><td>imię i nazwisko albo rola</td></tr>
@@ -2542,10 +2613,11 @@
 </thead>
 <tbody>
 <tr><td>Identyfikator naprawy</td><td>numer</td></tr>
+<tr><td>Identyfikator zasobu</td><td>powiązanie z rejestrem zasobów</td></tr>
 <tr><td>Zasób</td><td>identyfikator albo URL</td></tr>
 <tr><td>Źródło naprawy</td><td>kontrola, przegląd, zgłoszenie, audyt</td></tr>
 <tr><td>Opis problemu</td><td>brak dostępności albo błąd</td></tr>
-<tr><td>Priorytet</td><td>wysoki, średni, niski</td></tr>
+<tr><td>Priorytet</td><td>0 / 0A / 1 / 2 / 3 / 4 albo wysoki / średni / niski</td></tr>
 <tr><td>Osoba odpowiedzialna</td><td>właściciel albo wykonawca</td></tr>
 <tr><td>Termin</td><td>data</td></tr>
 <tr><td>Sposób naprawy</td><td>opis</td></tr>
@@ -2557,6 +2629,19 @@
 </div>
 <h2 id="powiązanie-rejestrów"><a class="header" href="#powiązanie-rejestrów">Powiązanie rejestrów</a></h2>
 <p>Rejestry powinny łączyć się przez identyfikator zasobu. Jedno zgłoszenie dostępności może prowadzić do naprawy, a naprawa może zmienić status zasobu. Decyzja archiwizacyjna powinna zmienić rekord w rejestrze zasobów. Materiał od innego podmiotu po publikacji staje się zasobem i powinien mieć powiązanie z rejestrem treści zewnętrznych.</p>
+<h2 id="reguły-aktualizacji-rejestrów"><a class="header" href="#reguły-aktualizacji-rejestrów">Reguły aktualizacji rejestrów</a></h2>
+<p>Rejestr aktualizuje się:</p>
+<ul>
+<li>po publikacji,</li>
+<li>po każdej istotnej zmianie treści,</li>
+<li>po decyzji warunkowej,</li>
+<li>po oznaczeniu braku dostępności,</li>
+<li>po zgłoszeniu dostępności,</li>
+<li>po zakończeniu naprawy,</li>
+<li>po przeglądzie,</li>
+<li>po archiwizacji,</li>
+<li>po wycofaniu albo usunięciu z nawigacji.</li>
+</ul>
 <h2 id="minimalne-wdrożenie-4"><a class="header" href="#minimalne-wdrożenie-4">Minimalne wdrożenie</a></h2>
 <p>Mały podmiot może prowadzić jeden arkusz z zakładkami. Duży podmiot powinien ustalić właściciela każdego rejestru, częstotliwość aktualizacji i zasady dostępu.</p>
 <div style="break-before: page; page-break-before: always;"></div>
@@ -2951,7 +3036,7 @@
 <p>Decyzja, że zasób nie powinien być dalej dostępny jako aktualna treść publiczna. Wycofanie może prowadzić do usunięcia z widocznej nawigacji, zastąpienia nową wersją, przeniesienia do archiwum albo usunięcia, jeżeli jest to uzasadnione.</p>
 <h2 id="treść-historyczna"><a class="header" href="#treść-historyczna">Treść historyczna</a></h2>
 <p>Treść pozostawiona publicznie ze względów dokumentacyjnych, prawnych, informacyjnych albo historycznych, ale nieprzeznaczona do stosowania jako aktualna informacja.</p>
-<h2 id="status-dostępności"><a class="header" href="#status-dostępności">Status dostępności</a></h2>
+<h2 id="status-dostępności-1"><a class="header" href="#status-dostępności-1">Status dostępności</a></h2>
 <p>Informacja o stanie dostępności zasobu. Przykładowe statusy: dostępny, wymaga poprawy, niedostępny, opublikowany z oznaczeniem, wymaga decyzji, brak danych.</p>
 <h2 id="decyzja-publikacyjna"><a class="header" href="#decyzja-publikacyjna">Decyzja publikacyjna</a></h2>
 <p>Udokumentowane rozstrzygnięcie po kontroli przed publikacją. Decyzja może brzmieć: publikuj, popraw przed publikacją, odeślij do uzupełnienia, opublikuj warunkowo, opublikuj z oznaczeniem, odmów publikacji albo przekaż do procedury żądania dostępności.</p>
