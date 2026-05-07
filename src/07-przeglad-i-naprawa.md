@@ -2,7 +2,9 @@
 
 ## Cel programu przeglądu
 
-Przegląd i naprawa służą utrzymaniu zasobów cyfrowych po publikacji. Rozdział bazuje na logice Zalecenia 7: załączniki opublikowane po 23 września 2018 r. powinny zostać zidentyfikowane, ocenione, sklasyfikowane i objęte decyzją o naprawie, zastąpieniu, wycofaniu, archiwizacji albo pozostawieniu z uzasadnieniem.
+Przegląd i naprawa służą utrzymaniu zasobów cyfrowych po publikacji. Rozdział bazuje na logice Zalecenia 7: dokumenty i załączniki powinny zostać zidentyfikowane, ocenione, sklasyfikowane i objęte decyzją o naprawie, zastąpieniu, wycofaniu, archiwizacji albo pozostawieniu z uzasadnieniem.
+
+Szczególną uwagę należy poświęcić dokumentom i załącznikom opublikowanym od 23 września 2018 r. oraz starszym dokumentom, jeżeli ich treść jest niezbędna do realizacji bieżących zadań podmiotu publicznego.
 
 Program przeglądu nie jest jednorazowym sprzątaniem serwisu. Jest częścią utrzymania treści publicznych.
 
@@ -10,7 +12,8 @@ Program przeglądu nie jest jednorazowym sprzątaniem serwisu. Jest częścią u
 
 Przegląd może obejmować:
 
-- załączniki opublikowane po 23 września 2018 r.,
+- dokumenty i załączniki opublikowane od 23 września 2018 r.,
+- dokumenty opublikowane przed 23 września 2018 r., jeżeli są niezbędne do realizacji bieżących zadań,
 - dokumenty nadal wykorzystywane do realizacji zadań publicznych,
 - formularze do pobrania,
 - treści obowiązkowe w BIP,
@@ -33,16 +36,17 @@ Ciągłość oznacza, że organizacja:
 - aktualizuje rejestr,
 - wykorzystuje zgłoszenia użytkowników jako sygnały do przeglądu.
 
-## Identyfikacja załączników po 23 września 2018 r.
+## Identyfikacja dokumentów i załączników
 
-Pierwszym krokiem programu jest ustalenie, jakie załączniki zostały opublikowane po 23 września 2018 r. Należy zebrać:
+Pierwszym krokiem programu jest ustalenie, jakie dokumenty i załączniki są publicznie dostępne oraz czy są nadal potrzebne. Należy zebrać:
 
-- adres strony, na której załącznik jest opublikowany,
+- adres strony, na której dokument albo załącznik jest opublikowany,
 - nazwę pliku,
 - datę publikacji,
 - typ pliku,
 - właściciela merytorycznego,
-- informację, czy załącznik jest nadal potrzebny,
+- informację, czy zasób jest nadal potrzebny,
+- informację, czy zasób jest niezbędny do realizacji bieżących zadań,
 - status dostępności,
 - powiązanie z usługą, sprawą, obowiązkiem albo BIP.
 
@@ -143,10 +147,11 @@ Mały podmiot może prowadzić program w jednym arkuszu. Minimalny cykl działan
 1. zbierz listę załączników,
 2. oznacz datę publikacji albo brak danych,
 3. wskaż właściciela,
-4. nadaj priorytet,
-5. podejmij decyzję,
-6. wykonaj naprawę, archiwizację albo wycofanie,
-7. odnotuj wynik.
+4. oceń niezbędność,
+5. nadaj priorytet,
+6. podejmij decyzję,
+7. wykonaj naprawę, archiwizację albo wycofanie,
+8. odnotuj wynik.
 
 ## Procedura dla dużego podmiotu
 
@@ -190,7 +195,7 @@ Przegląd powinien zaczynać się od [rejestru zasobów](05-rejestr-zasobow.md) 
 
 Minimalny program przeglądu obejmuje:
 
-- listę załączników po 23 września 2018 r.,
+- wykaz dokumentów i załączników objętych oceną,
 - ocenę niezbędności,
 - priorytety,
 - formularz wyniku przeglądu,
@@ -204,6 +209,7 @@ Minimalny program przeglądu obejmuje:
 - przegląd bez decyzji,
 - naprawa bez aktualizacji rejestru,
 - skupienie tylko na stronie głównej, a pominięcie załączników,
+- automatyczne pomijanie dokumentów sprzed 23 września 2018 r. bez oceny ich niezbędności,
 - brak priorytetów,
 - pozostawienie niedostępnych dokumentów bez uzasadnienia,
 - brak powiązania z archiwizacją.
