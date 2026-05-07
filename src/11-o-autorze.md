@@ -1,38 +1,69 @@
 # O autorze
 
-Podręcznik powstał z praktyki pracy z treściami publicznymi, dostępnością cyfrową, dokumentami, BIP, komunikacją internetową i porządkowaniem zasobów po publikacji. Jego punkt wyjścia jest operacyjny: problemem nie jest tylko pojedynczy niedostępny plik, ale sposób, w jaki organizacja tworzy, publikuje, utrzymuje i wycofuje treści.
+Autorem podręcznika jest **Bartłomiej Wilk** - praktyk zajmujący się dostępnością cyfrową, komunikacją publiczną, projektowaniem i utrzymaniem treści internetowych oraz porządkowaniem procesów publikacyjnych w podmiotach publicznych.
 
-## Z jakiej praktyki powstał podręcznik
+Jego praca łączy kilka obszarów, które w wielu organizacjach funkcjonują osobno: redakcję stron internetowych, BIP, dokumenty i załączniki, multimedia, komunikację w mediach społecznościowych, standardy dostępności cyfrowej, organizację pracy redaktorów oraz odpowiedzialność za treści po publikacji.
 
-Materiał wynika z doświadczeń, w których te same problemy powtarzały się w różnych typach podmiotów publicznych:
+## Perspektywa autora
 
-- publikacja dokumentów bez właściciela,
-- załączniki traktowane jako szybki zamiennik treści HTML,
-- brak rejestru zasobów i przeglądów,
-- multimedia publikowane bez planu dostępności,
-- treści od innych podmiotów publikowane bez kwalifikacji,
-- żądania dostępności obsługiwane bez powiązania z naprawą zasobu,
-- archiwizacja wykonywana technicznie, bez decyzji i śladu organizacyjnego.
+Podręcznik został napisany z perspektywy osoby, która patrzy na dostępność cyfrową nie tylko jako na wymóg techniczny, ale jako na element zarządzania informacją publiczną. W tej perspektywie problemem nie jest wyłącznie pojedynczy niedostępny PDF, film bez napisów albo grafika bez opisu. Problemem jest cały sposób, w jaki organizacja przyjmuje materiały, podejmuje decyzje, publikuje, rejestruje, poprawia, archiwizuje i wycofuje treści.
 
-Podręcznik porządkuje te doświadczenia w model, który można wdrożyć zarówno w małej jednostce, jak i w dużej organizacji.
+Dlatego autor koncentruje się na praktyce wdrożeniowej:
 
-## Dlaczego łączy dostępność, redakcję, BIP, multimedia i zarządzanie treścią
+- kto odpowiada za treść,
+- jak udokumentować decyzję publikacyjną,
+- kiedy materiał wymaga poprawy,
+- kiedy można zastosować publikację warunkową,
+- jak obsługiwać treści od innych podmiotów,
+- jak prowadzić rejestry,
+- jak planować przegląd i naprawę,
+- jak domykać cykl życia treści przez archiwizację albo wycofanie.
 
-W praktyce użytkownik nie rozdziela organizacji na redakcję strony, administratora BIP, komórkę merytoryczną, zespół dostępności i osobę od mediów społecznościowych. Korzysta z treści publicznej i oczekuje, że będzie aktualna, dostępna i zrozumiała w danym kontekście.
+## Doświadczenie i zakres pracy
 
-Dlatego podręcznik łączy obszary, które w organizacjach bywają rozdzielone:
+Autor pracuje na styku komunikacji, technologii, dostępności i administracji publicznej. W praktyce oznacza to pracę z:
 
-- dostępność cyfrową,
-- publikację dokumentów i załączników,
-- BIP,
-- multimedia,
-- komunikację masową,
-- treści przekazywane przez inne podmioty,
-- rejestry i odpowiedzialność,
-- przegląd, naprawę, archiwizację i wycofanie.
+- stronami internetowymi i systemami zarządzania treścią,
+- Biuletynem Informacji Publicznej,
+- dokumentami i załącznikami publikowanymi online,
+- treściami informacyjnymi i promocyjnymi instytucji publicznych,
+- materiałami multimedialnymi,
+- redakcją treści i strukturą informacji,
+- standardami WCAG i organizacją procesów dostępności cyfrowej,
+- porządkowaniem zasobów, które zostały już opublikowane i wymagają utrzymania.
+
+Ta praktyka sprawia, że podręcznik nie jest pisany wyłącznie z punktu widzenia audytu technicznego. Jest pisany z punktu widzenia codziennej odpowiedzialności organizacji za treść publiczną.
+
+## Dlaczego powstał ten podręcznik
+
+Podręcznik powstał z powtarzalnych problemów obserwowanych w pracy z treściami publicznymi. W wielu podmiotach publicznych te same trudności pojawiają się niezależnie od wielkości organizacji:
+
+- dokumenty trafiają do publikacji bez właściciela,
+- załączniki zastępują treść HTML,
+- brakuje informacji, kto odpowiada za aktualność materiału,
+- multimedia są publikowane bez planu dostępności,
+- treści od innych podmiotów są traktowane jako automatycznie gotowe do publikacji,
+- BIP jest obsługiwany technicznie, ale bez pełnego śladu decyzji,
+- żądania dostępności są obsługiwane reaktywnie,
+- archiwizacja jest rozumiana jako przeniesienie albo usunięcie pliku, a nie jako decyzja o dalszym losie zasobu.
+
+Autor porządkuje te problemy w jeden model: treść publiczna jest zasobem, a publikacja jest początkiem odpowiedzialności, nie jej końcem.
 
 ## Charakter materiału
 
-Jest to materiał wdrożeniowy dla podmiotów publicznych. Nie ma charakteru autopromocyjnego, marketingowego ani wyłącznie szkoleniowego. Ma wspierać decyzje organizacyjne, projektowanie procedur i codzienną pracę osób odpowiedzialnych za treści publiczne.
+Podręcznik ma charakter wdrożeniowy i organizacyjny. Ma pomagać podmiotom publicznym projektować procedury, listy kontrolne, rejestry, role i decyzje związane z publikacją oraz utrzymaniem treści cyfrowych.
 
-Najważniejsza myśl podręcznika jest prosta: treść publiczna jest zasobem, a publikacja jest początkiem odpowiedzialności, nie jej końcem.
+Nie jest to opinia prawna, audyt dostępności cyfrowej ani zamknięty standard obowiązujący wszystkie organizacje w identyczny sposób. Każdy podmiot powinien dostosować opisane rozwiązania do swojej struktury, zakresu zadań, kanałów publikacji, skali działania i przyjętych procedur wewnętrznych.
+
+## Kontakt z autorem
+
+Uwagi, propozycje zmian i zgłoszenia dotyczące podręcznika można przekazywać przez repozytorium projektu albo kanał wskazany przez autora. Szczególnie wartościowe są zgłoszenia dotyczące:
+
+- niejasnych definicji,
+- brakujących procedur,
+- błędów w linkowaniu,
+- niespójności między rozdziałami,
+- przykładów wdrożeniowych z podmiotów publicznych,
+- propozycji uproszczeń dla małych jednostek.
+
+Podręcznik powinien rozwijać się tak samo, jak opisany w nim system: przez przegląd, poprawę, dokumentowanie zmian i reagowanie na realne potrzeby użytkowników.
