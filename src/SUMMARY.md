@@ -8,6 +8,7 @@
 - [Model organizacji](kontekst/model-organizacji.md)
 - [Cele systemu](kontekst/cele-systemu.md)
 - [Zasady ogólne](kontekst/zasady-ogolne.md)
+- [Podstawy prawne i standardy](kontekst/podstawy-prawne-i-standardy.md)
 - [Najczęstsze błędy](kontekst/najczestsze-bledy.md)
 
 ## Część I. Model zarządzania treścią
@@ -19,6 +20,12 @@
 - [Treści od innych podmiotów](06-tresci-od-innych-podmiotow.md)
 - [Przegląd i naprawa](07-przeglad-i-naprawa.md)
 - [Archiwizacja i wycofanie](08-archiwizacja-i-wycofanie.md)
+
+### Procesy szczególne
+
+- [Publikacja w BIP](procesy/publikacja-w-bip.md)
+- [Publikacja kryzysowa](procesy/publikacja-kryzysowa.md)
+- [AI w treściach publicznych](procesy/ai-w-tresciach-publicznych.md)
 
 ## Część II. Narzędzia systemowe
 
