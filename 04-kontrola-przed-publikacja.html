@@ -35,7 +35,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-b052afd3.js";
+            window.path_to_searchindex_js = "searchindex-768c93b8.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-5c232680.js"></script>
@@ -195,6 +195,26 @@
 <li>decyzja o wpisie do rejestru,</li>
 <li>wskazanie osoby odpowiedzialnej za poprawę, jeżeli występują braki.</li>
 </ul>
+<p>Poniższe drzewo pokazuje podstawową logikę decyzji publikacyjnej. Diagram nie zastępuje listy kontrolnej ani formularza decyzji, ale pomaga ustalić, którą ścieżkę należy zastosować po kontroli.</p>
+<pre class="mermaid">flowchart TD
+    A[Material po przygotowaniu] --&gt; B{Czy dane sa kompletne?}
+    B -- Nie --&gt; C[Odeslij do uzupelnienia]
+    B -- Tak --&gt; D{Czy ma wlasciciela i cel?}
+    D -- Nie --&gt; E[Wstrzymaj albo odmow publikacji]
+    D -- Tak --&gt; F{Czy spelnia minimalny standard?}
+    F -- Tak --&gt; G[Publikuj]
+    F -- Nie --&gt; H{Czy braki mozna poprawic przed publikacja?}
+    H -- Tak --&gt; I[Popraw przed publikacja]
+    I --&gt; F
+    H -- Nie --&gt; J{Czy publikacja jest obowiazkowa albo pilna?}
+    J -- Nie --&gt; K[Odmow albo zaproponuj inna forme]
+    J -- Tak --&gt; L{Czy mozna zapewnic alternatywe lub oznaczenie?}
+    L -- Tak --&gt; M[Opublikuj warunkowo albo z oznaczeniem]
+    L -- Nie --&gt; N[Przekaz do decyzji osoby zatwierdzajacej]
+    M --&gt; O[Plan naprawy i wpis do rejestru]
+    G --&gt; P[Publikacja i rejestracja]
+</pre>
+
 <h2 id="kto-kontroluje"><a class="header" href="#kto-kontroluje">Kto kontroluje</a></h2>
 <p>W małym podmiocie kontrolę może wykonywać redaktor albo administrator BIP, pod warunkiem że nie jest jedyną osobą podejmującą decyzję merytoryczną. W dużym podmiocie kontrola powinna być podzielona:</p>
 <ul>
