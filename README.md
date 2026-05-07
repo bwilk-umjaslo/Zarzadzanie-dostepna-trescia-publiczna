@@ -27,6 +27,14 @@ Podręcznik łączy:
 
 Projekt nie jest opinią prawną, audytem dostępności cyfrowej ani gotowym regulaminem organizacyjnym dla każdego podmiotu publicznego. Jest materiałem wdrożeniowym, który należy dostosować do struktury, zakresu zadań, kanałów publikacji i procedur konkretnej organizacji.
 
+## Status praw autorskich i wykorzystania
+
+Na tym etapie repozytorium jest udostępnione wyłącznie do wglądu i utrzymania projektu.
+
+Treść podręcznika nie jest udostępniona na wolnej licencji. Kopiowanie, adaptowanie, publikowanie, wdrażanie, rozpowszechnianie albo tworzenie opracowań zależnych na podstawie całości lub części materiału wymaga wcześniejszego kontaktu z właścicielem praw i uzyskania jego zgody.
+
+Szczegóły znajdują się w pliku `LICENSE`.
+
 ## Struktura źródeł
 
 Najważniejsze pliki i katalogi:
@@ -42,6 +50,7 @@ Najważniejsze pliki i katalogi:
 | `src/10-slownik-pojec.md` | słownik pojęć i skrótów |
 | `src/11-o-autorze.md` | informacja o autorze |
 | `book.toml` | konfiguracja mdBook |
+| `LICENSE` | informacja o ograniczeniu wykorzystania treści |
 
 ## Technologia
 
@@ -87,6 +96,8 @@ Przy zgłaszaniu zmian warto wskazać:
 - jakie ryzyko powoduje obecne brzmienie,
 - jaką zmianę proponujesz,
 - czy zmiana wymaga aktualizacji słownika, formularzy, list kontrolnych, rejestrów albo schematów procesów.
+
+Zgłaszanie uwag nie oznacza zgody na wykorzystanie treści poza tym repozytorium.
 
 ## Autor
 
