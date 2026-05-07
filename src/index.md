@@ -89,6 +89,34 @@ System zarządzania treścią publiczną składa się z siedmiu modułów:
 - obsługa żądań dostępności - łączy zgłoszenia użytkowników z decyzjami o naprawie,
 - archiwizacja i wycofanie - kończy cykl życia zasobu w sposób udokumentowany.
 
+Poniższy diagram pokazuje, że moduły nie działają oddzielnie. Standard publikacji zasila kontrolę, kontrola prowadzi do decyzji, publikacja tworzy zasób w rejestrze, a rejestr uruchamia utrzymanie, przegląd, naprawę i decyzję o dalszym losie.
+
+```mermaid
+flowchart TD
+    A[Tresc publiczna] --> B[Standard publikacji]
+    A --> C[Tworzenie i pozyskanie]
+    C --> D[Kontrola przed publikacja]
+    B --> D
+    D --> E{Decyzja publikacyjna}
+    E -->|Publikuj| F[Publikacja]
+    E -->|Popraw| G[Poprawa]
+    E -->|Warunkowo lub oznaczenie| H[Plan naprawy lub alternatywa]
+    E -->|Odmow| I[Decyzja odmowna]
+    G --> D
+    H --> F
+    F --> J[Rejestr zasobow]
+    J --> K[Utrzymanie]
+    K --> L[Przeglad]
+    L --> M{Dalszy los}
+    M -->|Napraw| N[Naprawa]
+    M -->|Aktualizuj| K
+    M -->|Archiwizuj| O[Archiwizacja]
+    M -->|Wycofaj| P[Wycofanie]
+    N --> J
+    O --> J
+    P --> J
+```
+
 ## Model cyklu życia treści publicznej
 
 ```mermaid
