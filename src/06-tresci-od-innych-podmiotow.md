@@ -26,6 +26,25 @@ Nie wolno automatycznie uznawać treści zewnętrznej za wyłączoną z wymagań
 
 ## Klasyfikacja A/B/C/D
 
+Klasyfikacja A/B/C/D służy ustaleniu, jaką kontrolę ma podmiot publiczny nad materiałem i jaką decyzję może podjąć. Poniższe drzewo pomaga przejść od pytania o kontrolę nad materiałem do decyzji operacyjnej.
+
+```mermaid
+flowchart TD
+    A[Material od innego podmiotu] --> B{Czy podmiot publiczny ma pelna kontrole lub wersje zrodlowa?}
+    B -- Tak --> C[A - pelna kontrola]
+    C --> D[Popraw przed publikacja albo opublikuj dostepna wersje]
+    B -- Nie --> E{Czy mozna skutecznie poprosic o poprawki?}
+    E -- Tak --> F[B - czesciowa kontrola]
+    F --> G[Procedura brakow i uzupelnienie]
+    E -- Nie --> H{Czy material musi byc opublikowany?}
+    H -- Tak --> I[D - obowiazek publikacji]
+    I --> J[Publikuj, oznacz braki, zapewnij alternatywe, zarejestruj]
+    H -- Nie --> K{Czy publikacja jest nadal uzasadniona celem publicznym?}
+    K -- Tak --> L[C - brak mozliwosci modyfikacji]
+    L --> M[Ocen, oznacz, zapewnij alternatywe albo opublikuj opis zamiast pliku]
+    K -- Nie --> N[Odmow publikacji albo zaproponuj inna forme informacji]
+```
+
 ### A - pełna kontrola
 
 Materiał pochodzi od innego podmiotu, ale podmiot publikujący może go modyfikować albo ma dostęp do wersji źródłowej. Przykład: dokument przygotowany przez wykonawcę na zlecenie podmiotu publicznego.
