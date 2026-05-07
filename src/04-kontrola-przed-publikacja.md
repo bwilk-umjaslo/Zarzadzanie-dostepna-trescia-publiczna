@@ -28,6 +28,28 @@ Materiał przechodzi przez bramkę, gdy istnieją:
 - decyzja o wpisie do rejestru,
 - wskazanie osoby odpowiedzialnej za poprawę, jeżeli występują braki.
 
+Poniższe drzewo pokazuje podstawową logikę decyzji publikacyjnej. Diagram nie zastępuje listy kontrolnej ani formularza decyzji, ale pomaga ustalić, którą ścieżkę należy zastosować po kontroli.
+
+```mermaid
+flowchart TD
+    A[Material po przygotowaniu] --> B{Czy dane sa kompletne?}
+    B -- Nie --> C[Odeslij do uzupelnienia]
+    B -- Tak --> D{Czy ma wlasciciela i cel?}
+    D -- Nie --> E[Wstrzymaj albo odmow publikacji]
+    D -- Tak --> F{Czy spelnia minimalny standard?}
+    F -- Tak --> G[Publikuj]
+    F -- Nie --> H{Czy braki mozna poprawic przed publikacja?}
+    H -- Tak --> I[Popraw przed publikacja]
+    I --> F
+    H -- Nie --> J{Czy publikacja jest obowiazkowa albo pilna?}
+    J -- Nie --> K[Odmow albo zaproponuj inna forme]
+    J -- Tak --> L{Czy mozna zapewnic alternatywe lub oznaczenie?}
+    L -- Tak --> M[Opublikuj warunkowo albo z oznaczeniem]
+    L -- Nie --> N[Przekaz do decyzji osoby zatwierdzajacej]
+    M --> O[Plan naprawy i wpis do rejestru]
+    G --> P[Publikacja i rejestracja]
+```
+
 ## Kto kontroluje
 
 W małym podmiocie kontrolę może wykonywać redaktor albo administrator BIP, pod warunkiem że nie jest jedyną osobą podejmującą decyzję merytoryczną. W dużym podmiocie kontrola powinna być podzielona:
