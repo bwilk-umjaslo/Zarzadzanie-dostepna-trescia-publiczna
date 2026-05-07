@@ -80,7 +80,9 @@ Odpowiedź NIE albo WYMAGA DECYZJI powinna prowadzić do decyzji: popraw, odeśl
 | Czy nazwa pliku jest zrozumiała? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
 | Czy podano typ pliku, jeżeli jest to pomocne? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
 | Czy załącznik jest dostępny cyfrowo? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
-| Czy załącznik opublikowany po 23 września 2018 r. trafi do przeglądu? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
+| Czy ustalono datę publikacji albo odnotowano brak danych? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
+| Czy załącznik opublikowany od 23 września 2018 r. trafi do przeglądu? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
+| Czy załącznik opublikowany przed 23 września 2018 r. oceniono pod kątem niezbędności dla bieżących zadań? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
 | Czy załącznik ma wpis w rejestrze albo decyzję o braku wpisu? | TAK / NIE / NIE DOTYCZY / WYMAGA DECYZJI |  |
 
 ## Lista kontrolna treści od innego podmiotu
