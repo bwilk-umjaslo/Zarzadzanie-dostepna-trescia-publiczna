@@ -9,6 +9,7 @@
 - [Cele systemu](kontekst/cele-systemu.md)
 - [Zasady ogólne](kontekst/zasady-ogolne.md)
 - [Podstawy prawne i standardy](kontekst/podstawy-prawne-i-standardy.md)
+- [Definicja operacyjna niezbędności dokumentu](kontekst/definicja-operacyjna-niezbednosci.md)
 - [Najczęstsze błędy](kontekst/najczestsze-bledy.md)
 
 ## Część I. Model zarządzania treścią
