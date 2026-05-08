@@ -8,6 +8,12 @@ W sprawach dotyczących podręcznika **Zarządzanie dostępną treścią publicz
 
 Specjalista zajmujący się dostępnością cyfrową, komunikacją publiczną, projektowaniem treści internetowych oraz utrzymaniem zasobów cyfrowych w instytucjach publicznych.
 
+## Dane kontaktowe
+
+E-mail: [kontakt@beardedwolf.pl](mailto:kontakt@beardedwolf.pl)
+
+Telefon: 506 22 77 11
+
 ## Strona internetowa
 
 [beardedwolf.pl](https://beardedwolf.pl/)
