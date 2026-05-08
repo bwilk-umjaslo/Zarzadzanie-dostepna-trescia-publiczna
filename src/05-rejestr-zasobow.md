@@ -2,9 +2,9 @@
 
 ## Po co prowadzić rejestr
 
-Rejestr zasobów jest pamięcią organizacyjną. Pozwala ustalić, co zostało opublikowane, kto za to odpowiada, jaki jest status dostępności, kiedy zasób był sprawdzany i jaki powinien być jego dalszy los.
+Rejestr zasobów jest pamięcią organizacji o tym, co zostało opublikowane. Pozwala ustalić, gdzie znajduje się treść, kto za nią odpowiada, jaki ma status dostępności, kiedy była sprawdzana i co powinno się z nią stać później.
 
-Bez rejestru organizacja działa reaktywnie. O treściach przypomina sobie przy skardze, żądaniu dostępności, awarii linku, zmianie przepisów albo porządkowaniu starego serwisu.
+Bez rejestru podmiot działa reaktywnie. O treści przypomina sobie dopiero przy skardze, żądaniu dostępności, niedziałającym linku, zmianie przepisów albo porządkowaniu starego serwisu. Wtedy zwykle okazuje się, że nikt nie wie, kto jest właścicielem dokumentu i czy nadal powinien być dostępny publicznie.
 
 ## Jakie treści powinny trafiać do rejestru
 
@@ -21,11 +21,13 @@ Do rejestru powinny trafiać co najmniej:
 - zasoby powiązane z żądaniami dostępności,
 - treści archiwalne pozostawione publicznie.
 
-Nie każda krótka aktualność musi mieć pełny rekord. Podmiot powinien jednak ustalić próg rejestracji. Minimalnie należy rejestrować zasoby, które mają znaczenie prawne, organizacyjne, usługowe, dostępnościowe albo są utrzymywane dłużej niż krótkotrwały komunikat.
+Nie każda krótka aktualność musi mieć pełny rekord. Organizacja powinna jednak ustalić próg rejestracji. Minimalnie trzeba rejestrować zasoby, które mają znaczenie prawne, organizacyjne, usługowe, dostępnościowe albo są utrzymywane dłużej niż krótkotrwały komunikat.
 
 ## Rejestr jako narzędzie odpowiedzialności
 
-Rejestr przypisuje zasób do właściciela. Dzięki temu wiadomo, kto odpowiada za aktualność, kto może podjąć decyzję o zmianie i kto powinien uczestniczyć w przeglądzie. Redaktor publikuje, ale nie zawsze jest właścicielem merytorycznym treści.
+Rejestr przypisuje zasób do właściciela. Dzięki temu wiadomo, kto odpowiada za aktualność, kto może podjąć decyzję o zmianie i kto powinien uczestniczyć w przeglądzie.
+
+To ważne rozróżnienie: redaktor publikuje materiał, ale nie zawsze jest właścicielem merytorycznym treści. Jeżeli rejestr tego nie pokazuje, każda późniejsza poprawka, skarga albo decyzja archiwizacyjna zaczyna się od szukania odpowiedzialnej osoby.
 
 ## Model pól rejestru
 
@@ -54,11 +56,11 @@ Wzory rejestrów są opisane w rozdziale [Rejestry](narzedzia/rejestry.md).
 
 Rejestr pozwala wybrać zasoby do przeglądu według daty publikacji, typu, statusu dostępności, terminu przeglądu, właściciela albo zgłoszeń użytkowników. Jest szczególnie ważny dla dokumentów i załączników opublikowanych od 23 września 2018 r. oraz dla starszych dokumentów, których treść jest niezbędna do realizacji bieżących zadań podmiotu publicznego.
 
-Bez rejestru przegląd jest ręcznym przeszukiwaniem serwisu. Z rejestrem staje się procesem: wybór zasobów, ocena, decyzja, naprawa, aktualizacja statusu.
+Bez rejestru przegląd jest ręcznym przeszukiwaniem serwisu. Z rejestrem staje się procesem: wybór zasobów, ocena, decyzja, naprawa i aktualizacja statusu. To nie tylko porządek administracyjny, ale także dowód, że podmiot prowadzi utrzymanie treści w sposób zaplanowany.
 
 ## Jak rejestr wspiera archiwizację
 
-Rejestr wskazuje, które treści utraciły aktualność, mają zaległy przegląd, zostały zastąpione albo powinny zostać przeniesione do archiwum. Decyzja archiwizacyjna powinna aktualizować rekord zasobu: status, datę decyzji, uzasadnienie i nowy adres URL, jeżeli zasób pozostaje dostępny publicznie.
+Rejestr wskazuje, które treści utraciły aktualność, mają zaległy przegląd, zostały zastąpione albo powinny zostać przeniesione do archiwum. Decyzja archiwizacyjna powinna zmienić rekord zasobu: status, datę decyzji, uzasadnienie i nowy adres URL, jeżeli zasób pozostaje dostępny publicznie.
 
 Proces jest opisany w rozdziale [Archiwizacja i wycofanie](08-archiwizacja-i-wycofanie.md).
 
@@ -74,13 +76,13 @@ Jeżeli użytkownik zgłasza brak dostępności, rejestr pozwala szybko ustalić
 - osobę odpowiedzialną za naprawę,
 - termin przeglądu.
 
-Zgłoszenie nie powinno być obsługiwane w oderwaniu od zasobu. Po zakończeniu sprawy trzeba zaktualizować status dostępności i historię napraw.
+Zgłoszenie nie powinno być obsługiwane w oderwaniu od zasobu. Po zakończeniu sprawy trzeba zaktualizować status dostępności i historię napraw. Inaczej organizacja naprawia pojedynczy przypadek, ale nie usuwa przyczyny problemu.
 
 ## Minimalne wdrożenie
 
 Mały podmiot może prowadzić rejestr w arkuszu. Minimalne kolumny to: identyfikator, tytuł, URL, typ zasobu, właściciel, data publikacji, status dostępności, wynik kontroli, termin przeglądu i decyzja o dalszym losie.
 
-Duży podmiot powinien rozważyć osobne widoki albo rejestry pomocnicze dla załączników, treści zewnętrznych, zgłoszeń dostępności, napraw i decyzji archiwizacyjnych.
+Duży podmiot powinien rozważyć osobne widoki albo rejestry pomocnicze dla załączników, treści zewnętrznych, zgłoszeń dostępności, napraw i decyzji archiwizacyjnych. Nie chodzi o mnożenie tabel, tylko o możliwość sprawnego znalezienia odpowiedzialności, statusu i decyzji.
 
 ## Typowe błędy
 
