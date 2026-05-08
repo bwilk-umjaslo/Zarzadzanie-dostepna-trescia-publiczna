@@ -1,10 +1,25 @@
 :root {
-  --bw-heading: #123a63;
-  --bw-heading-dark: #d7e9ff;
   --bw-focus: #ffbf47;
   --bw-focus-outline: #0b2f57;
+}
+
+.light,
+.rust {
+  --bw-heading: #123a63;
   --bw-link: #064f8f;
   --bw-border: #9fb3c8;
+  --bw-table-head-bg: #eaf2fb;
+  --bw-table-head-text: #0f2f4f;
+}
+
+.coal,
+.navy,
+.ayu {
+  --bw-heading: #d7e9ff;
+  --bw-link: #9fd0ff;
+  --bw-border: #6f8298;
+  --bw-table-head-bg: #18324f;
+  --bw-table-head-text: #f2f7ff;
 }
 
 .content h1,
@@ -63,8 +78,8 @@ textarea:focus-visible,
 }
 
 .content table th {
-  background: #eaf2fb;
-  color: #0f2f4f;
+  background: var(--bw-table-head-bg);
+  color: var(--bw-table-head-text);
 }
 
 .content table th,
@@ -86,26 +101,6 @@ textarea:focus-visible,
   border-left: 4px solid var(--bw-heading);
   padding-left: 1rem;
   color: inherit;
-}
-
-@media (prefers-color-scheme: dark) {
-  .content h1,
-  .content h2,
-  .content h3,
-  .content h4,
-  .content h5,
-  .content h6 {
-    color: var(--bw-heading-dark);
-  }
-
-  .content table th {
-    background: #18324f;
-    color: #f2f7ff;
-  }
-
-  .content a {
-    color: #9fd0ff;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
