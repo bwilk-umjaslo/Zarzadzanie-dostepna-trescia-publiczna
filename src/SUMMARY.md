@@ -44,3 +44,4 @@
 
 - [Słownik pojęć](10-slownik-pojec.md)
 - [O autorze](11-o-autorze.md)
+- [Kontakt](12-kontakt.md)
