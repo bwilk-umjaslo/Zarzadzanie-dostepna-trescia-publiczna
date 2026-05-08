@@ -2,19 +2,21 @@
 
 ## Rola kontroli
 
-Kontrola przed publikacją jest centralnym miejscem decyzyjnym w systemie. Jej celem jest ustalenie, czy materiał może zostać opublikowany, czy wymaga poprawy, uzupełnienia, oznaczenia, alternatywnej formy dostępu albo odmowy publikacji.
+Kontrola przed publikacją jest miejscem, w którym materiał przestaje być tylko roboczą treścią, a staje się kandydatem do publicznego udostępnienia. Na tym etapie trzeba ustalić, czy można go opublikować, czy wymaga poprawy, uzupełnienia, oznaczenia, alternatywnej formy dostępu albo odmowy publikacji.
 
-Kontrola dotyczy treści własnych, dokumentów, załączników, multimediów, komunikatów, postów, treści obowiązkowych w BIP oraz materiałów od innych podmiotów.
+Kontrola obejmuje treści własne, dokumenty, załączniki, multimedia, komunikaty, posty, treści obowiązkowe w BIP oraz materiały przekazane przez inne podmioty. W praktyce to właśnie tutaj najczęściej wychodzi, czy materiał ma właściciela, cel, podstawę publikacji i realny status dostępności.
 
 ## Kontrola nie jest audytem
 
-Kontrola przed publikacją ma charakter operacyjny i minimalny. Nie jest pełnym audytem WCAG, badaniem eksperckim całego serwisu ani formalną opinią prawną. Ma wykryć podstawowe braki, udokumentować decyzję i zapobiec publikacji materiałów, których nie da się uzasadnić procesowo.
+Kontrola przed publikacją ma charakter operacyjny. Nie jest pełnym audytem WCAG, badaniem eksperckim całego serwisu ani formalną opinią prawną. Ma wykryć podstawowe braki, zatrzymać oczywiste błędy i zostawić ślad decyzji.
 
-Jeżeli materiał jest złożony, wysokiego ryzyka albo dotyczy ważnej usługi publicznej, kontrola może wskazać potrzebę szerszego sprawdzenia, konsultacji z koordynatorem dostępności albo audytu.
+Jeżeli materiał jest złożony, dotyczy ważnej usługi publicznej albo może wywołać skutki dla użytkownika, kontrola może wskazać potrzebę szerszego sprawdzenia. Wtedy warto włączyć koordynatora dostępności, osobę odpowiedzialną za BIP, prawnika albo wykonawcę technicznego.
 
 ## Bramka publikacyjna
 
-Bramka publikacyjna oznacza minimalny zestaw warunków, które muszą zostać spełnione przed publikacją. Zasada podstawowa brzmi: brak dowodu kontroli oznacza brak publikacji, chyba że zastosowano opisaną i udokumentowaną ścieżkę publikacji pilnej albo warunkowej.
+Bramka publikacyjna to minimalny zestaw warunków, które muszą być spełnione przed publikacją. Jej sens jest prosty: redaktor nie powinien publikować materiału, którego nie da się powiązać z właścicielem, decyzją i wynikiem kontroli.
+
+Zasada podstawowa brzmi: brak dowodu kontroli oznacza brak publikacji. Wyjątkiem może być tylko opisana i udokumentowana ścieżka publikacji pilnej albo warunkowej.
 
 Materiał przechodzi przez bramkę, gdy istnieją:
 
@@ -52,12 +54,14 @@ flowchart TD
 
 ## Kto kontroluje
 
-W małym podmiocie kontrolę może wykonywać redaktor albo administrator BIP, pod warunkiem że nie jest jedyną osobą podejmującą decyzję merytoryczną. W dużym podmiocie kontrola powinna być podzielona:
+W małym podmiocie kontrolę może wykonywać redaktor albo administrator BIP. Trzeba jednak uważać, aby jedna osoba nie była jednocześnie autorem, jedynym kontrolującym i jedynym zatwierdzającym materiał w sprawach wymagających decyzji merytorycznej.
+
+W dużej organizacji odpowiedzialność warto rozdzielić:
 
 - właściciel treści odpowiada za poprawność merytoryczną,
 - redaktor sprawdza strukturę, kompletność i przygotowanie do publikacji,
 - administrator serwisu albo BIP sprawdza miejsce i techniczne warunki publikacji,
-- koordynator dostępności wspiera w sprawach spornych lub wysokiego ryzyka,
+- koordynator dostępności wspiera sprawy sporne lub wysokiego ryzyka,
 - osoba zatwierdzająca podejmuje decyzję, gdy materiał wymaga wyjątku, publikacji warunkowej albo odmowy.
 
 Role są opisane w [mapach odpowiedzialności](narzedzia/mapy-odpowiedzialnosci.md).
@@ -82,13 +86,15 @@ Szczegółowe pytania znajdują się w [listach kontrolnych](narzedzia/listy-kon
 
 ## Kiedy kontroluje
 
-Kontrola powinna odbyć się po przygotowaniu materiału, ale przed publikacją. Nie należy odkładać jej na moment, w którym materiał jest już publiczny, z wyjątkiem sytuacji nadzwyczajnych, gdy publikacja jest konieczna ze względu na obowiązek prawny albo pilny interes publiczny.
+Kontrola powinna odbyć się po przygotowaniu materiału, ale przed publikacją. Odkładanie jej na później powoduje, że organizacja najpierw tworzy problem publiczny, a dopiero potem próbuje go naprawić.
 
-W takim przypadku należy odnotować publikację warunkową i termin uzupełnienia braków.
+Wyjątkiem może być publikacja konieczna ze względu na obowiązek prawny albo pilny interes publiczny. W takim przypadku trzeba odnotować publikację warunkową, wskazać braki i ustalić termin uzupełnienia.
 
 ## Jak dokumentuje wynik kontroli
 
-Wynik kontroli powinien być zapisany w formularzu decyzji publikacyjnej albo w rejestrze. Minimalny zapis obejmuje:
+Wynik kontroli zapisuje się w formularzu decyzji publikacyjnej albo w rejestrze. Minimalny zapis powinien pozwolić odtworzyć, kto sprawdził materiał, jakie braki stwierdził i dlaczego materiał został opublikowany albo zatrzymany.
+
+Taki zapis obejmuje:
 
 - identyfikator albo tytuł materiału,
 - datę kontroli,
@@ -119,31 +125,31 @@ Wzór znajduje się w rozdziale [Formularze](narzedzia/formularze.md).
 
 ### Publikuj
 
-Decyzja właściwa, gdy materiał spełnia minimalny standard publikacji, ma właściciela, określony cel, czas aktualności i wynik kontroli bez istotnych braków.
+Ta decyzja jest właściwa, gdy materiał spełnia minimalny standard publikacji, ma właściciela, określony cel, czas aktualności i wynik kontroli bez istotnych braków.
 
 ### Popraw przed publikacją
 
-Decyzja właściwa, gdy braki są możliwe do usunięcia przed publikacją, a publikacja nie jest pilna ani obowiązkowa w danym terminie.
+Tę decyzję stosuje się wtedy, gdy braki można usunąć przed publikacją, a termin nie wynika z pilnego obowiązku albo interesu publicznego.
 
 ### Odeślij do uzupełnienia
 
-Decyzja właściwa, gdy brakuje danych potrzebnych do kontroli, na przykład celu publikacji, właściciela, podstawy obowiązku, wersji dostępnej, zgody na modyfikację albo informacji o źródle.
+Materiał trzeba odesłać, gdy brakuje danych potrzebnych do kontroli, na przykład celu publikacji, właściciela, podstawy obowiązku, wersji dostępnej, zgody na modyfikację albo informacji o źródle.
 
 ### Opublikuj warunkowo
 
-Decyzja wyjątkowa. Można ją zastosować, gdy publikacja jest potrzebna w określonym terminie, a braki nie uniemożliwiają podstawowego dostępu do informacji albo zostanie zapewniona alternatywna forma dostępu. Decyzja musi zawierać termin naprawy i osobę odpowiedzialną.
+To decyzja wyjątkowa. Można ją zastosować, gdy publikacja jest potrzebna w określonym terminie, a braki nie uniemożliwiają podstawowego dostępu do informacji albo zostanie zapewniona alternatywna forma dostępu. Decyzja musi zawierać termin naprawy i osobę odpowiedzialną.
 
 ### Opublikuj z oznaczeniem
 
-Decyzja właściwa, gdy materiał musi być opublikowany, ale ma znane braki dostępności, których podmiot nie może natychmiast usunąć. Oznaczenie powinno informować o braku i sposobie uzyskania treści w formie dostępnej. Nie wolno stosować oznaczenia jako zamiennika naprawy, gdy naprawa jest możliwa i zasadna.
+Ta ścieżka dotyczy materiału, który musi być opublikowany, ale ma znane braki dostępności, których podmiot nie może natychmiast usunąć. Oznaczenie powinno informować o braku i sposobie uzyskania treści w formie dostępnej. Nie może zastępować naprawy, jeżeli naprawa jest możliwa i zasadna.
 
 ### Odmów publikacji
 
-Decyzja właściwa, gdy materiał nie jest obowiązkowy, nie ma celu publicznego, nie ma właściciela, nie można ustalić źródła, narusza standard albo podmiot przekazujący odmawia uzupełnienia braków możliwych do poprawy.
+Odmowa jest zasadna, gdy materiał nie jest obowiązkowy, nie ma celu publicznego, nie ma właściciela, nie można ustalić źródła, narusza standard albo podmiot przekazujący nie uzupełnia braków możliwych do poprawy.
 
 ### Przekaż do procedury żądania dostępności
 
-Decyzja właściwa, gdy sprawa wynika ze zgłoszenia użytkownika albo gdy publikacja materiału niedostępnego wymaga zapewnienia alternatywnej formy dostępu. Powiązanie powinno zostać odnotowane w [rejestrze zgłoszeń dostępności](narzedzia/rejestry.md).
+Tę decyzję stosuje się wtedy, gdy sprawa wynika ze zgłoszenia użytkownika albo gdy publikacja materiału niedostępnego wymaga zapewnienia alternatywnej formy dostępu. Powiązanie powinno zostać odnotowane w [rejestrze zgłoszeń dostępności](narzedzia/rejestry.md).
 
 ## Kiedy można opublikować
 
@@ -182,7 +188,7 @@ Odmowa publikacji jest zasadna, gdy materiał nie jest obowiązkowy i:
 
 ## Kiedy zapewnić alternatywną formę dostępu
 
-Alternatywna forma dostępu jest potrzebna, gdy użytkownik nie może skorzystać z opublikowanej treści z powodu braku dostępności, a zasób jest potrzebny do realizacji sprawy, prawa, obowiązku albo uzyskania informacji publicznej. Forma alternatywna może obejmować udostępnienie treści w innym pliku, opis tekstowy, transkrypcję, odczytanie treści, pomoc pracownika albo inne rozwiązanie adekwatne do potrzeby.
+Alternatywna forma dostępu jest potrzebna, gdy użytkownik nie może skorzystać z opublikowanej treści z powodu braku dostępności, a zasób jest potrzebny do realizacji sprawy, prawa, obowiązku albo uzyskania informacji publicznej. Może to być inny plik, opis tekstowy, transkrypcja, odczytanie treści, pomoc pracownika albo inne rozwiązanie adekwatne do potrzeby.
 
 ## Typowe błędy
 
