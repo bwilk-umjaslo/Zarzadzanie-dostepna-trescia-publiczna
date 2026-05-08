@@ -1,14 +1,16 @@
 # Zarządzanie dostępną treścią publiczną
 
-**Podręcznik operacyjny dla podmiotów publicznych, które chcą zarządzać treścią cyfrową w całym cyklu jej życia: od planowania, przez publikację, utrzymanie i naprawę, po archiwizację albo wycofanie.**
+**Podręcznik operacyjny dla podmiotów publicznych, które publikują treści cyfrowe i muszą utrzymać nad nimi kontrolę także po publikacji.**
 
-Ten podręcznik opisuje system pracy z treścią publiczną. Nie ogranicza się do pytania, czy tekst, plik, film albo post można opublikować. Pokazuje, jak zorganizować odpowiedzialność, decyzje, kontrolę, rejestry i narzędzia tak, aby treść publiczna była dostępna, aktualna, możliwa do odnalezienia i możliwa do rozliczenia w czasie.
+W praktyce treść publiczna rzadko kończy się na samym kliknięciu „opublikuj”. Dokument trzeba później odnaleźć, poprawić, powiązać ze zgłoszeniem dostępności, zastąpić nowszą wersją albo wycofać z widocznej struktury serwisu. Jeśli organizacja nie ustali tego wcześniej, szybko traci wiedzę o tym, co właściwie jest publicznie dostępne i kto za to odpowiada.
 
-Treść publiczna jest zasobem, a nie jednorazowym komunikatem. Zasób ma właściciela, status, wynik kontroli, miejsce w rejestrze i dalszy los. Publikacja jest decyzją organizacyjną, a dostępność cyfrowa jest wymaganiem procesu, nie korektą wykonywaną po fakcie.
+Ten podręcznik porządkuje pracę z treścią publiczną. Pokazuje, jak przygotować standard publikacji, podzielić odpowiedzialność, sprawdzić materiał przed publikacją, prowadzić rejestry i wracać do zasobów wtedy, gdy wymagają przeglądu, naprawy, archiwizacji albo wycofania.
+
+Treść publiczna jest zasobem, a nie jednorazowym komunikatem. Zasób ma właściciela, status, wynik kontroli, miejsce w rejestrze i dalszy los. Publikacja jest decyzją organizacyjną, a dostępność cyfrowa jest częścią procesu, nie poprawką wykonywaną po fakcie.
 
 ## Czym jest ten podręcznik
 
-Podręcznik jest modelem wdrożeniowym dla stron internetowych, BIP, dokumentów, załączników, multimediów, komunikacji masowej i treści przekazywanych przez inne podmioty. Łączy standardy dostępności z codzienną pracą redakcyjną, administracyjną i organizacyjną.
+To materiał wdrożeniowy dla osób, które pracują ze stronami internetowymi, BIP, dokumentami, załącznikami, multimediami, komunikacją masową i materiałami przekazywanymi przez inne podmioty. Łączy wymagania dostępności z codzienną praktyką redakcyjną, administracyjną i organizacyjną.
 
 Pomaga ustalić:
 
@@ -24,27 +26,27 @@ Pomaga ustalić:
 
 ## Czym nie jest ten podręcznik
 
-Podręcznik nie jest zbiorem luźnych dobrych praktyk, poradnikiem stylistycznym ani skróconym audytem WCAG. Nie zastępuje przepisów prawa, audytu dostępności cyfrowej ani decyzji kierownictwa w sprawach organizacyjnych.
+Nie jest to zbiór luźnych dobrych praktyk, poradnik stylistyczny ani skrócony audyt WCAG. Nie zastępuje przepisów prawa, audytu dostępności cyfrowej ani decyzji kierownictwa w sprawach organizacyjnych.
 
-Jest narzędziem pracy. Ma pomóc przełożyć wymagania dostępności i obowiązki publikacyjne na powtarzalne procedury, formularze, listy kontrolne, rejestry i schematy odpowiedzialności.
+Ma służyć pracy. Jego zadaniem jest przełożyć wymagania dostępności i obowiązki publikacyjne na powtarzalne procedury, formularze, listy kontrolne, rejestry i schematy odpowiedzialności.
 
 ## Dla kogo jest ten podręcznik
 
-Podręcznik jest przeznaczony dla:
+Z podręcznika mogą korzystać:
 
-- redaktorów stron WWW i BIP,
-- administratorów serwisów i BIP,
-- osób przygotowujących dokumenty, załączniki, multimedia i komunikaty,
-- koordynatorów dostępności,
-- kierowników komórek organizacyjnych,
-- osób zatwierdzających publikację,
-- podmiotów publicznych przyjmujących materiały od innych instytucji, wykonawców, partnerów albo organizatorów wydarzeń,
-- małych jednostek, w których jedna osoba łączy kilka ról,
-- dużych organizacji, które potrzebują jasnego podziału odpowiedzialności.
+- redaktorzy stron WWW i BIP,
+- administratorzy serwisów i BIP,
+- osoby przygotowujące dokumenty, załączniki, multimedia i komunikaty,
+- koordynatorzy dostępności,
+- kierownicy komórek organizacyjnych,
+- osoby zatwierdzające publikację,
+- podmioty publiczne przyjmujące materiały od innych instytucji, wykonawców, partnerów albo organizatorów wydarzeń,
+- małe jednostki, w których jedna osoba łączy kilka ról,
+- duże organizacje, które potrzebują jasnego podziału odpowiedzialności.
 
 ## Jaki problem rozwiązuje
 
-W wielu organizacjach treść cyfrowa powstaje szybciej niż system jej utrzymania. Materiały trafiają do serwisu z poczty, z dokumentów roboczych, od innych komórek, od podmiotów zewnętrznych, z mediów społecznościowych, z wydarzeń i z obowiązków BIP. Część z nich jest sprawdzana, część nie. Część ma właściciela, część pozostaje bez opiekuna. Część jest aktualna, ale nikt tego nie potwierdza.
+W wielu organizacjach treść cyfrowa powstaje szybciej niż system jej utrzymania. Materiały trafiają do publikacji z poczty, z dokumentów roboczych, od innych komórek, od podmiotów zewnętrznych, z mediów społecznościowych, z wydarzeń i z obowiązków BIP. Część z nich jest sprawdzana, część nie. Część ma właściciela, część zostaje bez opiekuna. Część jest aktualna, ale nikt tego nie potwierdza.
 
 Skutkiem jest chaos publikacyjny:
 
@@ -52,22 +54,22 @@ Skutkiem jest chaos publikacyjny:
 - kluczowe informacje są ukryte w załącznikach,
 - multimedia nie mają napisów, transkrypcji albo audiodeskrypcji,
 - treści od innych podmiotów są publikowane bez kwalifikacji,
-- nie wiadomo, które załączniki po 23 września 2018 r. wymagają naprawy,
+- nie wiadomo, które dokumenty i załączniki wymagają naprawy,
 - nie ma informacji, kto odpowiada za aktualność i dostępność zasobu,
 - żądania dostępności są obsługiwane reaktywnie, bez powiązania z rejestrem i planem napraw.
 
-Ten podręcznik porządkuje te sytuacje w jeden system.
+Podręcznik pokazuje, jak zatrzymać ten mechanizm zanim stanie się stałym sposobem pracy.
 
 ## Jak korzystać z podręcznika
 
-Najpierw należy przyjąć wspólną logikę systemu, opisaną we [Wstępie](01-wstep.md). Następnie warto przejść przez podstawowe moduły:
+Najpierw warto przyjąć wspólną logikę systemu, opisaną we [Wstępie](01-wstep.md). Potem można przejść przez podstawowe moduły:
 
 1. [Standardy publikacji](02-standardy-publikacji.md) - minimalne wymagania dla tekstów, dokumentów, załączników, grafik, multimediów, social media i komunikacji masowej.
 2. [Tworzenie treści](03-tworzenie-tresci.md) - przygotowanie materiału przed kontrolą i publikacją.
 3. [Kontrola przed publikacją](04-kontrola-przed-publikacja.md) - centralny punkt decyzyjny.
 4. [Rejestr zasobów](05-rejestr-zasobow.md) - pamięć organizacyjna dla treści.
 5. [Treści od innych podmiotów](06-tresci-od-innych-podmiotow.md) - kwalifikacja, braki, oznaczenia i odpowiedzialność za decyzję publikacyjną.
-6. [Przegląd i naprawa](07-przeglad-i-naprawa.md) - utrzymanie zasobów, w szczególności załączników opublikowanych po 23 września 2018 r.
+6. [Przegląd i naprawa](07-przeglad-i-naprawa.md) - utrzymanie dokumentów, załączników i innych zasobów, które pozostają publicznie dostępne.
 7. [Archiwizacja i wycofanie](08-archiwizacja-i-wycofanie.md) - domknięcie cyklu życia treści.
 8. [Narzędzia systemowe](09-narzedzia-systemowe.md) - formularze, listy, rejestry, mapy odpowiedzialności i schematy procesów.
 
@@ -83,9 +85,9 @@ System zarządzania treścią publiczną składa się z siedmiu modułów:
 
 - standard publikacji - określa wymagania minimalne,
 - tworzenie i pozyskanie materiału - zbiera treść oraz dane potrzebne do dalszego zarządzania,
-- kontrola przed publikacją - podejmuje decyzję, czy materiał można opublikować,
+- kontrola przed publikacją - prowadzi do decyzji, czy materiał można opublikować,
 - rejestr zasobów - utrwala informację o zasobie i odpowiedzialności,
-- utrzymanie, przegląd i naprawa - zapobiega starzeniu się treści i zaległościom dostępnościowym,
+- utrzymanie, przegląd i naprawa - ogranicza starzenie się treści i narastanie zaległości dostępnościowych,
 - obsługa żądań dostępności - łączy zgłoszenia użytkowników z decyzjami o naprawie,
 - archiwizacja i wycofanie - kończy cykl życia zasobu w sposób udokumentowany.
 
