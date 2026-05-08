@@ -1,14 +1,16 @@
 # Wstęp
 
-## Cel podręcznika
+## Po co jest ten podręcznik
 
-Celem podręcznika jest opisanie systemu zarządzania dostępną treścią publiczną. System ten obejmuje nie tylko przygotowanie materiału do publikacji, ale także kwalifikację, kontrolę, decyzję publikacyjną, rejestrację zasobu, utrzymanie, przegląd, naprawę, obsługę żądań dostępności, archiwizację i wycofanie.
+Podmiot publiczny publikuje codziennie wiele różnych materiałów: komunikaty, dokumenty, załączniki, formularze, nagrania, grafiki, informacje w BIP i posty w mediach społecznościowych. Każdy z tych materiałów może być potrzebny użytkownikowi do załatwienia sprawy, poznania obowiązku, skorzystania z usługi albo sprawdzenia informacji publicznej.
 
-Podręcznik ma pomagać podmiotom publicznym w codziennej pracy. Mały podmiot może wdrożyć go jako prosty zestaw ról, list i rejestru w arkuszu. Duży podmiot może rozwinąć go w formalny proces obejmujący wiele komórek organizacyjnych, BIP, serwisy tematyczne, multimedia, social media i materiały od innych podmiotów.
+Ten podręcznik opisuje, jak uporządkować pracę z taką treścią. Obejmuje przygotowanie materiału, kwalifikację, kontrolę, decyzję publikacyjną, rejestrację zasobu, utrzymanie, przegląd, naprawę, obsługę żądań dostępności, archiwizację i wycofanie.
+
+W małym podmiocie może to być prosty zestaw ról, list kontrolnych i rejestru prowadzonego w arkuszu. W dużej organizacji ten sam model można rozwinąć w proces obejmujący kilka komórek, BIP, serwisy tematyczne, multimedia, social media i materiały przekazywane przez inne podmioty.
 
 ## Problem organizacyjny
 
-Problemem nie jest wyłącznie brak dostępności pojedynczego dokumentu albo filmu. Problemem jest brak systemu, który zapobiega publikowaniu treści bez właściciela, kontroli i dalszego planu utrzymania.
+W praktyce problemem nie jest wyłącznie pojedynczy niedostępny dokument albo film bez napisów. To zwykle objaw większego braku: organizacja publikuje treści, ale nie ma pełnej wiedzy, kto za nie odpowiada, czy zostały sprawdzone i kiedy trzeba do nich wrócić.
 
 Najczęstsze źródła chaosu to:
 
@@ -23,11 +25,15 @@ Najczęstsze źródła chaosu to:
 - brak powiązania zgłoszeń użytkowników z planem napraw,
 - brak procedury archiwizacji i wycofania.
 
+Skutek jest prosty: podmiot traci kontrolę nad własnymi zasobami. Nie wie, które dokumenty są aktualne, które wymagają naprawy i kto powinien podjąć decyzję po zgłoszeniu problemu.
+
 ## Publikacja a zarządzanie treścią
 
-Publikacja jest czynnością techniczną i redakcyjną: materiał zostaje umieszczony w serwisie, BIP, mediach społecznościowych albo innym kanale. Zarządzanie treścią jest szersze. Obejmuje decyzję, dlaczego treść powstaje, kto za nią odpowiada, jakie wymagania spełnia, gdzie jest zarejestrowana, kiedy będzie sprawdzona i co stanie się z nią po utracie aktualności.
+Publikacja to czynność techniczna i redakcyjna. Materiał trafia do serwisu, BIP, mediów społecznościowych albo innego kanału. Zarządzanie treścią zaczyna się wcześniej i trwa dłużej.
 
-Treść opublikowana bez zarządzania staje się ryzykiem. Może być nieaktualna, niedostępna, dublowana, błędnie oznaczona albo niemożliwa do szybkiej naprawy po zgłoszeniu użytkownika.
+Organizacja powinna wiedzieć, dlaczego treść powstaje, kto za nią odpowiada, jakie wymagania spełnia, gdzie jest zarejestrowana, kiedy będzie sprawdzona i co stanie się z nią po utracie aktualności.
+
+Treść opublikowana bez takiego procesu staje się ryzykiem. Może być nieaktualna, niedostępna, dublowana, błędnie oznaczona albo trudna do szybkiej naprawy po zgłoszeniu użytkownika.
 
 ## Cykl życia treści
 
@@ -47,17 +53,21 @@ Każda treść publiczna przechodzi przez cykl życia:
 12. archiwizacja,
 13. wycofanie.
 
-Nie każda treść przechodzi wszystkie etapy w taki sam sposób. Krótki komunikat może wymagać prostszej ścieżki niż dokument BIP, transmisja wydarzenia albo materiał od innego podmiotu. Każda treść powinna jednak mieć minimalnie określone: właściciela, cel publikacji, status dostępności, wynik kontroli i dalszy los.
+Nie każdy materiał wymaga tak samo rozbudowanej ścieżki. Krótki komunikat może przejść prostszy proces niż dokument BIP, transmisja wydarzenia albo materiał od innego podmiotu. Każda treść powinna jednak mieć co najmniej właściciela, cel publikacji, status dostępności, wynik kontroli i określony dalszy los.
 
 ## Miejsce dostępności cyfrowej w procesie
 
-Dostępność cyfrowa nie jest etapem końcowej korekty. Jest wymaganiem wbudowanym w proces:
+Dostępność cyfrowa nie jest końcową korektą. Powinna pojawić się już na etapie planowania materiału, bo wtedy najłatwiej zdecydować, czy informacja ma być stroną HTML, dokumentem, nagraniem, formularzem, grafiką albo komunikatem w kilku kanałach.
 
-- przy planowaniu decyduje o formie treści,
+W procesie dostępność działa na kilku etapach:
+
+- przy planowaniu wpływa na formę treści,
 - przy pozyskaniu materiału pozwala wymagać właściwych danych od autora albo podmiotu zewnętrznego,
-- przy przygotowaniu wpływa na strukturę, tekst alternatywny, napisy, transkrypcję i format dokumentu,
+- przy przygotowaniu decyduje o strukturze, tekście alternatywnym, napisach, transkrypcji i formacie dokumentu,
 - przy kontroli jest podstawą decyzji publikacyjnej,
 - po publikacji jest monitorowana przez rejestr, przegląd i obsługę żądań.
+
+Jeżeli dostępność pojawia się dopiero po publikacji, organizacja najczęściej naprawia skutki, a nie przyczynę problemu.
 
 ## Podstawowe rodzaje treści
 
@@ -74,19 +84,21 @@ W systemie trzeba rozróżniać następujące pojęcia:
 
 ## Minimalne wdrożenie
 
-Minimalne wdrożenie wymaga:
+Na początku nie trzeba budować rozbudowanego systemu. Najważniejsze jest zatrzymanie nowych błędów i przypisanie odpowiedzialności za treści, które nadal są publicznie dostępne.
 
-- jednej listy kontrolnej przed publikacją,
-- formularza przekazania materiału,
-- rejestru zasobów albo rejestru załączników,
-- wskazania właściciela treści,
-- decyzji publikacyjnej dokumentowanej przed publikacją,
-- okresowego przeglądu zasobów,
-- procedury obsługi żądań dostępności,
-- decyzji archiwizacyjnej lub wycofania dla treści nieaktualnych.
+Minimalne wdrożenie obejmuje:
+
+- jedną listę kontrolną przed publikacją,
+- formularz przekazania materiału,
+- rejestr zasobów albo rejestr załączników,
+- wskazanie właściciela treści,
+- decyzję publikacyjną dokumentowaną przed publikacją,
+- okresowy przegląd zasobów,
+- procedurę obsługi żądań dostępności,
+- decyzję archiwizacyjną lub wycofania dla treści nieaktualnych.
 
 ## Materiały źródłowe
 
-Podręcznik rozwija w języku operacyjnym przede wszystkim zalecenia dotyczące multimediów i komunikacji masowej, publikowania treści pochodzących od innych podmiotów oraz programu przeglądu i naprawy załączników. W odniesieniu do dokumentów i załączników uwzględnia zarówno zasoby opublikowane od 23 września 2018 r., jak i starsze dokumenty, jeżeli ich treść jest niezbędna do realizacji bieżących zadań podmiotu publicznego.
+Podręcznik rozwija w języku operacyjnym zalecenia dotyczące multimediów i komunikacji masowej, publikowania treści pochodzących od innych podmiotów oraz programu przeglądu i naprawy załączników. W odniesieniu do dokumentów i załączników uwzględnia zarówno zasoby opublikowane od 23 września 2018 r., jak i starsze dokumenty, jeżeli ich treść jest niezbędna do realizacji bieżących zadań podmiotu publicznego.
 
 Wykorzystuje także materiały z katalogu `_sources`, w szczególności dotyczące kontroli dostępności dokumentów, rejestru zasobów cyfrowych oraz archiwizacji i wycofywania zasobów.
