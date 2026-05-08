@@ -1,12 +1,14 @@
 # Przegląd i naprawa
 
-## Cel programu przeglądu
+## Po co prowadzić przegląd
 
-Przegląd i naprawa służą utrzymaniu zasobów cyfrowych po publikacji. Rozdział bazuje na logice Zalecenia 7: dokumenty i załączniki powinny zostać zidentyfikowane, ocenione, sklasyfikowane i objęte decyzją o naprawie, zastąpieniu, wycofaniu, archiwizacji albo pozostawieniu z uzasadnieniem.
+Przegląd i naprawa zaczynają się po publikacji. To moment, w którym organizacja sprawdza, czy zasób nadal jest potrzebny, czy pozostaje aktualny, czy jest dostępny cyfrowo i co trzeba z nim zrobić dalej.
+
+Rozdział bazuje na logice Zalecenia 7. Dokumenty i załączniki powinny zostać zidentyfikowane, ocenione, sklasyfikowane i objęte decyzją: naprawić, zastąpić, wycofać, zarchiwizować albo pozostawić z uzasadnieniem.
 
 Szczególną uwagę należy poświęcić dokumentom i załącznikom opublikowanym od 23 września 2018 r. oraz starszym dokumentom, jeżeli ich treść jest niezbędna do realizacji bieżących zadań podmiotu publicznego.
 
-Program przeglądu nie jest jednorazowym sprzątaniem serwisu. Jest częścią utrzymania treści publicznych.
+Program przeglądu nie jest jednorazowym sprzątaniem serwisu. Jeżeli nie zostanie wpisany w bieżące utrzymanie, po kilku miesiącach organizacja wróci do punktu wyjścia: wielu plików, niejasnych właścicieli i braku decyzji o dalszym losie zasobów.
 
 ## Zakres przeglądu
 
@@ -38,7 +40,9 @@ Ciągłość oznacza, że organizacja:
 
 ## Identyfikacja dokumentów i załączników
 
-Pierwszym krokiem programu jest ustalenie, jakie dokumenty i załączniki są publicznie dostępne oraz czy są nadal potrzebne. Należy zebrać:
+Pierwszym krokiem jest ustalenie, jakie dokumenty i załączniki są publicznie dostępne oraz czy nadal są potrzebne. Bez tej listy podmiot nie wie, czy problem dotyczy kilku plików, czy kilkuset zasobów rozproszonych po serwisie i BIP.
+
+Należy zebrać:
 
 - adres strony, na której dokument albo załącznik jest opublikowany,
 - nazwę pliku,
@@ -50,7 +54,7 @@ Pierwszym krokiem programu jest ustalenie, jakie dokumenty i załączniki są pu
 - status dostępności,
 - powiązanie z usługą, sprawą, obowiązkiem albo BIP.
 
-Jeżeli daty publikacji nie da się ustalić automatycznie, należy przyjąć procedurę ręcznej kwalifikacji i odnotować niepewność w rejestrze.
+Jeżeli daty publikacji nie da się ustalić automatycznie, należy przyjąć procedurę ręcznej kwalifikacji i odnotować niepewność w rejestrze. Brak daty nie powinien być pretekstem do pominięcia zasobu.
 
 ## Ocena niezbędności
 
@@ -66,7 +70,9 @@ Nie każdy opublikowany załącznik wymaga takiego samego działania. Przed napr
 
 ## Priorytetyzacja zasobów
 
-Nie wszystkie zasoby mają ten sam priorytet. W pierwszej kolejności należy sprawdzać:
+Nie wszystkie zasoby mają ten sam priorytet. Najpierw trzeba sprawdzać te, które wpływają na możliwość załatwienia sprawy, wykonania obowiązku albo skorzystania z informacji publicznej.
+
+W pierwszej kolejności należy sprawdzać:
 
 - dokumenty potrzebne do załatwienia sprawy,
 - formularze i wzory wniosków,
@@ -76,7 +82,7 @@ Nie wszystkie zasoby mają ten sam priorytet. W pierwszej kolejności należy sp
 - dokumenty z publikacją warunkową,
 - materiały, których niedostępność może uniemożliwić realizację prawa albo obowiązku.
 
-Niższy priorytet mogą mieć materiały historyczne, informacyjne albo zastąpione nowszą wersją, ale także one wymagają decyzji, a nie milczącego pozostawienia.
+Niższy priorytet mogą mieć materiały historyczne, informacyjne albo zastąpione nowszą wersją, ale także one wymagają decyzji. Milczące pozostawienie starego dokumentu nie jest decyzją archiwizacyjną.
 
 ## Model priorytetów 0, 0A, 1, 2, 3, 4
 
@@ -111,7 +117,7 @@ Po przeglądzie można podjąć decyzję:
 - pozostawić z uzasadnieniem - gdy naprawa nie jest zasadna, a pozostawienie jest uzasadnione,
 - zapewnić alternatywną formę dostępu - gdy użytkownik potrzebuje treści, a naprawa nie może nastąpić od razu.
 
-Decyzję należy odnotować w rejestrze i, jeżeli dotyczy, w formularzu wyniku przeglądu.
+Decyzję należy odnotować w rejestrze i, jeżeli dotyczy, w formularzu wyniku przeglądu. Dopiero taki zapis pozwala później odtworzyć, dlaczego zasób został naprawiony, pozostawiony albo wycofany.
 
 ## Przewodnik decyzyjny
 
@@ -138,7 +144,7 @@ Plan naprawczy powinien wskazywać:
 - decyzję zastępczą, jeżeli naprawa nie będzie możliwa,
 - powiązane zgłoszenia dostępności.
 
-Plan może być prostą tabelą, jeżeli skala jest mała. W większym podmiocie warto prowadzić osobny [rejestr napraw i korekt](narzedzia/rejestry.md).
+W małej skali plan może być prostą tabelą. W większym podmiocie warto prowadzić osobny [rejestr napraw i korekt](narzedzia/rejestry.md). Ważne, aby plan nie był listą intencji, tylko narzędziem kontroli: co naprawiamy, kto to robi i kiedy wraca do weryfikacji.
 
 ## Procedura dla małego podmiotu
 
@@ -181,7 +187,7 @@ Należy dokumentować:
 - wynik ponownej kontroli,
 - zmianę statusu w rejestrze.
 
-Brak dokumentacji powoduje, że przegląd nie daje trwałej wiedzy organizacyjnej.
+Brak dokumentacji powoduje, że przegląd nie daje trwałej wiedzy organizacyjnej. Po kilku miesiącach nie da się ustalić, czy zasób został pominięty, uznany za nieistotny, naprawiony czy tylko odłożony.
 
 ## Relacja z rejestrem zasobów
 
@@ -190,6 +196,8 @@ Przegląd powinien zaczynać się od [rejestru zasobów](05-rejestr-zasobow.md) 
 ## Relacja z żądaniami dostępności
 
 Żądanie dostępności powinno uruchamiać przegląd konkretnego zasobu. Po obsłużeniu żądania należy sprawdzić, czy problem występuje także w podobnych zasobach, na przykład w tej samej grupie formularzy albo załączników.
+
+W przeciwnym razie organizacja odpowiada jednemu użytkownikowi, ale zostawia ten sam błąd w innych miejscach.
 
 ## Minimalne wdrożenie
 
