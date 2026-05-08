@@ -17,6 +17,14 @@ W swojej pracy zajmuje się między innymi:
 - fotografią, materiałami wizualnymi i komunikacją multimedialną,
 - doradztwem w zakresie WCAG, organizacji publikacji i odpowiedzialności za treści cyfrowe.
 
+## Dorobek naukowy i analityczny
+
+Autor rozwija także temat dostępności cyfrowej i cyfryzacji administracji w pracach naukowych oraz opracowaniach analitycznych. W jego zainteresowaniach badawczych znajdują się przede wszystkim praktyczne warunki wdrażania dostępności cyfrowej w instytucjach publicznych, w tym w jednostkach kultury, oraz odpowiedzialne stosowanie nowych technologii w administracji.
+
+Jest autorem prac dotyczących dostępności cyfrowej, w tym opracowań poświęconych wdrażaniu dostępności cyfrowej w jednostce kultury. Jest również współautorem pracy naukowej **„Etyczne i prawne granice stosowania systemów sztucznej inteligencji w administracji publicznej oraz ich wpływ na zatrudnienie, kompetencje urzędników i sposób komunikacji obywateli z urzędem”**, przygotowanej wspólnie z Natalią Madej w Akademii Humanistyczno-Ekonomicznej w Łodzi, Filii w Jaśle.
+
+Ta część pracy autora łączy dostępność cyfrową z szerszym kontekstem odpowiedzialności administracji publicznej: ochroną praw użytkownika, przejrzystością działania instytucji, jakością komunikacji z obywatelem, etyką narzędzi cyfrowych oraz nadzorem człowieka nad technologią.
+
 ## Perspektywa zawodowa
 
 Autor łączy perspektywę redaktora, projektanta, administratora treści, fotografa i konsultanta dostępności. W praktyce oznacza to, że interesuje go nie tylko zgodność pojedynczego pliku z wymaganiami technicznymi, ale cały proces: od powstania materiału, przez decyzję publikacyjną, po utrzymanie, naprawę, archiwizację albo wycofanie.
