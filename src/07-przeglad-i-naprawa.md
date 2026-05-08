@@ -60,6 +60,8 @@ Jeżeli daty publikacji nie da się ustalić automatycznie, należy przyjąć pr
 
 Nie każdy opublikowany załącznik wymaga takiego samego działania. Przed naprawą trzeba ustalić, czy zasób jest nadal niezbędny. Ocena niezbędności odpowiada na pytanie, czy użytkownik, pracownik lub podmiot publiczny nadal potrzebuje tego pliku do realizacji prawa, obowiązku, sprawy, usługi, informacji publicznej albo udokumentowania działania.
 
+Szczegółowa [definicja operacyjna niezbędności dokumentu](kontekst/definicja-operacyjna-niezbednosci.md) porządkuje sposób stosowania tej przesłanki przy dokumentach opublikowanych przed 23 września 2018 r. Definicja nie tworzy nowego obowiązku, ale pomaga udokumentować, dlaczego dany dokument wymaga naprawy, alternatywnej formy dostępu, archiwizacji albo wycofania.
+
 | Wynik oceny | Znaczenie | Dalsze działanie |
 |---|---|---|
 | Niezbędny bieżąco | dokument jest aktualny, używany albo wymagany | napraw, zastąp dostępną wersją albo zapewnij alternatywę |
