@@ -19,6 +19,9 @@
 - identycznych wstępów,
 - identycznych przykładów,
 - identycznych zakończeń,
+- powtarzania konstrukcji: `problem nie polega na tym, że nikt się tym nie zajmuje`,
+- powtarzania pointy, że `dostępność to proces`, bez pokazania konkretnej decyzji,
+- zaczynania wielu tekstów od ogólnego chaosu w instytucji,
 - długiego myślnika,
 - poziomych separatorów,
 - tonu urzędowego albo szkoleniowej prezentacji,
@@ -29,6 +32,8 @@
 
 Tekst powinien wychodzić od realnej sytuacji: ktoś musi dodać aktualność, opublikować PDF, poprawić BIP, przyjąć materiał od organizatora, zareagować na awarię albo posprzątać stare dokumenty.
 
+Przed pisaniem trzeba określić funkcję artykułu w klastrze. Tekst może być artykułem filarowym, mapą ról, checklistą, instrukcją naprawy, analizą przypadku albo tekstem decyzyjnym. Nie wolno budować wszystkich artykułów według tego samego rytmu: wstęp o problemie, lista pytań, przykład, linki, zakończenie o procesie.
+
 Każdy artykuł powinien odpowiadać na pytania:
 
 - co jest problemem,
@@ -37,6 +42,21 @@ Każdy artykuł powinien odpowiadać na pytania:
 - jak podjąć decyzję,
 - co można zrobić od razu,
 - co warto zapisać w procedurze.
+
+Każdy artykuł musi pilnować rozróżnienia:
+
+- strona WWW to publiczny serwis widziany przez użytkownika,
+- WordPress to system zarządzania treścią, jeżeli dana strona jest na nim utrzymywana,
+- BIP to osobny kanał publikacji informacji publicznej,
+- PDF, skan i formularz są zasobami, które wymagają opisu, właściciela i utrzymania.
+
+Nie należy mieszać odpowiedzialności:
+
+- właściciel treści odpowiada za sens, aktualność i decyzje merytoryczne,
+- redaktor odpowiada za sposób pokazania informacji użytkownikowi,
+- administrator odpowiada za porządek techniczny i ustawienia systemu,
+- koordynator dostępności wspiera ocenę ryzyk i sposób naprawy,
+- osoba zatwierdzająca podejmuje decyzje formalne, gdy są potrzebne.
 
 ## Przykłady
 
@@ -64,3 +84,17 @@ Każdy tekst powinien mieć jeden element praktyczny dobrany do tematu:
 - schemat ról,
 - wzór opisu statusu,
 - priorytety naprawy.
+
+Element praktyczny nie może być kopiowany między artykułami. Jeżeli jeden tekst ma checklistę, kolejny powinien mieć na przykład mapę odpowiedzialności, tabelę decyzyjną, schemat procesu albo wzór komunikatu.
+
+## Zasady po korekcie artykułów testowych
+
+- Każdy artykuł ma mieć własną sytuację z praktyki, inną niż w pozostałych tekstach serii.
+- Przykłady nie mogą różnić się tylko nazwą dokumentu. Muszą pokazywać inny problem redakcyjny.
+- Wstęp nie może być parafrazą poprzedniego wstępu. Trzeba zmienić punkt wejścia: użytkownik, redaktor, właściciel treści, administrator, koordynator, sytuacja pilna, przegląd po czasie.
+- Zakończenie nie może powtarzać ogólnej pointy o porządku, procesie albo mniejszej liczbie poprawek. Musi domykać konkretną decyzję z danego artykułu.
+- Dostępność cyfrową pokazujemy jako codzienne utrzymanie treści: przed publikacją, w momencie publikacji, po zgłoszeniu problemu i przy przeglądzie po czasie.
+- Przy BIP i publikacjach obowiązkowych trzeba pisać ostrożnie. Nie formułować kategorycznych porad prawnych, jeśli tekst nie analizuje konkretnej podstawy prawnej.
+- Jeżeli dokładny adres URL nie jest znany, link wewnętrzny zapisujemy opisowo, np. `[link do artykułu o dostępnym PDF-ie]`.
+- Bloki końcowe są obowiązkowe: blok SEO, tagi WordPress po przecinku, sugestia grafiki głównej, tekst alternatywny, propozycje linków wewnętrznych, status jakości.
+- Bloki końcowe mogą mieć stałą strukturę, ale ich treść musi być dopasowana do artykułu. Nie kopiować tych samych opisów grafiki, statusów i linków bez sprawdzenia intencji tekstu.

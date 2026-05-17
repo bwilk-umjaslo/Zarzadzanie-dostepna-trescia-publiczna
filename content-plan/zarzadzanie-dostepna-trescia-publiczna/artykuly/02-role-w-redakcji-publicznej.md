@@ -6,7 +6,7 @@ tags: "redakcja, dostępność cyfrowa, BIP, WordPress, odpowiedzialność"
 status: draft
 priority: P1
 meta_title: "Role w redakcji publicznej i dostępności"
-meta_description: "Kto odpowiada za treść, dostępność, publikację i aktualizację materiałów w WordPressie oraz BIP."
+meta_description: "Jak rozdzielić odpowiedzialność za treść, dostępność, publikację i aktualizację materiałów na stronie, w WordPressie i BIP."
 main_service_link: "usługa: uporządkowanie procesu redakcyjnego i dostępności"
 related_links:
   - "jak zarządzać dostępną treścią publiczną"
@@ -19,126 +19,150 @@ alt_text: "Mapa ról redakcyjnych pokazująca odpowiedzialność za treść, pub
 
 # Role w redakcji publicznej: kto odpowiada za treść, dostępność i publikację
 
-W wielu instytucjach problem z treściami nie polega na tym, że nikt się nimi nie zajmuje. Problem polega na tym, że zajmuje się nimi wiele osób naraz, ale bez jasnego podziału odpowiedzialności. Ktoś pisze tekst, ktoś przesyła dokument, ktoś publikuje w WordPressie, ktoś ma dostęp do BIP, a koordynator dostępności dowiaduje się o sprawie dopiero wtedy, gdy pojawia się zgłoszenie.
+Najtrudniejsze problemy redakcyjne rzadko wynikają z tego, że nikt nie pracuje nad treścią. Częściej wynikają z tego, że pracuje nad nią kilka osób, ale każda zakłada coś innego. Autor uważa, że redaktor sprawdzi PDF. Redaktor zakłada, że dział merytoryczny potwierdził aktualność. Administrator BIP czeka na podstawę publikacji. Koordynator dostępności dowiaduje się o sprawie dopiero po zgłoszeniu od użytkownika.
 
-Role w redakcji publicznej nie muszą oznaczać nowych stanowisk. Jedna osoba może być redaktorem, osobą publikującą i administratorem strony. Ważne jest jednak, żeby zespół wiedział, w jakiej roli działa w danym momencie. Inaczej łatwo o zdanie: myślałem, że ktoś już to sprawdził.
+Role w redakcji publicznej nie muszą oznaczać nowych stanowisk. Jedna osoba może być redaktorem, osobą publikującą i administratorem WordPressa. Ważne jest jednak, żeby zespół wiedział, w jakiej roli działa ta osoba w danym momencie. Inaczej łatwo o zdanie: „myślałem, że ktoś już to sprawdził”.
 
-Ten artykuł pokazuje, jak nazwać role w procesie publikacji i jak uniknąć rozmytej odpowiedzialności.
+Ten artykuł nie opisuje całego procesu publikacji. Od tego jest tekst filarowy o zarządzaniu dostępną treścią publiczną. Tutaj chodzi o odpowiedzialność: kto decyduje o sensie treści, kto pilnuje sposobu publikacji, kto zajmuje się technicznym umieszczeniem materiału i kto reaguje, gdy pojawia się problem z dostępnością.
 
 ## Rola to nie zawsze stanowisko
 
-W małej instytucji nie ma osobnego zespołu redakcyjnego, działu dostępności i administratora treści. Często jedna osoba obsługuje kilka obszarów. To normalne. Problem zaczyna się dopiero wtedy, gdy nie wiadomo, którą część pracy ta osoba wykonuje i za co odpowiada.
+Stanowisko mówi, gdzie ktoś pracuje. Rola mówi, co robi w procesie publikacji. To rozróżnienie pomaga szczególnie w małych instytucjach, gdzie nie ma osobnego zespołu redakcyjnego, działu dostępności i administratora treści.
 
-Stanowisko mówi, gdzie ktoś pracuje. Rola mówi, co robi w procesie publikacji. Dlatego warto rozdzielić role nawet wtedy, gdy wykonuje je ta sama osoba.
+Warto nazwać przynajmniej te role:
 
-Przykład:
+- autor przygotowuje materiał źródłowy,
+- właściciel treści odpowiada za sens, aktualność i skutki merytoryczne,
+- redaktor porządkuje sposób pokazania informacji użytkownikowi,
+- osoba publikująca dodaje materiał do WordPressa albo BIP,
+- administrator dba o strukturę systemu, uprawnienia i techniczne ustawienia,
+- koordynator dostępności pomaga ocenić ryzyka i sposoby naprawy,
+- osoba zatwierdzająca podejmuje decyzję formalną, gdy jest potrzebna.
 
-- autor przygotowuje treść,
-- właściciel treści odpowiada za jej sens i aktualność,
-- redaktor porządkuje sposób publikacji,
-- administrator publikuje i sprawdza ustawienia,
-- koordynator dostępności wspiera ocenę braków,
-- osoba zatwierdzająca podejmuje decyzję w sprawach formalnych.
+Jedna osoba może pełnić kilka ról, ale nie powinna przez to przejmować cudzych decyzji. Redaktor może poprawić tytuł i opis linku, ale nie powinien sam rozstrzygać, czy regulamin nadal obowiązuje. Administrator może opublikować dokument w BIP, ale nie powinien sam ustalać podstawy publikacji.
 
-Dzięki temu łatwiej ustalić, gdzie kończy się korekta redakcyjna, a zaczyna decyzja merytoryczna.
+## Właściciel treści odpowiada za sens
 
-## Właściciel treści
+Właściciel treści to osoba albo komórka organizacyjna, która wie, co materiał oznacza. To ona potwierdza, czy dokument jest aktualny, czy można go skrócić, czy trzeba zachować poprzednią wersję i jakie ryzyko niesie błąd.
 
-Właściciel treści to osoba albo komórka organizacyjna, która odpowiada za informację po stronie merytorycznej. To nie musi być osoba, która publikuje wpis. Właściciel wie, czy materiał jest aktualny, czy można go zmienić, czy trzeba go wycofać i jakie skutki może mieć błędna publikacja.
+Bez właściciela treści redaktor zostaje z problemem, którego nie powinien rozstrzygać sam. Może zauważyć, że formularz ma starą datę albo że komunikat nie mówi, kogo dotyczy nabór. Nie powinien jednak zgadywać, czy wystarczy poprawić opis, czy trzeba wstrzymać publikację.
 
-Bez właściciela treści redaktor zostaje z problemem, którego nie powinien rozstrzygać sam. Może poprawić tytuł, opis linku albo strukturę akapitów, ale nie powinien zgadywać, czy formularz nadal obowiązuje albo czy komunikat można skrócić bez utraty sensu.
+Właściciela warto wskazać już przy przekazaniu materiału. Dobrze, jeśli ta informacja trafia także do rejestru zasobów, bo po kilku miesiącach najważniejsze pytanie brzmi zwykle: do kogo wrócić z tym dokumentem?
 
-Właściciela warto wskazać w formularzu przekazania materiału i w rejestrze zasobów. To ułatwia przegląd po publikacji.
+## Redaktor odpowiada za użyteczność publikacji
 
-## Redaktor i osoba publikująca
+Redaktor nie jest tylko osobą od korekty przecinków. Odpowiada za to, czy użytkownik zrozumie materiał bez znajomości wewnętrznego obiegu dokumentów. Sprawdza tytuł, wprowadzenie, nagłówki, linki, opisy plików, tabele, obrazy i kontekst załączników.
 
-Redaktor odpowiada za to, jak treść zostanie pokazana użytkownikowi. Sprawdza tytuł, lead, nagłówki, linki, opisy plików, tabele i obrazy. Pilnuje, żeby użytkownik rozumiał kontekst i nie musiał domyślać się, co znajduje się w załączniku.
+Redaktor może zapytać właściciela treści:
 
-Osoba publikująca odpowiada za techniczne dodanie materiału do WordPressa albo BIP. W praktyce redaktor i osoba publikująca często są tą samą osobą. Warto jednak pamiętać, że to dwa różne zadania. Można dobrze wkleić treść do systemu, ale źle opisać dokument. Można też dobrze zredagować tekst, ale opublikować go w złej kategorii.
+- kto jest adresatem informacji,
+- czy materiał ma termin ważności,
+- czy dokument zastępuje wcześniejszą wersję,
+- czy załącznik można opisać prostszym językiem,
+- czy użytkownik powinien coś zrobić po przeczytaniu tekstu.
 
-Przy większych materiałach dobrze jest rozdzielić kontrolę redakcyjną od samego kliknięcia publikacji.
+To jest odpowiedzialność redakcyjna, a nie techniczna. Redaktor pilnuje zrozumiałości i dostępności treści, ale nie musi sam naprawiać każdego PDF-a, pisać podstawy prawnej publikacji ani zmieniać konfiguracji serwisu.
 
-## Administrator WordPressa i BIP
+## Osoba publikująca i administrator mają inną odpowiedzialność
 
-Administrator nie powinien być traktowany jako osoba od wszystkiego. Jego rola jest techniczna i organizacyjna: dba o strukturę serwisu, uprawnienia, kategorie, załączniki, szablony i bezpieczeństwo publikacji.
+Osoba publikująca dodaje materiał do WordPressa albo BIP. Może to być redaktor, pracownik sekretariatu, administrator albo osoba z działu promocji. Jej zadanie jest praktyczne: umieścić treść we właściwym miejscu, dodać załączniki, sprawdzić linki, kategorię, datę i widoczność.
 
-W BIP administrator często odpowiada za umieszczenie dokumentu w odpowiednim miejscu, zachowanie historii zmian i poprawne metadane. Nie oznacza to jednak, że ma samodzielnie oceniać podstawę publikacji albo sens merytoryczny dokumentu. Do tego potrzebny jest właściciel treści.
+Administrator ma szerszą odpowiedzialność techniczną i organizacyjną. Dba o strukturę serwisu, role użytkowników, szablony, kategorie, bezpieczeństwo i ustawienia systemu. W BIP może pilnować metadanych, historii zmian i poprawnego miejsca publikacji. Nie oznacza to jednak, że administrator przejmuje odpowiedzialność merytoryczną za dokument.
 
-Dobra współpraca między redaktorem i administratorem polega na tym, że redaktor przygotowuje czytelny opis, a administrator pilnuje poprawnego miejsca i technicznego porządku.
+To rozróżnienie jest ważne. Można technicznie poprawnie opublikować błędny dokument. Można też mieć dobry materiał merytoryczny, który trafił do złej kategorii albo ma link opisany słowem „pobierz”. Dostępność wymaga obu porządków naraz.
 
-## Koordynator dostępności
+## Koordynator dostępności nie jest ostatnią deską ratunku
 
-Koordynator dostępności nie powinien być ostatnią osobą, która ratuje publikację po fakcie. Jego rola jest najcenniejsza wtedy, gdy pomaga ustalić zasady, przygotować listę kontrolną, ocenić trudne przypadki i wskazać sposób opisania braków.
+Koordynator dostępności powinien pomagać w zasadach, trudnych decyzjach i analizie ryzyka. Jego praca jest najbardziej wartościowa wtedy, gdy zespół korzysta z niej przed powtarzalnymi problemami, a nie dopiero po skardze lub pilnym zgłoszeniu.
 
 Nie każdy dokument musi trafiać do koordynatora przed publikacją. Warto jednak ustalić sytuacje, w których konsultacja jest potrzebna:
 
 - dokument ma duże znaczenie dla użytkowników,
 - plik jest skanem albo ma złożoną strukturę,
-- materiał trafi do BIP,
+- materiał trafi do BIP i nie ma dostępnej wersji,
+- formularz może być trudny do obsługi klawiaturą,
 - publikacja jest obowiązkowa, ale dokument ma braki,
 - użytkownik zgłosił problem z dostępnością.
 
-Koordynator pomaga podjąć decyzję, ale nie zastępuje właściciela treści.
+Koordynator może wskazać sposób opisania braków, rekomendować naprawę PDF-a albo zaproponować alternatywną formę dostępu. Nie zastępuje jednak właściciela treści i nie powinien sam zatwierdzać sensu merytorycznego dokumentu.
 
 ## Kto odpowiada na zgłoszenia dostępności
 
-Strona może mieć deklarację dostępności i adres kontaktowy, ale to nie wystarczy. Trzeba wiedzieć, kto odbiera zgłoszenie, kto sprawdza problem, kto kontaktuje się z właścicielem treści i kto informuje użytkownika o rozwiązaniu.
+Deklaracja dostępności i adres kontaktowy są potrzebne, ale nie wystarczą. Zespół musi wiedzieć, kto odbiera zgłoszenie, kto sprawdza problem, kto kontaktuje się z właścicielem treści i kto odpowiada użytkownikowi.
 
-Zgłoszenie może dotyczyć błędnego linku, niedostępnego PDF-a, braku opisu obrazu albo formularza, którego nie da się obsłużyć klawiaturą. Każdy z tych problemów wymaga innej reakcji. Bez mapy odpowiedzialności łatwo o opóźnienia.
+Zgłoszenie może dotyczyć błędnego linku, niedostępnego PDF-a, braku opisu obrazu, skanu uchwały albo formularza, którego nie da się obsłużyć klawiaturą. Każdy z tych problemów wymaga innej reakcji. Bez mapy odpowiedzialności zgłoszenie łatwo krąży między skrzynkami.
 
-Warto ustalić prostą zasadę: jedna osoba przyjmuje zgłoszenie, ale rozwiązanie trafia do właściciela danego obszaru.
+Praktyczna zasada jest prosta: jedna osoba przyjmuje zgłoszenie i pilnuje odpowiedzi, ale rozwiązanie trafia do właściciela danego obszaru. Przy błędnym opisie linku wystarczy redaktor. Przy niedostępnym formularzu potrzebny może być właściciel procesu i wsparcie techniczne. Przy dokumencie formalnym trzeba włączyć osobę odpowiedzialną za treść i publikację w BIP.
 
-## Przykład: regulamin, którego nikt nie chce zatwierdzić
+## Przykład: komunikat o zmianie godzin pracy
 
-Dział merytoryczny przesyła regulamin zajęć do publikacji. Redaktor zauważa, że dokument ma długi tytuł, niejasne linki i fragmenty, których użytkownik nie zrozumie bez kontekstu. Administrator BIP pyta, czy regulamin ma trafić do BIP czy tylko na stronę. Koordynator dostępności wskazuje, że PDF nie ma poprawnej struktury.
+Sekretariat przesyła krótką informację: w piątek urząd będzie czynny krócej. Redaktor ma dodać aktualność na stronie, a administrator BIP pyta, czy komunikat powinien trafić również do BIP. W załączniku znajduje się skan podpisanego zarządzenia, ale nikt nie podał, czy ma być publikowany, czy tylko potwierdza decyzję wewnętrznie.
 
-Jeżeli role nie są opisane, każdy czeka na kogoś innego. Redaktor nie wie, czy może zmienić opis. Administrator nie wie, gdzie opublikować. Koordynator nie wie, czy dokument można poprawić u źródła.
+Bez nazwanych ról każdy może zrobić swoją część i nadal zostawić użytkownika z niejasną informacją. Redaktor opublikuje aktualność, ale nie będzie wiedział, czy skan jest konieczny. Administrator BIP nie zdecyduje sam, czy dokument ma znaczenie formalne. Koordynator dostępności może zauważyć, że skan nie jest dostępny, ale nie powie, czy można go zastąpić wersją tekstową.
 
-Po uporządkowaniu ról proces wygląda inaczej:
+Po uporządkowaniu ról proces jest spokojniejszy:
 
-- właściciel treści potwierdza cel i miejsce publikacji,
-- redaktor przygotowuje opis na stronie,
-- administrator publikuje w odpowiedniej kategorii,
-- koordynator dostępności opisuje braki i rekomenduje naprawę,
-- osoba zatwierdzająca podejmuje decyzję, jeżeli dokument musi zostać opublikowany mimo braków.
+- właściciel treści potwierdza, czego dotyczy komunikat i czy zarządzenie ma być publiczne,
+- redaktor pisze krótki tekst z datą, godzinami i konsekwencją dla użytkownika,
+- osoba zatwierdzająca decyduje, czy dokument trafia do BIP,
+- administrator publikuje materiał we właściwym miejscu,
+- koordynator dostępności wskazuje, jak zapewnić dostęp do treści skanu.
+
+Ten przykład różni się od problemu procesowego z tekstu filarowego. Tu nie chodzi o cały system informacji, tylko o moment, w którym brak jednej decyzji zatrzymuje kilka osób.
 
 ## Prosta mapa odpowiedzialności
 
 | Etap | Odpowiedzialny | Wspiera |
 |---|---|---|
-| Przygotowanie treści | właściciel treści | autor, dział merytoryczny |
-| Redakcja tekstu | redaktor | właściciel treści |
-| Ocena dostępności | redaktor | koordynator dostępności |
-| Decyzja formalna | osoba zatwierdzająca | właściciel treści |
-| Publikacja | administrator albo redaktor | osoba publikująca |
+| Przygotowanie materiału | autor | właściciel treści |
+| Decyzja merytoryczna | właściciel treści | osoba zatwierdzająca |
+| Redakcja publikacji | redaktor | właściciel treści |
+| Ocena ryzyk dostępności | redaktor | koordynator dostępności |
+| Decyzja formalna dla BIP | osoba zatwierdzająca | administrator BIP, właściciel treści |
+| Publikacja | osoba publikująca | administrator |
 | Wpis do rejestru | osoba publikująca | redaktor |
 | Przegląd po czasie | właściciel treści | redaktor |
-| Zgłoszenie dostępności | osoba kontaktowa | koordynator, właściciel treści |
+| Zgłoszenie dostępności | osoba kontaktowa | koordynator, właściciel treści, administrator |
 
-Tabela nie musi być idealna od pierwszego dnia. Ważne, żeby zespół miał jeden punkt odniesienia.
+Tabela nie musi być idealna od pierwszego dnia. Ważne, żeby zespół miał jeden punkt odniesienia i nie przerzucał decyzji merytorycznych na osoby techniczne.
 
 ## Propozycje linków wewnętrznych
 
 Ten artykuł powinien linkować do:
 
-- artykułu filarowego o zarządzaniu dostępną treścią,
-- listy kontrolnej redaktora,
-- publikacji w BIP,
-- rejestru zasobów,
-- usług związanych z audytem i uporządkowaniem dostępności.
+- [link do artykułu filarowego o zarządzaniu dostępną treścią publiczną],
+- [link do artykułu o liście kontrolnej redaktora],
+- [link do artykułu o dostępności cyfrowej w codziennej pracy redakcji],
+- [link do artykułu o dostępnym PDF-ie],
+- [link do artykułu o skanie PDF],
+- [link do artykułu o dostępnym formularzu],
+- [link do artykułu o dostępnym linku i przycisku],
+- [link do usługi audytu WCAG],
+- [link do strony Strony internetowe WordPress],
+- [link do artykułu o treściach zrozumiałych dla ludzi i AI Search].
 
 ## Blok SEO
 
 Meta title: Role w redakcji publicznej i dostępności
 
-Meta description: Kto odpowiada za treść, dostępność, publikację i aktualizację materiałów w WordPressie oraz BIP.
+Meta description: Jak rozdzielić odpowiedzialność za treść, dostępność, publikację i aktualizację materiałów na stronie, w WordPressie i BIP.
 
 Sugerowany slug: `role-w-redakcji-publicznej`
 
 Tagi WordPress: redakcja, dostępność cyfrowa, BIP, WordPress, odpowiedzialność
 
+## Grafika główna
+
+Sugestia grafiki: mapa ról redakcyjnych na ciemnym tle, z połączeniami między właścicielem treści, redaktorem, administratorem, koordynatorem dostępności i użytkownikiem. Bez tekstu na grafice.
+
+Tekst alternatywny: Mapa ról redakcyjnych pokazująca odpowiedzialność za treść, publikację i dostępność.
+
+## Status jakości
+
+Gotowy jako artykuł wspierający tekst filarowy. Wymaga tylko decyzji, czy w docelowej publikacji zachować pełną tabelę odpowiedzialności, czy skrócić ją do wersji graficznej.
+
 ## Zakończenie
 
-Największy problem w redakcji publicznej rzadko polega na braku dobrej woli. Częściej polega na tym, że nikt nie wie, gdzie kończy się jego odpowiedzialność i do kogo wrócić z pytaniem.
+Dobrze nazwane role nie tworzą dodatkowej biurokracji. Zdejmują z redaktora decyzje, których nie powinien podejmować sam, i zdejmują z administratora odpowiedzialność za sens dokumentu.
 
-Nazwanie ról nie rozwiązuje wszystkiego, ale daje zespołowi wspólny język. A to zwykle pierwszy krok do lepszej publikacji, mniej nerwowych poprawek i treści, które da się utrzymać po czasie.
+Najważniejszy efekt jest prosty: gdy pojawia się pytanie o treść, dostępność albo miejsce publikacji, zespół wie, kto może odpowiedzieć. To często wystarcza, żeby publikacja była spokojniejsza i łatwiejsza do utrzymania po czasie.

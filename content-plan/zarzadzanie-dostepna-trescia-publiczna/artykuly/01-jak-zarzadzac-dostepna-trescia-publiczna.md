@@ -6,7 +6,7 @@ tags: "dostępność cyfrowa, WordPress, BIP, treści publiczne, WCAG"
 status: draft
 priority: P1
 meta_title: "Jak zarządzać dostępną treścią publiczną"
-meta_description: "Praktyczny poradnik o zarządzaniu dostępną treścią publiczną w WordPressie, BIP i dokumentach instytucji."
+meta_description: "Jak uporządkować publikowanie treści publicznych w WordPressie, BIP i dokumentach, żeby dostępność była stałym procesem redakcyjnym."
 main_service_link: "usługa: audyt i poprawa dostępności cyfrowej"
 related_links:
   - "audyt WCAG"
@@ -20,15 +20,15 @@ alt_text: "Schemat pokazujący powiązanie WordPressa, BIP, dokumentów i proces
 
 # Jak zarządzać dostępną treścią publiczną w WordPressie i BIP
 
-Instytucja publiczna może mieć poprawnie działającą stronę, aktywny BIP i osoby, które sumiennie publikują materiały, a mimo to użytkownik nadal będzie trafiał na nieaktualne dokumenty, nieopisane pliki i komunikaty trudne do zrozumienia. Problem zwykle nie zaczyna się w edytorze WordPressa. Zaczyna się wcześniej, w sposobie przekazywania, zatwierdzania i utrzymywania treści.
+Instytucja publiczna może mieć sprawną stronę, aktywny BIP i osoby, które naprawdę pilnują publikacji, a mimo to użytkownik nadal będzie trafiał na nieaktualne dokumenty, nieopisane pliki albo komunikaty pisane bardziej pod obieg wewnętrzny niż pod mieszkańca. Wtedy problem rzadko zaczyna się w samym edytorze WordPressa. Zwykle zaczyna się wcześniej: w tym, jak materiał trafia do redakcji, kto go zatwierdza i kto wraca do niego po publikacji.
 
-Dostępna treść publiczna to nie tylko tekst zgodny z wytycznymi WCAG, czyli Web Content Accessibility Guidelines. To informacja, którą da się znaleźć, zrozumieć, odczytać technologią wspomagającą i wykorzystać w konkretnej sprawie. Może to być aktualność, uchwała, formularz, komunikat o zmianie godzin pracy, plik PDF, tabela z danymi albo ogłoszenie w BIP.
+Dostępna treść publiczna to nie tylko tekst zgodny z WCAG. To informacja, którą da się znaleźć, zrozumieć, odczytać technologią wspomagającą i wykorzystać w konkretnej sprawie. Może to być aktualność, uchwała, formularz, komunikat o zmianie godzin pracy, plik PDF, tabela z danymi albo ogłoszenie w BIP.
 
-Ten tekst porządkuje temat od strony redakcyjnej. Nie chodzi o to, żeby każdą publikację zamienić w rozbudowaną procedurę. Chodzi o to, żeby redakcja wiedziała, kto odpowiada za treść, co trzeba sprawdzić przed publikacją i kiedy wrócić do materiału po kilku miesiącach.
+Ten artykuł jest tekstem filarowym dla całej serii. Pokazuje, jak patrzeć na stronę WWW, WordPress, BIP i dokumenty jako na jeden system informacji. Kolejne teksty mogą rozwijać role, checklisty, PDF-y, formularze, linki i teksty alternatywne, ale punkt wyjścia jest jeden: dostępność trzeba wpisać w zwykły proces redakcyjny, a nie odkładać na koniec.
 
 ## Sama publikacja nie wystarcza
 
-W wielu zespołach proces wygląda podobnie: dział merytoryczny wysyła dokument, redaktor dodaje go do strony, ktoś prosi o pilną poprawkę, a po czasie nikt nie pamięta, czy plik nadal obowiązuje. Jeżeli do tego dochodzi osobny BIP, kilka osób z dostępem do WordPressa i dokumenty od zewnętrznych partnerów, chaos pojawia się szybko.
+W wielu zespołach proces wygląda podobnie. Dział merytoryczny wysyła dokument, redaktor dodaje go na stronę, ktoś prosi o pilną zmianę, a po czasie nikt nie pamięta, czy plik nadal obowiązuje. Jeżeli do tego dochodzi osobny BIP, kilka osób z dostępem do WordPressa i dokumenty od zewnętrznych partnerów, bałagan pojawia się szybko.
 
 Samo opublikowanie materiału nie odpowiada na najważniejsze pytania:
 
@@ -42,13 +42,13 @@ Samo opublikowanie materiału nie odpowiada na najważniejsze pytania:
 
 Bez tych odpowiedzi strona zaczyna działać jak magazyn plików. Na początku to nie przeszkadza. Po roku trudno już odróżnić dokument aktualny od historycznego, formularz obowiązujący od starego i komunikat bieżący od archiwalnego.
 
-## WordPress, BIP i dokumenty to jeden system informacji
+## Strona WWW, WordPress i BIP mają różne zadania
 
-Redakcja często traktuje stronę internetową, BIP i dokumenty PDF jako osobne światy. Użytkownik tak tego nie widzi. Dla niego liczy się jedna rzecz: czy znajdzie informację i czy może jej użyć.
+Warto rozdzielić trzy pojęcia, bo w rozmowach redakcyjnych często wpadają do jednego worka. Strona WWW to publiczny serwis widziany przez użytkownika. WordPress jest systemem, w którym redakcja może tę stronę utrzymywać. BIP jest osobnym kanałem publikacji informacji publicznej, z własnym porządkiem formalnym i większą ostrożnością przy decyzjach.
 
-Aktualność w WordPressie może prowadzić do załącznika PDF. Załącznik może dotyczyć sprawy opisanej w BIP. BIP może odsyłać do formularza, który znajduje się w innym miejscu serwisu. Jeżeli te elementy nie są spójne, użytkownik traci zaufanie. Nie wie, która wersja jest właściwa i czy informacja nadal obowiązuje.
+Użytkownik nie myśli jednak kategoriami systemów. Dla niego liczy się, czy znajdzie właściwą informację i czy może jej użyć. Aktualność w WordPressie może prowadzić do załącznika PDF. Załącznik może dotyczyć sprawy opisanej w BIP. BIP może odsyłać do formularza w innym miejscu serwisu. Jeżeli te elementy nie są spójne, użytkownik traci zaufanie. Nie wie, która wersja jest właściwa i czy informacja nadal obowiązuje.
 
-Dlatego dostępność treści publicznych warto rozumieć szerzej niż jako poprawność pojedynczej strony. To system, w którym:
+Dlatego dostępność treści publicznych warto rozumieć szerzej niż jako poprawność pojedynczej podstrony. To system, w którym:
 
 - treść strony wyjaśnia kontekst,
 - dokument ma czytelną nazwę i opis,
@@ -59,44 +59,42 @@ Dlatego dostępność treści publicznych warto rozumieć szerzej niż jako popr
 
 ## Minimalny proces redakcyjny
 
-Nie każda instytucja potrzebuje skomplikowanego obiegu publikacji. W małym zespole wystarczy prosty proces, który będzie stosowany konsekwentnie.
+Nie każda instytucja potrzebuje rozbudowanego obiegu publikacji. W małym zespole wystarczy prosty proces, który będzie stosowany konsekwentnie.
 
 Minimalny proces może wyglądać tak:
 
 1. Zgłoszenie materiału z informacją o celu, właścicielu i terminie.
-2. Przygotowanie treści strony, nie tylko dodanie pliku.
-3. Kontrola redakcyjna: tytuł, nagłówki, linki, opis załączników.
-4. Kontrola dostępności: pliki, obrazy, tabele, informacje przekazywane kolorem.
-5. Decyzja o publikacji albo zwrot do autora.
-6. Publikacja w odpowiednim miejscu: WordPress, BIP albo oba kanały.
-7. Wpis do rejestru zasobów.
-8. Przegląd po określonym czasie.
+2. Decyzja, gdzie materiał ma być opublikowany: strona, BIP, dokument do pobrania albo kilka miejsc.
+3. Przygotowanie treści strony, nie tylko dodanie pliku.
+4. Kontrola redakcyjna: tytuł, nagłówki, linki, opis załączników.
+5. Kontrola dostępności: pliki, obrazy, tabele, formularze, informacje przekazywane kolorem.
+6. Decyzja o publikacji albo zwrot do właściciela treści.
+7. Publikacja w odpowiednim miejscu.
+8. Wpis do rejestru zasobów i ustalenie terminu przeglądu.
 
-Taki proces nie musi blokować szybkiej pracy. Przeciwnie, skraca liczbę pytań, które wracają do redaktora po publikacji. Jeżeli wiadomo, kto zatwierdza, gdzie zapisać status dostępności i kiedy wrócić do dokumentu, praca staje się spokojniejsza.
+Taki proces nie ma blokować szybkiej pracy. Ma ograniczyć liczbę pytań, które wracają po publikacji. Jeżeli wiadomo, kto zatwierdza materiał, gdzie zapisać status dostępności i kiedy wrócić do dokumentu, redaktor nie musi za każdym razem wymyślać zasad od nowa.
 
 ## Co warto zapisać w procedurze
 
-Najlepsza procedura jest krótka i używana. Nie powinna być dokumentem, który powstaje tylko na potrzeby kontroli. Dobrze, jeśli odpowiada na kilka praktycznych pytań.
-
-Warto zapisać:
+Najlepsza procedura jest krótka i używana. Nie powinna być dokumentem napisanym tylko na potrzeby kontroli. Dobrze, jeśli odpowiada na kilka praktycznych pytań:
 
 - jakie materiały wymagają zgłoszenia przez formularz,
-- jakie pola są obowiązkowe przed publikacją,
+- jakie informacje są obowiązkowe przed publikacją,
 - kto może zatwierdzić publikację w BIP,
 - kiedy redaktor może wstrzymać publikację,
 - jak opisywać braki dostępności,
 - gdzie wpisywać termin przeglądu,
 - kto odpowiada na zgłoszenia dotyczące dostępności.
 
-Procedura powinna też przewidywać wyjątki. Jeżeli komunikat jest pilny, można skrócić ścieżkę zatwierdzania, ale nadal trzeba podać datę, osobę odpowiedzialną i plan późniejszego uzupełnienia braków.
+Procedura powinna też przewidywać wyjątki. Jeżeli komunikat jest pilny, można skrócić ścieżkę zatwierdzania, ale nadal trzeba podać datę, osobę odpowiedzialną i plan późniejszego uzupełnienia braków. Przy publikacjach obowiązkowych warto pisać ostrożnie: czasem dokument trzeba opublikować mimo braków, ale nie zwalnia to instytucji z zaplanowania poprawy albo zapewnienia alternatywnego dostępu.
 
-## Przykład: strona, BIP i pliki bez wspólnego porządku
+## Przykład: stary formularz krąży w kilku miejscach
 
-Wyobraźmy sobie instytucję, która publikuje aktualności w WordPressie, dokumenty formalne w BIP, a pliki przechowuje w bibliotece mediów. Dział merytoryczny przesyła regulamin, dział promocji publikuje informację o wydarzeniu, a sekretariat prosi o dodanie formularza. Każdy materiał jest ważny, ale nikt nie prowadzi wspólnego rejestru.
+Instytucja publikuje na stronie informację o naborze do programu dotacyjnego. W aktualności jest link do formularza PDF, w BIP znajduje się regulamin, a w zakładce „Jak załatwić sprawę” został stary wzór wniosku z poprzedniego roku. Każdy element był kiedyś poprawny, ale nikt nie widzi całej ścieżki użytkownika.
 
-Po kilku miesiącach pojawiają się pytania. Czy formularz nadal obowiązuje? Czy regulamin w BIP zastąpił poprzednią wersję? Czy aktualność o wydarzeniu powinna zostać oznaczona jako archiwalna? Czy plakat z tekstem ma opis w treści strony?
+Po telefonach od mieszkańców okazuje się, że część osób pobrała nieaktualny formularz. Redaktor poprawia link w aktualności, ale problem wróci, jeżeli nie ma jednego miejsca, w którym zapisano właściciela formularza, datę publikacji, powiązane strony i termin przeglądu.
 
-Rozwiązaniem nie jest jednorazowe sprzątanie. Rozwiązaniem jest stały sposób pracy: formularz przekazania materiału, lista kontrolna przed publikacją i rejestr zasobów po publikacji.
+W tym przypadku rozwiązaniem nie jest jednorazowe sprzątanie. Potrzebny jest stały sposób pracy: zgłoszenie materiału z właścicielem, opis kanałów publikacji, kontrola linków i rejestr zasobów. Dopiero wtedy WordPress, BIP i pliki zaczynają działać jak jeden porządek informacyjny.
 
 ## Mini-schemat działania
 
@@ -114,29 +112,42 @@ To wystarczy, żeby z publikowania zrobić proces, a nie serię przypadkowych dz
 
 ## Propozycje linków wewnętrznych
 
-W tym artykule warto linkować do tekstów o:
+W tym artykule warto linkować do:
 
-- liście kontrolnej redaktora,
-- rolach w redakcji publicznej,
-- dostępnych PDF-ach,
-- tekście alternatywnym,
-- dostępnych linkach,
-- audycie WCAG,
-- usługach poprawy dostępności cyfrowej,
-- usługach WordPress dla instytucji.
+- [link do artykułu o liście kontrolnej redaktora],
+- [link do artykułu o rolach w redakcji publicznej],
+- [link do artykułu o dostępnym PDF-ie],
+- [link do artykułu o skanie PDF],
+- [link do artykułu o dostępnym formularzu],
+- [link do artykułu o tekście alternatywnym],
+- [link do artykułu o dostępnym linku i przycisku],
+- [link do artykułu o dostępności cyfrowej w codziennej pracy redakcji],
+- [link do usługi audytu WCAG],
+- [link do strony Strony internetowe WordPress],
+- [link do artykułu o treściach zrozumiałych dla ludzi i AI Search].
 
 ## Blok SEO
 
 Meta title: Jak zarządzać dostępną treścią publiczną
 
-Meta description: Praktyczny poradnik o zarządzaniu dostępną treścią publiczną w WordPressie, BIP i dokumentach instytucji.
+Meta description: Jak uporządkować publikowanie treści publicznych w WordPressie, BIP i dokumentach, żeby dostępność była stałym procesem redakcyjnym.
 
 Sugerowany slug: `jak-zarzadzac-dostepna-trescia-publiczna`
 
 Tagi WordPress: dostępność cyfrowa, WordPress, BIP, treści publiczne, WCAG
 
+## Grafika główna
+
+Sugestia grafiki: ciemna, spokojna mapa procesu pokazująca połączenie strony WordPress, BIP, dokumentów PDF, formularza i rejestru zasobów. Styl techniczny, premium, bez tekstów na grafice.
+
+Tekst alternatywny: Schemat pokazujący powiązanie WordPressa, BIP, dokumentów i procesu redakcyjnego.
+
+## Status jakości
+
+Gotowy jako artykuł filarowy serii. Wymaga tylko podmiany opisowych linków wewnętrznych na docelowe adresy, gdy powstaną lub zostaną wskazane.
+
 ## Zakończenie
 
-Dostępność treści publicznych nie zaczyna się od poprawiania jednego pliku. Zaczyna się od porządku w decyzjach: kto przygotowuje, kto sprawdza, kto publikuje i kto wraca do materiału po czasie.
+Dostępność treści publicznych zaczyna się od porządku w decyzjach: kto przygotowuje materiał, kto go sprawdza, gdzie trafia publikacja i kto wraca do niej po czasie. WordPress, BIP i dokumenty mogą być osobnymi narzędziami, ale dla użytkownika tworzą jedną drogę do informacji.
 
-Jeżeli instytucja ma prosty proces, redaktor nie musi za każdym razem improwizować. Użytkownik dostaje czytelniejszą informację, a zespół ma mniej problemów do rozwiązywania w pośpiechu.
+Jeżeli instytucja ma prosty proces, redaktor nie musi improwizować przy każdym pliku. Użytkownik dostaje czytelniejszą informację, a zespół ma mniej poprawek robionych w pośpiechu.
