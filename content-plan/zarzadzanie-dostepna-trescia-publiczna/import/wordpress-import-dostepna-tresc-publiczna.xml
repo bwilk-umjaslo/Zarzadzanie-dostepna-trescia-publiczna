@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+<title>Dostępna treść publiczna</title>
+<link>https://beardedwolf.pl</link>
+<description>Import trzech zaplanowanych artykuł&#243;w o dostępnej treści publicznej</description>
+<pubDate>Sun, 17 May 2026 16:32:09 GMT</pubDate>
+<language>pl-PL</language>
+<wp:wxr_version>1.2</wp:wxr_version>
+<wp:base_site_url>https://beardedwolf.pl</wp:base_site_url>
+<wp:base_blog_url>https://beardedwolf.pl</wp:base_blog_url>
+<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[bartlomiej-wilk]]></wp:author_login><wp:author_email><![CDATA[]]></wp:author_email><wp:author_display_name><![CDATA[Bartłomiej Wilk]]></wp:author_display_name><wp:author_first_name><![CDATA[Bartłomiej]]></wp:author_first_name><wp:author_last_name><![CDATA[Wilk]]></wp:author_last_name></wp:author>
+<wp:category><wp:term_id>0</wp:term_id><wp:category_nicename><![CDATA[dostepnosc-cyfrowa]]></wp:category_nicename><wp:cat_name><![CDATA[Dostępność cyfrowa]]></wp:cat_name></wp:category>
+<wp:category><wp:term_id>0</wp:term_id><wp:category_nicename><![CDATA[procesy-redakcyjne]]></wp:category_nicename><wp:cat_name><![CDATA[Procesy redakcyjne]]></wp:cat_name></wp:category>
+<wp:category><wp:term_id>0</wp:term_id><wp:category_nicename><![CDATA[tresci-publiczne]]></wp:category_nicename><wp:cat_name><![CDATA[Treści publiczne]]></wp:cat_name></wp:category>
+<wp:category><wp:term_id>0</wp:term_id><wp:category_nicename><![CDATA[ai-w-redakcji]]></wp:category_nicename><wp:cat_name><![CDATA[AI w redakcji]]></wp:cat_name></wp:category>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[przeglad-tresci]]></wp:tag_slug><wp:tag_name><![CDATA[przegląd treści]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[dostepnosc-cyfrowa]]></wp:tag_slug><wp:tag_name><![CDATA[dostępność cyfrowa]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[pdf]]></wp:tag_slug><wp:tag_name><![CDATA[PDF]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[wordpress]]></wp:tag_slug><wp:tag_name><![CDATA[WordPress]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[wcag]]></wp:tag_slug><wp:tag_name><![CDATA[WCAG]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[naprawa-tresci]]></wp:tag_slug><wp:tag_name><![CDATA[naprawa treści]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[archiwizacja]]></wp:tag_slug><wp:tag_name><![CDATA[archiwizacja]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[wycofanie-tresci]]></wp:tag_slug><wp:tag_name><![CDATA[wycofanie treści]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[bip]]></wp:tag_slug><wp:tag_name><![CDATA[BIP]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[tresci-publiczne]]></wp:tag_slug><wp:tag_name><![CDATA[treści publiczne]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[ai]]></wp:tag_slug><wp:tag_name><![CDATA[AI]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[redakcja]]></wp:tag_slug><wp:tag_name><![CDATA[redakcja]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[prosty-jezyk]]></wp:tag_slug><wp:tag_name><![CDATA[prosty język]]></wp:tag_name></wp:tag>
+<wp:tag><wp:term_id>0</wp:term_id><wp:tag_slug><![CDATA[ai-w-redakcji]]></wp:tag_slug><wp:tag_name><![CDATA[AI w redakcji]]></wp:tag_name></wp:tag>
+<item>
+<title><![CDATA[Przegląd i naprawa starszych treści: jak odzyskać kontrolę nad archiwum strony]]></title>
+<link>https://beardedwolf.pl/przeglad-i-naprawa-starszych-tresci/</link>
+<pubDate>Sat, 23 May 2026 14:20:00 GMT</pubDate>
+<dc:creator><![CDATA[Bartłomiej Wilk]]></dc:creator>
+<guid isPermaLink="false">https://beardedwolf.pl/?p=2001</guid>
+<description></description>
+<content:encoded><![CDATA[<p>Starsze treści na stronie publicznej rzadko psują się jednego dnia. Zwykle przez lata odkładają się stare aktualności, dawne formularze, PDF-y z poprzednich nabor&#243;w, skany dokument&#243;w, grafiki wydarzeń i linki do stron, kt&#243;re już nie istnieją. Każdy z tych materiał&#243;w kiedyś miał sens, ale po czasie może utrudniać użytkownikowi znalezienie aktualnej informacji.</p>
+<p>Przegląd starszych treści nie polega na tym, żeby natychmiast poprawić wszystko. To najprostsza droga do zmęczenia zespołu i porzucenia pracy po kilku dniach. Lepiej zacząć od priorytet&#243;w: kt&#243;re treści są nadal używane, kt&#243;re wpływają na prawa lub obowiązki użytkownik&#243;w, kt&#243;re mają największe braki dostępności i kt&#243;re powinny trafić do decyzji o archiwizacji.</p>
+<p>Ten artykuł pokazuje, jak podejść do starszych wpis&#243;w, plik&#243;w i załącznik&#243;w bez chaosu. Chodzi o spokojne odzyskanie kontroli nad zasobami, a nie o jednorazowe sprzątanie całej strony.</p>
+<h2>Dlaczego nie warto poprawiać wszystkiego naraz</h2>
+<p>W dużym serwisie publicznym mogą być setki albo tysiące starych materiał&#243;w. Część z nich nadal obsługuje ważne sprawy, część ma wyłącznie znaczenie historyczne, a część nie jest już nigdzie podlinkowana. Jeżeli redakcja zacznie od hasła „naprawiamy wszystko”, szybko utknie na plikach o niskim znaczeniu.</p>
+<p>Lepsze pytanie brzmi: co może dziś przeszkodzić użytkownikowi?</p>
+<p>Najwyższy priorytet mają zwykle:</p>
+<ul>
+<li>aktualne formularze i wnioski,</li>
+<li>dokumenty wpływające na terminy,</li>
+<li>strony usług i procedur,</li>
+<li>pliki, do kt&#243;rych prowadzą aktywne linki,</li>
+<li>materiały w BIP,</li>
+<li>treści często odwiedzane,</li>
+<li>dokumenty zgłoszone jako niedostępne.</li>
+</ul>
+<p>Niższy priorytet mogą mieć stare zapowiedzi wydarzeń, galerie, zakończone projekty i archiwalne komunikaty, o ile są wyraźnie opisane jako nieaktualne i nie prowadzą użytkownika do błędnych działań.</p>
+<h2>Jak wybrać priorytety</h2>
+<p>Przegląd warto zacząć od kr&#243;tkiego spisu. Nie musi być idealny. Wystarczy zestawienie, kt&#243;re pokaże nazwę zasobu, adres publikacji, typ materiału, właściciela treści, status dostępności i proponowaną decyzję.</p>
+<p>Przy każdym materiale zadaj kilka pytań:</p>
+<ul>
+<li>Czy treść nadal jest aktualna?</li>
+<li>Czy użytkownik może na jej podstawie podjąć działanie?</li>
+<li>Czy prowadzi do formularza, regulaminu albo dokumentu?</li>
+<li>Czy plik jest dostępny?</li>
+<li>Czy tekst w PDF można zaznaczyć?</li>
+<li>Czy linki nadal działają?</li>
+<li>Czy wiadomo, kto odpowiada za treść?</li>
+<li>Czy materiał powinien zostać naprawiony, opisany jako archiwalny albo przekazany do decyzji o wycofaniu?</li>
+</ul>
+<p>Jeżeli odpowiedzi brakuje, nie trzeba od razu podejmować decyzji. W rejestrze można wpisać status <code>do ustalenia</code> i wskazać osobę albo kom&#243;rkę, kt&#243;ra powinna potwierdzić dalszy los treści.</p>
+<h2>Co zrobić ze starymi PDF-ami</h2>
+<p>PDF-y są zwykle najtrudniejszą częścią porządkowania. Mogą być nadal potrzebne, ale często nie mają wersji źr&#243;dłowej, są skanami albo mają nazwy typu <code>zalacznik_final_poprawiony.pdf</code>. Sam wygląd dokumentu nie wystarczy, żeby uznać go za dostępny.</p>
+<p>Przy starszych PDF-ach sprawdź najpierw podstawy:</p>
+<ul>
+<li>czy plik jest nadal podlinkowany,</li>
+<li>z jakiej strony użytkownik do niego trafia,</li>
+<li>czy dokument ma aktualną wersję,</li>
+<li>czy tekst można zaznaczyć,</li>
+<li>czy plik nie jest wyłącznie skanem,</li>
+<li>czy przy linku jest opis dokumentu,</li>
+<li>czy najważniejsze informacje są także w treści strony,</li>
+<li>czy istnieje dokument źr&#243;dłowy do poprawy.</li>
+</ul>
+<p>Nie każdy stary PDF trzeba natychmiast naprawiać. Jeżeli dotyczy zakończonego wydarzenia i ma wartość archiwalną, czasem wystarczy opisać jego status. Jeżeli jednak jest aktywnym formularzem albo regulaminem naboru, powinien trafić wysoko na listę napraw.</p>
+<h2>Jak opisywać braki i plan naprawy</h2>
+<p>Brak dostępności nie powinien znikać w notatkach prywatnych jednej osoby. Jeżeli plik ma problem, warto zapisać go w rejestrze i przypisać do właściciela treści.</p>
+<p>Dobry opis braku jest konkretny:</p>
+<ul>
+<li><code>PDF jest skanem, tekstu nie można zaznaczyć</code>,</li>
+<li><code>formularz ma starą wersję, wymaga potwierdzenia przez właściciela</code>,</li>
+<li><code>aktualność prowadzi do nieistniejącego załącznika</code>,</li>
+<li><code>plakat zawiera datę i kontakt, kt&#243;rych nie ma w treści strony</code>,</li>
+<li><code>link do BIP prowadzi do nieaktualnej publikacji</code>.</li>
+</ul>
+<p>Plan naprawy też powinien być konkretny. Zapis <code>do poprawy</code> niewiele zmienia. Lepszy jest zapis: <code>Wydział edukacji przekaże aktualny formularz DOCX do 22 maja 2026 roku</code> albo <code>Redakcja przepisze dane z plakatu do treści aktualności przy najbliższym przeglądzie</code>.</p>
+<h2>Tabela priorytet&#243;w naprawy</h2>
+<p>Prosty podział pomaga utrzymać tempo pracy:</p>
+<table>
+<thead><tr><th>Priorytet</th><th>Co obejmuje</th><th>Decyzja</th></tr></thead><tbody>
+<tr><td>Wysoki</td><td>Aktywne formularze, aktualne procedury, BIP, terminy, dokumenty często pobierane</td><td>naprawić w pierwszej kolejności</td></tr>
+<tr><td>Średni</td><td>Starsze aktualności z działającymi załącznikami, strony informacyjne, materiały projektowe nadal odwiedzane</td><td>sprawdzić i poprawić przy przeglądzie</td></tr>
+<tr><td>Niski</td><td>Zakończone wydarzenia, stare zapowiedzi, materiały bez wpływu na działanie użytkownika</td><td>oznaczyć, archiwizować albo zostawić z opisem</td></tr>
+<tr><td>Do decyzji</td><td>Treści bez właściciela, dokumenty o niejasnym statusie, pliki podlinkowane w kilku miejscach</td><td>przekazać właścicielowi treści</td></tr>
+</tbody></table>
+<p>Taka tabela nie zastępuje oceny redakcyjnej. Pomaga jednak uniknąć sytuacji, w kt&#243;rej zesp&#243;ł poprawia stare grafiki, a aktywny formularz nadal pozostaje niedostępny.</p>
+<h2>Przykład: dawne projekty i stare formularze</h2>
+<p>Na stronie instytucji nadal są aktualności z projektu sprzed trzech lat. Część link&#243;w prowadzi do nieistniejących załącznik&#243;w, a jedna podstrona zawiera formularz zgłoszeniowy z poprzedniego naboru. Formularz pojawia się w wyszukiwarce, więc użytkownicy nadal mogą go pobrać.</p>
+<p>Redakcja nie zaczyna od poprawiania wszystkich tekst&#243;w o projekcie. Najpierw sprawdza, kt&#243;re materiały mogą wprowadzać w błąd. Formularz dostaje wysoki priorytet, bo użytkownik może go użyć. Aktualności z niedziałającymi linkami trafiają do średniego priorytetu. Dawne relacje z wydarzeń zostają oznaczone jako archiwalne albo pozostają bez zmian, jeśli nie sugerują, że projekt nadal trwa.</p>
+<p>Po takim przeglądzie zesp&#243;ł ma kr&#243;tką listę realnych działań: wycofać stary formularz z widoku, dodać informację o zakończeniu naboru, poprawić linki i zapisać właściciela treści.</p>
+<h2>Kiedy przekazać temat do archiwizacji</h2>
+<p>Naprawa nie zawsze jest właściwą decyzją. Czasem materiał nie powinien być poprawiany, tylko opisany jako archiwalny, przekierowany do nowszej wersji albo wycofany z widoku. Dotyczy to szczeg&#243;lnie starych nabor&#243;w, nieaktualnych formularzy, regulamin&#243;w zastąpionych nowymi dokumentami i stron projekt&#243;w, kt&#243;re już się zakończyły.</p>
+<p>Do decyzji o archiwizacji przekaż materiał, gdy:</p>
+<ul>
+<li>nie ma już aktualnego zastosowania,</li>
+<li>może wprowadzać użytkownika w błąd,</li>
+<li>ma nowszą wersję,</li>
+<li>dotyczy zakończonego terminu,</li>
+<li>nie ma właściciela, kt&#243;ry potwierdzi jego aktualność,</li>
+<li>jest dokumentem formalnym i wymaga ostrożnej decyzji.</li>
+</ul>
+<p>Redaktor może wskazać problem, ale nie zawsze powinien sam wycofywać treść. Przy dokumentach formalnych, BIP i materiałach mających skutki dla użytkownik&#243;w decyzja powinna należeć do właściciela treści albo osoby zatwierdzającej.</p>
+<h2>Podsumowanie</h2>
+<p>Przegląd starszych treści jest łatwiejszy, gdy zaczyna się od priorytet&#243;w. Nie trzeba naprawiać całego archiwum naraz. Trzeba wiedzieć, kt&#243;re materiały są nadal używane, kt&#243;re mogą szkodzić użytkownikowi i kt&#243;re wymagają decyzji właściciela.</p>
+<p>Najlepszy pierwszy krok to prosty rejestr i podział na sprawy pilne, średnie, niskie oraz wymagające decyzji. Dzięki temu redakcja przestaje działać na wyczucie, a starsze treści zaczynają wracać pod kontrolę.</p>]]></content:encoded>
+<excerpt:encoded><![CDATA[Starsze treści na stronie publicznej rzadko psują się jednego dnia. Zwykle przez lata odkładają się stare aktualności, dawne formularze, PDF-y z poprzednich naborów, skany dokumentów, grafiki wydarzeń i linki do stron.]]></excerpt:encoded>
+<category domain="category" nicename="dostepnosc-cyfrowa"><![CDATA[Dostępność cyfrowa]]></category>
+<category domain="category" nicename="procesy-redakcyjne"><![CDATA[Procesy redakcyjne]]></category>
+<category domain="post_tag" nicename="przeglad-tresci"><![CDATA[przegląd treści]]></category>
+<category domain="post_tag" nicename="dostepnosc-cyfrowa"><![CDATA[dostępność cyfrowa]]></category>
+<category domain="post_tag" nicename="pdf"><![CDATA[PDF]]></category>
+<category domain="post_tag" nicename="wordpress"><![CDATA[WordPress]]></category>
+<category domain="post_tag" nicename="wcag"><![CDATA[WCAG]]></category>
+<category domain="post_tag" nicename="naprawa-tresci"><![CDATA[naprawa treści]]></category>
+<wp:post_id>2001</wp:post_id>
+<wp:post_date>2026-05-23 16:20:00</wp:post_date>
+<wp:post_date_gmt>2026-05-23 14:20:00</wp:post_date_gmt>
+<wp:post_modified>2026-05-23 16:20:00</wp:post_modified>
+<wp:post_modified_gmt>2026-05-23 14:20:00</wp:post_modified_gmt>
+<wp:comment_status>closed</wp:comment_status>
+<wp:ping_status>closed</wp:ping_status>
+<wp:post_name><![CDATA[przeglad-i-naprawa-starszych-tresci]]></wp:post_name>
+<wp:status>future</wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type>post</wp:post_type>
+<wp:post_password></wp:post_password>
+<wp:is_sticky>0</wp:is_sticky>
+</item>
+<item>
+<title><![CDATA[Archiwizacja i wycofanie treści publicznych: kiedy zostawić, kiedy opisać, kiedy usunąć]]></title>
+<link>https://beardedwolf.pl/archiwizacja-i-wycofanie-tresci/</link>
+<pubDate>Sun, 24 May 2026 07:30:00 GMT</pubDate>
+<dc:creator><![CDATA[Bartłomiej Wilk]]></dc:creator>
+<guid isPermaLink="false">https://beardedwolf.pl/?p=2002</guid>
+<description></description>
+<content:encoded><![CDATA[<p>Nieaktualna treść na stronie publicznej nie zawsze jest błędem. Czasem dokument musi zostać ze względ&#243;w formalnych, czasem warto zachować informację o zakończonym projekcie, a czasem materiał powinien zniknąć z widoku użytkownika, bo prowadzi do złych decyzji. Problem zaczyna się wtedy, gdy wszystkie stare treści wyglądają tak samo jak aktualne.</p>
+<p>Archiwizacja jest decyzją redakcyjną i organizacyjną. Nie polega wyłącznie na kliknięciu <code>usuń</code> w WordPressie. Trzeba ustalić, czy materiał zostaje, czy dostaje oznaczenie archiwalne, czy prowadzi do nowszej wersji, czy powinien zostać wycofany z publicznego widoku.</p>
+<p>Ten artykuł pomaga uporządkować takie decyzje przy aktualnościach, dokumentach, formularzach, stronach informacyjnych i publikacjach powiązanych z BIP.</p>
+<h2>Archiwizacja a wycofanie</h2>
+<p>Archiwizacja oznacza, że materiał zostaje dostępny, ale użytkownik widzi jego status. Może to być informacja o zakończonym naborze, dawnym projekcie, historycznym komunikacie albo poprzedniej wersji dokumentu. Treść nie udaje aktualnej.</p>
+<p>Wycofanie oznacza, że materiał przestaje być widoczny w zwykłej ścieżce użytkownika. Może zostać usunięty z menu, odlinkowany z aktualnej strony, przekierowany do nowszej wersji albo zdjęty z publicznego widoku po decyzji właściciela treści.</p>
+<p>Najważniejsze jest rozr&#243;żnienie skutku dla użytkownika. Jeżeli stary materiał pomaga zrozumieć historię sprawy, można go zostawić z opisem. Jeżeli zachęca do pobrania nieaktualnego formularza, trzeba działać szybciej.</p>
+<h2>Kiedy zostawić materiał</h2>
+<p>Nie każda stara treść wymaga usunięcia. Materiał można zostawić, jeżeli nadal ma wartość informacyjną i nie wprowadza użytkownika w błąd.</p>
+<p>Zostaw treść, gdy:</p>
+<ul>
+<li>dokument nadal obowiązuje,</li>
+<li>strona opisuje usługę, kt&#243;ra jest aktywna,</li>
+<li>aktualność ma znaczenie dokumentacyjne,</li>
+<li>użytkownik może potrzebować informacji historycznej,</li>
+<li>publikacja w BIP wymaga zachowania śladu,</li>
+<li>materiał jest powiązany z rozliczonym projektem,</li>
+<li>treść jest jasno opisana jako archiwalna albo historyczna.</li>
+</ul>
+<p>Przy pozostawieniu materiału warto dodać datę aktualizacji, status i link do nowszej wersji, jeśli istnieje. Dzięki temu użytkownik nie musi zgadywać, czy trafił na właściwy dokument.</p>
+<h2>Kiedy oznaczyć jako archiwalny</h2>
+<p>Oznaczenie archiwalne jest potrzebne wtedy, gdy materiał może być nadal czytany, ale nie powinien być traktowany jako aktualna instrukcja działania. Dotyczy to zwłaszcza nabor&#243;w, projekt&#243;w, wydarzeń i komunikat&#243;w z terminem.</p>
+<p>Dobry opis archiwalny jest kr&#243;tki i widoczny na początku treści. Może brzmieć:</p>
+<p><code>Ten nab&#243;r zakończył się 30 czerwca 2026 roku. Informacja ma charakter archiwalny. Aktualne nabory znajdziesz na stronie Programy i dotacje.</code></p>
+<p>Albo:</p>
+<p><code>To jest archiwalna informacja o projekcie realizowanym w latach 2023-2024. Formularze z tej strony nie są już przyjmowane.</code></p>
+<p>Taki komunikat oszczędza użytkownikowi czasu i zmniejsza ryzyko, że ktoś pobierze stary dokument.</p>
+<h2>Kiedy przekierować do nowszej wersji</h2>
+<p>Jeżeli istnieje nowa wersja dokumentu albo aktualna strona sprawy, najlepszym rozwiązaniem często jest przekierowanie użytkownika. Nie zawsze musi to być techniczne przekierowanie adresu. Czasem wystarczy wyraźny link na początku starej treści.</p>
+<p>Przekieruj użytkownika, gdy:</p>
+<ul>
+<li>formularz ma nowszą wersję,</li>
+<li>regulamin został zastąpiony,</li>
+<li>usługa ma nową stronę,</li>
+<li>stary projekt ma kontynuację,</li>
+<li>aktualność dotyczy sprawy, kt&#243;ra ma nowe zasady,</li>
+<li>użytkownik może trafić ze starego wyniku wyszukiwania.</li>
+</ul>
+<p>W WordPressie warto sprawdzić także linki wewnętrzne. Jeżeli kilka starych wpis&#243;w prowadzi do nieaktualnego formularza, sama poprawa jednego wpisu nie wystarczy.</p>
+<h2>Kiedy usunąć z widoku</h2>
+<p>Usunięcie albo wycofanie z widoku jest uzasadnione wtedy, gdy pozostawienie treści szkodzi użytkownikowi lub utrzymaniu serwisu. Nie chodzi o kasowanie historii dla porządku, ale o ograniczenie błędnych ścieżek.</p>
+<p>Rozważ wycofanie, gdy:</p>
+<ul>
+<li>materiał jest nieaktualny i nie ma wartości archiwalnej,</li>
+<li>zawiera błędne dane kontaktowe,</li>
+<li>prowadzi do starego formularza,</li>
+<li>dotyczy zakończonego terminu i wygląda jak aktywny,</li>
+<li>dubluje nowszą stronę,</li>
+<li>nie ma właściciela treści,</li>
+<li>nie powinien być dalej indeksowany jako aktualna informacja.</li>
+</ul>
+<p>Przed usunięciem sprawdź, czy materiał nie jest powiązany z BIP, dokumentacją projektu, obowiązkiem informacyjnym albo historią zmian. Redakcja może wskazać problem, ale decyzja o wycofaniu niekt&#243;rych treści powinna mieć właściciela.</p>
+<h2>Co zrobić z dokumentami BIP</h2>
+<p>BIP wymaga większej ostrożności niż zwykła aktualność. Dokument formalny może być nieaktualny, ale nadal powinien pozostać dostępny jako część historii publikacji. W takim przypadku zwykłe usunięcie pliku może być błędem.</p>
+<p>Przy dokumentach BIP ustal:</p>
+<ul>
+<li>czy dokument nadal obowiązuje,</li>
+<li>czy został zastąpiony inną wersją,</li>
+<li>czy trzeba zachować historię zmian,</li>
+<li>czy użytkownik widzi datę publikacji i status,</li>
+<li>czy opis wskazuje właściwy dokument aktualny,</li>
+<li>kto zatwierdza decyzję o wycofaniu albo oznaczeniu.</li>
+</ul>
+<p>Strona WWW może prowadzić użytkownika do aktualnego wyjaśnienia sprawy, a BIP może zachować formalny dokument. Te role warto rozdzielić, bo użytkownik szuka zwykle praktycznej odpowiedzi, a dokument formalny wymaga porządku i śladu.</p>
+<h2>Tabela decyzji</h2>
+<p>Prosty układ pomaga podjąć decyzję bez przeciągania sprawy:</p>
+<table>
+<thead><tr><th>Sytuacja</th><th>Działanie</th><th>Kto powinien potwierdzić</th></tr></thead><tbody>
+<tr><td>Treść jest aktualna i używana</td><td>zostawić bez zmian albo poprawić dostępność</td><td>właściciel treści</td></tr>
+<tr><td>Treść jest historyczna, ale przydatna</td><td>oznaczyć jako archiwalną</td><td>redakcja i właściciel treści</td></tr>
+<tr><td>Istnieje nowsza wersja</td><td>dodać link albo przekierowanie</td><td>właściciel treści, administrator</td></tr>
+<tr><td>Formularz jest nieaktualny</td><td>wycofać z widoku i wskazać aktualny</td><td>właściciel treści</td></tr>
+<tr><td>Dokument formalny jest zastąpiony</td><td>zachować historię i opisać status</td><td>osoba odpowiedzialna za BIP</td></tr>
+<tr><td>Nie wiadomo, czy treść obowiązuje</td><td>oznaczyć do decyzji</td><td>właściciel treści</td></tr>
+</tbody></table>
+<p>Tabela nie rozwiąże wszystkich wyjątk&#243;w, ale daje redakcji wsp&#243;lny język. Zamiast pytać „czy usuwamy?”, można pytać „jaki status ma ta treść?”.</p>
+<h2>Przykład: zakończony nab&#243;r nadal wygląda jak aktywny</h2>
+<p>Nab&#243;r zakończył się trzy miesiące temu. Aktualność nadal ma tytuł <code>Nab&#243;r wniosk&#243;w o dotacje</code>, aktywny formularz i regulamin do pobrania. Nie ma informacji, że termin minął. Użytkownik trafia z wyszukiwarki i może uznać, że wciąż może złożyć dokumenty.</p>
+<p>Redakcja powinna najpierw dodać widoczny komunikat o zakończeniu naboru. Formularz warto odlinkować albo zastąpić informacją, że nie jest już przyjmowany. Jeżeli jest nowy nab&#243;r, na początku starego wpisu powinien znaleźć się link do aktualnej informacji. Jeżeli dokumenty mają znaczenie formalne, decyzję o ich pozostawieniu trzeba uzgodnić z właścicielem treści.</p>
+<p>To niewielka zmiana, ale znacząco zmniejsza ryzyko błędu po stronie użytkownika.</p>
+<h2>Podsumowanie</h2>
+<p>Archiwizacja nie jest porażką redakcji. Jest normalnym elementem życia treści publicznych. Materiały powstają, obowiązują, zmieniają się, tracą aktualność i czasem zostają tylko jako ślad sprawy.</p>
+<p>Najważniejsze, żeby użytkownik nie musiał zgadywać. Stara treść powinna mieć jasny status, link do aktualnej wersji albo decyzję o wycofaniu. Wtedy archiwum strony przestaje być pułapką, a staje się uporządkowaną częścią serwisu.</p>]]></content:encoded>
+<excerpt:encoded><![CDATA[Nieaktualna treść na stronie publicznej nie zawsze jest błędem. Czasem dokument musi zostać ze względów formalnych, czasem warto zachować informację o zakończonym projekcie, a czasem materiał powinien zniknąć z widoku.]]></excerpt:encoded>
+<category domain="category" nicename="dostepnosc-cyfrowa"><![CDATA[Dostępność cyfrowa]]></category>
+<category domain="category" nicename="tresci-publiczne"><![CDATA[Treści publiczne]]></category>
+<category domain="post_tag" nicename="archiwizacja"><![CDATA[archiwizacja]]></category>
+<category domain="post_tag" nicename="wycofanie-tresci"><![CDATA[wycofanie treści]]></category>
+<category domain="post_tag" nicename="wordpress"><![CDATA[WordPress]]></category>
+<category domain="post_tag" nicename="bip"><![CDATA[BIP]]></category>
+<category domain="post_tag" nicename="dostepnosc-cyfrowa"><![CDATA[dostępność cyfrowa]]></category>
+<category domain="post_tag" nicename="tresci-publiczne"><![CDATA[treści publiczne]]></category>
+<wp:post_id>2002</wp:post_id>
+<wp:post_date>2026-05-24 09:30:00</wp:post_date>
+<wp:post_date_gmt>2026-05-24 07:30:00</wp:post_date_gmt>
+<wp:post_modified>2026-05-24 09:30:00</wp:post_modified>
+<wp:post_modified_gmt>2026-05-24 07:30:00</wp:post_modified_gmt>
+<wp:comment_status>closed</wp:comment_status>
+<wp:ping_status>closed</wp:ping_status>
+<wp:post_name><![CDATA[archiwizacja-i-wycofanie-tresci]]></wp:post_name>
+<wp:status>future</wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type>post</wp:post_type>
+<wp:post_password></wp:post_password>
+<wp:is_sticky>0</wp:is_sticky>
+</item>
+<item>
+<title><![CDATA[AI w redakcji publicznej: pomocne narzędzie, nie autor decyzji]]></title>
+<link>https://beardedwolf.pl/ai-w-redakcji-publicznej/</link>
+<pubDate>Sun, 24 May 2026 11:45:00 GMT</pubDate>
+<dc:creator><![CDATA[Bartłomiej Wilk]]></dc:creator>
+<guid isPermaLink="false">https://beardedwolf.pl/?p=2003</guid>
+<description></description>
+<content:encoded><![CDATA[<p>AI może przyspieszyć pracę redakcji publicznej. Może pom&#243;c skr&#243;cić tekst, zaproponować prostszy tytuł, uporządkować komunikat, znaleźć niejasne fragmenty albo przygotować pierwszą wersję listy pytań do właściciela treści. To realna pomoc, szczeg&#243;lnie wtedy, gdy zesp&#243;ł pracuje pod presją czasu.</p>
+<p>Nie zmienia to jednak jednej rzeczy: odpowiedzialność zostaje po stronie człowieka i instytucji. AI nie wie, czy formularz jest aktualny, czy termin został zatwierdzony, czy dokument powinien trafić do BIP i czy w skr&#243;conym tekście nie zniknął warunek ważny dla użytkownika.</p>
+<p>Ten artykuł pokazuje, jak korzystać z AI w pracy redakcyjnej rozsądnie: jako wsparcia w pisaniu i porządkowaniu, a nie jako autora decyzji, fakt&#243;w i odpowiedzialności publicznej.</p>
+<h2>Gdzie AI może pom&#243;c redakcji</h2>
+<p>Najbezpieczniejsze zastosowania AI dotyczą formy, struktury i czytelności. Narzędzie może pom&#243;c redaktorowi zobaczyć tekst z dystansu, ale nie powinno samodzielnie ustalać treści merytorycznej.</p>
+<p>AI może pom&#243;c przy:</p>
+<ul>
+<li>skracaniu zbyt długich akapit&#243;w,</li>
+<li>proponowaniu konkretniejszych tytuł&#243;w,</li>
+<li>układaniu treści w logiczne sekcje,</li>
+<li>upraszczaniu zbyt formalnego języka,</li>
+<li>wykrywaniu brakujących informacji w komunikacie,</li>
+<li>przygotowaniu wariant&#243;w leadu,</li>
+<li>porządkowaniu list wymaganych dokument&#243;w,</li>
+<li>sprawdzaniu, czy linki mają opisowy tekst,</li>
+<li>tworzeniu pytań do właściciela treści.</li>
+</ul>
+<p>Przykład bezpiecznego zadania: <code>Wskaż, kt&#243;rych informacji brakuje w tym komunikacie dla mieszkańc&#243;w. Nie dopisuj fakt&#243;w, kt&#243;rych nie ma w tekście.</code></p>
+<p>Takie użycie wspiera redaktora, ale nie przenosi odpowiedzialności na narzędzie.</p>
+<h2>Gdzie AI nie może zastąpić człowieka</h2>
+<p>AI nie powinno decydować o sensie publikacji, aktualności dokument&#243;w ani formalnym statusie informacji. Może brzmieć pewnie nawet wtedy, gdy nie ma podstaw do odpowiedzi. To szczeg&#243;lnie groźne w treściach publicznych, gdzie jeden pominięty termin albo warunek może utrudnić komuś załatwienie sprawy.</p>
+<p>Nie powierzaj AI decyzji o tym:</p>
+<ul>
+<li>czy dokument nadal obowiązuje,</li>
+<li>czy publikacja powinna trafić do BIP,</li>
+<li>jaka jest podstawa prawna,</li>
+<li>czy termin jest poprawny,</li>
+<li>czy formularz jest aktualny,</li>
+<li>czy można usunąć fragment regulaminu,</li>
+<li>czy dana treść spełnia wymagania dostępności,</li>
+<li>czy można opublikować dane osobowe lub informacje wrażliwe.</li>
+</ul>
+<p>Redaktor może poprosić AI o wskazanie ryzyk albo pytań kontrolnych. Odpowiedź musi jednak sprawdzić człowiek, najlepiej właściciel treści albo osoba odpowiedzialna za dany proces.</p>
+<h2>Fakty, daty i podstawy prawne</h2>
+<p>Największe ryzyko pojawia się przy faktach. AI może uog&#243;lnić tekst, dopowiedzieć brakujące elementy albo usunąć szczeg&#243;ł, kt&#243;ry wygląda na drobny, ale ma znaczenie formalne. W komunikatach publicznych szczeg&#243;ły są często najważniejsze.</p>
+<p>Po pracy z AI zawsze sprawdź:</p>
+<ul>
+<li>daty i godziny,</li>
+<li>nazwy dokument&#243;w,</li>
+<li>numery uchwał, zarządzeń i załącznik&#243;w,</li>
+<li>adresy,</li>
+<li>kontakty,</li>
+<li>terminy składania wniosk&#243;w,</li>
+<li>warunki udziału,</li>
+<li>listę wymaganych załącznik&#243;w,</li>
+<li>informacje o opłatach,</li>
+<li>linki i nazwy formularzy.</li>
+</ul>
+<p>Jeżeli AI skraca komunikat, por&#243;wnaj wersję po skr&#243;ceniu z materiałem źr&#243;dłowym. Nie wystarczy, że tekst brzmi lepiej. Musi nadal zawierać wszystkie informacje potrzebne użytkownikowi.</p>
+<h2>Dostępność i prosty język</h2>
+<p>AI może być pomocne przy prostszym języku, ale trzeba nadać mu jasne granice. Nie chodzi o to, żeby tekst stał się og&#243;lny i wygładzony. Ma być zrozumiały, konkretny i nadal precyzyjny.</p>
+<p>Dobry kierunek pracy:</p>
+<ul>
+<li>poproś o uproszczenie zdań bez usuwania warunk&#243;w,</li>
+<li>poproś o wskazanie trudnych pojęć,</li>
+<li>poproś o propozycje nagł&#243;wk&#243;w H2,</li>
+<li>poproś o sprawdzenie, czy użytkownik wie, co ma zrobić,</li>
+<li>poproś o wskazanie informacji ukrytych tylko w PDF-ie.</li>
+</ul>
+<p>Unikaj poleceń, kt&#243;re zachęcają do dopisywania treści bez źr&#243;dła. Jeżeli w materiale nie ma informacji o terminie, AI nie powinno go wymyślać. Powinno wskazać brak.</p>
+<h2>Czego nie wklejać do narzędzi AI</h2>
+<p>W pracy publicznej szczeg&#243;lnie ważna jest ostrożność z danymi. Do zewnętrznych narzędzi AI nie należy wklejać materiał&#243;w, kt&#243;rych redakcja nie powinna przekazywać poza kontrolowane środowisko.</p>
+<p>Nie wklejaj:</p>
+<ul>
+<li>danych osobowych,</li>
+<li>numer&#243;w PESEL, adres&#243;w prywatnych i danych kontaktowych mieszkańc&#243;w,</li>
+<li>informacji o sprawach indywidualnych,</li>
+<li>dokument&#243;w nieprzeznaczonych do publikacji,</li>
+<li>korespondencji wewnętrznej,</li>
+<li>danych z postępowań, nabor&#243;w i skarg,</li>
+<li>materiał&#243;w objętych tajemnicą albo ograniczeniem dostępu,</li>
+<li>plik&#243;w od partner&#243;w, jeśli nie masz pewności, że można je przetwarzać w takim narzędziu.</li>
+</ul>
+<p>Jeżeli chcesz użyć AI do poprawy stylu, usuń dane wrażliwe i zostaw tylko neutralną strukturę tekstu. Przy stałym użyciu AI warto mieć wewnętrzne zasady, kt&#243;re m&#243;wią, jakie materiały wolno przetwarzać i w jakich narzędziach.</p>
+<h2>Przykład: skr&#243;cony komunikat traci ważny warunek</h2>
+<p>Dział merytoryczny przesyła długi komunikat o rekrutacji. Redaktor prosi AI o skr&#243;cenie tekstu. Nowa wersja jest czytelniejsza, ale znika informacja, że kandydat musi dostarczyć jeden załącznik w wersji papierowej do konkretnej godziny. Znika też wzmianka, że liczy się data wpływu dokument&#243;w, a nie data wysłania.</p>
+<p>Tekst po pracy AI brzmi dobrze, ale jest niebezpieczny. Użytkownik może złożyć niekompletny wniosek albo przekroczyć termin. Dlatego redaktor por&#243;wnuje wersję z materiałem źr&#243;dłowym i odtwarza brakujące warunki. Następnie prosi właściciela treści o potwierdzenie terminu, sposobu złożenia i listy załącznik&#243;w.</p>
+<p>AI pomogło uporządkować język, ale dopiero kontrola człowieka sprawiła, że tekst nadaje się do publikacji.</p>
+<h2>Procedura bezpiecznego użycia</h2>
+<p>W redakcji warto przyjąć prostą procedurę:</p>
+<ol>
+<li>Ustal, czy materiał można w og&#243;le wkleić do narzędzia AI.</li>
+<li>Usuń dane osobowe i informacje, kt&#243;rych nie wolno przekazywać.</li>
+<li>Poproś o pracę na strukturze, języku albo brakach, nie o dopisywanie fakt&#243;w.</li>
+<li>Sprawdź odpowiedź z materiałem źr&#243;dłowym.</li>
+<li>Zweryfikuj daty, terminy, dokumenty, linki i warunki.</li>
+<li>Poproś właściciela treści o potwierdzenie informacji merytorycznych.</li>
+<li>Sprawdź dostępność publikacji tak samo jak przy każdym innym tekście.</li>
+<li>Zapisz, kto odpowiada za ostateczną wersję.</li>
+</ol>
+<p>Najważniejsza zasada jest prosta: AI może zaproponować tekst, ale nie zatwierdza publikacji.</p>
+<h2>Jak dokumentować użycie AI</h2>
+<p>Nie każda drobna pomoc wymaga rozbudowanej dokumentacji. Warto jednak ustalić, kiedy zapisać użycie AI w procesie. Dotyczy to szczeg&#243;lnie tekst&#243;w formalnych, komunikat&#243;w z terminami, materiał&#243;w o większym ryzyku i treści, kt&#243;re były mocno przeredagowane.</p>
+<p>W notatce redakcyjnej można zapisać:</p>
+<ul>
+<li>kto przygotował wersję końcową,</li>
+<li>jaki materiał źr&#243;dłowy był podstawą,</li>
+<li>kto potwierdził fakty,</li>
+<li>czy użyto AI do skr&#243;cenia lub uporządkowania tekstu,</li>
+<li>jakie elementy sprawdzono po użyciu narzędzia.</li>
+</ul>
+<p>To nie ma być biurokracja dla samej biurokracji. Taki zapis pomaga wtedy, gdy po publikacji pojawia się pytanie: skąd wzięła się ta wersja tekstu i kto potwierdził jej poprawność?</p>
+<h2>Podsumowanie</h2>
+<p>AI może być dobrym wsparciem redakcji publicznej, jeśli pomaga w porządkowaniu języka, struktury i pytań kontrolnych. Nie powinno jednak przejmować decyzji, fakt&#243;w ani odpowiedzialności za publikację.</p>
+<p>Najbezpieczniejszy model pracy jest prosty: narzędzie pomaga, redaktor sprawdza, właściciel treści potwierdza, a instytucja zachowuje kontrolę nad informacją. W treściach publicznych to nie ostrożność na wyrost, tylko warunek zaufania.</p>]]></content:encoded>
+<excerpt:encoded><![CDATA[AI może przyspieszyć pracę redakcji publicznej. Może pomóc skrócić tekst, zaproponować prostszy tytuł, uporządkować komunikat, znaleźć niejasne fragmenty albo przygotować pierwszą wersję listy pytań do właściciela.]]></excerpt:encoded>
+<category domain="category" nicename="dostepnosc-cyfrowa"><![CDATA[Dostępność cyfrowa]]></category>
+<category domain="category" nicename="ai-w-redakcji"><![CDATA[AI w redakcji]]></category>
+<category domain="post_tag" nicename="ai"><![CDATA[AI]]></category>
+<category domain="post_tag" nicename="redakcja"><![CDATA[redakcja]]></category>
+<category domain="post_tag" nicename="dostepnosc-cyfrowa"><![CDATA[dostępność cyfrowa]]></category>
+<category domain="post_tag" nicename="tresci-publiczne"><![CDATA[treści publiczne]]></category>
+<category domain="post_tag" nicename="prosty-jezyk"><![CDATA[prosty język]]></category>
+<category domain="post_tag" nicename="ai-w-redakcji"><![CDATA[AI w redakcji]]></category>
+<wp:post_id>2003</wp:post_id>
+<wp:post_date>2026-05-24 13:45:00</wp:post_date>
+<wp:post_date_gmt>2026-05-24 11:45:00</wp:post_date_gmt>
+<wp:post_modified>2026-05-24 13:45:00</wp:post_modified>
+<wp:post_modified_gmt>2026-05-24 11:45:00</wp:post_modified_gmt>
+<wp:comment_status>closed</wp:comment_status>
+<wp:ping_status>closed</wp:ping_status>
+<wp:post_name><![CDATA[ai-w-redakcji-publicznej]]></wp:post_name>
+<wp:status>future</wp:status>
+<wp:post_parent>0</wp:post_parent>
+<wp:menu_order>0</wp:menu_order>
+<wp:post_type>post</wp:post_type>
+<wp:post_password></wp:post_password>
+<wp:is_sticky>0</wp:is_sticky>
+</item>
+</channel>
+</rss>
